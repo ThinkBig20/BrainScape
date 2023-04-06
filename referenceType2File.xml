@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeDate>
+    <guid>d58a00d54b062f441a97597ded199e2c</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/AssetCollector.cs</fileName>
+    <timeStamp>2022-12-14T04:37:41+01:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1a3d7bb09348ed64e953333267174941</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/AssetReferenceCollection.cs</fileName>
+    <timeStamp>2022-12-14T04:37:41+01:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>97712451f37cb58478690f0a39babb90</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/ClassReferenceCollection.cs</fileName>
+    <timeStamp>2022-12-14T04:37:41+01:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1f02129b8c80b484aa819cb7a96cddf7</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/CollectionData.cs</fileName>
+    <timeStamp>2022-12-14T04:37:41+01:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b9698490b252c634188a6e631938ca7e</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/FindUnusedAssetsWindow.cs</fileName>
+    <timeStamp>2022-12-14T04:37:41+01:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c5c153dd0fbf8b2418c23bf78b02fa2a</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/ShaderReferenceCollection.cs</fileName>
+    <timeStamp>2022-12-14T04:37:41+01:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>85685964e3711a847beb8d2f8cb7fd32</guid>
+    <fileName>Assets/Grass And Flowers Pack 1/Example Scene/SimpleTextureDrawing.cs</fileName>
+    <timeStamp>2023-04-03T11:26:16.9847135+00:00</timeStamp>
+    <typeFullName>
+      <string>SimpleTextureDrawing</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1edb39aa169eb40cfa015393d5396847</guid>
+    <fileName>Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Scripts/CTI_CustomWind.cs</fileName>
+    <timeStamp>2023-04-03T11:26:03.8744587+00:00</timeStamp>
+    <typeFullName>
+      <string>CTI.CTI_CustomWind</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a6013210bd40b4cde9944fed4d9f8082</guid>
+    <fileName>Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Scripts/CTI_Utils.cs</fileName>
+    <timeStamp>2023-04-03T11:26:04.1428136+00:00</timeStamp>
+    <typeFullName>
+      <string>CTI.CTI_Utils</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f9ac216f0eb04754b1d938aac6380b31</guid>
+    <fileName>Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Scripts/ActionBasedControllerManager.cs</fileName>
+    <timeStamp>2023-04-03T11:26:23.1368973+00:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9b1e8c997df241c1a67045eeac79b41b</guid>
+    <fileName>Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Scripts/DynamicMoveProvider.cs</fileName>
+    <timeStamp>2023-04-03T11:26:23.140907+00:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6ef0e4723b64c884699a375196c13ac0</guid>
+    <fileName>Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Scripts/GazeInputManager.cs</fileName>
+    <timeStamp>2023-04-03T11:26:23.1448929+00:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>07b3638c2f5db5b479ff24c2859713d4</guid>
+    <fileName>Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Scripts/XRPokeFollowAffordance.cs</fileName>
+    <timeStamp>2023-04-03T11:26:23.155887+00:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3bd7ba1dccff84229b37ae2455db67a1</guid>
+    <fileName>Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Scripts/Editor/CTI_AdvancedEdgeFluttering.cs</fileName>
+    <timeStamp>2023-04-03T11:26:05.0864536+00:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7bb9e0160882341dfa7539c64f31f315</guid>
+    <fileName>Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Scripts/Editor/CTI_DetailsEnum.cs</fileName>
+    <timeStamp>2023-04-03T11:26:05.8119028+00:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>71369e1df01d140e5888122d9de3bd6c</guid>
+    <fileName>Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Scripts/Editor/CTI_ShaderGUI.cs</fileName>
+    <timeStamp>2023-04-03T11:26:06.4467523+00:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ba6ff5e7c92519444bc2a7ca46558963</guid>
+    <fileName>Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Scripts/PokeStation/IncrementUIText.cs</fileName>
+    <timeStamp>2023-04-03T11:26:23.1508894+00:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+</ArrayOfTypeDate>
