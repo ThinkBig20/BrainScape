@@ -8,7 +8,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Verify commit messages
         run: |
-          git log --pretty=format:%s --merges --no-merges --first-parent origin/master..HEAD | grep -Evi '^(feat|fix|refact|update):.+$' > /tmp/bad-commit-messages
+          git log --pretty=format:%s --merges --no-merges --first-parent main..HEAD | grep -Evi '^(feat|fix|refact|update):.+$' > /tmp/bad-commit-messages
           if [ -s /tmp/bad-commit-messages ]
           then
             echo "Some commit messages don't follow the convention."
