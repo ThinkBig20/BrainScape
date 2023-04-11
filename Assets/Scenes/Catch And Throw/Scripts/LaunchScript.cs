@@ -10,8 +10,11 @@ public class LaunchScript : MonoBehaviour
     public Text timerUI;
     float fireInterval = 10f;
     float currentTime = 0f;
-    public float launchVelocity = 2000f;
+    public float launchVelocity = 2610f;
+    private string StuckObject="RightHand";
     // Start is called before the first frame update
+    
+
     void Start()
     {
         currentTime = fireInterval;
@@ -32,6 +35,11 @@ public class LaunchScript : MonoBehaviour
     {
         GameObject projectileClone = Instantiate(projectile, transform.position, transform.rotation);
         projectileClone.GetComponent<Rigidbody>().AddRelativeForce(new Vector3(0,launchVelocity,0));
+        void OnCollisionEnter(Collision other){
+        if(other.gameObject.CompareTag(StuckObject)){
+            projectileClone.GetComponent<Rigidbody>().isKinematic = true;
+        }
+        }
         // calculate the direction vector from the cannon to the player
     //    Vector3 targetDirection = playerPosition.position - transform.position;
 
