@@ -1019,7 +1019,7 @@ MonoBehaviour:
   projectile: {fileID: 3716753775339197883, guid: 019e67e3ca8661d4799ae8ee721f8283, type: 3}
   playerPosition: {fileID: 0}
   timerUI: {fileID: 1650725054}
-  launchVelocity: 190
+  launchVelocity: 145
 --- !u!1 &1051944178345683
 GameObject:
   m_ObjectHideFlags: 0
@@ -1461,3 +1461,4 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
