@@ -26,7 +26,7 @@ using System.Collections.Generic;
 
 namespace Oculus.Interaction
 {
-    public class PhysicsGrabbable : MonoBehaviour
+    public class physics : MonoBehaviour
     {
         [SerializeField]
         private Grabbable _grabbable;
@@ -35,12 +35,6 @@ namespace Oculus.Interaction
 
         [SerializeField]
         private Rigidbody _rigidbody;
-
-        [SerializeField]
-        private GameObject leftHand;
-        [SerializeField]
-        private GameObject rightHand;
-        public float catchRadius = 0.8f;
 
         // LineRenderer lineRenderer;
         
@@ -55,9 +49,6 @@ namespace Oculus.Interaction
         private bool _hasPendingForce;
         private Vector3 _linearVelocity;
         private Vector3 _angularVelocity;
-
-        bool isLeftHandNear;
-        bool isRightHandNear;
 
         // number of points on the line
        // public float numPoints = 20;
@@ -82,18 +73,6 @@ namespace Oculus.Interaction
         }
 
         void update(){
-
-
-            
-             isLeftHandNear = Vector3.Distance(leftHand.transform.position, transform.position) < catchRadius;
-             isRightHandNear = Vector3.Distance(rightHand.transform.position, transform.position) < catchRadius;
-
-            if (isLeftHandNear || isRightHandNear)
-            {
-            // Disable physics simulation and attach the ball to the hand
-             _rigidbody.isKinematic = true;
-            }
-  
           /*  lineRenderer.positionCount = (int)numPoints;
             List<Vector3> points = new List<Vector3>();
             // get the starting position of the rigidbody
@@ -109,6 +88,7 @@ namespace Oculus.Interaction
 
         protected virtual void Start()
         {
+            DisablePhysics();
             this.BeginStart(ref _started);
             this.AssertField(_grabbable, nameof(_grabbable));
             this.AssertField(_rigidbody, nameof(_rigidbody));
@@ -142,8 +122,6 @@ namespace Oculus.Interaction
                     if (_grabbable.SelectingPointsCount == 1 && !_isBeingTransformed)
                     {
                         DisablePhysics();
-                        isLeftHandNear=false;
-                        isRightHandNear=false;
                     }
 
                     break;
@@ -236,3 +214,4 @@ namespace Oculus.Interaction
         #endregion
     }
 }
+
