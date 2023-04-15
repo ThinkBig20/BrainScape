@@ -26,7 +26,7 @@ using System.Collections.Generic;
 
 namespace Oculus.Interaction
 {
-    public class physics : MonoBehaviour
+    public class Physics : MonoBehaviour
     {
         [SerializeField]
         private Grabbable _grabbable;
@@ -66,11 +66,7 @@ namespace Oculus.Interaction
             _rigidbody = this.GetComponent<Rigidbody>();
         }
         
-        private void OnCollisionEnter(Collision other){
-        if(other.gameObject.CompareTag(StuckObject)){
-            DisablePhysics();
-        }
-        }
+       
 
         void update(){
           /*  lineRenderer.positionCount = (int)numPoints;
@@ -97,6 +93,13 @@ namespace Oculus.Interaction
         }
 
         
+        void OnTriggerEnter(Collider   collision)
+    {
+        if (collision.gameObject.CompareTag("Wall") )
+        {
+            DisablePhysics();
+        }
+    }
 
         protected virtual void OnEnable()
         {

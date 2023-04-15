@@ -189,9 +189,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _grabbable: {fileID: 5131367287337373194}
-  StuckObject: Plane
+  StuckObject: Wall
   _rigidbody: {fileID: 7294151494874305490}
-  leftHand: {fileID: 0}
-  rightHand: {fileID: 0}
-  catchRadius: 0.8
   _scaleMassWithSize: 1

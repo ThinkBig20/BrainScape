@@ -38,10 +38,13 @@ namespace Oculus.Interaction
 
         [SerializeField]
         private GameObject leftHand;
-        [SerializeField]
-        private GameObject rightHand;
-        public float catchRadius = 0.8f;
+     [SerializeField]
+      private GameObject rightHand;
+    public float catchRadius = 0.8f;
+    private bool touched;
+    
 
+        
         // LineRenderer lineRenderer;
         
 
@@ -56,8 +59,7 @@ namespace Oculus.Interaction
         private Vector3 _linearVelocity;
         private Vector3 _angularVelocity;
 
-        bool isLeftHandNear;
-        bool isRightHandNear;
+       
 
         // number of points on the line
        // public float numPoints = 20;
@@ -75,25 +77,24 @@ namespace Oculus.Interaction
             _rigidbody = this.GetComponent<Rigidbody>();
         }
         
-        private void OnCollisionEnter(Collision other){
-        if(other.gameObject.CompareTag(StuckObject)){
-            DisablePhysics();
-        }
-        }
+        
 
-        void update(){
+        void Update(){
 
+        bool isLeftHandNear = Vector3.Distance(leftHand.transform.position, transform.position) < catchRadius;
+        bool isRightHandNear = Vector3.Distance(rightHand.transform.position, transform.position) < catchRadius;
 
+        if (isLeftHandNear || isRightHandNear)
+        {   
+            if(touched==false){
+                touched=true;
+                DisablePhysics();
+            } 
+            // Enable physics simulation and detach the ball from the hand
             
-             isLeftHandNear = Vector3.Distance(leftHand.transform.position, transform.position) < catchRadius;
-             isRightHandNear = Vector3.Distance(rightHand.transform.position, transform.position) < catchRadius;
-
-            if (isLeftHandNear || isRightHandNear)
-            {
             // Disable physics simulation and attach the ball to the hand
-             _rigidbody.isKinematic = true;
-            }
-  
+        }
+               
           /*  lineRenderer.positionCount = (int)numPoints;
             List<Vector3> points = new List<Vector3>();
             // get the starting position of the rigidbody
@@ -113,9 +114,17 @@ namespace Oculus.Interaction
             this.AssertField(_grabbable, nameof(_grabbable));
             this.AssertField(_rigidbody, nameof(_rigidbody));
             this.EndStart(ref _started);
+            touched=false;
             // lineRenderer = this.GetComponent<LineRenderer>();
         }
 
+        void OnTriggerEnter(Collider collision)
+        {
+        if (collision.gameObject.CompareTag("Wall") )
+        {
+            DisablePhysics();
+        }
+        }
         
 
         protected virtual void OnEnable()
@@ -142,10 +151,7 @@ namespace Oculus.Interaction
                     if (_grabbable.SelectingPointsCount == 1 && !_isBeingTransformed)
                     {
                         DisablePhysics();
-                        isLeftHandNear=false;
-                        isRightHandNear=false;
                     }
-
                     break;
                 case PointerEventType.Unselect:
                     if (_grabbable.SelectingPointsCount == 0)
@@ -154,8 +160,7 @@ namespace Oculus.Interaction
                         Vector3 throwDirection = transform.forward;
                         float throwForce = 10f; // Changer la valeur de la force de lancer selon votre besoin
                         // add a force to the rigidbody in the direction of the throw
-                        _rigidbody.AddForce(throwDirection * throwForce, ForceMode.Impulse);
-
+                        _rigidbody.AddRelativeForce(throwDirection * throwForce, ForceMode.Impulse);
                     }
                     break;
             }
