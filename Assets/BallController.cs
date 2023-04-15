@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace Oculus.Interaction
+{
 public class BallController : MonoBehaviour
 {
     [SerializeField]
@@ -10,18 +12,23 @@ public class BallController : MonoBehaviour
     private GameObject rightHand;
     public float catchRadius = 0.8f;
     private Rigidbody rb;
-    private FixedJoint fj;
+    private bool touched;
+    
 
-    public string StuckObject="Plane";
+    public string StuckObject="Wall";
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        touched=false;
     }
 
-    private void OnCollisionEnter(Collision other){
-        if(other.gameObject.CompareTag(StuckObject)){
-             rb.isKinematic = true;
+    void OnTriggerEnter(Collider   collision)
+        {
+        if (collision.gameObject.CompareTag("Wall") )
+        {
+           rb.isKinematic = true;
+           Debug.Log("Ball Stuck");
         }
         }
 
@@ -32,10 +39,33 @@ public class BallController : MonoBehaviour
         bool isRightHandNear = Vector3.Distance(rightHand.transform.position, transform.position) < catchRadius;
 
         if (isLeftHandNear || isRightHandNear)
-        {
+        {   
+            if(touched==false){
+                touched=true;
+                rb.isKinematic = true;
+            } 
+            // Enable physics simulation and detach the ball from the hand
+            rb.isKinematic = false;
             // Disable physics simulation and attach the ball to the hand
-            rb.isKinematic = true;
         }
         
     }
+    private void HandlePointerEventRaised(PointerEvent evt)
+        {
+            switch (evt.Type)
+            {
+                case PointerEventType.Select:
+                        rb.isKinematic = true;
+
+                    break;
+                case PointerEventType.Unselect:
+                        rb.isKinematic = false;
+                        Vector3 throwDirection = transform.forward;
+                        float throwForce = 10f; // Changer la valeur de la force de lancer selon votre besoin
+                        // add a force to the rigidbody in the direction of the throw
+                        rb.AddForce(throwDirection * throwForce, ForceMode.Impulse);
+                    break;
+            }
+        }
+}
 }
