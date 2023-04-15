@@ -90,11 +90,12 @@ namespace Oculus.Interaction
                 touched=true;
                 DisablePhysics();
             } 
+            
             // Enable physics simulation and detach the ball from the hand
             
             // Disable physics simulation and attach the ball to the hand
         }
-               
+        
           /*  lineRenderer.positionCount = (int)numPoints;
             List<Vector3> points = new List<Vector3>();
             // get the starting position of the rigidbody
@@ -158,7 +159,7 @@ namespace Oculus.Interaction
                     {
                         ReenablePhysics();
                         Vector3 throwDirection = transform.forward;
-                        float throwForce = 10f; // Changer la valeur de la force de lancer selon votre besoin
+                        float throwForce = 5f; // Changer la valeur de la force de lancer selon votre besoin
                         // add a force to the rigidbody in the direction of the throw
                         _rigidbody.AddRelativeForce(throwDirection * throwForce, ForceMode.Impulse);
                     }
