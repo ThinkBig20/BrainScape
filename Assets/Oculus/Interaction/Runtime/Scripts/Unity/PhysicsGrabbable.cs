@@ -20,9 +20,8 @@
 
 using System;
 using UnityEngine;
-using UnityEngine.Assertions;
-using UnityEngine.Serialization;
-using System.Collections.Generic;
+using Scripts;
+
 
 namespace Oculus.Interaction
 {
@@ -30,7 +29,7 @@ namespace Oculus.Interaction
     {
         [SerializeField]
         private Grabbable _grabbable;
-
+        GameManager manager;
         public string StuckObject="Wall";
 
         [SerializeField]
@@ -38,11 +37,11 @@ namespace Oculus.Interaction
 
         [SerializeField]
         private GameObject leftHand;
-     [SerializeField]
-      private GameObject rightHand;
-    public float catchRadius = 0.8f;
-    private bool touched;
-    
+        [SerializeField]
+        private GameObject rightHand;
+        public float catchRadius = 0.4f;
+        private bool touched;
+      
 
         
         // LineRenderer lineRenderer;
@@ -80,33 +79,30 @@ namespace Oculus.Interaction
         
 
         void Update(){
+            bool isLeftHandNear = Vector3.Distance(leftHand.transform.position, transform.position) < catchRadius;
+            bool isRightHandNear = Vector3.Distance(rightHand.transform.position, transform.position) < catchRadius;
 
-        bool isLeftHandNear = Vector3.Distance(leftHand.transform.position, transform.position) < catchRadius;
-        bool isRightHandNear = Vector3.Distance(rightHand.transform.position, transform.position) < catchRadius;
-
-        if (isLeftHandNear || isRightHandNear)
-        {   
-            if(touched==false){
-                touched=true;
-                DisablePhysics();
-            } 
-            
-            // Enable physics simulation and detach the ball from the hand
-            
-            // Disable physics simulation and attach the ball to the hand
-        }
-        
-          /*  lineRenderer.positionCount = (int)numPoints;
-            List<Vector3> points = new List<Vector3>();
-            // get the starting position of the rigidbody
-            Vector3 startingPosition=_rigidbody.position;
-            Vector3 startingVelocity=_rigidbody.velocity;
-            for(float t=0;t<numPoints;t+= pointDistance){
-                Vector3 newPoint=startingPosition+t*startingVelocity;
-                newPoint.y=startingPosition.y+startingVelocity.y+t+Physics.gravity.y/2f*t*t;
-                points.Add(newPoint);
+            if (isLeftHandNear || isRightHandNear)
+            {   
+                if(touched==false){
+                    touched=true;
+                    manager.OnSuccessfulCatch();
+                    DisablePhysics();
+                } 
+                
             }
-            lineRenderer.SetPositions(points.ToArray());*/
+            else if(!touched && transform.position.z<0)
+            {
+                touched=false;
+                manager.OnMissedCatch();
+            }
+            GameObject basket = GameObject.FindWithTag("Basket");
+            if(basket!=null){
+                if(touched && transform.position.z<0)
+                {
+                    manager.OnMissedThrow();
+                }
+            }
         }
 
         protected virtual void Start()
@@ -116,15 +112,22 @@ namespace Oculus.Interaction
             this.AssertField(_rigidbody, nameof(_rigidbody));
             this.EndStart(ref _started);
             touched=false;
+            manager = FindObjectOfType<GameManager>();
             // lineRenderer = this.GetComponent<LineRenderer>();
         }
 
         void OnTriggerEnter(Collider collision)
         {
-        if (collision.gameObject.CompareTag("Wall") )
-        {
-            DisablePhysics();
+            if (collision.gameObject.CompareTag("Basket") )
+            {
+                manager.OnSuccessfulThrow();
+                DisablePhysics();
+                Invoke("HideBall",2f);
+            }
         }
+
+        void HideBall(){
+            gameObject.SetActive(false);
         }
         
 
