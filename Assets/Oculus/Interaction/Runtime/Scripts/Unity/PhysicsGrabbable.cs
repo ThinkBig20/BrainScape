@@ -20,8 +20,8 @@
 
 using System;
 using UnityEngine;
-using UnityEngine.Assertions;
-using UnityEngine.Serialization;
+using Scripts;
+
 
 namespace Oculus.Interaction
 {
@@ -29,9 +29,23 @@ namespace Oculus.Interaction
     {
         [SerializeField]
         private Grabbable _grabbable;
+        GameManager manager;
+        public string StuckObject="Wall";
 
         [SerializeField]
         private Rigidbody _rigidbody;
+
+        [SerializeField]
+        private GameObject leftHand;
+        [SerializeField]
+        private GameObject rightHand;
+        public float catchRadius = 0.1f;
+        private bool touched;
+      
+
+        
+        // LineRenderer lineRenderer;
+        
 
         [SerializeField]
         [Tooltip("If enabled, the object's mass will scale appropriately as the scale of the object changes.")]
@@ -43,15 +57,57 @@ namespace Oculus.Interaction
         private bool _hasPendingForce;
         private Vector3 _linearVelocity;
         private Vector3 _angularVelocity;
+       
+
+        // number of points on the line
+       // public float numPoints = 20;
+
+        // distance between points
+        // public float pointDistance = 1;
+
 
         protected bool _started = false;
-
         public event Action<Vector3, Vector3> WhenVelocitiesApplied = delegate { };
 
         private void Reset()
         {
             _grabbable = this.GetComponent<Grabbable>();
             _rigidbody = this.GetComponent<Rigidbody>();
+        }
+        
+        
+
+        void Update(){
+            bool isLeftHandNear = Vector3.Distance(leftHand.transform.position, transform.position) < catchRadius;
+            bool isRightHandNear = Vector3.Distance(rightHand.transform.position, transform.position) < catchRadius;
+
+            if (isLeftHandNear || isRightHandNear)
+            {   
+                if(touched==false){
+                    touched=true;
+                    manager.OnSuccessfulCatch();
+                    DisablePhysics();
+                } 
+                
+            }
+            else if(!touched && transform.position.z<0)
+            {
+                touched=false;
+                manager.OnMissedCatch();
+            }
+            
+            if(touched)
+            {
+                GameObject basket = GameObject.FindWithTag("Basket");
+                float distanceHandBasket = Vector3.Distance(leftHand.transform.position,basket.transform.position);
+                float distanceBallBasket = Vector3.Distance(transform.position,basket.transform.position);
+                if(distanceHandBasket<distanceBallBasket)
+                {
+                    manager.OnMissedThrow();
+                    touched=false;
+                }
+            }
+
         }
 
         protected virtual void Start()
@@ -60,7 +116,25 @@ namespace Oculus.Interaction
             this.AssertField(_grabbable, nameof(_grabbable));
             this.AssertField(_rigidbody, nameof(_rigidbody));
             this.EndStart(ref _started);
+            touched=false;
+            manager = FindObjectOfType<GameManager>();
+            // lineRenderer = this.GetComponent<LineRenderer>();
         }
+
+        void OnTriggerEnter(Collider collision)
+        {
+            if (collision.gameObject.CompareTag("Basket") )
+            {
+                manager.OnSuccessfulThrow();
+                DisablePhysics();
+                Invoke("HideBall",2f);
+            }
+        }
+
+        void HideBall(){
+            gameObject.SetActive(false);
+        }
+        
 
         protected virtual void OnEnable()
         {
@@ -87,14 +161,16 @@ namespace Oculus.Interaction
                     {
                         DisablePhysics();
                     }
-
                     break;
                 case PointerEventType.Unselect:
                     if (_grabbable.SelectingPointsCount == 0)
                     {
                         ReenablePhysics();
+                        Vector3 throwDirection = transform.forward;
+                        float throwForce = 5f; // Changer la valeur de la force de lancer selon votre besoin
+                        // add a force to the rigidbody in the direction of the throw
+                        _rigidbody.AddRelativeForce(throwDirection * throwForce, ForceMode.Impulse);
                     }
-
                     break;
             }
         }
@@ -120,7 +196,6 @@ namespace Oculus.Interaction
                 float changeInMassFactor = currentScaledVolume / initialScaledVolume;
                 _rigidbody.mass *= changeInMassFactor;
             }
-
             // revert the original kinematic state
             _rigidbody.isKinematic = _savedIsKinematicState;
         }
