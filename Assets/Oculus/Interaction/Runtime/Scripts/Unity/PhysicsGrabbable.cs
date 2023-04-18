@@ -90,11 +90,6 @@ namespace Oculus.Interaction
                 } 
                 
             }
-            else if(!touched && transform.position.z<0)
-            {
-                touched=false;
-                manager.OnMissedCatch();
-            }
             
             if(touched)
             {
@@ -128,6 +123,11 @@ namespace Oculus.Interaction
                 manager.OnSuccessfulThrow();
                 DisablePhysics();
                 Invoke("HideBall",2f);
+            }
+            if(collision.gameObject.CompareTag("Plan"))
+            {
+                DisablePhysics();
+                manager.OnMissedCatch();
             }
         }
 
