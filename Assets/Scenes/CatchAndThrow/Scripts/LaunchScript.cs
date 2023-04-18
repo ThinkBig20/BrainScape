@@ -43,7 +43,10 @@ public class LaunchScript : MonoBehaviour
     {
         launchBall = false;
         GameObject projectileClone = Instantiate(projectile, transform.position, transform.rotation);
-        projectileClone.GetComponent<Rigidbody>().AddRelativeForce(new Vector3(0,launchVelocity,0));
+        Rigidbody projectileRigid = projectileClone.GetComponent<Rigidbody>();
+        projectileRigid.isKinematic = false;
+
+        projectileRigid.AddRelativeForce(new Vector3(0,launchVelocity,0));
         // soundManager.PlayShootingSound();
     }
 
