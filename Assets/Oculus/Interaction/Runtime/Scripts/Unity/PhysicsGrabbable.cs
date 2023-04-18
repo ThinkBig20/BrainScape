@@ -39,7 +39,7 @@ namespace Oculus.Interaction
         private GameObject leftHand;
         [SerializeField]
         private GameObject rightHand;
-        public float catchRadius = 0.4f;
+        public float catchRadius = 0.1f;
         private bool touched;
       
 
@@ -96,13 +96,15 @@ namespace Oculus.Interaction
                 touched=false;
                 manager.OnMissedCatch();
             }
-            GameObject basket = GameObject.FindWithTag("Basket");
-            if(basket!=null){
-                if(touched && transform.position.z<0)
-                {
+            
+            if(touched && transform.position.z<0)
+            {
+                GameObject basket = GameObject.FindWithTag("Basket");
+                if(basket!=null){
                     manager.OnMissedThrow();
                 }
             }
+
         }
 
         protected virtual void Start()
