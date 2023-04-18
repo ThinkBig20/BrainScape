@@ -57,7 +57,6 @@ namespace Oculus.Interaction
         private bool _hasPendingForce;
         private Vector3 _linearVelocity;
         private Vector3 _angularVelocity;
-
        
 
         // number of points on the line
@@ -97,11 +96,15 @@ namespace Oculus.Interaction
                 manager.OnMissedCatch();
             }
             
-            if(touched && transform.position.z<0)
+            if(touched)
             {
                 GameObject basket = GameObject.FindWithTag("Basket");
-                if(basket!=null){
+                float distanceHandBasket = Vector3.Distance(leftHand.transform.position,basket.transform.position);
+                float distanceBallBasket = Vector3.Distance(transform.position,basket.transform.position);
+                if(distanceHandBasket<distanceBallBasket)
+                {
                     manager.OnMissedThrow();
+                    touched=false;
                 }
             }
 
