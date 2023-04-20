@@ -1,22 +1,10 @@
-/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * Licensed under the Oculus SDK License Agreement (the "License");
- * you may not use the Oculus SDK except in compliance with the License,
- * which is provided at the time of installation or download, or which
- * otherwise accompanies this software in either electronic or hard copy form.
- *
- * You may obtain a copy of the License at
- *
- * https://developer.oculus.com/licenses/oculussdk/
- *
- * Unless required by applicable law or agreed to in writing, the Oculus SDK
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+/**
+* @file PhysicsGrabbable.cs
+* ce script  est un autre script fourni par Oculus qui permet de rendre un objet manipulable en VR, en utilisant la physique pour simuler les interactions avec l'utilisateur.
+* Plus précisément, ce script ajoute des composants de rigidbody et de jointure (jointure de poignet) à l'objet, ce qui permet à l'utilisateur de le saisir et de le lâcher de manière réaliste. Il utilise également un système de détection de collision pour détecter quand l'utilisateur entre en contact avec l'objet, ce qui déclenche la possibilité de le saisir.
+* on la modifie pour gerer la prise de l objet par l utilisateur selon la distance entre l objet et l utilisateur et 
+* l envoie vers le basket cible 
+*/
 
 using System;
 using UnityEngine;
@@ -27,25 +15,27 @@ namespace Oculus.Interaction
 {
     public class PhysicsGrabbable : MonoBehaviour
     {
+        /// le grabbable objet que ce script gere
         [SerializeField]
         private Grabbable _grabbable;
+        /// instance du game manager pour gerer les evenements
         GameManager manager;
-        public string StuckObject="Wall";
 
+        /// le rigidbody de l objet que ce script gere
         [SerializeField]
         private Rigidbody _rigidbody;
-
+        /// la main gauche de l utilisateur
         [SerializeField]
         private GameObject leftHand;
+
+        /// la main droite de l utilisateur
         [SerializeField]
         private GameObject rightHand;
+        /// la distance entre l objet et l utilisateur pour que l objet soit pris
         public float catchRadius = 0.1f;
+        /// variable pour verifier si l objet est pris ou pas
         private bool touched;
       
-
-        
-        // LineRenderer lineRenderer;
-        
 
         [SerializeField]
         [Tooltip("If enabled, the object's mass will scale appropriately as the scale of the object changes.")]
@@ -59,16 +49,12 @@ namespace Oculus.Interaction
         private Vector3 _angularVelocity;
        
 
-        // number of points on the line
-       // public float numPoints = 20;
-
-        // distance between points
-        // public float pointDistance = 1;
 
 
         protected bool _started = false;
         public event Action<Vector3, Vector3> WhenVelocitiesApplied = delegate { };
 
+        /// cette fonction permet de reinitialiser les 2 objets grabbable et rigidbody associe a note gamecomponnent
         private void Reset()
         {
             _grabbable = this.GetComponent<Grabbable>();
@@ -76,9 +62,11 @@ namespace Oculus.Interaction
         }
         
         
-
+        /// cette fonction de  unity permet de gerer les evenements de collision
         void Update(){
+            /// variable pour verifier si l objet est proche de la main gauche de l utilisateur
             bool isLeftHandNear = Vector3.Distance(leftHand.transform.position, transform.position) < catchRadius;
+            /// variable pour verifier si l objet est proche de la main droite de l utilisateur
             bool isRightHandNear = Vector3.Distance(rightHand.transform.position, transform.position) < catchRadius;
 
             if (isLeftHandNear || isRightHandNear)
@@ -93,8 +81,11 @@ namespace Oculus.Interaction
             
             if(touched)
             {
+                /// instance du game object qui represente le Basket cible de l utilisateur
                 GameObject basket = GameObject.FindWithTag("Basket");
+                /// distance entre les mains et le basket
                 float distanceHandBasket = Vector3.Distance(leftHand.transform.position,basket.transform.position);
+                /// distance entre la balle et le basket
                 float distanceBallBasket = Vector3.Distance(transform.position,basket.transform.position);
                 if(distanceHandBasket<distanceBallBasket)
                 {
@@ -105,6 +96,7 @@ namespace Oculus.Interaction
 
         }
 
+        /// cette fonction de unity permet de faire les initialisations necessaires
         protected virtual void Start()
         {
             this.BeginStart(ref _started);
@@ -116,6 +108,7 @@ namespace Oculus.Interaction
             // lineRenderer = this.GetComponent<LineRenderer>();
         }
 
+        /// cette fonction permet de gerer les evenements de collision entre l objet et d autres objets comme le plan et le basket
         void OnTriggerEnter(Collider collision)
         {
             if (collision.gameObject.CompareTag("Basket") )
@@ -131,6 +124,8 @@ namespace Oculus.Interaction
             }
         }
 
+
+        /// cette fonction permet de cacher l objet apres un certain temps
         void HideBall(){
             gameObject.SetActive(false);
         }
@@ -151,7 +146,8 @@ namespace Oculus.Interaction
                 _grabbable.WhenPointerEventRaised -= HandlePointerEventRaised;
             }
         }
-
+           
+        /// cette fonction gere les evenements de prise et de lacher de l objet par l utilisateur
         private void HandlePointerEventRaised(PointerEvent evt)
         {
             switch (evt.Type)
@@ -175,6 +171,7 @@ namespace Oculus.Interaction
             }
         }
 
+        /// cette fonction permet de desactiver la physique de l objet (isKinematic = true)
         private void DisablePhysics()
         {
             _isBeingTransformed = true;
@@ -182,6 +179,7 @@ namespace Oculus.Interaction
             _rigidbody.isKinematic = true;
         }
 
+        /// cette fonction permet le reactivation de la physique de l objet (isKinematic = false)
         private void ReenablePhysics()
         {
             _isBeingTransformed = false;

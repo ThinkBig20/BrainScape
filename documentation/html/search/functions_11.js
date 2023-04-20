@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['takeovrscreenshot_0',['TakeOVRScreenshot',['../class_o_v_r_screenshot_wizard.html#a6e2a9afbd121e6e00b02d80afb437a03',1,'OVRScreenshotWizard']]],
+  ['targetaimcoroutine_1',['TargetAimCoroutine',['../class_teleport_target_handler.html#ae2c88c769165db12ac821a069f5e67b9',1,'TeleportTargetHandler']]],
+  ['teleportaimcoroutine_2',['TeleportAimCoroutine',['../class_teleport_input_handler.html#a86efbfd0a4c4f21ca7c1a49cd422e290',1,'TeleportInputHandler']]],
+  ['teleportingstatecoroutine_3',['TeleportingStateCoroutine',['../class_locomotion_teleport.html#a89ee6f4110ffa8a836fc64fed42bf520',1,'LocomotionTeleport']]],
+  ['teleportreadycoroutine_4',['TeleportReadyCoroutine',['../class_teleport_input_handler.html#a5b19d35f0a81af1237bd6d0761272c35',1,'TeleportInputHandler']]],
+  ['testnode_5',['TestNode',['../class_o_v_r_boundary.html#a1860c81f4b06730f5de3bdb3abb8de57',1,'OVRBoundary']]],
+  ['testpoint_6',['TestPoint',['../class_o_v_r_boundary.html#a1d63c08d23676241398f2d8560fdc386',1,'OVRBoundary']]],
+  ['testpowerstatemode_7',['TestPowerStateMode',['../class_o_v_r_mode_parms.html#a3efac6ec6ebcbbd13967eb9f2ad82efc',1,'OVRModeParms']]],
+  ['threadperformer_8',['ThreadPerformer',['../class_meta_1_1_wit_ai_1_1_thread_utility_1_1_thread_performer.html#a2d6e169a4c9fec83998126632458e872',1,'Meta::WitAi::ThreadUtility::ThreadPerformer']]],
+  ['toarray_9',['ToArray',['../class_o_v_r_face_expressions.html#a20769b15e5813420c8657ce911b39d15',1,'OVRFaceExpressions']]],
+  ['tostring_10',['ToString',['../struct_o_v_r_space.html#a7d077407b8360e70ff6d68f75a754776',1,'OVRSpace']]],
+  ['totrackingpose_11',['ToTrackingPose',['../class_oculus_1_1_interaction_1_1_input_1_1_tracking_to_world_transformer_o_v_r.html#adc499110275982d77afd66bc2d13474e',1,'Oculus.Interaction.Input.TrackingToWorldTransformerOVR.ToTrackingPose()'],['../interface_oculus_1_1_interaction_1_1_input_1_1_i_tracking_to_world_transformer.html#a81d8a7b4073c50f4c80364eb0080c983',1,'Oculus.Interaction.Input.ITrackingToWorldTransformer.ToTrackingPose()']]],
+  ['tounmanaged_12',['ToUnmanaged',['../class_oculus_1_1_platform_1_1_matchmaking_1_1_custom_query.html#abfe66cdb5dba39f384d00e2dd8a4fd33',1,'Oculus::Platform::Matchmaking::CustomQuery']]],
+  ['toworldpose_13',['ToWorldPose',['../class_oculus_1_1_interaction_1_1_input_1_1_tracking_to_world_transformer_o_v_r.html#a685b29b12dc75d97d2029d58139c25ee',1,'Oculus.Interaction.Input.TrackingToWorldTransformerOVR.ToWorldPose()'],['../interface_oculus_1_1_interaction_1_1_input_1_1_i_tracking_to_world_transformer.html#a6fabc13dec25262ed7a9fa05da327afc',1,'Oculus.Interaction.Input.ITrackingToWorldTransformer.ToWorldPose()']]],
+  ['trackelement_14',['TrackElement',['../interface_oculus_1_1_interaction_1_1_i_snap_pose_delegate.html#ad652a0bf310aef43a9eedf8c8d97c379',1,'Oculus.Interaction.ISnapPoseDelegate.TrackElement()'],['../class_oculus_1_1_interaction_1_1_list_snap_pose_delegate.html#af856075a10122e9b0dace9aef0c6da06',1,'Oculus.Interaction.ListSnapPoseDelegate.TrackElement()'],['../class_oculus_1_1_interaction_1_1_sequential_slots_provider.html#aa744fd8a0c6ec7698dbe9b56844c221e',1,'Oculus.Interaction.SequentialSlotsProvider.TrackElement()'],['../class_oculus_1_1_interaction_1_1_surface_snap_pose_delegate.html#ae341257ee575b6661341ac99180343df',1,'Oculus.Interaction.SurfaceSnapPoseDelegate.TrackElement()']]],
+  ['transformscale_15',['TransformScale',['../class_oculus_1_1_interaction_1_1_surfaces_1_1_cylinder_surface.html#a8929f94a5106c8653808b1710958f371',1,'Oculus::Interaction::Surfaces::CylinderSurface']]],
+  ['triggercubemapcapture_16',['TriggerCubemapCapture',['../class_o_v_r_cubemap_capture.html#ab5878d20bf84ed235bfd09849a4d45a0',1,'OVRCubemapCapture']]],
+  ['triggerload_17',['TriggerLoad',['../class_oculus_sample_framework_1_1_o_v_r_overlay_sample.html#aa9a18e42eaab34e2a1ef9e833a1ae4f1',1,'OculusSampleFramework::OVROverlaySample']]],
+  ['triggerunload_18',['TriggerUnload',['../class_oculus_sample_framework_1_1_o_v_r_overlay_sample.html#a04209164f2810214a6f5c9e364437e84',1,'OculusSampleFramework::OVROverlaySample']]],
+  ['trygetfaceexpressionweight_19',['TryGetFaceExpressionWeight',['../class_o_v_r_face_expressions.html#ae05e311e7aee0d1034ada57a31f81382',1,'OVRFaceExpressions']]],
+  ['trygetpointerpose_20',['TryGetPointerPose',['../class_oculus_1_1_interaction_1_1_input_1_1_controller.html#ab789e7bce3e27c1d344d2339f01f6512',1,'Oculus::Interaction::Input::Controller']]],
+  ['trygetpose_21',['TryGetPose',['../class_oculus_1_1_interaction_1_1_input_1_1_controller.html#aaaa20c14d2625ddefe0b7c561aeada8b',1,'Oculus::Interaction::Input::Controller']]],
+  ['trygetuuid_22',['TryGetUuid',['../struct_o_v_r_space.html#a93806d366bda0d28dff00a9fff17c7ef',1,'OVRSpace']]],
+  ['trygetweightconfidence_23',['TryGetWeightConfidence',['../class_o_v_r_face_expressions.html#a66092e90dd64e5c77c54bab507fd40ef',1,'OVRFaceExpressions']]],
+  ['tryqueryspaces_24',['TryQuerySpaces',['../struct_o_v_r_space_query_1_1_options.html#afc1d07727a98634e93ca52d8b923b152',1,'OVRSpaceQuery::Options']]]
+];
