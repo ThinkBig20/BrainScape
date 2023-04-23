@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['canread_0',['CanRead',['../class_meta_1_1_wit_ai_1_1_json_1_1_json_converter.html#a6c99a159c856528213e205ec2c820878',1,'Meta::WitAi::Json::JsonConverter']]],
+  ['canwrite_1',['CanWrite',['../class_meta_1_1_wit_ai_1_1_json_1_1_json_converter.html#a18e50484d29c44d5350773c89ac4f72a',1,'Meta::WitAi::Json::JsonConverter']]],
+  ['capacity_2',['Capacity',['../class_o_v_r_haptics_clip.html#a62d905e95b811d0a7e98621cc81be876',1,'OVRHapticsClip']]],
+  ['centereyeanchor_3',['centerEyeAnchor',['../class_o_v_r_camera_rig.html#a2716fdeda387531693c0c1f83b7a1b57',1,'OVRCameraRig']]],
+  ['centre_4',['Centre',['../class_oculus_1_1_interaction_1_1_grab_1_1_grab_surfaces_1_1_sphere_grab_surface.html#a1a97fc09841c102ba820698b7f010d7e',1,'Oculus::Interaction::Grab::GrabSurfaces::SphereGrabSurface']]],
+  ['chromatic_5',['chromatic',['../class_o_v_r_manager.html#a03d8edcf01fa76af5a66d4441bef913a',1,'OVRManager']]],
+  ['colorgamut_6',['colorGamut',['../class_o_v_r_manager.html#a08b2a4c619a53e8748eb2bb7c826f83c',1,'OVRManager']]],
+  ['colormapeditortype_7',['colorMapEditorType',['../class_o_v_r_passthrough_layer.html#a59b9c5186bc5519a37eb624bbbfb62f1',1,'OVRPassthroughLayer']]],
+  ['componentfilter_8',['ComponentFilter',['../struct_o_v_r_space_query_1_1_options.html#a7ea3b85d32d4772bc84eb3942b224959',1,'OVRSpaceQuery::Options']]],
+  ['confidence_9',['Confidence',['../class_o_v_r_eye_gaze.html#a8b2527281111c54bbb70f5a1d340bd8f',1,'OVREyeGaze']]],
+  ['configuration_10',['Configuration',['../class_meta_1_1_wit_ai_1_1_requests_1_1_wit_v_request.html#a085ea8e3bf1a9b953ea6daca73de2369',1,'Meta::WitAi::Requests::WitVRequest']]],
+  ['connectionrequired_11',['ConnectionRequired',['../class_o_v_r_tracked_keyboard.html#afe185d7ae13c31215e273ed937b107ba',1,'OVRTrackedKeyboard']]],
+  ['count_12',['count',['../class_o_v_r_tracker.html#a2ad2fc923266a960417415c2518b8d53',1,'OVRTracker']]],
+  ['count_13',['Count',['../class_o_v_r_haptics_clip.html#a8ff02c899a70b250177d6e5da3608b2a',1,'OVRHapticsClip']]],
+  ['cpulevel_14',['cpuLevel',['../class_o_v_r_manager.html#a8bf65c129ac6fa1ffb6a00e406bb20b2',1,'OVRManager']]],
+  ['created_15',['Created',['../class_o_v_r_spatial_anchor.html#a82baaab1352b8fd212fac4255e6aa122',1,'OVRSpatialAnchor']]],
+  ['currentactivationstep_16',['CurrentActivationStep',['../class_oculus_1_1_interaction_1_1_pose_detection_1_1_sequence.html#abb266e6c8220b831a739b4147036104a',1,'Oculus::Interaction::PoseDetection::Sequence']]],
+  ['currentalpha_17',['currentAlpha',['../class_o_v_r_screen_fade.html#a38ab84724650b451812045044faf7a52',1,'OVRScreenFade']]],
+  ['currentdataversion_18',['CurrentDataVersion',['../class_oculus_1_1_interaction_1_1_input_1_1_hand_ref.html#a3e18670b8a664a05a735295930e14ed2',1,'Oculus.Interaction.Input.HandRef.CurrentDataVersion()'],['../interface_oculus_1_1_interaction_1_1_input_1_1_i_hand.html#aa537667a87dd6364e6187dd1eacb84d4',1,'Oculus.Interaction.Input.IHand.CurrentDataVersion()']]],
+  ['currentdeviceindex_19',['CurrentDeviceIndex',['../class_meta_1_1_wit_ai_1_1_lib_1_1_mic.html#a80f4b2ccdc7e89eb2ae60a27ec75d418',1,'Meta::WitAi::Lib::Mic']]],
+  ['currentdevicename_20',['CurrentDeviceName',['../class_meta_1_1_wit_ai_1_1_lib_1_1_mic.html#a50d632bcd89528e420ba8995b30d0e42',1,'Meta::WitAi::Lib::Mic']]],
+  ['currentkeyboardanglefromup_21',['CurrentKeyboardAngleFromUp',['../class_o_v_r_tracked_keyboard.html#a3f7d0d734c3d6fce001b879b98a88967',1,'OVRTrackedKeyboard']]],
+  ['currentscale_22',['currentScale',['../class_o_v_r_gaze_pointer.html#aeb325c700740aa978fab9aafa6e2da37',1,'OVRGazePointer']]],
+  ['currentstate_23',['CurrentState',['../class_locomotion_teleport.html#a20415c2e44fc3ca0c734c4f2ece51ed0',1,'LocomotionTeleport']]],
+  ['cylinder_24',['Cylinder',['../interface_oculus_1_1_interaction_1_1_i_curved_plane.html#aa4c4a9fd7a7d37197d9ec4846791cca6',1,'Oculus.Interaction.ICurvedPlane.Cylinder()'],['../class_oculus_1_1_interaction_1_1_unity_canvas_1_1_canvas_cylinder.html#a31c73ea2628a43f95201b34474859d2b',1,'Oculus.Interaction.UnityCanvas.CanvasCylinder.Cylinder()']]]
+];

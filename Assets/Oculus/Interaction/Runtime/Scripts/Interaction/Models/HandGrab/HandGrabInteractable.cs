@@ -1,22 +1,7 @@
-/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * Licensed under the Oculus SDK License Agreement (the "License");
- * you may not use the Oculus SDK except in compliance with the License,
- * which is provided at the time of installation or download, or which
- * otherwise accompanies this software in either electronic or hard copy form.
- *
- * You may obtain a copy of the License at
- *
- * https://developer.oculus.com/licenses/oculussdk/
- *
- * Unless required by applicable law or agreed to in writing, the Oculus SDK
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+/**
+* @file HandGrabInteractable.cs
+* ce Script est utilisé pour permettre à l'utilisateur de saisir et de lâcher des objets en VR en utilisant ses mains. Il s'agit d'un composant pour des objets interactifs VR, qui peut être ajouté à tout objet dans la scène pour le rendre manipulable par l'utilisateur.
+*/
 
 using Oculus.Interaction.Grab;
 using Oculus.Interaction.GrabAPI;
