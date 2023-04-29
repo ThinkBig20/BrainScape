@@ -13,6 +13,8 @@ TagManager:
   - Basket
   - Ball
   - Animal
+  - DescriptionText
+  - NameText
   layers:
   - Default
   - TransparentFX
