@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/menu/Menu.unity
+    guid: e7823f663ac0dab44b6c7656f249de0a
+  - enabled: 1
+    path: Assets/Scenes/Catch And Throw/Level01.unity
+    guid: 6adc36080862e5541b487204c023e252
+  - enabled: 1
     path: Assets/Scenes/Connaissance Des Animaux/Level1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
