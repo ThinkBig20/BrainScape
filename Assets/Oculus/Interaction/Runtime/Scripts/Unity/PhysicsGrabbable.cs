@@ -1,37 +1,41 @@
-/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * Licensed under the Oculus SDK License Agreement (the "License");
- * you may not use the Oculus SDK except in compliance with the License,
- * which is provided at the time of installation or download, or which
- * otherwise accompanies this software in either electronic or hard copy form.
- *
- * You may obtain a copy of the License at
- *
- * https://developer.oculus.com/licenses/oculussdk/
- *
- * Unless required by applicable law or agreed to in writing, the Oculus SDK
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+/**
+* @file PhysicsGrabbable.cs
+* ce script  est un autre script fourni par Oculus qui permet de rendre un objet manipulable en VR, en utilisant la physique pour simuler les interactions avec l'utilisateur.
+* Plus précisément, ce script ajoute des composants de rigidbody et de jointure (jointure de poignet) à l'objet, ce qui permet à l'utilisateur de le saisir et de le lâcher de manière réaliste. Il utilise également un système de détection de collision pour détecter quand l'utilisateur entre en contact avec l'objet, ce qui déclenche la possibilité de le saisir.
+* on la modifie pour gerer la prise de l objet par l utilisateur selon la distance entre l objet et l utilisateur et 
+* l envoie vers le basket cible 
+*/
 
 using System;
 using UnityEngine;
-using UnityEngine.Assertions;
-using UnityEngine.Serialization;
+using Scripts;
+
 
 namespace Oculus.Interaction
 {
     public class PhysicsGrabbable : MonoBehaviour
     {
+        /// le grabbable objet que ce script gere
         [SerializeField]
         private Grabbable _grabbable;
+        /// instance du game manager pour gerer les evenements
+        GameManager manager;
 
+        /// le rigidbody de l objet que ce script gere
         [SerializeField]
         private Rigidbody _rigidbody;
+        /// la main gauche de l utilisateur
+        [SerializeField]
+        private GameObject leftHand;
+
+        /// la main droite de l utilisateur
+        [SerializeField]
+        private GameObject rightHand;
+        /// la distance entre l objet et l utilisateur pour que l objet soit pris
+        public float catchRadius = 0.1f;
+        /// variable pour verifier si l objet est pris ou pas
+        private bool touched;
+      
 
         [SerializeField]
         [Tooltip("If enabled, the object's mass will scale appropriately as the scale of the object changes.")]
@@ -43,24 +47,89 @@ namespace Oculus.Interaction
         private bool _hasPendingForce;
         private Vector3 _linearVelocity;
         private Vector3 _angularVelocity;
+       
+
+
 
         protected bool _started = false;
-
         public event Action<Vector3, Vector3> WhenVelocitiesApplied = delegate { };
 
+        /// cette fonction permet de reinitialiser les 2 objets grabbable et rigidbody associe a note gamecomponnent
         private void Reset()
         {
             _grabbable = this.GetComponent<Grabbable>();
             _rigidbody = this.GetComponent<Rigidbody>();
         }
+        
+        
+        /// cette fonction de  unity permet de gerer les evenements de collision
+        void Update(){
+            /// variable pour verifier si l objet est proche de la main gauche de l utilisateur
+            bool isLeftHandNear = Vector3.Distance(leftHand.transform.position, transform.position) < catchRadius;
+            /// variable pour verifier si l objet est proche de la main droite de l utilisateur
+            bool isRightHandNear = Vector3.Distance(rightHand.transform.position, transform.position) < catchRadius;
 
+            if (isLeftHandNear || isRightHandNear)
+            {   
+                if(touched==false){
+                    touched=true;
+                    manager.OnSuccessfulCatch();
+                    DisablePhysics();
+                } 
+                
+            }
+            
+            if(touched)
+            {
+                /// instance du game object qui represente le Basket cible de l utilisateur
+                GameObject basket = GameObject.FindWithTag("Basket");
+                /// distance entre les mains et le basket
+                float distanceHandBasket = Vector3.Distance(leftHand.transform.position,basket.transform.position);
+                /// distance entre la balle et le basket
+                float distanceBallBasket = Vector3.Distance(transform.position,basket.transform.position);
+                if(distanceHandBasket<distanceBallBasket)
+                {
+                    manager.OnMissedThrow();
+                    touched=false;
+                }
+            }
+
+        }
+
+        /// cette fonction de unity permet de faire les initialisations necessaires
         protected virtual void Start()
         {
             this.BeginStart(ref _started);
             this.AssertField(_grabbable, nameof(_grabbable));
             this.AssertField(_rigidbody, nameof(_rigidbody));
             this.EndStart(ref _started);
+            touched=false;
+            manager = FindObjectOfType<GameManager>();
+            // lineRenderer = this.GetComponent<LineRenderer>();
         }
+
+        /// cette fonction permet de gerer les evenements de collision entre l objet et d autres objets comme le plan et le basket
+        void OnTriggerEnter(Collider collision)
+        {
+            if (collision.gameObject.CompareTag("Basket") )
+            {
+                manager.OnSuccessfulThrow();
+                DisablePhysics();
+                Invoke("HideBall",2f);
+            }
+            if(collision.gameObject.CompareTag("Plan"))
+            {
+                DisablePhysics();
+                manager.OnMissedCatch();
+            }
+        }
+
+
+        /// cette fonction permet de cacher l objet apres un certain temps
+        void HideBall(){
+            gameObject.SetActive(false);
+        }
+        
 
         protected virtual void OnEnable()
         {
@@ -77,7 +146,8 @@ namespace Oculus.Interaction
                 _grabbable.WhenPointerEventRaised -= HandlePointerEventRaised;
             }
         }
-
+           
+        /// cette fonction gere les evenements de prise et de lacher de l objet par l utilisateur
         private void HandlePointerEventRaised(PointerEvent evt)
         {
             switch (evt.Type)
@@ -87,18 +157,21 @@ namespace Oculus.Interaction
                     {
                         DisablePhysics();
                     }
-
                     break;
                 case PointerEventType.Unselect:
                     if (_grabbable.SelectingPointsCount == 0)
                     {
                         ReenablePhysics();
+                        Vector3 throwDirection = transform.forward;
+                        float throwForce = 5f; // Changer la valeur de la force de lancer selon votre besoin
+                        // add a force to the rigidbody in the direction of the throw
+                        _rigidbody.AddRelativeForce(throwDirection * throwForce, ForceMode.Impulse);
                     }
-
                     break;
             }
         }
 
+        /// cette fonction permet de desactiver la physique de l objet (isKinematic = true)
         private void DisablePhysics()
         {
             _isBeingTransformed = true;
@@ -106,6 +179,7 @@ namespace Oculus.Interaction
             _rigidbody.isKinematic = true;
         }
 
+        /// cette fonction permet le reactivation de la physique de l objet (isKinematic = false)
         private void ReenablePhysics()
         {
             _isBeingTransformed = false;
@@ -120,7 +194,6 @@ namespace Oculus.Interaction
                 float changeInMassFactor = currentScaledVolume / initialScaledVolume;
                 _rigidbody.mass *= changeInMassFactor;
             }
-
             // revert the original kinematic state
             _rigidbody.isKinematic = _savedIsKinematicState;
         }
