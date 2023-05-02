@@ -1,25 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.Events;
 
 namespace BrainScape
 {
-    public class CardSelection : MonoBehaviour, XRBaseInteractable
+    public class CardSelection : MonoBehaviour
     {
 
-        private XRBaseInteractable baseInteractable;
+        private XRGrabInteractable grabInteractable;
 
         // Start is called before the first frame update
         void Start()
         {
-            baseInteractable = GetComponent<XRBaseInteractable>();
+            grabInteractable = GetComponent<XRGrabInteractable>();
 
             //ajouter un écouteur pour l'événement "select entered"
-            baseInteractable.selectEntered.AddListener(onSelectEntered);
+
+            grabInteractable.selectEntered.AddListener(onSelectEntered);
         }
 
-        public void onSelectEntered(XRBaseInteractor interactor)
+        public void onSelectEntered( SelectEnterEventArgs args)
         {
+            XRBaseInteractor interactor = args.interactor;
+
             //verifier si la main de l'utilisateur est à proximité de la carte
             //Vector3.Distance pour mesurer la distance entre la main et la carte
 
@@ -29,19 +34,19 @@ namespace BrainScape
                 SelectCard();
             }
 
-            
+        }    
             private void SelectCard()
             {
                 GetComponent<Renderer>().material.color = Color.yellow;
             }
 
             //lorsque la main quitte la carte
-            public void onSelectExited(XRBaseInteractor interactor)
+            public void onSelectExited(XRBaseInteractor interactor, SelectExitEventArgs args)
             {
                  // Remet la couleur de la carte à sa couleur d'origine
                 GetComponent<Renderer>().material.color = Color.white;
             }
-        }
+        
 
 
         // Update is called once per frame
