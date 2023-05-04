@@ -22,6 +22,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Assertions;
 using Random = UnityEngine.Random;
+using UnityEngine.SceneManagement;
 
 namespace Oculus.Interaction
 {
@@ -116,6 +117,11 @@ namespace Oculus.Interaction
             // Play the audio
             _audioSource.Play();
         }
+
+    //     public void PlayCatchAndThrow()
+    // {
+    //      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    // }  
 
         /// <summary>
         /// Choose a random clip without repeating the last clip
