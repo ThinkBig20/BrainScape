@@ -8,7 +8,7 @@ namespace BrainScape
     public class Win : MonoBehaviour
     {
         AudioSource audioSource;
-        public AudioClip[] audioClips;
+      
         // Start is called before the first frame update
         void Start()
         {
@@ -19,25 +19,24 @@ namespace BrainScape
          public void PlayAudio()
         {
         // audioSource.Play();
-        audioSource.Play();   
-         foreach (AudioClip clip in audioClips)
-        {
-        audioSource.clip = clip;
-        audioSource.Play();
+         audioSource.Play();
+         StartCoroutine(waitForSound());
 
-        // Wait for the clip to finish playing
-        while (audioSource.isPlaying)
+        }
+         IEnumerator waitForSound()
         {
-             
+        //Wait Until Sound has finished playing
+        while (audioSource .isPlaying)
+        {
+            yield return null;
         }
+       //Auidio has finished playing, disable GameObject
+         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
-
         // Update is called once per frame
         void Update()
         {
-        
+            
         }
     }
 }
