@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;  
+using UnityEngine.SceneManagement;
 
 namespace BrainScape
 {
-    public class Win : MonoBehaviour
+    public class Lose : MonoBehaviour
     {
         AudioSource audioSource;
         public AudioClip[] audioClips;
@@ -17,9 +17,7 @@ namespace BrainScape
         
 
          public void PlayAudio()
-        {
-        // audioSource.Play();
-        audioSource.Play();   
+        {   
          foreach (AudioClip clip in audioClips)
         {
         audioSource.clip = clip;
@@ -28,10 +26,10 @@ namespace BrainScape
         // Wait for the clip to finish playing
         while (audioSource.isPlaying)
         {
-             
+           
         }
         }
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
         // Update is called once per frame
