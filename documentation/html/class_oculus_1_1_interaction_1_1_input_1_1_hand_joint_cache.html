@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: Oculus.Interaction.Input.HandJointCache Class Reference</title>
+<title>BrainScape: Oculus.Interaction.Input.HandJointCache Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">BrainScape
    </div>
   </td>
  </tr>
@@ -85,75 +85,553 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abf6b79dab15a362d7a8fc5d21219913a"><td class="memItemLeft" align="right" valign="top"><a id="abf6b79dab15a362d7a8fc5d21219913a" name="abf6b79dab15a362d7a8fc5d21219913a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>HandJointCache</b> (<a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_read_only_hand_skeleton.html">IReadOnlyHandSkeleton</a> handSkeleton)</td></tr>
+<tr class="memitem:abf6b79dab15a362d7a8fc5d21219913a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_joint_cache.html#abf6b79dab15a362d7a8fc5d21219913a">HandJointCache</a> (<a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_read_only_hand_skeleton.html">IReadOnlyHandSkeleton</a> handSkeleton)</td></tr>
 <tr class="separator:abf6b79dab15a362d7a8fc5d21219913a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a587aa3295d1e984780ff3d45376bf30f"><td class="memItemLeft" align="right" valign="top"><a id="a587aa3295d1e984780ff3d45376bf30f" name="a587aa3295d1e984780ff3d45376bf30f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> (<a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_data_asset.html">HandDataAsset</a> data, int dataVersion)</td></tr>
+<tr class="memitem:a587aa3295d1e984780ff3d45376bf30f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_joint_cache.html#a587aa3295d1e984780ff3d45376bf30f">Update</a> (<a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_data_asset.html">HandDataAsset</a> data, int dataVersion)</td></tr>
 <tr class="separator:a587aa3295d1e984780ff3d45376bf30f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac23945445fef2f86e9cf4ced57582471"><td class="memItemLeft" align="right" valign="top"><a id="ac23945445fef2f86e9cf4ced57582471" name="ac23945445fef2f86e9cf4ced57582471"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>GetAllLocalPoses</b> (out <a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_read_only_hand_joint_poses.html">ReadOnlyHandJointPoses</a> localJointPoses)</td></tr>
+<tr class="memitem:ac23945445fef2f86e9cf4ced57582471"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_joint_cache.html#ac23945445fef2f86e9cf4ced57582471">GetAllLocalPoses</a> (out <a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_read_only_hand_joint_poses.html">ReadOnlyHandJointPoses</a> localJointPoses)</td></tr>
 <tr class="separator:ac23945445fef2f86e9cf4ced57582471"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e328a85dcea32d44bdb0e25afa252c5"><td class="memItemLeft" align="right" valign="top"><a id="a8e328a85dcea32d44bdb0e25afa252c5" name="a8e328a85dcea32d44bdb0e25afa252c5"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>GetAllPosesFromWrist</b> (out <a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_read_only_hand_joint_poses.html">ReadOnlyHandJointPoses</a> jointPosesFromWrist)</td></tr>
+<tr class="memitem:a8e328a85dcea32d44bdb0e25afa252c5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_joint_cache.html#a8e328a85dcea32d44bdb0e25afa252c5">GetAllPosesFromWrist</a> (out <a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_read_only_hand_joint_poses.html">ReadOnlyHandJointPoses</a> jointPosesFromWrist)</td></tr>
 <tr class="separator:a8e328a85dcea32d44bdb0e25afa252c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c404cb6f13b4189b472418531c44a3a"><td class="memItemLeft" align="right" valign="top"><a id="a3c404cb6f13b4189b472418531c44a3a" name="a3c404cb6f13b4189b472418531c44a3a"></a>
-Pose&#160;</td><td class="memItemRight" valign="bottom"><b>LocalJointPose</b> (HandJointId jointid)</td></tr>
+<tr class="memitem:a3c404cb6f13b4189b472418531c44a3a"><td class="memItemLeft" align="right" valign="top">Pose&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_joint_cache.html#a3c404cb6f13b4189b472418531c44a3a">LocalJointPose</a> (<a class="el" href="namespace_oculus_1_1_interaction_1_1_input.html#a59106a617b51d35caaeef041c1db83b3">HandJointId</a> jointid)</td></tr>
 <tr class="separator:a3c404cb6f13b4189b472418531c44a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02b7f1434619a3a33efab9d87123ed93"><td class="memItemLeft" align="right" valign="top"><a id="a02b7f1434619a3a33efab9d87123ed93" name="a02b7f1434619a3a33efab9d87123ed93"></a>
-Pose&#160;</td><td class="memItemRight" valign="bottom"><b>PoseFromWrist</b> (HandJointId jointid)</td></tr>
+<tr class="memitem:a02b7f1434619a3a33efab9d87123ed93"><td class="memItemLeft" align="right" valign="top">Pose&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_joint_cache.html#a02b7f1434619a3a33efab9d87123ed93">PoseFromWrist</a> (<a class="el" href="namespace_oculus_1_1_interaction_1_1_input.html#a59106a617b51d35caaeef041c1db83b3">HandJointId</a> jointid)</td></tr>
 <tr class="separator:a02b7f1434619a3a33efab9d87123ed93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64e909f3427a041f6dd6e0ae0b5a98c9"><td class="memItemLeft" align="right" valign="top"><a id="a64e909f3427a041f6dd6e0ae0b5a98c9" name="a64e909f3427a041f6dd6e0ae0b5a98c9"></a>
-Pose&#160;</td><td class="memItemRight" valign="bottom"><b>WorldJointPose</b> (HandJointId jointid, Pose rootPose, float handScale)</td></tr>
+<tr class="memitem:a64e909f3427a041f6dd6e0ae0b5a98c9"><td class="memItemLeft" align="right" valign="top">Pose&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_joint_cache.html#a64e909f3427a041f6dd6e0ae0b5a98c9">WorldJointPose</a> (<a class="el" href="namespace_oculus_1_1_interaction_1_1_input.html#a59106a617b51d35caaeef041c1db83b3">HandJointId</a> jointid, Pose rootPose, float handScale)</td></tr>
 <tr class="separator:a64e909f3427a041f6dd6e0ae0b5a98c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:aac6fc60c77c302aa161effe7ca09ae25"><td class="memItemLeft" align="right" valign="top"><a id="aac6fc60c77c302aa161effe7ca09ae25" name="aac6fc60c77c302aa161effe7ca09ae25"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>LocalDataVersion</b> = -1<code> [get, private set]</code></td></tr>
+<tr class="memitem:aac6fc60c77c302aa161effe7ca09ae25"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_joint_cache.html#aac6fc60c77c302aa161effe7ca09ae25">LocalDataVersion</a> = -1<code> [get, private set]</code></td></tr>
 <tr class="separator:aac6fc60c77c302aa161effe7ca09ae25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a1254cf457d05df66263e50753785c5a4"><td class="memItemLeft" align="right" valign="top"><a id="a1254cf457d05df66263e50753785c5a4" name="a1254cf457d05df66263e50753785c5a4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateAllLocalPoses</b> (<a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_data_asset.html">HandDataAsset</a> data)</td></tr>
+<tr class="memitem:a1254cf457d05df66263e50753785c5a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_joint_cache.html#a1254cf457d05df66263e50753785c5a4">UpdateAllLocalPoses</a> (<a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_data_asset.html">HandDataAsset</a> data)</td></tr>
 <tr class="separator:a1254cf457d05df66263e50753785c5a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ac0ea4cfbd6d323dc0bdbcd3708c2a0"><td class="memItemLeft" align="right" valign="top"><a id="a3ac0ea4cfbd6d323dc0bdbcd3708c2a0" name="a3ac0ea4cfbd6d323dc0bdbcd3708c2a0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateAllPosesFromWrist</b> ()</td></tr>
+<tr class="memitem:a3ac0ea4cfbd6d323dc0bdbcd3708c2a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_joint_cache.html#a3ac0ea4cfbd6d323dc0bdbcd3708c2a0">UpdateAllPosesFromWrist</a> ()</td></tr>
 <tr class="separator:a3ac0ea4cfbd6d323dc0bdbcd3708c2a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a992bf4960901f865ce449dde120ab5d7"><td class="memItemLeft" align="right" valign="top"><a id="a992bf4960901f865ce449dde120ab5d7" name="a992bf4960901f865ce449dde120ab5d7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateWristJoint</b> (HandJointId jointid, ref Pose pose)</td></tr>
+<tr class="memitem:a992bf4960901f865ce449dde120ab5d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_joint_cache.html#a992bf4960901f865ce449dde120ab5d7">UpdateWristJoint</a> (<a class="el" href="namespace_oculus_1_1_interaction_1_1_input.html#a59106a617b51d35caaeef041c1db83b3">HandJointId</a> jointid, ref Pose pose)</td></tr>
 <tr class="separator:a992bf4960901f865ce449dde120ab5d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a0e9aa2ffd48be0f782ebb0400ce48f85"><td class="memItemLeft" align="right" valign="top"><a id="a0e9aa2ffd48be0f782ebb0400ce48f85" name="a0e9aa2ffd48be0f782ebb0400ce48f85"></a>
-Pose[]&#160;</td><td class="memItemRight" valign="bottom"><b>_localPoses</b> = new Pose[Constants.NUM_HAND_JOINTS]</td></tr>
+<tr class="memitem:a0e9aa2ffd48be0f782ebb0400ce48f85"><td class="memItemLeft" align="right" valign="top">Pose[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_joint_cache.html#a0e9aa2ffd48be0f782ebb0400ce48f85">_localPoses</a> = new Pose[Constants.NUM_HAND_JOINTS]</td></tr>
 <tr class="separator:a0e9aa2ffd48be0f782ebb0400ce48f85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07dd957073729b40800f48ca9f066df3"><td class="memItemLeft" align="right" valign="top"><a id="a07dd957073729b40800f48ca9f066df3" name="a07dd957073729b40800f48ca9f066df3"></a>
-Pose[]&#160;</td><td class="memItemRight" valign="bottom"><b>_posesFromWrist</b> = new Pose[Constants.NUM_HAND_JOINTS]</td></tr>
+<tr class="memitem:a07dd957073729b40800f48ca9f066df3"><td class="memItemLeft" align="right" valign="top">Pose[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_joint_cache.html#a07dd957073729b40800f48ca9f066df3">_posesFromWrist</a> = new Pose[Constants.NUM_HAND_JOINTS]</td></tr>
 <tr class="separator:a07dd957073729b40800f48ca9f066df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a70385ada88617d5bb020c2d1083949"><td class="memItemLeft" align="right" valign="top"><a id="a0a70385ada88617d5bb020c2d1083949" name="a0a70385ada88617d5bb020c2d1083949"></a>
-Pose[]&#160;</td><td class="memItemRight" valign="bottom"><b>_worldPoses</b> = new Pose[Constants.NUM_HAND_JOINTS]</td></tr>
+<tr class="memitem:a0a70385ada88617d5bb020c2d1083949"><td class="memItemLeft" align="right" valign="top">Pose[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_joint_cache.html#a0a70385ada88617d5bb020c2d1083949">_worldPoses</a> = new Pose[Constants.NUM_HAND_JOINTS]</td></tr>
 <tr class="separator:a0a70385ada88617d5bb020c2d1083949"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a228ec17416eaa29acf3d44530babea3b"><td class="memItemLeft" align="right" valign="top"><a id="a228ec17416eaa29acf3d44530babea3b" name="a228ec17416eaa29acf3d44530babea3b"></a>
-<a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_read_only_hand_joint_poses.html">ReadOnlyHandJointPoses</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_posesFromWristCollection</b></td></tr>
+<tr class="memitem:a228ec17416eaa29acf3d44530babea3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_read_only_hand_joint_poses.html">ReadOnlyHandJointPoses</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_joint_cache.html#a228ec17416eaa29acf3d44530babea3b">_posesFromWristCollection</a></td></tr>
 <tr class="separator:a228ec17416eaa29acf3d44530babea3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabfa1382c06db5f54ee3ece167c0e720"><td class="memItemLeft" align="right" valign="top"><a id="aabfa1382c06db5f54ee3ece167c0e720" name="aabfa1382c06db5f54ee3ece167c0e720"></a>
-<a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_read_only_hand_joint_poses.html">ReadOnlyHandJointPoses</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_localPosesCollection</b></td></tr>
+<tr class="memitem:aabfa1382c06db5f54ee3ece167c0e720"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_read_only_hand_joint_poses.html">ReadOnlyHandJointPoses</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_joint_cache.html#aabfa1382c06db5f54ee3ece167c0e720">_localPosesCollection</a></td></tr>
 <tr class="separator:aabfa1382c06db5f54ee3ece167c0e720"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05d5b259b96cce29ee3179293b645cb4"><td class="memItemLeft" align="right" valign="top"><a id="a05d5b259b96cce29ee3179293b645cb4" name="a05d5b259b96cce29ee3179293b645cb4"></a>
-<a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_read_only_hand_skeleton_joint_list.html">IReadOnlyHandSkeletonJointList</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_originalJoints</b></td></tr>
+<tr class="memitem:a05d5b259b96cce29ee3179293b645cb4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_read_only_hand_skeleton_joint_list.html">IReadOnlyHandSkeletonJointList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_joint_cache.html#a05d5b259b96cce29ee3179293b645cb4">_originalJoints</a></td></tr>
 <tr class="separator:a05d5b259b96cce29ee3179293b645cb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd4bfc87311fff85188e93a6abab9b05"><td class="memItemLeft" align="right" valign="top"><a id="afd4bfc87311fff85188e93a6abab9b05" name="afd4bfc87311fff85188e93a6abab9b05"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>_dirtyWorldJoints</b> = 0</td></tr>
+<tr class="memitem:afd4bfc87311fff85188e93a6abab9b05"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_joint_cache.html#afd4bfc87311fff85188e93a6abab9b05">_dirtyWorldJoints</a> = 0</td></tr>
 <tr class="separator:afd4bfc87311fff85188e93a6abab9b05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99ed5482485539eef3bea059dc5c9058"><td class="memItemLeft" align="right" valign="top"><a id="a99ed5482485539eef3bea059dc5c9058" name="a99ed5482485539eef3bea059dc5c9058"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>_dirtyWristJoints</b> = 0</td></tr>
+<tr class="memitem:a99ed5482485539eef3bea059dc5c9058"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_joint_cache.html#a99ed5482485539eef3bea059dc5c9058">_dirtyWristJoints</a> = 0</td></tr>
 <tr class="separator:a99ed5482485539eef3bea059dc5c9058"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="abf6b79dab15a362d7a8fc5d21219913a" name="abf6b79dab15a362d7a8fc5d21219913a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf6b79dab15a362d7a8fc5d21219913a">&#9670;&#160;</a></span>HandJointCache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Oculus.Interaction.Input.HandJointCache.HandJointCache </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_read_only_hand_skeleton.html">IReadOnlyHandSkeleton</a>&#160;</td>
+          <td class="paramname"><em>handSkeleton</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac23945445fef2f86e9cf4ced57582471" name="ac23945445fef2f86e9cf4ced57582471"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac23945445fef2f86e9cf4ced57582471">&#9670;&#160;</a></span>GetAllLocalPoses()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Oculus.Interaction.Input.HandJointCache.GetAllLocalPoses </td>
+          <td>(</td>
+          <td class="paramtype">out <a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_read_only_hand_joint_poses.html">ReadOnlyHandJointPoses</a>&#160;</td>
+          <td class="paramname"><em>localJointPoses</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8e328a85dcea32d44bdb0e25afa252c5" name="a8e328a85dcea32d44bdb0e25afa252c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e328a85dcea32d44bdb0e25afa252c5">&#9670;&#160;</a></span>GetAllPosesFromWrist()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Oculus.Interaction.Input.HandJointCache.GetAllPosesFromWrist </td>
+          <td>(</td>
+          <td class="paramtype">out <a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_read_only_hand_joint_poses.html">ReadOnlyHandJointPoses</a>&#160;</td>
+          <td class="paramname"><em>jointPosesFromWrist</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3c404cb6f13b4189b472418531c44a3a" name="a3c404cb6f13b4189b472418531c44a3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c404cb6f13b4189b472418531c44a3a">&#9670;&#160;</a></span>LocalJointPose()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pose Oculus.Interaction.Input.HandJointCache.LocalJointPose </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_oculus_1_1_interaction_1_1_input.html#a59106a617b51d35caaeef041c1db83b3">HandJointId</a>&#160;</td>
+          <td class="paramname"><em>jointid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a02b7f1434619a3a33efab9d87123ed93" name="a02b7f1434619a3a33efab9d87123ed93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02b7f1434619a3a33efab9d87123ed93">&#9670;&#160;</a></span>PoseFromWrist()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pose Oculus.Interaction.Input.HandJointCache.PoseFromWrist </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_oculus_1_1_interaction_1_1_input.html#a59106a617b51d35caaeef041c1db83b3">HandJointId</a>&#160;</td>
+          <td class="paramname"><em>jointid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a587aa3295d1e984780ff3d45376bf30f" name="a587aa3295d1e984780ff3d45376bf30f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a587aa3295d1e984780ff3d45376bf30f">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Interaction.Input.HandJointCache.Update </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_data_asset.html">HandDataAsset</a>&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dataVersion</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1254cf457d05df66263e50753785c5a4" name="a1254cf457d05df66263e50753785c5a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1254cf457d05df66263e50753785c5a4">&#9670;&#160;</a></span>UpdateAllLocalPoses()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Interaction.Input.HandJointCache.UpdateAllLocalPoses </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_data_asset.html">HandDataAsset</a>&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3ac0ea4cfbd6d323dc0bdbcd3708c2a0" name="a3ac0ea4cfbd6d323dc0bdbcd3708c2a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ac0ea4cfbd6d323dc0bdbcd3708c2a0">&#9670;&#160;</a></span>UpdateAllPosesFromWrist()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Interaction.Input.HandJointCache.UpdateAllPosesFromWrist </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a992bf4960901f865ce449dde120ab5d7" name="a992bf4960901f865ce449dde120ab5d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a992bf4960901f865ce449dde120ab5d7">&#9670;&#160;</a></span>UpdateWristJoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Interaction.Input.HandJointCache.UpdateWristJoint </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_oculus_1_1_interaction_1_1_input.html#a59106a617b51d35caaeef041c1db83b3">HandJointId</a>&#160;</td>
+          <td class="paramname"><em>jointid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref Pose&#160;</td>
+          <td class="paramname"><em>pose</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a64e909f3427a041f6dd6e0ae0b5a98c9" name="a64e909f3427a041f6dd6e0ae0b5a98c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64e909f3427a041f6dd6e0ae0b5a98c9">&#9670;&#160;</a></span>WorldJointPose()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pose Oculus.Interaction.Input.HandJointCache.WorldJointPose </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_oculus_1_1_interaction_1_1_input.html#a59106a617b51d35caaeef041c1db83b3">HandJointId</a>&#160;</td>
+          <td class="paramname"><em>jointid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Pose&#160;</td>
+          <td class="paramname"><em>rootPose</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>handScale</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="afd4bfc87311fff85188e93a6abab9b05" name="afd4bfc87311fff85188e93a6abab9b05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd4bfc87311fff85188e93a6abab9b05">&#9670;&#160;</a></span>_dirtyWorldJoints</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Oculus.Interaction.Input.HandJointCache._dirtyWorldJoints = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a99ed5482485539eef3bea059dc5c9058" name="a99ed5482485539eef3bea059dc5c9058"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99ed5482485539eef3bea059dc5c9058">&#9670;&#160;</a></span>_dirtyWristJoints</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Oculus.Interaction.Input.HandJointCache._dirtyWristJoints = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0e9aa2ffd48be0f782ebb0400ce48f85" name="a0e9aa2ffd48be0f782ebb0400ce48f85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e9aa2ffd48be0f782ebb0400ce48f85">&#9670;&#160;</a></span>_localPoses</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pose [] Oculus.Interaction.Input.HandJointCache._localPoses = new Pose[Constants.NUM_HAND_JOINTS]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aabfa1382c06db5f54ee3ece167c0e720" name="aabfa1382c06db5f54ee3ece167c0e720"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabfa1382c06db5f54ee3ece167c0e720">&#9670;&#160;</a></span>_localPosesCollection</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_read_only_hand_joint_poses.html">ReadOnlyHandJointPoses</a> Oculus.Interaction.Input.HandJointCache._localPosesCollection</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a05d5b259b96cce29ee3179293b645cb4" name="a05d5b259b96cce29ee3179293b645cb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05d5b259b96cce29ee3179293b645cb4">&#9670;&#160;</a></span>_originalJoints</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_read_only_hand_skeleton_joint_list.html">IReadOnlyHandSkeletonJointList</a> Oculus.Interaction.Input.HandJointCache._originalJoints</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a07dd957073729b40800f48ca9f066df3" name="a07dd957073729b40800f48ca9f066df3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07dd957073729b40800f48ca9f066df3">&#9670;&#160;</a></span>_posesFromWrist</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pose [] Oculus.Interaction.Input.HandJointCache._posesFromWrist = new Pose[Constants.NUM_HAND_JOINTS]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a228ec17416eaa29acf3d44530babea3b" name="a228ec17416eaa29acf3d44530babea3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a228ec17416eaa29acf3d44530babea3b">&#9670;&#160;</a></span>_posesFromWristCollection</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_read_only_hand_joint_poses.html">ReadOnlyHandJointPoses</a> Oculus.Interaction.Input.HandJointCache._posesFromWristCollection</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0a70385ada88617d5bb020c2d1083949" name="a0a70385ada88617d5bb020c2d1083949"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a70385ada88617d5bb020c2d1083949">&#9670;&#160;</a></span>_worldPoses</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pose [] Oculus.Interaction.Input.HandJointCache._worldPoses = new Pose[Constants.NUM_HAND_JOINTS]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="aac6fc60c77c302aa161effe7ca09ae25" name="aac6fc60c77c302aa161effe7ca09ae25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac6fc60c77c302aa161effe7ca09ae25">&#9670;&#160;</a></span>LocalDataVersion</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Oculus.Interaction.Input.HandJointCache.LocalDataVersion = -1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/HandJointsCache.cs</li>
+<li>Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/<a class="el" href="_hand_joints_cache_8cs.html">HandJointsCache.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

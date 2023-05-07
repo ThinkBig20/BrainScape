@@ -1,6 +1,26 @@
 var searchData=
 [
-  ['challengevisibility_0',['ChallengeVisibility',['../namespace_oculus_1_1_platform.html#a1061597ec07ba8a3def037ee4cd13640',1,'Oculus::Platform']]],
-  ['colormapeditortype_1',['ColorMapEditorType',['../class_o_v_r_passthrough_layer.html#aa8fb5c14009f04a3998a5f60db319b45',1,'OVRPassthroughLayer']]],
-  ['cylinderorientation_2',['CylinderOrientation',['../namespace_oculus_1_1_interaction.html#a6b331d8a21e14675030cf1a07d22745d',1,'Oculus::Interaction']]]
+  ['cameramode_0',['CameraMode',['../class_o_v_r_mixed_reality_capture_test.html#ad728900bc5eda20de08a10a244746c2e',1,'OVRMixedRealityCaptureTest']]],
+  ['cameramodes_1',['CameraModes',['../class_t_m_pro_1_1_examples_1_1_camera_controller.html#a8180251e92d62266c8a026f0b77452ce',1,'TMPro::Examples::CameraController']]],
+  ['challengecreationtype_2',['ChallengeCreationType',['../namespace_oculus_1_1_platform.html#a5428ea6d58d0541326f28c757711144b',1,'Oculus::Platform']]],
+  ['challengeviewerfilter_3',['ChallengeViewerFilter',['../namespace_oculus_1_1_platform.html#afa9b6a65d46205366eee30140a4a6b20',1,'Oculus::Platform']]],
+  ['challengevisibility_4',['ChallengeVisibility',['../namespace_oculus_1_1_platform.html#a1061597ec07ba8a3def037ee4cd13640',1,'Oculus::Platform']]],
+  ['chaperonecalibrationstate_5',['ChaperoneCalibrationState',['../namespace_o_v_r_1_1_open_v_r.html#acc48267caf3a35ddbaea2d9708ee0481',1,'OVR::OpenVR']]],
+  ['checkcomponent_6',['CheckComponent',['../class_oculus_1_1_interaction_1_1_axis2_d_active_state.html#ac3e3e8e9aa61fb52f212fc57295dd19e',1,'Oculus::Interaction::Axis2DActiveState']]],
+  ['cloudstoragedatastatus_7',['CloudStorageDataStatus',['../namespace_oculus_1_1_platform.html#a687f251594a094e3c2f1127661f11b4d',1,'Oculus::Platform']]],
+  ['cloudstorageupdatestatus_8',['CloudStorageUpdateStatus',['../namespace_oculus_1_1_platform.html#a42d24db39ac50a5e8e75ce0d2c42fc69',1,'Oculus::Platform']]],
+  ['colormapeditortype_9',['ColorMapEditorType',['../class_o_v_r_passthrough_layer.html#aa8fb5c14009f04a3998a5f60db319b45',1,'OVRPassthroughLayer']]],
+  ['colorspace_10',['ColorSpace',['../class_o_v_r_manager.html#a674e7b22e74089919f092eff3f360d29',1,'OVRManager']]],
+  ['comparisonmethod_11',['ComparisonMethod',['../namespace_meta_1_1_wit_ai_1_1_callback_handlers.html#a70fae879a8da9d5d7883230d802daf1f',1,'Meta::WitAi::CallbackHandlers']]],
+  ['comparisonmode_12',['ComparisonMode',['../class_oculus_1_1_interaction_1_1_axis2_d_active_state.html#a3443a268a1456b8ba3e8056eda24b180',1,'Oculus::Interaction::Axis2DActiveState']]],
+  ['confidencebehavior_13',['ConfidenceBehavior',['../class_o_v_r_mesh_renderer.html#ac109e8aa2a3472f07c735c9b235f5a66',1,'OVRMeshRenderer.ConfidenceBehavior()'],['../class_o_v_r_skeleton_renderer.html#a3de6ef11c338039c6ab2fd17c52d55a3',1,'OVRSkeletonRenderer.ConfidenceBehavior()']]],
+  ['connectionstate_14',['ConnectionState',['../class_o_v_r_network_1_1_o_v_r_network_tcp_client.html#a6ac0b6efb6cf287c958e5fc0ce8eb433',1,'OVRNetwork::OVRNetworkTcpClient']]],
+  ['contacttest_15',['ContactTest',['../class_oculus_sample_framework_1_1_button_controller.html#a384e5ade58c3b7c5b89504b484f61409',1,'OculusSampleFramework::ButtonController']]],
+  ['contextproviders_16',['ContextProviders',['../class_o_v_r_lip_sync.html#a4343519e1990e89e1255db04b9281b5b',1,'OVRLipSync']]],
+  ['controllerbuttonusage_17',['ControllerButtonUsage',['../namespace_oculus_1_1_interaction_1_1_input.html#a56c868612534ddb05448e72a052a977e',1,'Oculus::Interaction::Input']]],
+  ['controllerselectorlogicoperator_18',['ControllerSelectorLogicOperator',['../class_oculus_1_1_interaction_1_1_controller_selector.html#afd394396d8feb1cc0648677f3db357ad',1,'Oculus::Interaction::ControllerSelector']]],
+  ['controllertype_19',['ControllerType',['../class_o_v_r_controller_helper.html#aeedb1172a4a12d2ac5b8f0d8f55cac72',1,'OVRControllerHelper']]],
+  ['crosshairstate_20',['CrosshairState',['../class_oculus_sample_framework_1_1_grabbable_crosshair.html#a5652c4fec37e3206be17d58cc793baeb',1,'OculusSampleFramework::GrabbableCrosshair']]],
+  ['cubeface_21',['CubeFace',['../class_o_v_r_overlay_mesh_generator.html#aad9f07619e942181edb7678552b9dfe0',1,'OVROverlayMeshGenerator']]],
+  ['cylinderorientation_22',['CylinderOrientation',['../namespace_oculus_1_1_interaction.html#a6b331d8a21e14675030cf1a07d22745d',1,'Oculus::Interaction']]]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: Oculus.Platform.Samples.VrVoiceChat.PlatformManager Class Reference</title>
+<title>BrainScape: Oculus.Platform.Samples.VrVoiceChat.PlatformManager Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">BrainScape
    </div>
   </td>
  </tr>
@@ -94,121 +94,782 @@ Inheritance diagram for Oculus.Platform.Samples.VrVoiceChat.PlatformManager:</di
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a327cd597ab068af53eb18b0dbe26a3cc"><td class="memItemLeft" align="right" valign="top"><a id="a327cd597ab068af53eb18b0dbe26a3cc" name="a327cd597ab068af53eb18b0dbe26a3cc"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>State</b> { <br />
-&#160;&#160;<b>INITIALIZING</b>
-, <b>WAITING_TO_CALL_OR_ANSWER</b>
-, <b>WAITING_FOR_ANSWER</b>
-, <b>CONNECTED_IN_A_ROOM</b>
+<tr class="memitem:a327cd597ab068af53eb18b0dbe26a3cc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a327cd597ab068af53eb18b0dbe26a3cc">State</a> { <br />
+&#160;&#160;<a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a327cd597ab068af53eb18b0dbe26a3cca86bf8c89d85949f8f45cde2f73fce113">INITIALIZING</a>
+, <a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a327cd597ab068af53eb18b0dbe26a3ccad68d855062af4d10a76f1d674bde69ce">WAITING_TO_CALL_OR_ANSWER</a>
+, <a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a327cd597ab068af53eb18b0dbe26a3cca58ae6669aa33c8eb6f7fee6d516b33c6">WAITING_FOR_ANSWER</a>
+, <a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a327cd597ab068af53eb18b0dbe26a3cca5895104c661785e5372fcbb0799c8f51">CONNECTED_IN_A_ROOM</a>
 , <br />
-&#160;&#160;<b>HANGUP</b>
+&#160;&#160;<a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a327cd597ab068af53eb18b0dbe26a3cca435097b29b587b710f5d8fb706588faa">HANGUP</a>
 <br />
  }</td></tr>
 <tr class="separator:a327cd597ab068af53eb18b0dbe26a3cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a40478842c1be0dc55eb5f76e291e29a4"><td class="memItemLeft" align="right" valign="top"><a id="a40478842c1be0dc55eb5f76e291e29a4" name="a40478842c1be0dc55eb5f76e291e29a4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>CallFriendOnClick</b> ()</td></tr>
+<tr class="memitem:a40478842c1be0dc55eb5f76e291e29a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a40478842c1be0dc55eb5f76e291e29a4">CallFriendOnClick</a> ()</td></tr>
 <tr class="separator:a40478842c1be0dc55eb5f76e291e29a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac431808177921c305e61ccba52c1ed8e"><td class="memItemLeft" align="right" valign="top"><a id="ac431808177921c305e61ccba52c1ed8e" name="ac431808177921c305e61ccba52c1ed8e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HangupOnClick</b> ()</td></tr>
+<tr class="memitem:ac431808177921c305e61ccba52c1ed8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#ac431808177921c305e61ccba52c1ed8e">HangupOnClick</a> ()</td></tr>
 <tr class="separator:ac431808177921c305e61ccba52c1ed8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8a2c213292d3f2a1d7d51408832b180"><td class="memItemLeft" align="right" valign="top"><a id="aa8a2c213292d3f2a1d7d51408832b180" name="aa8a2c213292d3f2a1d7d51408832b180"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>QuitOnClick</b> ()</td></tr>
+<tr class="memitem:aa8a2c213292d3f2a1d7d51408832b180"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#aa8a2c213292d3f2a1d7d51408832b180">QuitOnClick</a> ()</td></tr>
 <tr class="separator:aa8a2c213292d3f2a1d7d51408832b180"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:af6bb09413cc4601671291eb81b08437e"><td class="memItemLeft" align="right" valign="top"><a id="af6bb09413cc4601671291eb81b08437e" name="af6bb09413cc4601671291eb81b08437e"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>TerminateWithError</b> (<a class="el" href="class_oculus_1_1_platform_1_1_message.html">Message</a> msg)</td></tr>
+<tr class="memitem:af6bb09413cc4601671291eb81b08437e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#af6bb09413cc4601671291eb81b08437e">TerminateWithError</a> (<a class="el" href="class_oculus_1_1_platform_1_1_message.html">Message</a> msg)</td></tr>
 <tr class="separator:af6bb09413cc4601671291eb81b08437e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a459fed4326bada05d44c6330be3fc634"><td class="memItemLeft" align="right" valign="top"><a id="a459fed4326bada05d44c6330be3fc634" name="a459fed4326bada05d44c6330be3fc634"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>AnswerCallOnClick</b> (ulong roomID)</td></tr>
+<tr class="memitem:a459fed4326bada05d44c6330be3fc634"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a459fed4326bada05d44c6330be3fc634">AnswerCallOnClick</a> (ulong roomID)</td></tr>
 <tr class="separator:a459fed4326bada05d44c6330be3fc634"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af23996830d97e78a87f0639d8b794a64"><td class="memItemLeft" align="right" valign="top"><a id="af23996830d97e78a87f0639d8b794a64" name="af23996830d97e78a87f0639d8b794a64"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>TransitionToState</b> (State newState)</td></tr>
+<tr class="memitem:af23996830d97e78a87f0639d8b794a64"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#af23996830d97e78a87f0639d8b794a64">TransitionToState</a> (<a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a327cd597ab068af53eb18b0dbe26a3cc">State</a> newState)</td></tr>
 <tr class="separator:af23996830d97e78a87f0639d8b794a64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5c1cb89db9a9e6b95fc10247f17520c"><td class="memItemLeft" align="right" valign="top"><a id="af5c1cb89db9a9e6b95fc10247f17520c" name="af5c1cb89db9a9e6b95fc10247f17520c"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>SetBackgroundColorForState</b> ()</td></tr>
+<tr class="memitem:af5c1cb89db9a9e6b95fc10247f17520c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#af5c1cb89db9a9e6b95fc10247f17520c">SetBackgroundColorForState</a> ()</td></tr>
 <tr class="separator:af5c1cb89db9a9e6b95fc10247f17520c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03d6459ff2943b738a3d67e3f0e121da"><td class="memItemLeft" align="right" valign="top"><a id="a03d6459ff2943b738a3d67e3f0e121da" name="a03d6459ff2943b738a3d67e3f0e121da"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>SetActiveInvites</b> (List&lt; <a class="el" href="struct_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_room_manager_1_1_invite.html">RoomManager.Invite</a> &gt; invites)</td></tr>
+<tr class="memitem:a03d6459ff2943b738a3d67e3f0e121da"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a03d6459ff2943b738a3d67e3f0e121da">SetActiveInvites</a> (List&lt; <a class="el" href="struct_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_room_manager_1_1_invite.html">RoomManager.Invite</a> &gt; invites)</td></tr>
 <tr class="separator:a03d6459ff2943b738a3d67e3f0e121da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:ada10d5eb58605bb64bf81296aee3c6c8"><td class="memItemLeft" align="right" valign="top"><a id="ada10d5eb58605bb64bf81296aee3c6c8" name="ada10d5eb58605bb64bf81296aee3c6c8"></a>
-static State&#160;</td><td class="memItemRight" valign="bottom"><b>CurrentState</b><code> [get]</code></td></tr>
+<tr class="memitem:ada10d5eb58605bb64bf81296aee3c6c8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a327cd597ab068af53eb18b0dbe26a3cc">State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#ada10d5eb58605bb64bf81296aee3c6c8">CurrentState</a><code> [get]</code></td></tr>
 <tr class="separator:ada10d5eb58605bb64bf81296aee3c6c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7628947ba08c668d3c4de26d6024ab66"><td class="memItemLeft" align="right" valign="top"><a id="a7628947ba08c668d3c4de26d6024ab66" name="a7628947ba08c668d3c4de26d6024ab66"></a>
-static ulong&#160;</td><td class="memItemRight" valign="bottom"><b>MyID</b><code> [get]</code></td></tr>
+<tr class="memitem:a7628947ba08c668d3c4de26d6024ab66"><td class="memItemLeft" align="right" valign="top">static ulong&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a7628947ba08c668d3c4de26d6024ab66">MyID</a><code> [get]</code></td></tr>
 <tr class="separator:a7628947ba08c668d3c4de26d6024ab66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98a342f5c7cd6533c6ea326738870da4"><td class="memItemLeft" align="right" valign="top"><a id="a98a342f5c7cd6533c6ea326738870da4" name="a98a342f5c7cd6533c6ea326738870da4"></a>
-static string&#160;</td><td class="memItemRight" valign="bottom"><b>MyOculusID</b><code> [get]</code></td></tr>
+<tr class="memitem:a98a342f5c7cd6533c6ea326738870da4"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a98a342f5c7cd6533c6ea326738870da4">MyOculusID</a><code> [get]</code></td></tr>
 <tr class="separator:a98a342f5c7cd6533c6ea326738870da4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a5bcc79fe0579b6da1010699e8784ceb4"><td class="memItemLeft" align="right" valign="top"><a id="a5bcc79fe0579b6da1010699e8784ceb4" name="a5bcc79fe0579b6da1010699e8784ceb4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
+<tr class="memitem:a5bcc79fe0579b6da1010699e8784ceb4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a5bcc79fe0579b6da1010699e8784ceb4">Update</a> ()</td></tr>
 <tr class="separator:a5bcc79fe0579b6da1010699e8784ceb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb6e778ece4e1d528dcf4187d9472d17"><td class="memItemLeft" align="right" valign="top"><a id="acb6e778ece4e1d528dcf4187d9472d17" name="acb6e778ece4e1d528dcf4187d9472d17"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
+<tr class="memitem:acb6e778ece4e1d528dcf4187d9472d17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#acb6e778ece4e1d528dcf4187d9472d17">Awake</a> ()</td></tr>
 <tr class="separator:acb6e778ece4e1d528dcf4187d9472d17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa76c6737601c828c1d1af63085aecaa1"><td class="memItemLeft" align="right" valign="top"><a id="aa76c6737601c828c1d1af63085aecaa1" name="aa76c6737601c828c1d1af63085aecaa1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
+<tr class="memitem:aa76c6737601c828c1d1af63085aecaa1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#aa76c6737601c828c1d1af63085aecaa1">Start</a> ()</td></tr>
 <tr class="separator:aa76c6737601c828c1d1af63085aecaa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9898fd97fc564f6a993f5f0d7800398d"><td class="memItemLeft" align="right" valign="top"><a id="a9898fd97fc564f6a993f5f0d7800398d" name="a9898fd97fc564f6a993f5f0d7800398d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>IsEntitledCallback</b> (<a class="el" href="class_oculus_1_1_platform_1_1_message.html">Message</a> msg)</td></tr>
+<tr class="memitem:a9898fd97fc564f6a993f5f0d7800398d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a9898fd97fc564f6a993f5f0d7800398d">IsEntitledCallback</a> (<a class="el" href="class_oculus_1_1_platform_1_1_message.html">Message</a> msg)</td></tr>
 <tr class="separator:a9898fd97fc564f6a993f5f0d7800398d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ef02d823f1c9f54708cc8be3227608b"><td class="memItemLeft" align="right" valign="top"><a id="a4ef02d823f1c9f54708cc8be3227608b" name="a4ef02d823f1c9f54708cc8be3227608b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>GetLoggedInUserCallback</b> (<a class="el" href="class_oculus_1_1_platform_1_1_message.html">Message</a>&lt; <a class="el" href="class_oculus_1_1_platform_1_1_models_1_1_user.html">User</a> &gt; msg)</td></tr>
+<tr class="memitem:a4ef02d823f1c9f54708cc8be3227608b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a4ef02d823f1c9f54708cc8be3227608b">GetLoggedInUserCallback</a> (<a class="el" href="class_oculus_1_1_platform_1_1_message.html">Message</a>&lt; <a class="el" href="class_oculus_1_1_platform_1_1_models_1_1_user.html">User</a> &gt; msg)</td></tr>
 <tr class="separator:a4ef02d823f1c9f54708cc8be3227608b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abeb6794106493dd18d5a0185e9174ba0"><td class="memItemLeft" align="right" valign="top"><a id="abeb6794106493dd18d5a0185e9174ba0" name="abeb6794106493dd18d5a0185e9174ba0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>OnApplicationQuit</b> ()</td></tr>
+<tr class="memitem:abeb6794106493dd18d5a0185e9174ba0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#abeb6794106493dd18d5a0185e9174ba0">OnApplicationQuit</a> ()</td></tr>
 <tr class="separator:abeb6794106493dd18d5a0185e9174ba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a9ed6600bfb10c8e0f50c854bb95fdc4c"><td class="memItemLeft" align="right" valign="top"><a id="a9ed6600bfb10c8e0f50c854bb95fdc4c" name="a9ed6600bfb10c8e0f50c854bb95fdc4c"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>m_invitesList</b> = null</td></tr>
+<tr class="memitem:a9ed6600bfb10c8e0f50c854bb95fdc4c"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a9ed6600bfb10c8e0f50c854bb95fdc4c">m_invitesList</a> = null</td></tr>
 <tr class="separator:a9ed6600bfb10c8e0f50c854bb95fdc4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeef875497397d4e3b806a7662eb72002"><td class="memItemLeft" align="right" valign="top"><a id="aeef875497397d4e3b806a7662eb72002" name="aeef875497397d4e3b806a7662eb72002"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>m_invitePrefab</b> = null</td></tr>
+<tr class="memitem:aeef875497397d4e3b806a7662eb72002"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#aeef875497397d4e3b806a7662eb72002">m_invitePrefab</a> = null</td></tr>
 <tr class="separator:aeef875497397d4e3b806a7662eb72002"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c82ab041fe05786ea6657c68a72ca9a"><td class="memItemLeft" align="right" valign="top"><a id="a4c82ab041fe05786ea6657c68a72ca9a" name="a4c82ab041fe05786ea6657c68a72ca9a"></a>
-Camera&#160;</td><td class="memItemRight" valign="bottom"><b>m_camera</b> = null</td></tr>
+<tr class="memitem:a4c82ab041fe05786ea6657c68a72ca9a"><td class="memItemLeft" align="right" valign="top">Camera&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a4c82ab041fe05786ea6657c68a72ca9a">m_camera</a> = null</td></tr>
 <tr class="separator:a4c82ab041fe05786ea6657c68a72ca9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3da1bb3fe041dab62cec2e64c1774b8"><td class="memItemLeft" align="right" valign="top"><a id="ae3da1bb3fe041dab62cec2e64c1774b8" name="ae3da1bb3fe041dab62cec2e64c1774b8"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>m_remoteHead</b> = null</td></tr>
+<tr class="memitem:ae3da1bb3fe041dab62cec2e64c1774b8"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#ae3da1bb3fe041dab62cec2e64c1774b8">m_remoteHead</a> = null</td></tr>
 <tr class="separator:ae3da1bb3fe041dab62cec2e64c1774b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac784d598deb5ee372e9e1c9062d909f2"><td class="memItemLeft" align="right" valign="top"><a id="ac784d598deb5ee372e9e1c9062d909f2" name="ac784d598deb5ee372e9e1c9062d909f2"></a>
-State&#160;</td><td class="memItemRight" valign="bottom"><b>m_currentState</b></td></tr>
+<tr class="memitem:ac784d598deb5ee372e9e1c9062d909f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a327cd597ab068af53eb18b0dbe26a3cc">State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#ac784d598deb5ee372e9e1c9062d909f2">m_currentState</a></td></tr>
 <tr class="separator:ac784d598deb5ee372e9e1c9062d909f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a745f389ca93872dd21b76da6b250cac5"><td class="memItemLeft" align="right" valign="top"><a id="a745f389ca93872dd21b76da6b250cac5" name="a745f389ca93872dd21b76da6b250cac5"></a>
-<a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_room_manager.html">RoomManager</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_roomManager</b></td></tr>
+<tr class="memitem:a745f389ca93872dd21b76da6b250cac5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_room_manager.html">RoomManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a745f389ca93872dd21b76da6b250cac5">m_roomManager</a></td></tr>
 <tr class="separator:a745f389ca93872dd21b76da6b250cac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89f6d85261c6431a89fc7dbf413a9641"><td class="memItemLeft" align="right" valign="top"><a id="a89f6d85261c6431a89fc7dbf413a9641" name="a89f6d85261c6431a89fc7dbf413a9641"></a>
-<a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_p2_p_manager.html">P2PManager</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_p2pManager</b></td></tr>
+<tr class="memitem:a89f6d85261c6431a89fc7dbf413a9641"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_p2_p_manager.html">P2PManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a89f6d85261c6431a89fc7dbf413a9641">m_p2pManager</a></td></tr>
 <tr class="separator:a89f6d85261c6431a89fc7dbf413a9641"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a401679686dca11633ac7a77b82367cc7"><td class="memItemLeft" align="right" valign="top"><a id="a401679686dca11633ac7a77b82367cc7" name="a401679686dca11633ac7a77b82367cc7"></a>
-<a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_voip_manager.html">VoipManager</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_voipManager</b></td></tr>
+<tr class="memitem:a401679686dca11633ac7a77b82367cc7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_voip_manager.html">VoipManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a401679686dca11633ac7a77b82367cc7">m_voipManager</a></td></tr>
 <tr class="separator:a401679686dca11633ac7a77b82367cc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa031276f1df7262e779772d067ae84bc"><td class="memItemLeft" align="right" valign="top"><a id="aa031276f1df7262e779772d067ae84bc" name="aa031276f1df7262e779772d067ae84bc"></a>
-ulong&#160;</td><td class="memItemRight" valign="bottom"><b>m_myID</b></td></tr>
+<tr class="memitem:aa031276f1df7262e779772d067ae84bc"><td class="memItemLeft" align="right" valign="top">ulong&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#aa031276f1df7262e779772d067ae84bc">m_myID</a></td></tr>
 <tr class="separator:aa031276f1df7262e779772d067ae84bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f845de1660225d13fc17034df721f85"><td class="memItemLeft" align="right" valign="top"><a id="a6f845de1660225d13fc17034df721f85" name="a6f845de1660225d13fc17034df721f85"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>m_myOculusID</b></td></tr>
+<tr class="memitem:a6f845de1660225d13fc17034df721f85"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a6f845de1660225d13fc17034df721f85">m_myOculusID</a></td></tr>
 <tr class="separator:a6f845de1660225d13fc17034df721f85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:a5732e590d94f5254456497cbdf322a1c"><td class="memItemLeft" align="right" valign="top"><a id="a5732e590d94f5254456497cbdf322a1c" name="a5732e590d94f5254456497cbdf322a1c"></a>
-static <a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html">PlatformManager</a>&#160;</td><td class="memItemRight" valign="bottom"><b>s_instance</b> = null</td></tr>
+<tr class="memitem:a5732e590d94f5254456497cbdf322a1c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html">PlatformManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a5732e590d94f5254456497cbdf322a1c">s_instance</a> = null</td></tr>
 <tr class="separator:a5732e590d94f5254456497cbdf322a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a327cd597ab068af53eb18b0dbe26a3cc" name="a327cd597ab068af53eb18b0dbe26a3cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a327cd597ab068af53eb18b0dbe26a3cc">&#9670;&#160;</a></span>State</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a327cd597ab068af53eb18b0dbe26a3cc">Oculus.Platform.Samples.VrVoiceChat.PlatformManager.State</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a327cd597ab068af53eb18b0dbe26a3cca86bf8c89d85949f8f45cde2f73fce113" name="a327cd597ab068af53eb18b0dbe26a3cca86bf8c89d85949f8f45cde2f73fce113"></a>INITIALIZING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a327cd597ab068af53eb18b0dbe26a3ccad68d855062af4d10a76f1d674bde69ce" name="a327cd597ab068af53eb18b0dbe26a3ccad68d855062af4d10a76f1d674bde69ce"></a>WAITING_TO_CALL_OR_ANSWER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a327cd597ab068af53eb18b0dbe26a3cca58ae6669aa33c8eb6f7fee6d516b33c6" name="a327cd597ab068af53eb18b0dbe26a3cca58ae6669aa33c8eb6f7fee6d516b33c6"></a>WAITING_FOR_ANSWER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a327cd597ab068af53eb18b0dbe26a3cca5895104c661785e5372fcbb0799c8f51" name="a327cd597ab068af53eb18b0dbe26a3cca5895104c661785e5372fcbb0799c8f51"></a>CONNECTED_IN_A_ROOM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a327cd597ab068af53eb18b0dbe26a3cca435097b29b587b710f5d8fb706588faa" name="a327cd597ab068af53eb18b0dbe26a3cca435097b29b587b710f5d8fb706588faa"></a>HANGUP&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a459fed4326bada05d44c6330be3fc634" name="a459fed4326bada05d44c6330be3fc634"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a459fed4326bada05d44c6330be3fc634">&#9670;&#160;</a></span>AnswerCallOnClick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Oculus.Platform.Samples.VrVoiceChat.PlatformManager.AnswerCallOnClick </td>
+          <td>(</td>
+          <td class="paramtype">ulong&#160;</td>
+          <td class="paramname"><em>roomID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acb6e778ece4e1d528dcf4187d9472d17" name="acb6e778ece4e1d528dcf4187d9472d17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb6e778ece4e1d528dcf4187d9472d17">&#9670;&#160;</a></span>Awake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Platform.Samples.VrVoiceChat.PlatformManager.Awake </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a40478842c1be0dc55eb5f76e291e29a4" name="a40478842c1be0dc55eb5f76e291e29a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40478842c1be0dc55eb5f76e291e29a4">&#9670;&#160;</a></span>CallFriendOnClick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Platform.Samples.VrVoiceChat.PlatformManager.CallFriendOnClick </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ef02d823f1c9f54708cc8be3227608b" name="a4ef02d823f1c9f54708cc8be3227608b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ef02d823f1c9f54708cc8be3227608b">&#9670;&#160;</a></span>GetLoggedInUserCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Platform.Samples.VrVoiceChat.PlatformManager.GetLoggedInUserCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_oculus_1_1_platform_1_1_message.html">Message</a>&lt; <a class="el" href="class_oculus_1_1_platform_1_1_models_1_1_user.html">User</a> &gt;&#160;</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac431808177921c305e61ccba52c1ed8e" name="ac431808177921c305e61ccba52c1ed8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac431808177921c305e61ccba52c1ed8e">&#9670;&#160;</a></span>HangupOnClick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Platform.Samples.VrVoiceChat.PlatformManager.HangupOnClick </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9898fd97fc564f6a993f5f0d7800398d" name="a9898fd97fc564f6a993f5f0d7800398d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9898fd97fc564f6a993f5f0d7800398d">&#9670;&#160;</a></span>IsEntitledCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Platform.Samples.VrVoiceChat.PlatformManager.IsEntitledCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_oculus_1_1_platform_1_1_message.html">Message</a>&#160;</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abeb6794106493dd18d5a0185e9174ba0" name="abeb6794106493dd18d5a0185e9174ba0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abeb6794106493dd18d5a0185e9174ba0">&#9670;&#160;</a></span>OnApplicationQuit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Platform.Samples.VrVoiceChat.PlatformManager.OnApplicationQuit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa8a2c213292d3f2a1d7d51408832b180" name="aa8a2c213292d3f2a1d7d51408832b180"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8a2c213292d3f2a1d7d51408832b180">&#9670;&#160;</a></span>QuitOnClick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Platform.Samples.VrVoiceChat.PlatformManager.QuitOnClick </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a03d6459ff2943b738a3d67e3f0e121da" name="a03d6459ff2943b738a3d67e3f0e121da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03d6459ff2943b738a3d67e3f0e121da">&#9670;&#160;</a></span>SetActiveInvites()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Oculus.Platform.Samples.VrVoiceChat.PlatformManager.SetActiveInvites </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="struct_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_room_manager_1_1_invite.html">RoomManager::Invite</a> &gt;&#160;</td>
+          <td class="paramname"><em>invites</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af5c1cb89db9a9e6b95fc10247f17520c" name="af5c1cb89db9a9e6b95fc10247f17520c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5c1cb89db9a9e6b95fc10247f17520c">&#9670;&#160;</a></span>SetBackgroundColorForState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Oculus.Platform.Samples.VrVoiceChat.PlatformManager.SetBackgroundColorForState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa76c6737601c828c1d1af63085aecaa1" name="aa76c6737601c828c1d1af63085aecaa1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa76c6737601c828c1d1af63085aecaa1">&#9670;&#160;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Platform.Samples.VrVoiceChat.PlatformManager.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af6bb09413cc4601671291eb81b08437e" name="af6bb09413cc4601671291eb81b08437e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6bb09413cc4601671291eb81b08437e">&#9670;&#160;</a></span>TerminateWithError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Oculus.Platform.Samples.VrVoiceChat.PlatformManager.TerminateWithError </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_oculus_1_1_platform_1_1_message.html">Message</a>&#160;</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af23996830d97e78a87f0639d8b794a64" name="af23996830d97e78a87f0639d8b794a64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af23996830d97e78a87f0639d8b794a64">&#9670;&#160;</a></span>TransitionToState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Oculus.Platform.Samples.VrVoiceChat.PlatformManager.TransitionToState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a327cd597ab068af53eb18b0dbe26a3cc">State</a>&#160;</td>
+          <td class="paramname"><em>newState</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5bcc79fe0579b6da1010699e8784ceb4" name="a5bcc79fe0579b6da1010699e8784ceb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bcc79fe0579b6da1010699e8784ceb4">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Platform.Samples.VrVoiceChat.PlatformManager.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a4c82ab041fe05786ea6657c68a72ca9a" name="a4c82ab041fe05786ea6657c68a72ca9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c82ab041fe05786ea6657c68a72ca9a">&#9670;&#160;</a></span>m_camera</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Camera Oculus.Platform.Samples.VrVoiceChat.PlatformManager.m_camera = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac784d598deb5ee372e9e1c9062d909f2" name="ac784d598deb5ee372e9e1c9062d909f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac784d598deb5ee372e9e1c9062d909f2">&#9670;&#160;</a></span>m_currentState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a327cd597ab068af53eb18b0dbe26a3cc">State</a> Oculus.Platform.Samples.VrVoiceChat.PlatformManager.m_currentState</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeef875497397d4e3b806a7662eb72002" name="aeef875497397d4e3b806a7662eb72002"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeef875497397d4e3b806a7662eb72002">&#9670;&#160;</a></span>m_invitePrefab</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject Oculus.Platform.Samples.VrVoiceChat.PlatformManager.m_invitePrefab = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9ed6600bfb10c8e0f50c854bb95fdc4c" name="a9ed6600bfb10c8e0f50c854bb95fdc4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ed6600bfb10c8e0f50c854bb95fdc4c">&#9670;&#160;</a></span>m_invitesList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject Oculus.Platform.Samples.VrVoiceChat.PlatformManager.m_invitesList = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa031276f1df7262e779772d067ae84bc" name="aa031276f1df7262e779772d067ae84bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa031276f1df7262e779772d067ae84bc">&#9670;&#160;</a></span>m_myID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ulong Oculus.Platform.Samples.VrVoiceChat.PlatformManager.m_myID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6f845de1660225d13fc17034df721f85" name="a6f845de1660225d13fc17034df721f85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f845de1660225d13fc17034df721f85">&#9670;&#160;</a></span>m_myOculusID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Oculus.Platform.Samples.VrVoiceChat.PlatformManager.m_myOculusID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a89f6d85261c6431a89fc7dbf413a9641" name="a89f6d85261c6431a89fc7dbf413a9641"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89f6d85261c6431a89fc7dbf413a9641">&#9670;&#160;</a></span>m_p2pManager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_p2_p_manager.html">P2PManager</a> Oculus.Platform.Samples.VrVoiceChat.PlatformManager.m_p2pManager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae3da1bb3fe041dab62cec2e64c1774b8" name="ae3da1bb3fe041dab62cec2e64c1774b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3da1bb3fe041dab62cec2e64c1774b8">&#9670;&#160;</a></span>m_remoteHead</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject Oculus.Platform.Samples.VrVoiceChat.PlatformManager.m_remoteHead = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a745f389ca93872dd21b76da6b250cac5" name="a745f389ca93872dd21b76da6b250cac5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a745f389ca93872dd21b76da6b250cac5">&#9670;&#160;</a></span>m_roomManager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_room_manager.html">RoomManager</a> Oculus.Platform.Samples.VrVoiceChat.PlatformManager.m_roomManager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a401679686dca11633ac7a77b82367cc7" name="a401679686dca11633ac7a77b82367cc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a401679686dca11633ac7a77b82367cc7">&#9670;&#160;</a></span>m_voipManager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_voip_manager.html">VoipManager</a> Oculus.Platform.Samples.VrVoiceChat.PlatformManager.m_voipManager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5732e590d94f5254456497cbdf322a1c" name="a5732e590d94f5254456497cbdf322a1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5732e590d94f5254456497cbdf322a1c">&#9670;&#160;</a></span>s_instance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html">PlatformManager</a> Oculus.Platform.Samples.VrVoiceChat.PlatformManager.s_instance = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="ada10d5eb58605bb64bf81296aee3c6c8" name="ada10d5eb58605bb64bf81296aee3c6c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada10d5eb58605bb64bf81296aee3c6c8">&#9670;&#160;</a></span>CurrentState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_platform_manager.html#a327cd597ab068af53eb18b0dbe26a3cc">State</a> Oculus.Platform.Samples.VrVoiceChat.PlatformManager.CurrentState</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7628947ba08c668d3c4de26d6024ab66" name="a7628947ba08c668d3c4de26d6024ab66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7628947ba08c668d3c4de26d6024ab66">&#9670;&#160;</a></span>MyID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ulong Oculus.Platform.Samples.VrVoiceChat.PlatformManager.MyID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a98a342f5c7cd6533c6ea326738870da4" name="a98a342f5c7cd6533c6ea326738870da4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98a342f5c7cd6533c6ea326738870da4">&#9670;&#160;</a></span>MyOculusID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Oculus.Platform.Samples.VrVoiceChat.PlatformManager.MyOculusID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Oculus/Platform/Samples/VrVoiceChat/Scripts/PlatformManager.cs</li>
+<li>Assets/Oculus/Platform/Samples/VrVoiceChat/Scripts/<a class="el" href="_vr_voice_chat_2_scripts_2_platform_manager_8cs.html">PlatformManager.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

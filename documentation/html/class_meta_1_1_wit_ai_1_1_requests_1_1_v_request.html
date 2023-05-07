@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: Meta.WitAi.Requests.VRequest Class Reference</title>
+<title>BrainScape: Meta.WitAi.Requests.VRequest Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">BrainScape
    </div>
   </td>
  </tr>
@@ -100,133 +100,266 @@ Inheritance diagram for Meta.WitAi.Requests.VRequest:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aee5698083204fe62c92db59a23699271"><td class="memItemLeft" align="right" valign="top"><a id="aee5698083204fe62c92db59a23699271" name="aee5698083204fe62c92db59a23699271"></a>
-delegate void&#160;</td><td class="memItemRight" valign="bottom"><b>RequestProgressDelegate</b> (float progress)</td></tr>
+<tr class="memitem:aee5698083204fe62c92db59a23699271"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#aee5698083204fe62c92db59a23699271">RequestProgressDelegate</a> (float progress)</td></tr>
 <tr class="separator:aee5698083204fe62c92db59a23699271"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35598ba65072074093eb8200dbf7db6e"><td class="memItemLeft" align="right" valign="top"><a id="a35598ba65072074093eb8200dbf7db6e" name="a35598ba65072074093eb8200dbf7db6e"></a>
-delegate void&#160;</td><td class="memItemRight" valign="bottom"><b>RequestCompleteDelegate&lt; TResult &gt;</b> (TResult result, string error)</td></tr>
+<tr class="memitem:a35598ba65072074093eb8200dbf7db6e"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a35598ba65072074093eb8200dbf7db6e">RequestCompleteDelegate&lt; TResult &gt;</a> (TResult result, string error)</td></tr>
 <tr class="separator:a35598ba65072074093eb8200dbf7db6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b793a8344a79d7ace3cd7413f3b870f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a6b793a8344a79d7ace3cd7413f3b870f">Request</a> (UnityWebRequest unityRequest, RequestCompleteDelegate&lt; UnityWebRequest &gt; onComplete, RequestProgressDelegate onProgress=null)</td></tr>
+<tr class="memitem:a6b793a8344a79d7ace3cd7413f3b870f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a6b793a8344a79d7ace3cd7413f3b870f">Request</a> (UnityWebRequest unityRequest, RequestCompleteDelegate&lt; UnityWebRequest &gt; onComplete, <a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#aee5698083204fe62c92db59a23699271">RequestProgressDelegate</a> onProgress=null)</td></tr>
 <tr class="memdesc:a6b793a8344a79d7ace3cd7413f3b870f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize with a request and an on completion callback.  <br /></td></tr>
 <tr class="separator:a6b793a8344a79d7ace3cd7413f3b870f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0bb24aeb83f5416db64eca7b515a444"><td class="memItemLeft" align="right" valign="top"><a id="af0bb24aeb83f5416db64eca7b515a444" name="af0bb24aeb83f5416db64eca7b515a444"></a>
-virtual string&#160;</td><td class="memItemRight" valign="bottom"><b>CleanUrl</b> (string url)</td></tr>
-<tr class="memdesc:af0bb24aeb83f5416db64eca7b515a444"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clean the url prior to use. <br /></td></tr>
+<tr class="memitem:af0bb24aeb83f5416db64eca7b515a444"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#af0bb24aeb83f5416db64eca7b515a444">CleanUrl</a> (string url)</td></tr>
+<tr class="memdesc:af0bb24aeb83f5416db64eca7b515a444"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clean the url prior to use.  <br /></td></tr>
 <tr class="separator:af0bb24aeb83f5416db64eca7b515a444"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a666b17dfb95c5e3e1cf6ecbb18ddc28f"><td class="memItemLeft" align="right" valign="top"><a id="a666b17dfb95c5e3e1cf6ecbb18ddc28f" name="a666b17dfb95c5e3e1cf6ecbb18ddc28f"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Cancel</b> ()</td></tr>
+<tr class="memitem:a666b17dfb95c5e3e1cf6ecbb18ddc28f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a666b17dfb95c5e3e1cf6ecbb18ddc28f">Cancel</a> ()</td></tr>
 <tr class="separator:a666b17dfb95c5e3e1cf6ecbb18ddc28f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9854139fcb73e3b1958131d9f0fd89a7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a9854139fcb73e3b1958131d9f0fd89a7">RequestFileHeaders</a> (Uri uri, RequestCompleteDelegate&lt; Dictionary&lt; string, string &gt; &gt; onComplete)</td></tr>
 <tr class="memdesc:a9854139fcb73e3b1958131d9f0fd89a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a simple http header request.  <br /></td></tr>
 <tr class="separator:a9854139fcb73e3b1958131d9f0fd89a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92194bd9955303e5f24d7a3d897cd0bc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a92194bd9955303e5f24d7a3d897cd0bc">RequestFile</a> (Uri uri, RequestCompleteDelegate&lt; byte[]&gt; onComplete, RequestProgressDelegate onProgress=null)</td></tr>
+<tr class="memitem:a92194bd9955303e5f24d7a3d897cd0bc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a92194bd9955303e5f24d7a3d897cd0bc">RequestFile</a> (Uri uri, RequestCompleteDelegate&lt; byte[]&gt; onComplete, <a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#aee5698083204fe62c92db59a23699271">RequestProgressDelegate</a> onProgress=null)</td></tr>
 <tr class="memdesc:a92194bd9955303e5f24d7a3d897cd0bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a simple http header request.  <br /></td></tr>
 <tr class="separator:a92194bd9955303e5f24d7a3d897cd0bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a061c19f332ad1a09425060c51dc7f0e9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a061c19f332ad1a09425060c51dc7f0e9">RequestFileDownload</a> (string downloadPath, UnityWebRequest unityRequest, RequestCompleteDelegate&lt; bool &gt; onComplete, RequestProgressDelegate onProgress=null)</td></tr>
+<tr class="memitem:a061c19f332ad1a09425060c51dc7f0e9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a061c19f332ad1a09425060c51dc7f0e9">RequestFileDownload</a> (string downloadPath, UnityWebRequest unityRequest, RequestCompleteDelegate&lt; bool &gt; onComplete, <a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#aee5698083204fe62c92db59a23699271">RequestProgressDelegate</a> onProgress=null)</td></tr>
 <tr class="memdesc:a061c19f332ad1a09425060c51dc7f0e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Download a file using a unityrequest.  <br /></td></tr>
 <tr class="separator:a061c19f332ad1a09425060c51dc7f0e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac38149856399ad23907b165bc1ec346e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#ac38149856399ad23907b165bc1ec346e">RequestFileExists</a> (string checkPath, RequestCompleteDelegate&lt; bool &gt; onComplete)</td></tr>
 <tr class="memdesc:ac38149856399ad23907b165bc1ec346e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a file exists at a specified location.  <br /></td></tr>
 <tr class="separator:ac38149856399ad23907b165bc1ec346e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab53dd836f27d7f2194a49fabe4f9c14c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#ab53dd836f27d7f2194a49fabe4f9c14c">RequestText</a> (UnityWebRequest unityRequest, RequestCompleteDelegate&lt; string &gt; onComplete, RequestProgressDelegate onProgress=null)</td></tr>
+<tr class="memitem:ab53dd836f27d7f2194a49fabe4f9c14c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#ab53dd836f27d7f2194a49fabe4f9c14c">RequestText</a> (UnityWebRequest unityRequest, RequestCompleteDelegate&lt; string &gt; onComplete, <a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#aee5698083204fe62c92db59a23699271">RequestProgressDelegate</a> onProgress=null)</td></tr>
 <tr class="memdesc:ab53dd836f27d7f2194a49fabe4f9c14c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a text request &amp; handles the resultant text.  <br /></td></tr>
 <tr class="separator:ab53dd836f27d7f2194a49fabe4f9c14c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0deb6bdb38af2ad5f23d442e8e23d272"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a0deb6bdb38af2ad5f23d442e8e23d272">RequestJson&lt; TData &gt;</a> (UnityWebRequest unityRequest, RequestCompleteDelegate&lt; TData &gt; onComplete, RequestProgressDelegate onProgress=null)</td></tr>
+<tr class="memitem:a0deb6bdb38af2ad5f23d442e8e23d272"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a0deb6bdb38af2ad5f23d442e8e23d272">RequestJson&lt; TData &gt;</a> (UnityWebRequest unityRequest, RequestCompleteDelegate&lt; TData &gt; onComplete, <a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#aee5698083204fe62c92db59a23699271">RequestProgressDelegate</a> onProgress=null)</td></tr>
 <tr class="memdesc:a0deb6bdb38af2ad5f23d442e8e23d272"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a json request &amp; handles the resultant text.  <br /></td></tr>
 <tr class="separator:a0deb6bdb38af2ad5f23d442e8e23d272"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81146f9248b31ce1b305a511809170bb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a81146f9248b31ce1b305a511809170bb">RequestJson&lt; TData &gt;</a> (Uri uri, RequestCompleteDelegate&lt; TData &gt; onComplete, RequestProgressDelegate onProgress=null)</td></tr>
+<tr class="memitem:a81146f9248b31ce1b305a511809170bb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a81146f9248b31ce1b305a511809170bb">RequestJson&lt; TData &gt;</a> (Uri uri, RequestCompleteDelegate&lt; TData &gt; onComplete, <a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#aee5698083204fe62c92db59a23699271">RequestProgressDelegate</a> onProgress=null)</td></tr>
 <tr class="memdesc:a81146f9248b31ce1b305a511809170bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a json get request with a specified uri.  <br /></td></tr>
 <tr class="separator:a81146f9248b31ce1b305a511809170bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7bb8e25770b67787e1826216bbaabeb3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a7bb8e25770b67787e1826216bbaabeb3">RequestJson&lt; TData &gt;</a> (Uri uri, byte[] postData, RequestCompleteDelegate&lt; TData &gt; onComplete, RequestProgressDelegate onProgress=null)</td></tr>
+<tr class="memitem:a7bb8e25770b67787e1826216bbaabeb3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a7bb8e25770b67787e1826216bbaabeb3">RequestJson&lt; TData &gt;</a> (Uri uri, byte[] postData, RequestCompleteDelegate&lt; TData &gt; onComplete, <a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#aee5698083204fe62c92db59a23699271">RequestProgressDelegate</a> onProgress=null)</td></tr>
 <tr class="memdesc:a7bb8e25770b67787e1826216bbaabeb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a json request by posting byte data.  <br /></td></tr>
 <tr class="separator:a7bb8e25770b67787e1826216bbaabeb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ec9a913937e14f3b61318cdb094d416"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a9ec9a913937e14f3b61318cdb094d416">RequestJson&lt; TData &gt;</a> (Uri uri, string postText, RequestCompleteDelegate&lt; TData &gt; onComplete, RequestProgressDelegate onProgress=null)</td></tr>
+<tr class="memitem:a9ec9a913937e14f3b61318cdb094d416"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a9ec9a913937e14f3b61318cdb094d416">RequestJson&lt; TData &gt;</a> (Uri uri, string postText, RequestCompleteDelegate&lt; TData &gt; onComplete, <a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#aee5698083204fe62c92db59a23699271">RequestProgressDelegate</a> onProgress=null)</td></tr>
 <tr class="memdesc:a9ec9a913937e14f3b61318cdb094d416"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a json request by posting byte data.  <br /></td></tr>
 <tr class="separator:a9ec9a913937e14f3b61318cdb094d416"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00a1f8017163df5c0fbef97e48713b30"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a00a1f8017163df5c0fbef97e48713b30">RequestAudioClip</a> (UnityWebRequest unityRequest, RequestCompleteDelegate&lt; AudioClip &gt; onClipReady, AudioType audioType=AudioType.UNKNOWN, bool audioStream=true, RequestProgressDelegate onProgress=null)</td></tr>
+<tr class="memitem:a00a1f8017163df5c0fbef97e48713b30"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a00a1f8017163df5c0fbef97e48713b30">RequestAudioClip</a> (UnityWebRequest unityRequest, RequestCompleteDelegate&lt; AudioClip &gt; onClipReady, AudioType audioType=AudioType.UNKNOWN, bool audioStream=true, <a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#aee5698083204fe62c92db59a23699271">RequestProgressDelegate</a> onProgress=null)</td></tr>
 <tr class="memdesc:a00a1f8017163df5c0fbef97e48713b30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request audio clip with url, type, progress delegate &amp; ready delegate.  <br /></td></tr>
 <tr class="separator:a00a1f8017163df5c0fbef97e48713b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a8821b0556c9872e0d67b0477eec0fb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a1a8821b0556c9872e0d67b0477eec0fb">RequestAudioClip</a> (Uri uri, RequestCompleteDelegate&lt; AudioClip &gt; onClipReady, AudioType audioType=AudioType.UNKNOWN, bool audioStream=true, RequestProgressDelegate onProgress=null)</td></tr>
+<tr class="memitem:a1a8821b0556c9872e0d67b0477eec0fb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a1a8821b0556c9872e0d67b0477eec0fb">RequestAudioClip</a> (Uri uri, RequestCompleteDelegate&lt; AudioClip &gt; onClipReady, AudioType audioType=AudioType.UNKNOWN, bool audioStream=true, <a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#aee5698083204fe62c92db59a23699271">RequestProgressDelegate</a> onProgress=null)</td></tr>
 <tr class="memdesc:a1a8821b0556c9872e0d67b0477eec0fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request audio clip with url, type, progress delegate &amp; ready delegate.  <br /></td></tr>
 <tr class="separator:a1a8821b0556c9872e0d67b0477eec0fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a11ca11bd35ba6ee7c08977da1df9ce4b"><td class="memItemLeft" align="right" valign="top"><a id="a11ca11bd35ba6ee7c08977da1df9ce4b" name="a11ca11bd35ba6ee7c08977da1df9ce4b"></a>
-const string&#160;</td><td class="memItemRight" valign="bottom"><b>CANCEL_ERROR</b> = &quot;Cancelled&quot;</td></tr>
+<tr class="memitem:a11ca11bd35ba6ee7c08977da1df9ce4b"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a11ca11bd35ba6ee7c08977da1df9ce4b">CANCEL_ERROR</a> = &quot;Cancelled&quot;</td></tr>
 <tr class="separator:a11ca11bd35ba6ee7c08977da1df9ce4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a10a7364881c131b1ada7a92b7f75126e"><td class="memItemLeft" align="right" valign="top"><a id="a10a7364881c131b1ada7a92b7f75126e" name="a10a7364881c131b1ada7a92b7f75126e"></a>
-virtual Dictionary&lt; string, string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetHeaders</b> ()</td></tr>
+<tr class="memitem:a10a7364881c131b1ada7a92b7f75126e"><td class="memItemLeft" align="right" valign="top">virtual Dictionary&lt; string, string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a10a7364881c131b1ada7a92b7f75126e">GetHeaders</a> ()</td></tr>
 <tr class="separator:a10a7364881c131b1ada7a92b7f75126e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace5b45d131b2483490f4c03675e617e2"><td class="memItemLeft" align="right" valign="top"><a id="ace5b45d131b2483490f4c03675e617e2" name="ace5b45d131b2483490f4c03675e617e2"></a>
-virtual IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>PerformUpdate</b> ()</td></tr>
+<tr class="memitem:ace5b45d131b2483490f4c03675e617e2"><td class="memItemLeft" align="right" valign="top">virtual IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#ace5b45d131b2483490f4c03675e617e2">PerformUpdate</a> ()</td></tr>
 <tr class="separator:ace5b45d131b2483490f4c03675e617e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7aab4bf73bfe6d964121234950e12caa"><td class="memItemLeft" align="right" valign="top"><a id="a7aab4bf73bfe6d964121234950e12caa" name="a7aab4bf73bfe6d964121234950e12caa"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Begin</b> ()</td></tr>
+<tr class="memitem:a7aab4bf73bfe6d964121234950e12caa"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a7aab4bf73bfe6d964121234950e12caa">Begin</a> ()</td></tr>
 <tr class="separator:a7aab4bf73bfe6d964121234950e12caa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9639cc6993f3a7a328cdaca8ad31ff4"><td class="memItemLeft" align="right" valign="top"><a id="ab9639cc6993f3a7a328cdaca8ad31ff4" name="ab9639cc6993f3a7a328cdaca8ad31ff4"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Complete</b> ()</td></tr>
+<tr class="memitem:ab9639cc6993f3a7a328cdaca8ad31ff4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#ab9639cc6993f3a7a328cdaca8ad31ff4">Complete</a> ()</td></tr>
 <tr class="separator:ab9639cc6993f3a7a328cdaca8ad31ff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59e0c368fdefbf4752d68bd7838ce5aa"><td class="memItemLeft" align="right" valign="top"><a id="a59e0c368fdefbf4752d68bd7838ce5aa" name="a59e0c368fdefbf4752d68bd7838ce5aa"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Unload</b> ()</td></tr>
+<tr class="memitem:a59e0c368fdefbf4752d68bd7838ce5aa"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a59e0c368fdefbf4752d68bd7838ce5aa">Unload</a> ()</td></tr>
 <tr class="separator:a59e0c368fdefbf4752d68bd7838ce5aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:af6577b4d87342281a16d71b2bcdaa0cf"><td class="memItemLeft" align="right" valign="top"><a id="af6577b4d87342281a16d71b2bcdaa0cf" name="af6577b4d87342281a16d71b2bcdaa0cf"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>Timeout</b> = 5<code> [get, set]</code></td></tr>
-<tr class="memdesc:af6577b4d87342281a16d71b2bcdaa0cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timeout in seconds. <br /></td></tr>
+<tr class="memitem:af6577b4d87342281a16d71b2bcdaa0cf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#af6577b4d87342281a16d71b2bcdaa0cf">Timeout</a> = 5<code> [get, set]</code></td></tr>
+<tr class="memdesc:af6577b4d87342281a16d71b2bcdaa0cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timeout in seconds.  <br /></td></tr>
 <tr class="separator:af6577b4d87342281a16d71b2bcdaa0cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a825c1721606268b9fa4a5d3ce5cafbc5"><td class="memItemLeft" align="right" valign="top"><a id="a825c1721606268b9fa4a5d3ce5cafbc5" name="a825c1721606268b9fa4a5d3ce5cafbc5"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsComplete</b> = false<code> [get, private set]</code></td></tr>
-<tr class="memdesc:a825c1721606268b9fa4a5d3ce5cafbc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not the completion delegate has been called. <br /></td></tr>
+<tr class="memitem:a825c1721606268b9fa4a5d3ce5cafbc5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a825c1721606268b9fa4a5d3ce5cafbc5">IsComplete</a> = false<code> [get, private set]</code></td></tr>
+<tr class="memdesc:a825c1721606268b9fa4a5d3ce5cafbc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not the completion delegate has been called.  <br /></td></tr>
 <tr class="separator:a825c1721606268b9fa4a5d3ce5cafbc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54163301d18e7d1ec4ea95ea9a903c8f"><td class="memItemLeft" align="right" valign="top"><a id="a54163301d18e7d1ec4ea95ea9a903c8f" name="a54163301d18e7d1ec4ea95ea9a903c8f"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsPerforming</b><code> [get]</code></td></tr>
-<tr class="memdesc:a54163301d18e7d1ec4ea95ea9a903c8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">If request is currently being performed. <br /></td></tr>
+<tr class="memitem:a54163301d18e7d1ec4ea95ea9a903c8f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a54163301d18e7d1ec4ea95ea9a903c8f">IsPerforming</a><code> [get]</code></td></tr>
+<tr class="memdesc:a54163301d18e7d1ec4ea95ea9a903c8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">If request is currently being performed.  <br /></td></tr>
 <tr class="separator:a54163301d18e7d1ec4ea95ea9a903c8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa5be35ea0b18e021c9aec44f8d8681a"><td class="memItemLeft" align="right" valign="top"><a id="afa5be35ea0b18e021c9aec44f8d8681a" name="afa5be35ea0b18e021c9aec44f8d8681a"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>Progress</b><code> [get]</code></td></tr>
-<tr class="memdesc:afa5be35ea0b18e021c9aec44f8d8681a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current progress for get requests. <br /></td></tr>
+<tr class="memitem:afa5be35ea0b18e021c9aec44f8d8681a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#afa5be35ea0b18e021c9aec44f8d8681a">Progress</a><code> [get]</code></td></tr>
+<tr class="memdesc:afa5be35ea0b18e021c9aec44f8d8681a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current progress for get requests.  <br /></td></tr>
 <tr class="separator:afa5be35ea0b18e021c9aec44f8d8681a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a7ab2af0283d72f0947fefdd1020123c2"><td class="memItemLeft" align="right" valign="top"><a id="a7ab2af0283d72f0947fefdd1020123c2" name="a7ab2af0283d72f0947fefdd1020123c2"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_performing</b> = false</td></tr>
+<tr class="memitem:a7ab2af0283d72f0947fefdd1020123c2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a7ab2af0283d72f0947fefdd1020123c2">_performing</a> = false</td></tr>
 <tr class="separator:a7ab2af0283d72f0947fefdd1020123c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcddb72dee021ee1291db628b7f333ef"><td class="memItemLeft" align="right" valign="top"><a id="afcddb72dee021ee1291db628b7f333ef" name="afcddb72dee021ee1291db628b7f333ef"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>_progress</b></td></tr>
+<tr class="memitem:afcddb72dee021ee1291db628b7f333ef"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#afcddb72dee021ee1291db628b7f333ef">_progress</a></td></tr>
 <tr class="separator:afcddb72dee021ee1291db628b7f333ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5bcad2d385e14f46b3b60635e398268"><td class="memItemLeft" align="right" valign="top"><a id="ac5bcad2d385e14f46b3b60635e398268" name="ac5bcad2d385e14f46b3b60635e398268"></a>
-UnityWebRequest&#160;</td><td class="memItemRight" valign="bottom"><b>_request</b></td></tr>
+<tr class="memitem:ac5bcad2d385e14f46b3b60635e398268"><td class="memItemLeft" align="right" valign="top">UnityWebRequest&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#ac5bcad2d385e14f46b3b60635e398268">_request</a></td></tr>
 <tr class="separator:ac5bcad2d385e14f46b3b60635e398268"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a183476e8b3db539c3051608b0d9a3e"><td class="memItemLeft" align="right" valign="top"><a id="a6a183476e8b3db539c3051608b0d9a3e" name="a6a183476e8b3db539c3051608b0d9a3e"></a>
-RequestProgressDelegate&#160;</td><td class="memItemRight" valign="bottom"><b>_onProgress</b></td></tr>
+<tr class="memitem:a6a183476e8b3db539c3051608b0d9a3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#aee5698083204fe62c92db59a23699271">RequestProgressDelegate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a6a183476e8b3db539c3051608b0d9a3e">_onProgress</a></td></tr>
 <tr class="separator:a6a183476e8b3db539c3051608b0d9a3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfc5168444cad0b48cd2e01bf83dcc9e"><td class="memItemLeft" align="right" valign="top"><a id="abfc5168444cad0b48cd2e01bf83dcc9e" name="abfc5168444cad0b48cd2e01bf83dcc9e"></a>
-RequestCompleteDelegate&lt; UnityWebRequest &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_onComplete</b></td></tr>
+<tr class="memitem:abfc5168444cad0b48cd2e01bf83dcc9e"><td class="memItemLeft" align="right" valign="top">RequestCompleteDelegate&lt; UnityWebRequest &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#abfc5168444cad0b48cd2e01bf83dcc9e">_onComplete</a></td></tr>
 <tr class="separator:abfc5168444cad0b48cd2e01bf83dcc9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18022852dd8641581fc47d69749341e3"><td class="memItemLeft" align="right" valign="top"><a id="a18022852dd8641581fc47d69749341e3" name="a18022852dd8641581fc47d69749341e3"></a>
-<a class="el" href="class_meta_1_1_wit_ai_1_1_coroutine_utility_1_1_coroutine_performer.html">CoroutineUtility.CoroutinePerformer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_coroutine</b></td></tr>
+<tr class="memitem:a18022852dd8641581fc47d69749341e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_meta_1_1_wit_ai_1_1_coroutine_utility_1_1_coroutine_performer.html">CoroutineUtility.CoroutinePerformer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a18022852dd8641581fc47d69749341e3">_coroutine</a></td></tr>
 <tr class="separator:a18022852dd8641581fc47d69749341e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:a17103b56da7247f930391e29672b34a2"><td class="memItemLeft" align="right" valign="top"><a id="a17103b56da7247f930391e29672b34a2" name="a17103b56da7247f930391e29672b34a2"></a>
-static int&#160;</td><td class="memItemRight" valign="bottom"><b>MaxConcurrentRequests</b> = 2</td></tr>
-<tr class="memdesc:a17103b56da7247f930391e29672b34a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Will only start new requests if there are less than this number If &lt;= 0, then all requests will run immediately. <br /></td></tr>
+<tr class="memitem:a17103b56da7247f930391e29672b34a2"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a17103b56da7247f930391e29672b34a2">MaxConcurrentRequests</a> = 2</td></tr>
+<tr class="memdesc:a17103b56da7247f930391e29672b34a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Will only start new requests if there are less than this number If &lt;= 0, then all requests will run immediately.  <br /></td></tr>
 <tr class="separator:a17103b56da7247f930391e29672b34a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25454e078710b43968494bd46033c697"><td class="memItemLeft" align="right" valign="top"><a id="a25454e078710b43968494bd46033c697" name="a25454e078710b43968494bd46033c697"></a>
-static int&#160;</td><td class="memItemRight" valign="bottom"><b>_requestCount</b> = 0</td></tr>
+<tr class="memitem:a25454e078710b43968494bd46033c697"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#a25454e078710b43968494bd46033c697">_requestCount</a> = 0</td></tr>
 <tr class="separator:a25454e078710b43968494bd46033c697"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class for performing web requests using UnityWebRequest. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7aab4bf73bfe6d964121234950e12caa" name="a7aab4bf73bfe6d964121234950e12caa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7aab4bf73bfe6d964121234950e12caa">&#9670;&#160;</a></span>Begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Meta.WitAi.Requests.VRequest.Begin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a666b17dfb95c5e3e1cf6ecbb18ddc28f" name="a666b17dfb95c5e3e1cf6ecbb18ddc28f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a666b17dfb95c5e3e1cf6ecbb18ddc28f">&#9670;&#160;</a></span>Cancel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Meta.WitAi.Requests.VRequest.Cancel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af0bb24aeb83f5416db64eca7b515a444" name="af0bb24aeb83f5416db64eca7b515a444"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0bb24aeb83f5416db64eca7b515a444">&#9670;&#160;</a></span>CleanUrl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual string Meta.WitAi.Requests.VRequest.CleanUrl </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>url</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clean the url prior to use. </p>
+
+</div>
+</div>
+<a id="ab9639cc6993f3a7a328cdaca8ad31ff4" name="ab9639cc6993f3a7a328cdaca8ad31ff4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9639cc6993f3a7a328cdaca8ad31ff4">&#9670;&#160;</a></span>Complete()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Meta.WitAi.Requests.VRequest.Complete </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a10a7364881c131b1ada7a92b7f75126e" name="a10a7364881c131b1ada7a92b7f75126e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10a7364881c131b1ada7a92b7f75126e">&#9670;&#160;</a></span>GetHeaders()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Dictionary&lt; string, string &gt; Meta.WitAi.Requests.VRequest.GetHeaders </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_wit_v_request.html#a51d4e258902c5cdb082fbf1e3bdfdb4f">Meta.WitAi.Requests.WitVRequest</a>.</p>
+
+</div>
+</div>
+<a id="ace5b45d131b2483490f4c03675e617e2" name="ace5b45d131b2483490f4c03675e617e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace5b45d131b2483490f4c03675e617e2">&#9670;&#160;</a></span>PerformUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual IEnumerator Meta.WitAi.Requests.VRequest.PerformUpdate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6b793a8344a79d7ace3cd7413f3b870f" name="a6b793a8344a79d7ace3cd7413f3b870f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6b793a8344a79d7ace3cd7413f3b870f">&#9670;&#160;</a></span>Request()</h2>
 
@@ -251,7 +384,7 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>_requestCount</
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">RequestProgressDelegate&#160;</td>
+          <td class="paramtype"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#aee5698083204fe62c92db59a23699271">RequestProgressDelegate</a>&#160;</td>
           <td class="paramname"><em>onProgress</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -318,7 +451,7 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>_requestCount</
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">RequestProgressDelegate&#160;</td>
+          <td class="paramtype"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#aee5698083204fe62c92db59a23699271">RequestProgressDelegate</a>&#160;</td>
           <td class="paramname"><em>onProgress</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -384,7 +517,7 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>_requestCount</
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">RequestProgressDelegate&#160;</td>
+          <td class="paramtype"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#aee5698083204fe62c92db59a23699271">RequestProgressDelegate</a>&#160;</td>
           <td class="paramname"><em>onProgress</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -414,6 +547,34 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>_requestCount</
 
 </div>
 </div>
+<a id="a35598ba65072074093eb8200dbf7db6e" name="a35598ba65072074093eb8200dbf7db6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35598ba65072074093eb8200dbf7db6e">&#9670;&#160;</a></span>RequestCompleteDelegate&lt; TResult &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Meta.WitAi.Requests.VRequest.RequestCompleteDelegate&lt; TResult &gt; </td>
+          <td>(</td>
+          <td class="paramtype">TResult&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>error</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a92194bd9955303e5f24d7a3d897cd0bc" name="a92194bd9955303e5f24d7a3d897cd0bc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a92194bd9955303e5f24d7a3d897cd0bc">&#9670;&#160;</a></span>RequestFile()</h2>
 
@@ -438,7 +599,7 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>_requestCount</
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">RequestProgressDelegate&#160;</td>
+          <td class="paramtype"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#aee5698083204fe62c92db59a23699271">RequestProgressDelegate</a>&#160;</td>
           <td class="paramname"><em>onProgress</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -496,7 +657,7 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>_requestCount</
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">RequestProgressDelegate&#160;</td>
+          <td class="paramtype"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#aee5698083204fe62c92db59a23699271">RequestProgressDelegate</a>&#160;</td>
           <td class="paramname"><em>onProgress</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -639,7 +800,7 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>_requestCount</
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">RequestProgressDelegate&#160;</td>
+          <td class="paramtype"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#aee5698083204fe62c92db59a23699271">RequestProgressDelegate</a>&#160;</td>
           <td class="paramname"><em>onProgress</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -704,7 +865,7 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>_requestCount</
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">RequestProgressDelegate&#160;</td>
+          <td class="paramtype"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#aee5698083204fe62c92db59a23699271">RequestProgressDelegate</a>&#160;</td>
           <td class="paramname"><em>onProgress</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -764,7 +925,7 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>_requestCount</
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">RequestProgressDelegate&#160;</td>
+          <td class="paramtype"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#aee5698083204fe62c92db59a23699271">RequestProgressDelegate</a>&#160;</td>
           <td class="paramname"><em>onProgress</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -831,7 +992,7 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>_requestCount</
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">RequestProgressDelegate&#160;</td>
+          <td class="paramtype"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#aee5698083204fe62c92db59a23699271">RequestProgressDelegate</a>&#160;</td>
           <td class="paramname"><em>onProgress</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -867,6 +1028,24 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>_requestCount</
 
 </div>
 </div>
+<a id="aee5698083204fe62c92db59a23699271" name="aee5698083204fe62c92db59a23699271"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee5698083204fe62c92db59a23699271">&#9670;&#160;</a></span>RequestProgressDelegate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Meta.WitAi.Requests.VRequest.RequestProgressDelegate </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>progress</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab53dd836f27d7f2194a49fabe4f9c14c" name="ab53dd836f27d7f2194a49fabe4f9c14c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab53dd836f27d7f2194a49fabe4f9c14c">&#9670;&#160;</a></span>RequestText()</h2>
 
@@ -891,7 +1070,7 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>_requestCount</
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">RequestProgressDelegate&#160;</td>
+          <td class="paramtype"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#aee5698083204fe62c92db59a23699271">RequestProgressDelegate</a>&#160;</td>
           <td class="paramname"><em>onProgress</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -919,8 +1098,331 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>_requestCount</
 
 </div>
 </div>
+<a id="a59e0c368fdefbf4752d68bd7838ce5aa" name="a59e0c368fdefbf4752d68bd7838ce5aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59e0c368fdefbf4752d68bd7838ce5aa">&#9670;&#160;</a></span>Unload()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Meta.WitAi.Requests.VRequest.Unload </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a18022852dd8641581fc47d69749341e3" name="a18022852dd8641581fc47d69749341e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18022852dd8641581fc47d69749341e3">&#9670;&#160;</a></span>_coroutine</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_meta_1_1_wit_ai_1_1_coroutine_utility_1_1_coroutine_performer.html">CoroutineUtility.CoroutinePerformer</a> Meta.WitAi.Requests.VRequest._coroutine</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abfc5168444cad0b48cd2e01bf83dcc9e" name="abfc5168444cad0b48cd2e01bf83dcc9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfc5168444cad0b48cd2e01bf83dcc9e">&#9670;&#160;</a></span>_onComplete</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RequestCompleteDelegate&lt;UnityWebRequest&gt; Meta.WitAi.Requests.VRequest._onComplete</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6a183476e8b3db539c3051608b0d9a3e" name="a6a183476e8b3db539c3051608b0d9a3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a183476e8b3db539c3051608b0d9a3e">&#9670;&#160;</a></span>_onProgress</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_meta_1_1_wit_ai_1_1_requests_1_1_v_request.html#aee5698083204fe62c92db59a23699271">RequestProgressDelegate</a> Meta.WitAi.Requests.VRequest._onProgress</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7ab2af0283d72f0947fefdd1020123c2" name="a7ab2af0283d72f0947fefdd1020123c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ab2af0283d72f0947fefdd1020123c2">&#9670;&#160;</a></span>_performing</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Meta.WitAi.Requests.VRequest._performing = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afcddb72dee021ee1291db628b7f333ef" name="afcddb72dee021ee1291db628b7f333ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcddb72dee021ee1291db628b7f333ef">&#9670;&#160;</a></span>_progress</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Meta.WitAi.Requests.VRequest._progress</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac5bcad2d385e14f46b3b60635e398268" name="ac5bcad2d385e14f46b3b60635e398268"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5bcad2d385e14f46b3b60635e398268">&#9670;&#160;</a></span>_request</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UnityWebRequest Meta.WitAi.Requests.VRequest._request</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a25454e078710b43968494bd46033c697" name="a25454e078710b43968494bd46033c697"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25454e078710b43968494bd46033c697">&#9670;&#160;</a></span>_requestCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Meta.WitAi.Requests.VRequest._requestCount = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a11ca11bd35ba6ee7c08977da1df9ce4b" name="a11ca11bd35ba6ee7c08977da1df9ce4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11ca11bd35ba6ee7c08977da1df9ce4b">&#9670;&#160;</a></span>CANCEL_ERROR</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string Meta.WitAi.Requests.VRequest.CANCEL_ERROR = &quot;Cancelled&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a17103b56da7247f930391e29672b34a2" name="a17103b56da7247f930391e29672b34a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17103b56da7247f930391e29672b34a2">&#9670;&#160;</a></span>MaxConcurrentRequests</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Meta.WitAi.Requests.VRequest.MaxConcurrentRequests = 2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Will only start new requests if there are less than this number If &lt;= 0, then all requests will run immediately. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a825c1721606268b9fa4a5d3ce5cafbc5" name="a825c1721606268b9fa4a5d3ce5cafbc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a825c1721606268b9fa4a5d3ce5cafbc5">&#9670;&#160;</a></span>IsComplete</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Meta.WitAi.Requests.VRequest.IsComplete = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether or not the completion delegate has been called. </p>
+
+</div>
+</div>
+<a id="a54163301d18e7d1ec4ea95ea9a903c8f" name="a54163301d18e7d1ec4ea95ea9a903c8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54163301d18e7d1ec4ea95ea9a903c8f">&#9670;&#160;</a></span>IsPerforming</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Meta.WitAi.Requests.VRequest.IsPerforming</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If request is currently being performed. </p>
+
+</div>
+</div>
+<a id="afa5be35ea0b18e021c9aec44f8d8681a" name="afa5be35ea0b18e021c9aec44f8d8681a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa5be35ea0b18e021c9aec44f8d8681a">&#9670;&#160;</a></span>Progress</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Meta.WitAi.Requests.VRequest.Progress</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Current progress for get requests. </p>
+
+</div>
+</div>
+<a id="af6577b4d87342281a16d71b2bcdaa0cf" name="af6577b4d87342281a16d71b2bcdaa0cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6577b4d87342281a16d71b2bcdaa0cf">&#9670;&#160;</a></span>Timeout</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Meta.WitAi.Requests.VRequest.Timeout = 5</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Timeout in seconds. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Oculus/Voice/Lib/Wit.ai/Lib/Wit/Runtime/Requests/VRequest.cs</li>
+<li>Assets/Oculus/Voice/Lib/Wit.ai/Lib/Wit/Runtime/Requests/<a class="el" href="_v_request_8cs.html">VRequest.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

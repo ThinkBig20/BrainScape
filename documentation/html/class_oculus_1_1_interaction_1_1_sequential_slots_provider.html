@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: Oculus.Interaction.SequentialSlotsProvider Class Reference</title>
+<title>BrainScape: Oculus.Interaction.SequentialSlotsProvider Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">BrainScape
    </div>
   </td>
  </tr>
@@ -116,11 +116,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aca1b36cad28e35042f4480f142cb762f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_sequential_slots_provider.html#aca1b36cad28e35042f4480f142cb762f">SnapPoseForElement</a> (int id, Pose pose, out Pose result)</td></tr>
 <tr class="memdesc:aca1b36cad28e35042f4480f142cb762f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The target snap pose for a queried element id.  <br /></td></tr>
 <tr class="separator:aca1b36cad28e35042f4480f142cb762f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cbb31368e8a6de0081312e914a2803f"><td class="memItemLeft" align="right" valign="top"><a id="a8cbb31368e8a6de0081312e914a2803f" name="a8cbb31368e8a6de0081312e914a2803f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>InjectAllSequentialSlotsProvider</b> (List&lt; Transform &gt; slots)</td></tr>
+<tr class="memitem:a8cbb31368e8a6de0081312e914a2803f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_sequential_slots_provider.html#a8cbb31368e8a6de0081312e914a2803f">InjectAllSequentialSlotsProvider</a> (List&lt; Transform &gt; slots)</td></tr>
 <tr class="separator:a8cbb31368e8a6de0081312e914a2803f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28e6d7382266aa2c45fffb9984f6f857"><td class="memItemLeft" align="right" valign="top"><a id="a28e6d7382266aa2c45fffb9984f6f857" name="a28e6d7382266aa2c45fffb9984f6f857"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>InjectSlots</b> (List&lt; Transform &gt; slots)</td></tr>
+<tr class="memitem:a28e6d7382266aa2c45fffb9984f6f857"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_sequential_slots_provider.html#a28e6d7382266aa2c45fffb9984f6f857">InjectSlots</a> (List&lt; Transform &gt; slots)</td></tr>
 <tr class="separator:a28e6d7382266aa2c45fffb9984f6f857"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad652a0bf310aef43a9eedf8c8d97c379"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_oculus_1_1_interaction_1_1_i_snap_pose_delegate.html#ad652a0bf310aef43a9eedf8c8d97c379">TrackElement</a> (int id, Pose p)</td></tr>
 <tr class="memdesc:ad652a0bf310aef43a9eedf8c8d97c379"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates that a new element is tracking.  <br /></td></tr>
@@ -143,49 +141,153 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>InjectSlots</b> (List
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a4c993b754a1670c9190c75d1ba6072ed"><td class="memItemLeft" align="right" valign="top"><a id="a4c993b754a1670c9190c75d1ba6072ed" name="a4c993b754a1670c9190c75d1ba6072ed"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
+<tr class="memitem:a4c993b754a1670c9190c75d1ba6072ed"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_sequential_slots_provider.html#a4c993b754a1670c9190c75d1ba6072ed">Start</a> ()</td></tr>
 <tr class="separator:a4c993b754a1670c9190c75d1ba6072ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:aa08666a3e42c25c4afca13220ca215c5"><td class="memItemLeft" align="right" valign="top"><a id="aa08666a3e42c25c4afca13220ca215c5" name="aa08666a3e42c25c4afca13220ca215c5"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_started</b></td></tr>
+<tr class="memitem:aa08666a3e42c25c4afca13220ca215c5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_sequential_slots_provider.html#aa08666a3e42c25c4afca13220ca215c5">_started</a></td></tr>
 <tr class="separator:aa08666a3e42c25c4afca13220ca215c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a662b8241e44e0566e5cfd9f2ad8a6e9f"><td class="memItemLeft" align="right" valign="top"><a id="a662b8241e44e0566e5cfd9f2ad8a6e9f" name="a662b8241e44e0566e5cfd9f2ad8a6e9f"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>TryFindIndexForInteractor</b> (int id, out int index)</td></tr>
+<tr class="memitem:a662b8241e44e0566e5cfd9f2ad8a6e9f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_sequential_slots_provider.html#a662b8241e44e0566e5cfd9f2ad8a6e9f">TryFindIndexForInteractor</a> (int id, out int index)</td></tr>
 <tr class="separator:a662b8241e44e0566e5cfd9f2ad8a6e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6737928582066970196a2bc64c5f030a"><td class="memItemLeft" align="right" valign="top"><a id="a6737928582066970196a2bc64c5f030a" name="a6737928582066970196a2bc64c5f030a"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>TryOccupySlot</b> (int index)</td></tr>
+<tr class="memitem:a6737928582066970196a2bc64c5f030a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_sequential_slots_provider.html#a6737928582066970196a2bc64c5f030a">TryOccupySlot</a> (int index)</td></tr>
 <tr class="separator:a6737928582066970196a2bc64c5f030a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad027ae3f91454b33ea05557c6039965f"><td class="memItemLeft" align="right" valign="top"><a id="ad027ae3f91454b33ea05557c6039965f" name="ad027ae3f91454b33ea05557c6039965f"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsSlotFree</b> (int index)</td></tr>
+<tr class="memitem:ad027ae3f91454b33ea05557c6039965f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_sequential_slots_provider.html#ad027ae3f91454b33ea05557c6039965f">IsSlotFree</a> (int index)</td></tr>
 <tr class="separator:ad027ae3f91454b33ea05557c6039965f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4510b0f4282bae5f5f7050203a7b8906"><td class="memItemLeft" align="right" valign="top"><a id="a4510b0f4282bae5f5f7050203a7b8906" name="a4510b0f4282bae5f5f7050203a7b8906"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>FindBestSlotIndex</b> (in Vector3 target, bool freeOnly=false)</td></tr>
+<tr class="memitem:a4510b0f4282bae5f5f7050203a7b8906"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_sequential_slots_provider.html#a4510b0f4282bae5f5f7050203a7b8906">FindBestSlotIndex</a> (in <a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a> target, bool freeOnly=false)</td></tr>
 <tr class="separator:a4510b0f4282bae5f5f7050203a7b8906"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecd3771e0b9f1e40e9de54844030f12c"><td class="memItemLeft" align="right" valign="top"><a id="aecd3771e0b9f1e40e9de54844030f12c" name="aecd3771e0b9f1e40e9de54844030f12c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>PushSlots</b> (int index, int freeSlot)</td></tr>
+<tr class="memitem:aecd3771e0b9f1e40e9de54844030f12c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_sequential_slots_provider.html#aecd3771e0b9f1e40e9de54844030f12c">PushSlots</a> (int index, int freeSlot)</td></tr>
 <tr class="separator:aecd3771e0b9f1e40e9de54844030f12c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9267396c89650e4649edb50b3616b7a"><td class="memItemLeft" align="right" valign="top"><a id="ab9267396c89650e4649edb50b3616b7a" name="ab9267396c89650e4649edb50b3616b7a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SwapSlot</b> (int index, int freeSlot)</td></tr>
+<tr class="memitem:ab9267396c89650e4649edb50b3616b7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_sequential_slots_provider.html#ab9267396c89650e4649edb50b3616b7a">SwapSlot</a> (int index, int freeSlot)</td></tr>
 <tr class="separator:ab9267396c89650e4649edb50b3616b7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ac0f6033c2e786d9d9917ee50808633ee"><td class="memItemLeft" align="right" valign="top"><a id="ac0f6033c2e786d9d9917ee50808633ee" name="ac0f6033c2e786d9d9917ee50808633ee"></a>
-List&lt; Transform &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_slots</b></td></tr>
+<tr class="memitem:ac0f6033c2e786d9d9917ee50808633ee"><td class="memItemLeft" align="right" valign="top">List&lt; Transform &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_sequential_slots_provider.html#ac0f6033c2e786d9d9917ee50808633ee">_slots</a></td></tr>
 <tr class="separator:ac0f6033c2e786d9d9917ee50808633ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a443a769d2e95b7f48e784898778f1a26"><td class="memItemLeft" align="right" valign="top"><a id="a443a769d2e95b7f48e784898778f1a26" name="a443a769d2e95b7f48e784898778f1a26"></a>
-int[]&#160;</td><td class="memItemRight" valign="bottom"><b>_slotInteractors</b></td></tr>
+<tr class="memitem:a443a769d2e95b7f48e784898778f1a26"><td class="memItemLeft" align="right" valign="top">int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_sequential_slots_provider.html#a443a769d2e95b7f48e784898778f1a26">_slotInteractors</a></td></tr>
 <tr class="separator:a443a769d2e95b7f48e784898778f1a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This ISnapSlotsProvider uses a ordered list of individual Slots and will push the elements back or forth to make room for the new element. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a4510b0f4282bae5f5f7050203a7b8906" name="a4510b0f4282bae5f5f7050203a7b8906"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4510b0f4282bae5f5f7050203a7b8906">&#9670;&#160;</a></span>FindBestSlotIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Oculus.Interaction.SequentialSlotsProvider.FindBestSlotIndex </td>
+          <td>(</td>
+          <td class="paramtype">in <a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a>&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>freeOnly</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8cbb31368e8a6de0081312e914a2803f" name="a8cbb31368e8a6de0081312e914a2803f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cbb31368e8a6de0081312e914a2803f">&#9670;&#160;</a></span>InjectAllSequentialSlotsProvider()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Interaction.SequentialSlotsProvider.InjectAllSequentialSlotsProvider </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; Transform &gt;&#160;</td>
+          <td class="paramname"><em>slots</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a28e6d7382266aa2c45fffb9984f6f857" name="a28e6d7382266aa2c45fffb9984f6f857"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28e6d7382266aa2c45fffb9984f6f857">&#9670;&#160;</a></span>InjectSlots()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Interaction.SequentialSlotsProvider.InjectSlots </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; Transform &gt;&#160;</td>
+          <td class="paramname"><em>slots</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad027ae3f91454b33ea05557c6039965f" name="ad027ae3f91454b33ea05557c6039965f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad027ae3f91454b33ea05557c6039965f">&#9670;&#160;</a></span>IsSlotFree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Oculus.Interaction.SequentialSlotsProvider.IsSlotFree </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac0f3c380bea71a897a1e7c29adab8ab6" name="ac0f3c380bea71a897a1e7c29adab8ab6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac0f3c380bea71a897a1e7c29adab8ab6">&#9670;&#160;</a></span>MoveTrackedElement()</h2>
 
@@ -230,6 +332,42 @@ int[]&#160;</td><td class="memItemRight" valign="bottom"><b>_slotInteractors</b>
 </dl>
 
 <p>Implements <a class="el" href="interface_oculus_1_1_interaction_1_1_i_snap_pose_delegate.html#a1ed4df90b4c9f01d7434b4d2c609d265">Oculus.Interaction.ISnapPoseDelegate</a>.</p>
+
+</div>
+</div>
+<a id="aecd3771e0b9f1e40e9de54844030f12c" name="aecd3771e0b9f1e40e9de54844030f12c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecd3771e0b9f1e40e9de54844030f12c">&#9670;&#160;</a></span>PushSlots()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Interaction.SequentialSlotsProvider.PushSlots </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>freeSlot</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -334,6 +472,67 @@ int[]&#160;</td><td class="memItemRight" valign="bottom"><b>_slotInteractors</b>
 
 </div>
 </div>
+<a id="a4c993b754a1670c9190c75d1ba6072ed" name="a4c993b754a1670c9190c75d1ba6072ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c993b754a1670c9190c75d1ba6072ed">&#9670;&#160;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Oculus.Interaction.SequentialSlotsProvider.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab9267396c89650e4649edb50b3616b7a" name="ab9267396c89650e4649edb50b3616b7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9267396c89650e4649edb50b3616b7a">&#9670;&#160;</a></span>SwapSlot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Interaction.SequentialSlotsProvider.SwapSlot </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>freeSlot</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa744fd8a0c6ec7698dbe9b56844c221e" name="aa744fd8a0c6ec7698dbe9b56844c221e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa744fd8a0c6ec7698dbe9b56844c221e">&#9670;&#160;</a></span>TrackElement()</h2>
 
@@ -378,6 +577,68 @@ int[]&#160;</td><td class="memItemRight" valign="bottom"><b>_slotInteractors</b>
 </dl>
 
 <p>Implements <a class="el" href="interface_oculus_1_1_interaction_1_1_i_snap_pose_delegate.html#ad652a0bf310aef43a9eedf8c8d97c379">Oculus.Interaction.ISnapPoseDelegate</a>.</p>
+
+</div>
+</div>
+<a id="a662b8241e44e0566e5cfd9f2ad8a6e9f" name="a662b8241e44e0566e5cfd9f2ad8a6e9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a662b8241e44e0566e5cfd9f2ad8a6e9f">&#9670;&#160;</a></span>TryFindIndexForInteractor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Oculus.Interaction.SequentialSlotsProvider.TryFindIndexForInteractor </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out int&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6737928582066970196a2bc64c5f030a" name="a6737928582066970196a2bc64c5f030a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6737928582066970196a2bc64c5f030a">&#9670;&#160;</a></span>TryOccupySlot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Oculus.Interaction.SequentialSlotsProvider.TryOccupySlot </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -453,8 +714,75 @@ int[]&#160;</td><td class="memItemRight" valign="bottom"><b>_slotInteractors</b>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a443a769d2e95b7f48e784898778f1a26" name="a443a769d2e95b7f48e784898778f1a26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a443a769d2e95b7f48e784898778f1a26">&#9670;&#160;</a></span>_slotInteractors</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int [] Oculus.Interaction.SequentialSlotsProvider._slotInteractors</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac0f6033c2e786d9d9917ee50808633ee" name="ac0f6033c2e786d9d9917ee50808633ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0f6033c2e786d9d9917ee50808633ee">&#9670;&#160;</a></span>_slots</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;Transform&gt; Oculus.Interaction.SequentialSlotsProvider._slots</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa08666a3e42c25c4afca13220ca215c5" name="aa08666a3e42c25c4afca13220ca215c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa08666a3e42c25c4afca13220ca215c5">&#9670;&#160;</a></span>_started</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Oculus.Interaction.SequentialSlotsProvider._started</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/Snap/SequentialSlotsProvider.cs</li>
+<li>Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/Snap/<a class="el" href="_sequential_slots_provider_8cs.html">SequentialSlotsProvider.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

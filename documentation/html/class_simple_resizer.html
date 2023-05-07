@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: SimpleResizer Class Reference</title>
+<title>BrainScape: SimpleResizer Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">BrainScape
    </div>
   </td>
  </tr>
@@ -79,21 +79,163 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad4281b5ffa61c1e9448020a2c60d200d"><td class="memItemLeft" align="right" valign="top"><a id="ad4281b5ffa61c1e9448020a2c60d200d" name="ad4281b5ffa61c1e9448020a2c60d200d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>CreateResizedObject</b> (Vector3 newSize, GameObject parent, <a class="el" href="class_simple_resizable.html">SimpleResizable</a> sourcePrefab)</td></tr>
+<tr class="memitem:ad4281b5ffa61c1e9448020a2c60d200d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simple_resizer.html#ad4281b5ffa61c1e9448020a2c60d200d">CreateResizedObject</a> (<a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a> newSize, GameObject parent, <a class="el" href="class_simple_resizable.html">SimpleResizable</a> sourcePrefab)</td></tr>
 <tr class="separator:ad4281b5ffa61c1e9448020a2c60d200d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:ac36ed3e5eb714ee76fc0b3ea1fddd614"><td class="memItemLeft" align="right" valign="top"><a id="ac36ed3e5eb714ee76fc0b3ea1fddd614" name="ac36ed3e5eb714ee76fc0b3ea1fddd614"></a>
-Mesh&#160;</td><td class="memItemRight" valign="bottom"><b>ProcessVertices</b> (<a class="el" href="class_simple_resizable.html">SimpleResizable</a> resizable, Vector3 newSize)</td></tr>
+<tr class="memitem:ac36ed3e5eb714ee76fc0b3ea1fddd614"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#a90ebeffb103e2f718410c3a7eb2c948d">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simple_resizer.html#ac36ed3e5eb714ee76fc0b3ea1fddd614">ProcessVertices</a> (<a class="el" href="class_simple_resizable.html">SimpleResizable</a> resizable, <a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a> newSize)</td></tr>
 <tr class="separator:ac36ed3e5eb714ee76fc0b3ea1fddd614"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad529ef5b0f89c69b1cdfac0b7335fb0"><td class="memItemLeft" align="right" valign="top"><a id="aad529ef5b0f89c69b1cdfac0b7335fb0" name="aad529ef5b0f89c69b1cdfac0b7335fb0"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>CalculateNewVertexPosition</b> (SimpleResizable.Method resizeMethod, float currentPosition, float currentSize, float newSize, float padding, float paddingMax, float pivot)</td></tr>
+<tr class="memitem:aad529ef5b0f89c69b1cdfac0b7335fb0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simple_resizer.html#aad529ef5b0f89c69b1cdfac0b7335fb0">CalculateNewVertexPosition</a> (<a class="el" href="class_simple_resizable.html#a3bb37d43d18a6df779a46bea5ea64e74">SimpleResizable.Method</a> resizeMethod, float currentPosition, float currentSize, float newSize, float padding, float paddingMax, float pivot)</td></tr>
 <tr class="separator:aad529ef5b0f89c69b1cdfac0b7335fb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="aad529ef5b0f89c69b1cdfac0b7335fb0" name="aad529ef5b0f89c69b1cdfac0b7335fb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad529ef5b0f89c69b1cdfac0b7335fb0">&#9670;&#160;</a></span>CalculateNewVertexPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SimpleResizer.CalculateNewVertexPosition </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_simple_resizable.html#a3bb37d43d18a6df779a46bea5ea64e74">SimpleResizable::Method</a>&#160;</td>
+          <td class="paramname"><em>resizeMethod</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>currentPosition</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>currentSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>newSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>padding</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>paddingMax</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>pivot</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad4281b5ffa61c1e9448020a2c60d200d" name="ad4281b5ffa61c1e9448020a2c60d200d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4281b5ffa61c1e9448020a2c60d200d">&#9670;&#160;</a></span>CreateResizedObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SimpleResizer.CreateResizedObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a>&#160;</td>
+          <td class="paramname"><em>newSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GameObject&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_simple_resizable.html">SimpleResizable</a>&#160;</td>
+          <td class="paramname"><em>sourcePrefab</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac36ed3e5eb714ee76fc0b3ea1fddd614" name="ac36ed3e5eb714ee76fc0b3ea1fddd614"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac36ed3e5eb714ee76fc0b3ea1fddd614">&#9670;&#160;</a></span>ProcessVertices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#a90ebeffb103e2f718410c3a7eb2c948d">Mesh</a> SimpleResizer.ProcessVertices </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_simple_resizable.html">SimpleResizable</a>&#160;</td>
+          <td class="paramname"><em>resizable</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a>&#160;</td>
+          <td class="paramname"><em>newSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Oculus/SampleFramework/Usage/SceneManager/Scripts/SimpleResizer/SimpleResizer.cs</li>
+<li>Assets/Oculus/SampleFramework/Usage/SceneManager/Scripts/SimpleResizer/<a class="el" href="_simple_resizer_8cs.html">SimpleResizer.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

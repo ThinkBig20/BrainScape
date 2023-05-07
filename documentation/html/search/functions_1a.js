@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['_7eabusereportoptions_0',['~AbuseReportOptions',['../class_oculus_1_1_platform_1_1_abuse_report_options.html#a661932ae790a3ac2923387921435c289',1,'Oculus::Platform::AbuseReportOptions']]],
+  ['_7eadvancedabusereportoptions_1',['~AdvancedAbuseReportOptions',['../class_oculus_1_1_platform_1_1_advanced_abuse_report_options.html#aea1d1644aff8d291ad9a2fbf0576087f',1,'Oculus::Platform::AdvancedAbuseReportOptions']]],
+  ['_7eapplicationoptions_2',['~ApplicationOptions',['../class_oculus_1_1_platform_1_1_application_options.html#a787602983c9721f24e7d73e2981e094d',1,'Oculus::Platform::ApplicationOptions']]],
+  ['_7eavatareditoroptions_3',['~AvatarEditorOptions',['../class_oculus_1_1_platform_1_1_avatar_editor_options.html#a5388341f44d65b060b6dbdf0d3e03618',1,'Oculus::Platform::AvatarEditorOptions']]],
+  ['_7echallengeoptions_4',['~ChallengeOptions',['../class_oculus_1_1_platform_1_1_challenge_options.html#a60c7556d8dad3085014cb07056d6ae3a',1,'Oculus::Platform::ChallengeOptions']]],
+  ['_7egrouppresenceoptions_5',['~GroupPresenceOptions',['../class_oculus_1_1_platform_1_1_group_presence_options.html#a3dfb4c34c1490aa8ab490afae17840e8',1,'Oculus::Platform::GroupPresenceOptions']]],
+  ['_7einviteoptions_6',['~InviteOptions',['../class_oculus_1_1_platform_1_1_invite_options.html#a574b9b5391dd1a4ee03411331f8b692d',1,'Oculus::Platform::InviteOptions']]],
+  ['_7ematchmakingoptions_7',['~MatchmakingOptions',['../class_oculus_1_1_platform_1_1_matchmaking_options.html#a34316e121ef06d55686a84b355df87f1',1,'Oculus::Platform::MatchmakingOptions']]],
+  ['_7emessage_8',['~Message',['../class_oculus_1_1_platform_1_1_message.html#af5d3775f778de5b2e004b1eadb3f0969',1,'Oculus::Platform::Message']]],
+  ['_7emultiplayererroroptions_9',['~MultiplayerErrorOptions',['../class_oculus_1_1_platform_1_1_multiplayer_error_options.html#a60dfdb6380f5a4a380e26fc859f76272',1,'Oculus::Platform::MultiplayerErrorOptions']]],
+  ['_7enetsyncoptions_10',['~NetSyncOptions',['../class_oculus_1_1_platform_1_1_net_sync_options.html#a03673c1fd9183094fecb4afe43555981',1,'Oculus::Platform::NetSyncOptions']]],
+  ['_7eovrnativebuffer_11',['~OVRNativeBuffer',['../class_o_v_r_native_buffer.html#a582a507cb14caa7f9ae2abc53dbd6cc2',1,'OVRNativeBuffer']]],
+  ['_7epacket_12',['~Packet',['../class_oculus_1_1_platform_1_1_packet.html#ad43947bf90f90f9dea956e57f5be5dea',1,'Oculus::Platform::Packet']]],
+  ['_7erichpresenceoptions_13',['~RichPresenceOptions',['../class_oculus_1_1_platform_1_1_rich_presence_options.html#a94cefd0c369673f373e34fdd6344be92',1,'Oculus::Platform::RichPresenceOptions']]],
+  ['_7eroomoptions_14',['~RoomOptions',['../class_oculus_1_1_platform_1_1_room_options.html#af497829d61280a4e1c692556baf89340',1,'Oculus::Platform::RoomOptions']]],
+  ['_7erosteroptions_15',['~RosterOptions',['../class_oculus_1_1_platform_1_1_roster_options.html#af71867b386536fe7d18832686d1fa7f3',1,'Oculus::Platform::RosterOptions']]],
+  ['_7euseroptions_16',['~UserOptions',['../class_oculus_1_1_platform_1_1_user_options.html#a227a7ad6ce05f4297b823a7e7e5ca9e8',1,'Oculus::Platform::UserOptions']]],
+  ['_7evoipoptions_17',['~VoipOptions',['../class_oculus_1_1_platform_1_1_voip_options.html#acd6a6a59b65ce11adca0ac8800d27435',1,'Oculus::Platform::VoipOptions']]]
+];

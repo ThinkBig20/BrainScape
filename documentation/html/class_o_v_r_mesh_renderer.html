@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: OVRMeshRenderer Class Reference</title>
+<title>BrainScape: OVRMeshRenderer Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">BrainScape
    </div>
   </td>
  </tr>
@@ -95,77 +95,489 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ac109e8aa2a3472f07c735c9b235f5a66"><td class="memItemLeft" align="right" valign="top"><a id="ac109e8aa2a3472f07c735c9b235f5a66" name="ac109e8aa2a3472f07c735c9b235f5a66"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>ConfidenceBehavior</b> { <b>None</b>
-, <b>ToggleRenderer</b>
+<tr class="memitem:ac109e8aa2a3472f07c735c9b235f5a66"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_mesh_renderer.html#ac109e8aa2a3472f07c735c9b235f5a66">ConfidenceBehavior</a> { <a class="el" href="class_o_v_r_mesh_renderer.html#ac109e8aa2a3472f07c735c9b235f5a66a6adf97f83acf6453d4a6a4b1070f3754">None</a>
+, <a class="el" href="class_o_v_r_mesh_renderer.html#ac109e8aa2a3472f07c735c9b235f5a66a2b3de88bf3331f7193fa998c16f02f65">ToggleRenderer</a>
  }</td></tr>
 <tr class="separator:ac109e8aa2a3472f07c735c9b235f5a66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ee827c19c0dc23d8d8344f076bee5d6"><td class="memItemLeft" align="right" valign="top"><a id="a9ee827c19c0dc23d8d8344f076bee5d6" name="a9ee827c19c0dc23d8d8344f076bee5d6"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>SystemGestureBehavior</b> { <b>None</b>
-, <b>SwapMaterial</b>
+<tr class="memitem:a9ee827c19c0dc23d8d8344f076bee5d6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_mesh_renderer.html#a9ee827c19c0dc23d8d8344f076bee5d6">SystemGestureBehavior</a> { <a class="el" href="class_o_v_r_mesh_renderer.html#a9ee827c19c0dc23d8d8344f076bee5d6a6adf97f83acf6453d4a6a4b1070f3754">None</a>
+, <a class="el" href="class_o_v_r_mesh_renderer.html#a9ee827c19c0dc23d8d8344f076bee5d6a7bf0057cb9ac93a0ba82b2e99f328fc3">SwapMaterial</a>
  }</td></tr>
 <tr class="separator:a9ee827c19c0dc23d8d8344f076bee5d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a9434cb22e0862dedf24831142b80f466"><td class="memItemLeft" align="right" valign="top"><a id="a9434cb22e0862dedf24831142b80f466" name="a9434cb22e0862dedf24831142b80f466"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsInitialized</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:a9434cb22e0862dedf24831142b80f466"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_mesh_renderer.html#a9434cb22e0862dedf24831142b80f466">IsInitialized</a><code> [get, private set]</code></td></tr>
 <tr class="separator:a9434cb22e0862dedf24831142b80f466"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42871ee0b115024fe8947af264c6ad47"><td class="memItemLeft" align="right" valign="top"><a id="a42871ee0b115024fe8947af264c6ad47" name="a42871ee0b115024fe8947af264c6ad47"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsDataValid</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:a42871ee0b115024fe8947af264c6ad47"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_mesh_renderer.html#a42871ee0b115024fe8947af264c6ad47">IsDataValid</a><code> [get, private set]</code></td></tr>
 <tr class="separator:a42871ee0b115024fe8947af264c6ad47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7283754c6779100e3a94f5e239dd2954"><td class="memItemLeft" align="right" valign="top"><a id="a7283754c6779100e3a94f5e239dd2954" name="a7283754c6779100e3a94f5e239dd2954"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsDataHighConfidence</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:a7283754c6779100e3a94f5e239dd2954"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_mesh_renderer.html#a7283754c6779100e3a94f5e239dd2954">IsDataHighConfidence</a><code> [get, private set]</code></td></tr>
 <tr class="separator:a7283754c6779100e3a94f5e239dd2954"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa86e5e5563b5314d3c2965a2f40710e8"><td class="memItemLeft" align="right" valign="top"><a id="aa86e5e5563b5314d3c2965a2f40710e8" name="aa86e5e5563b5314d3c2965a2f40710e8"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>ShouldUseSystemGestureMaterial</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:aa86e5e5563b5314d3c2965a2f40710e8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_mesh_renderer.html#aa86e5e5563b5314d3c2965a2f40710e8">ShouldUseSystemGestureMaterial</a><code> [get, private set]</code></td></tr>
 <tr class="separator:aa86e5e5563b5314d3c2965a2f40710e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:ac9cb43642d9e7fcf2671561cad1f0fed"><td class="memItemLeft" align="right" valign="top"><a id="ac9cb43642d9e7fcf2671561cad1f0fed" name="ac9cb43642d9e7fcf2671561cad1f0fed"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
+<tr class="memitem:ac9cb43642d9e7fcf2671561cad1f0fed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_mesh_renderer.html#ac9cb43642d9e7fcf2671561cad1f0fed">Awake</a> ()</td></tr>
 <tr class="separator:ac9cb43642d9e7fcf2671561cad1f0fed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cc51bf4d6b55800c3ec135b95f46215"><td class="memItemLeft" align="right" valign="top"><a id="a0cc51bf4d6b55800c3ec135b95f46215" name="a0cc51bf4d6b55800c3ec135b95f46215"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
+<tr class="memitem:a0cc51bf4d6b55800c3ec135b95f46215"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_mesh_renderer.html#a0cc51bf4d6b55800c3ec135b95f46215">Start</a> ()</td></tr>
 <tr class="separator:a0cc51bf4d6b55800c3ec135b95f46215"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada5736c5d770c11e3e7d1d12316a851b"><td class="memItemLeft" align="right" valign="top"><a id="ada5736c5d770c11e3e7d1d12316a851b" name="ada5736c5d770c11e3e7d1d12316a851b"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>ShouldInitialize</b> ()</td></tr>
+<tr class="memitem:ada5736c5d770c11e3e7d1d12316a851b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_mesh_renderer.html#ada5736c5d770c11e3e7d1d12316a851b">ShouldInitialize</a> ()</td></tr>
 <tr class="separator:ada5736c5d770c11e3e7d1d12316a851b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d90fa8dd62e3257bfb063d8cb952d8d"><td class="memItemLeft" align="right" valign="top"><a id="a2d90fa8dd62e3257bfb063d8cb952d8d" name="a2d90fa8dd62e3257bfb063d8cb952d8d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Initialize</b> ()</td></tr>
+<tr class="memitem:a2d90fa8dd62e3257bfb063d8cb952d8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_mesh_renderer.html#a2d90fa8dd62e3257bfb063d8cb952d8d">Initialize</a> ()</td></tr>
 <tr class="separator:a2d90fa8dd62e3257bfb063d8cb952d8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1310b1c882509f76b22a77cf3c7dfd13"><td class="memItemLeft" align="right" valign="top"><a id="a1310b1c882509f76b22a77cf3c7dfd13" name="a1310b1c882509f76b22a77cf3c7dfd13"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
+<tr class="memitem:a1310b1c882509f76b22a77cf3c7dfd13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_mesh_renderer.html#a1310b1c882509f76b22a77cf3c7dfd13">Update</a> ()</td></tr>
 <tr class="separator:a1310b1c882509f76b22a77cf3c7dfd13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ac020de199b8319884d59752ec10e7ed2"><td class="memItemLeft" align="right" valign="top"><a id="ac020de199b8319884d59752ec10e7ed2" name="ac020de199b8319884d59752ec10e7ed2"></a>
-<a class="el" href="interface_o_v_r_mesh_renderer_1_1_i_o_v_r_mesh_renderer_data_provider.html">IOVRMeshRendererDataProvider</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_dataProvider</b></td></tr>
+<tr class="memitem:ac020de199b8319884d59752ec10e7ed2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_o_v_r_mesh_renderer_1_1_i_o_v_r_mesh_renderer_data_provider.html">IOVRMeshRendererDataProvider</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_mesh_renderer.html#ac020de199b8319884d59752ec10e7ed2">_dataProvider</a></td></tr>
 <tr class="separator:ac020de199b8319884d59752ec10e7ed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45a38b88a66ee0ccb62a28616889070e"><td class="memItemLeft" align="right" valign="top"><a id="a45a38b88a66ee0ccb62a28616889070e" name="a45a38b88a66ee0ccb62a28616889070e"></a>
-<a class="el" href="class_o_v_r_mesh.html">OVRMesh</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_ovrMesh</b></td></tr>
+<tr class="memitem:a45a38b88a66ee0ccb62a28616889070e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_mesh.html">OVRMesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_mesh_renderer.html#a45a38b88a66ee0ccb62a28616889070e">_ovrMesh</a></td></tr>
 <tr class="separator:a45a38b88a66ee0ccb62a28616889070e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73124d81274d440f25c0ac02cd995e3a"><td class="memItemLeft" align="right" valign="top"><a id="a73124d81274d440f25c0ac02cd995e3a" name="a73124d81274d440f25c0ac02cd995e3a"></a>
-<a class="el" href="class_o_v_r_skeleton.html">OVRSkeleton</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_ovrSkeleton</b></td></tr>
+<tr class="memitem:a73124d81274d440f25c0ac02cd995e3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_skeleton.html">OVRSkeleton</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_mesh_renderer.html#a73124d81274d440f25c0ac02cd995e3a">_ovrSkeleton</a></td></tr>
 <tr class="separator:a73124d81274d440f25c0ac02cd995e3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92523b60807a2ad106e7527842b8b9a4"><td class="memItemLeft" align="right" valign="top"><a id="a92523b60807a2ad106e7527842b8b9a4" name="a92523b60807a2ad106e7527842b8b9a4"></a>
-ConfidenceBehavior&#160;</td><td class="memItemRight" valign="bottom"><b>_confidenceBehavior</b> = ConfidenceBehavior.ToggleRenderer</td></tr>
+<tr class="memitem:a92523b60807a2ad106e7527842b8b9a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_mesh_renderer.html#ac109e8aa2a3472f07c735c9b235f5a66">ConfidenceBehavior</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_mesh_renderer.html#a92523b60807a2ad106e7527842b8b9a4">_confidenceBehavior</a> = <a class="el" href="class_o_v_r_mesh_renderer.html#ac109e8aa2a3472f07c735c9b235f5a66a2b3de88bf3331f7193fa998c16f02f65">ConfidenceBehavior.ToggleRenderer</a></td></tr>
 <tr class="separator:a92523b60807a2ad106e7527842b8b9a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afaff1c40eb8ec448b067a24af717d9c5"><td class="memItemLeft" align="right" valign="top"><a id="afaff1c40eb8ec448b067a24af717d9c5" name="afaff1c40eb8ec448b067a24af717d9c5"></a>
-SystemGestureBehavior&#160;</td><td class="memItemRight" valign="bottom"><b>_systemGestureBehavior</b> = SystemGestureBehavior.SwapMaterial</td></tr>
+<tr class="memitem:afaff1c40eb8ec448b067a24af717d9c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_mesh_renderer.html#a9ee827c19c0dc23d8d8344f076bee5d6">SystemGestureBehavior</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_mesh_renderer.html#afaff1c40eb8ec448b067a24af717d9c5">_systemGestureBehavior</a> = <a class="el" href="class_o_v_r_mesh_renderer.html#a9ee827c19c0dc23d8d8344f076bee5d6a7bf0057cb9ac93a0ba82b2e99f328fc3">SystemGestureBehavior.SwapMaterial</a></td></tr>
 <tr class="separator:afaff1c40eb8ec448b067a24af717d9c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6eff166c9a7f4ac821607d55e6cb271f"><td class="memItemLeft" align="right" valign="top"><a id="a6eff166c9a7f4ac821607d55e6cb271f" name="a6eff166c9a7f4ac821607d55e6cb271f"></a>
-Material&#160;</td><td class="memItemRight" valign="bottom"><b>_systemGestureMaterial</b> = null</td></tr>
+<tr class="memitem:a6eff166c9a7f4ac821607d55e6cb271f"><td class="memItemLeft" align="right" valign="top">Material&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_mesh_renderer.html#a6eff166c9a7f4ac821607d55e6cb271f">_systemGestureMaterial</a> = null</td></tr>
 <tr class="separator:a6eff166c9a7f4ac821607d55e6cb271f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81661c9be2ed74a864fed4a4f12f3751"><td class="memItemLeft" align="right" valign="top"><a id="a81661c9be2ed74a864fed4a4f12f3751" name="a81661c9be2ed74a864fed4a4f12f3751"></a>
-Material&#160;</td><td class="memItemRight" valign="bottom"><b>_originalMaterial</b> = null</td></tr>
+<tr class="memitem:a81661c9be2ed74a864fed4a4f12f3751"><td class="memItemLeft" align="right" valign="top">Material&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_mesh_renderer.html#a81661c9be2ed74a864fed4a4f12f3751">_originalMaterial</a> = null</td></tr>
 <tr class="separator:a81661c9be2ed74a864fed4a4f12f3751"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4efe9de14e9de4b4535a7b85a7bbbc07"><td class="memItemLeft" align="right" valign="top"><a id="a4efe9de14e9de4b4535a7b85a7bbbc07" name="a4efe9de14e9de4b4535a7b85a7bbbc07"></a>
-SkinnedMeshRenderer&#160;</td><td class="memItemRight" valign="bottom"><b>_skinnedMeshRenderer</b></td></tr>
+<tr class="memitem:a4efe9de14e9de4b4535a7b85a7bbbc07"><td class="memItemLeft" align="right" valign="top">SkinnedMeshRenderer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_mesh_renderer.html#a4efe9de14e9de4b4535a7b85a7bbbc07">_skinnedMeshRenderer</a></td></tr>
 <tr class="separator:a4efe9de14e9de4b4535a7b85a7bbbc07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="ac109e8aa2a3472f07c735c9b235f5a66" name="ac109e8aa2a3472f07c735c9b235f5a66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac109e8aa2a3472f07c735c9b235f5a66">&#9670;&#160;</a></span>ConfidenceBehavior</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_o_v_r_mesh_renderer.html#ac109e8aa2a3472f07c735c9b235f5a66">OVRMeshRenderer.ConfidenceBehavior</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac109e8aa2a3472f07c735c9b235f5a66a6adf97f83acf6453d4a6a4b1070f3754" name="ac109e8aa2a3472f07c735c9b235f5a66a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac109e8aa2a3472f07c735c9b235f5a66a2b3de88bf3331f7193fa998c16f02f65" name="ac109e8aa2a3472f07c735c9b235f5a66a2b3de88bf3331f7193fa998c16f02f65"></a>ToggleRenderer&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a9ee827c19c0dc23d8d8344f076bee5d6" name="a9ee827c19c0dc23d8d8344f076bee5d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ee827c19c0dc23d8d8344f076bee5d6">&#9670;&#160;</a></span>SystemGestureBehavior</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_o_v_r_mesh_renderer.html#a9ee827c19c0dc23d8d8344f076bee5d6">OVRMeshRenderer.SystemGestureBehavior</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9ee827c19c0dc23d8d8344f076bee5d6a6adf97f83acf6453d4a6a4b1070f3754" name="a9ee827c19c0dc23d8d8344f076bee5d6a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9ee827c19c0dc23d8d8344f076bee5d6a7bf0057cb9ac93a0ba82b2e99f328fc3" name="a9ee827c19c0dc23d8d8344f076bee5d6a7bf0057cb9ac93a0ba82b2e99f328fc3"></a>SwapMaterial&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac9cb43642d9e7fcf2671561cad1f0fed" name="ac9cb43642d9e7fcf2671561cad1f0fed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9cb43642d9e7fcf2671561cad1f0fed">&#9670;&#160;</a></span>Awake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVRMeshRenderer.Awake </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2d90fa8dd62e3257bfb063d8cb952d8d" name="a2d90fa8dd62e3257bfb063d8cb952d8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d90fa8dd62e3257bfb063d8cb952d8d">&#9670;&#160;</a></span>Initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVRMeshRenderer.Initialize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ada5736c5d770c11e3e7d1d12316a851b" name="ada5736c5d770c11e3e7d1d12316a851b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada5736c5d770c11e3e7d1d12316a851b">&#9670;&#160;</a></span>ShouldInitialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVRMeshRenderer.ShouldInitialize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0cc51bf4d6b55800c3ec135b95f46215" name="a0cc51bf4d6b55800c3ec135b95f46215"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cc51bf4d6b55800c3ec135b95f46215">&#9670;&#160;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVRMeshRenderer.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1310b1c882509f76b22a77cf3c7dfd13" name="a1310b1c882509f76b22a77cf3c7dfd13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1310b1c882509f76b22a77cf3c7dfd13">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVRMeshRenderer.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a92523b60807a2ad106e7527842b8b9a4" name="a92523b60807a2ad106e7527842b8b9a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92523b60807a2ad106e7527842b8b9a4">&#9670;&#160;</a></span>_confidenceBehavior</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_mesh_renderer.html#ac109e8aa2a3472f07c735c9b235f5a66">ConfidenceBehavior</a> OVRMeshRenderer._confidenceBehavior = <a class="el" href="class_o_v_r_mesh_renderer.html#ac109e8aa2a3472f07c735c9b235f5a66a2b3de88bf3331f7193fa998c16f02f65">ConfidenceBehavior.ToggleRenderer</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac020de199b8319884d59752ec10e7ed2" name="ac020de199b8319884d59752ec10e7ed2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac020de199b8319884d59752ec10e7ed2">&#9670;&#160;</a></span>_dataProvider</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interface_o_v_r_mesh_renderer_1_1_i_o_v_r_mesh_renderer_data_provider.html">IOVRMeshRendererDataProvider</a> OVRMeshRenderer._dataProvider</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a81661c9be2ed74a864fed4a4f12f3751" name="a81661c9be2ed74a864fed4a4f12f3751"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81661c9be2ed74a864fed4a4f12f3751">&#9670;&#160;</a></span>_originalMaterial</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Material OVRMeshRenderer._originalMaterial = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a45a38b88a66ee0ccb62a28616889070e" name="a45a38b88a66ee0ccb62a28616889070e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45a38b88a66ee0ccb62a28616889070e">&#9670;&#160;</a></span>_ovrMesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_mesh.html">OVRMesh</a> OVRMeshRenderer._ovrMesh</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a73124d81274d440f25c0ac02cd995e3a" name="a73124d81274d440f25c0ac02cd995e3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73124d81274d440f25c0ac02cd995e3a">&#9670;&#160;</a></span>_ovrSkeleton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_skeleton.html">OVRSkeleton</a> OVRMeshRenderer._ovrSkeleton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4efe9de14e9de4b4535a7b85a7bbbc07" name="a4efe9de14e9de4b4535a7b85a7bbbc07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4efe9de14e9de4b4535a7b85a7bbbc07">&#9670;&#160;</a></span>_skinnedMeshRenderer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SkinnedMeshRenderer OVRMeshRenderer._skinnedMeshRenderer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afaff1c40eb8ec448b067a24af717d9c5" name="afaff1c40eb8ec448b067a24af717d9c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afaff1c40eb8ec448b067a24af717d9c5">&#9670;&#160;</a></span>_systemGestureBehavior</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_mesh_renderer.html#a9ee827c19c0dc23d8d8344f076bee5d6">SystemGestureBehavior</a> OVRMeshRenderer._systemGestureBehavior = <a class="el" href="class_o_v_r_mesh_renderer.html#a9ee827c19c0dc23d8d8344f076bee5d6a7bf0057cb9ac93a0ba82b2e99f328fc3">SystemGestureBehavior.SwapMaterial</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6eff166c9a7f4ac821607d55e6cb271f" name="a6eff166c9a7f4ac821607d55e6cb271f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6eff166c9a7f4ac821607d55e6cb271f">&#9670;&#160;</a></span>_systemGestureMaterial</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Material OVRMeshRenderer._systemGestureMaterial = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a7283754c6779100e3a94f5e239dd2954" name="a7283754c6779100e3a94f5e239dd2954"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7283754c6779100e3a94f5e239dd2954">&#9670;&#160;</a></span>IsDataHighConfidence</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVRMeshRenderer.IsDataHighConfidence</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a42871ee0b115024fe8947af264c6ad47" name="a42871ee0b115024fe8947af264c6ad47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42871ee0b115024fe8947af264c6ad47">&#9670;&#160;</a></span>IsDataValid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVRMeshRenderer.IsDataValid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9434cb22e0862dedf24831142b80f466" name="a9434cb22e0862dedf24831142b80f466"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9434cb22e0862dedf24831142b80f466">&#9670;&#160;</a></span>IsInitialized</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVRMeshRenderer.IsInitialized</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa86e5e5563b5314d3c2965a2f40710e8" name="aa86e5e5563b5314d3c2965a2f40710e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa86e5e5563b5314d3c2965a2f40710e8">&#9670;&#160;</a></span>ShouldUseSystemGestureMaterial</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVRMeshRenderer.ShouldUseSystemGestureMaterial</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Oculus/VR/Scripts/Util/OVRMeshRenderer.cs</li>
+<li>Assets/Oculus/VR/Scripts/Util/<a class="el" href="_o_v_r_mesh_renderer_8cs.html">OVRMeshRenderer.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

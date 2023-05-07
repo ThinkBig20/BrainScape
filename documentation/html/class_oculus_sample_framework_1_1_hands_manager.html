@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: OculusSampleFramework.HandsManager Class Reference</title>
+<title>BrainScape: OculusSampleFramework.HandsManager Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">BrainScape
    </div>
   </td>
  </tr>
@@ -95,134 +95,874 @@ Inheritance diagram for OculusSampleFramework.HandsManager:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ae5a011cabcd2e9b1f9119112cf42c964"><td class="memItemLeft" align="right" valign="top"><a id="ae5a011cabcd2e9b1f9119112cf42c964" name="ae5a011cabcd2e9b1f9119112cf42c964"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>HandsVisualMode</b> { <b>Mesh</b> = 0
-, <b>Skeleton</b> = 1
-, <b>Both</b> = 2
+<tr class="memitem:ae5a011cabcd2e9b1f9119112cf42c964"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#ae5a011cabcd2e9b1f9119112cf42c964">HandsVisualMode</a> { <a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#ae5a011cabcd2e9b1f9119112cf42c964a710fdb6adb881b408116ef95335e1961">Mesh</a> = 0
+, <a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#ae5a011cabcd2e9b1f9119112cf42c964a6ab48f7ed56efc362f41853c5616bf75">Skeleton</a> = 1
+, <a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#ae5a011cabcd2e9b1f9119112cf42c964a130c5b3473c57faa76e2a1c54e26f88e">Both</a> = 2
  }</td></tr>
 <tr class="separator:ae5a011cabcd2e9b1f9119112cf42c964"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3928303b7b412c4485836421aded37b4"><td class="memItemLeft" align="right" valign="top"><a id="a3928303b7b412c4485836421aded37b4" name="a3928303b7b412c4485836421aded37b4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SwitchVisualization</b> ()</td></tr>
+<tr class="memitem:a3928303b7b412c4485836421aded37b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#a3928303b7b412c4485836421aded37b4">SwitchVisualization</a> ()</td></tr>
 <tr class="separator:a3928303b7b412c4485836421aded37b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab30106b85abaf066f742969c9fbe4822"><td class="memItemLeft" align="right" valign="top"><a id="ab30106b85abaf066f742969c9fbe4822" name="ab30106b85abaf066f742969c9fbe4822"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsInitialized</b> ()</td></tr>
+<tr class="memitem:ab30106b85abaf066f742969c9fbe4822"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#ab30106b85abaf066f742969c9fbe4822">IsInitialized</a> ()</td></tr>
 <tr class="separator:ab30106b85abaf066f742969c9fbe4822"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a370ebe4f943fa18400574b0a469eebc1"><td class="memItemLeft" align="right" valign="top"><a id="a370ebe4f943fa18400574b0a469eebc1" name="a370ebe4f943fa18400574b0a469eebc1"></a>
-static List&lt; <a class="el" href="class_o_v_r_bone_capsule.html">OVRBoneCapsule</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetCapsulesPerBone</b> (<a class="el" href="class_o_v_r_skeleton.html">OVRSkeleton</a> skeleton, OVRSkeleton.BoneId boneId)</td></tr>
+<tr class="memitem:a370ebe4f943fa18400574b0a469eebc1"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="class_o_v_r_bone_capsule.html">OVRBoneCapsule</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#a370ebe4f943fa18400574b0a469eebc1">GetCapsulesPerBone</a> (<a class="el" href="class_o_v_r_skeleton.html">OVRSkeleton</a> skeleton, <a class="el" href="class_o_v_r_skeleton.html#a628dde873fc63990b43777310dd1d353">OVRSkeleton.BoneId</a> boneId)</td></tr>
 <tr class="separator:a370ebe4f943fa18400574b0a469eebc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a80455fd136649243fd88c24cc6e42ea4"><td class="memItemLeft" align="right" valign="top"><a id="a80455fd136649243fd88c24cc6e42ea4" name="a80455fd136649243fd88c24cc6e42ea4"></a>
-HandsVisualMode&#160;</td><td class="memItemRight" valign="bottom"><b>VisualMode</b> = HandsVisualMode.Mesh</td></tr>
+<tr class="memitem:a80455fd136649243fd88c24cc6e42ea4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#ae5a011cabcd2e9b1f9119112cf42c964">HandsVisualMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#a80455fd136649243fd88c24cc6e42ea4">VisualMode</a> = <a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#ae5a011cabcd2e9b1f9119112cf42c964a710fdb6adb881b408116ef95335e1961">HandsVisualMode.Mesh</a></td></tr>
 <tr class="separator:a80455fd136649243fd88c24cc6e42ea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:ad77e704b6f636d78060c35764f140e89"><td class="memItemLeft" align="right" valign="top"><a id="ad77e704b6f636d78060c35764f140e89" name="ad77e704b6f636d78060c35764f140e89"></a>
-<a class="el" href="class_o_v_r_hand.html">OVRHand</a>&#160;</td><td class="memItemRight" valign="bottom"><b>RightHand</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:ad77e704b6f636d78060c35764f140e89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_hand.html">OVRHand</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#ad77e704b6f636d78060c35764f140e89">RightHand</a><code> [get, private set]</code></td></tr>
 <tr class="separator:ad77e704b6f636d78060c35764f140e89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4367e81c2be7106ebae3177d386ad9b2"><td class="memItemLeft" align="right" valign="top"><a id="a4367e81c2be7106ebae3177d386ad9b2" name="a4367e81c2be7106ebae3177d386ad9b2"></a>
-<a class="el" href="class_o_v_r_skeleton.html">OVRSkeleton</a>&#160;</td><td class="memItemRight" valign="bottom"><b>RightHandSkeleton</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:a4367e81c2be7106ebae3177d386ad9b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_skeleton.html">OVRSkeleton</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#a4367e81c2be7106ebae3177d386ad9b2">RightHandSkeleton</a><code> [get, private set]</code></td></tr>
 <tr class="separator:a4367e81c2be7106ebae3177d386ad9b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf23ef81145897650bdb6f20f84432d2"><td class="memItemLeft" align="right" valign="top"><a id="aaf23ef81145897650bdb6f20f84432d2" name="aaf23ef81145897650bdb6f20f84432d2"></a>
-<a class="el" href="class_o_v_r_skeleton_renderer.html">OVRSkeletonRenderer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>RightHandSkeletonRenderer</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:aaf23ef81145897650bdb6f20f84432d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_skeleton_renderer.html">OVRSkeletonRenderer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#aaf23ef81145897650bdb6f20f84432d2">RightHandSkeletonRenderer</a><code> [get, private set]</code></td></tr>
 <tr class="separator:aaf23ef81145897650bdb6f20f84432d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a104723813138ed98296675ab0bb4ac67"><td class="memItemLeft" align="right" valign="top"><a id="a104723813138ed98296675ab0bb4ac67" name="a104723813138ed98296675ab0bb4ac67"></a>
-<a class="el" href="class_o_v_r_mesh.html">OVRMesh</a>&#160;</td><td class="memItemRight" valign="bottom"><b>RightHandMesh</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:a104723813138ed98296675ab0bb4ac67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_mesh.html">OVRMesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#a104723813138ed98296675ab0bb4ac67">RightHandMesh</a><code> [get, private set]</code></td></tr>
 <tr class="separator:a104723813138ed98296675ab0bb4ac67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af53bce8bbcea6dcab7a24aac7ae438fe"><td class="memItemLeft" align="right" valign="top"><a id="af53bce8bbcea6dcab7a24aac7ae438fe" name="af53bce8bbcea6dcab7a24aac7ae438fe"></a>
-<a class="el" href="class_o_v_r_mesh_renderer.html">OVRMeshRenderer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>RightHandMeshRenderer</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:af53bce8bbcea6dcab7a24aac7ae438fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_mesh_renderer.html">OVRMeshRenderer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#af53bce8bbcea6dcab7a24aac7ae438fe">RightHandMeshRenderer</a><code> [get, private set]</code></td></tr>
 <tr class="separator:af53bce8bbcea6dcab7a24aac7ae438fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e1a61bc5d6f68c24ccef350ce2b5faf"><td class="memItemLeft" align="right" valign="top"><a id="a9e1a61bc5d6f68c24ccef350ce2b5faf" name="a9e1a61bc5d6f68c24ccef350ce2b5faf"></a>
-<a class="el" href="class_o_v_r_hand.html">OVRHand</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LeftHand</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:a9e1a61bc5d6f68c24ccef350ce2b5faf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_hand.html">OVRHand</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#a9e1a61bc5d6f68c24ccef350ce2b5faf">LeftHand</a><code> [get, private set]</code></td></tr>
 <tr class="separator:a9e1a61bc5d6f68c24ccef350ce2b5faf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fbeb8a0c670062ab366c7a4c58ca841"><td class="memItemLeft" align="right" valign="top"><a id="a2fbeb8a0c670062ab366c7a4c58ca841" name="a2fbeb8a0c670062ab366c7a4c58ca841"></a>
-<a class="el" href="class_o_v_r_skeleton.html">OVRSkeleton</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LeftHandSkeleton</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:a2fbeb8a0c670062ab366c7a4c58ca841"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_skeleton.html">OVRSkeleton</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#a2fbeb8a0c670062ab366c7a4c58ca841">LeftHandSkeleton</a><code> [get, private set]</code></td></tr>
 <tr class="separator:a2fbeb8a0c670062ab366c7a4c58ca841"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85cbca03a5b7d98705dfe79608b65485"><td class="memItemLeft" align="right" valign="top"><a id="a85cbca03a5b7d98705dfe79608b65485" name="a85cbca03a5b7d98705dfe79608b65485"></a>
-<a class="el" href="class_o_v_r_skeleton_renderer.html">OVRSkeletonRenderer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LeftHandSkeletonRenderer</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:a85cbca03a5b7d98705dfe79608b65485"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_skeleton_renderer.html">OVRSkeletonRenderer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#a85cbca03a5b7d98705dfe79608b65485">LeftHandSkeletonRenderer</a><code> [get, private set]</code></td></tr>
 <tr class="separator:a85cbca03a5b7d98705dfe79608b65485"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92ec2ad781c70f74efcf516ce3e70a42"><td class="memItemLeft" align="right" valign="top"><a id="a92ec2ad781c70f74efcf516ce3e70a42" name="a92ec2ad781c70f74efcf516ce3e70a42"></a>
-<a class="el" href="class_o_v_r_mesh.html">OVRMesh</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LeftHandMesh</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:a92ec2ad781c70f74efcf516ce3e70a42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_mesh.html">OVRMesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#a92ec2ad781c70f74efcf516ce3e70a42">LeftHandMesh</a><code> [get, private set]</code></td></tr>
 <tr class="separator:a92ec2ad781c70f74efcf516ce3e70a42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5813ab0eb5bc365325a4aa753a5e7bde"><td class="memItemLeft" align="right" valign="top"><a id="a5813ab0eb5bc365325a4aa753a5e7bde" name="a5813ab0eb5bc365325a4aa753a5e7bde"></a>
-<a class="el" href="class_o_v_r_mesh_renderer.html">OVRMeshRenderer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LeftHandMeshRenderer</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:a5813ab0eb5bc365325a4aa753a5e7bde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_mesh_renderer.html">OVRMeshRenderer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#a5813ab0eb5bc365325a4aa753a5e7bde">LeftHandMeshRenderer</a><code> [get, private set]</code></td></tr>
 <tr class="separator:a5813ab0eb5bc365325a4aa753a5e7bde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54b5605db1db65c84e1044474d2b01a0"><td class="memItemLeft" align="right" valign="top"><a id="a54b5605db1db65c84e1044474d2b01a0" name="a54b5605db1db65c84e1044474d2b01a0"></a>
-static <a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html">HandsManager</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Instance</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:a54b5605db1db65c84e1044474d2b01a0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html">HandsManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#a54b5605db1db65c84e1044474d2b01a0">Instance</a><code> [get, private set]</code></td></tr>
 <tr class="separator:a54b5605db1db65c84e1044474d2b01a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a1d2227c24a7b7321623c8e6b6a778780"><td class="memItemLeft" align="right" valign="top"><a id="a1d2227c24a7b7321623c8e6b6a778780" name="a1d2227c24a7b7321623c8e6b6a778780"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
+<tr class="memitem:a1d2227c24a7b7321623c8e6b6a778780"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#a1d2227c24a7b7321623c8e6b6a778780">Awake</a> ()</td></tr>
 <tr class="separator:a1d2227c24a7b7321623c8e6b6a778780"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9fc2be67b07d1652f75be13176ebe6c"><td class="memItemLeft" align="right" valign="top"><a id="af9fc2be67b07d1652f75be13176ebe6c" name="af9fc2be67b07d1652f75be13176ebe6c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
+<tr class="memitem:af9fc2be67b07d1652f75be13176ebe6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#af9fc2be67b07d1652f75be13176ebe6c">Update</a> ()</td></tr>
 <tr class="separator:af9fc2be67b07d1652f75be13176ebe6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeec0603712fa6c658302f5eb272ac556"><td class="memItemLeft" align="right" valign="top"><a id="aeec0603712fa6c658302f5eb272ac556" name="aeec0603712fa6c658302f5eb272ac556"></a>
-IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>FindSkeletonVisualGameObjects</b> ()</td></tr>
+<tr class="memitem:aeec0603712fa6c658302f5eb272ac556"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#aeec0603712fa6c658302f5eb272ac556">FindSkeletonVisualGameObjects</a> ()</td></tr>
 <tr class="separator:aeec0603712fa6c658302f5eb272ac556"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af061c14df261f044d3435f2303e4e8e6"><td class="memItemLeft" align="right" valign="top"><a id="af061c14df261f044d3435f2303e4e8e6" name="af061c14df261f044d3435f2303e4e8e6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetToCurrentVisualMode</b> ()</td></tr>
+<tr class="memitem:af061c14df261f044d3435f2303e4e8e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#af061c14df261f044d3435f2303e4e8e6">SetToCurrentVisualMode</a> ()</td></tr>
 <tr class="separator:af061c14df261f044d3435f2303e4e8e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a9a9333fc3dd49a31f0554f07f64f6516"><td class="memItemLeft" align="right" valign="top"><a id="a9a9333fc3dd49a31f0554f07f64f6516" name="a9a9333fc3dd49a31f0554f07f64f6516"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>_leftHand</b> = null</td></tr>
+<tr class="memitem:a9a9333fc3dd49a31f0554f07f64f6516"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#a9a9333fc3dd49a31f0554f07f64f6516">_leftHand</a> = null</td></tr>
 <tr class="separator:a9a9333fc3dd49a31f0554f07f64f6516"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab251613a6f78369413e3a3b5401054ed"><td class="memItemLeft" align="right" valign="top"><a id="ab251613a6f78369413e3a3b5401054ed" name="ab251613a6f78369413e3a3b5401054ed"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>_rightHand</b> = null</td></tr>
+<tr class="memitem:ab251613a6f78369413e3a3b5401054ed"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#ab251613a6f78369413e3a3b5401054ed">_rightHand</a> = null</td></tr>
 <tr class="separator:ab251613a6f78369413e3a3b5401054ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6329f623c914725b88f3b3e26c981170"><td class="memItemLeft" align="right" valign="top"><a id="a6329f623c914725b88f3b3e26c981170" name="a6329f623c914725b88f3b3e26c981170"></a>
-<a class="el" href="class_o_v_r_hand.html">OVRHand</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>_hand</b> = new <a class="el" href="class_o_v_r_hand.html">OVRHand</a>[(int)OVRHand.Hand.HandRight + 1]</td></tr>
+<tr class="memitem:a6329f623c914725b88f3b3e26c981170"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_hand.html">OVRHand</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#a6329f623c914725b88f3b3e26c981170">_hand</a> = new <a class="el" href="class_o_v_r_hand.html">OVRHand</a>[(int)<a class="el" href="class_o_v_r_hand.html#aa219dc4c5abfcb55c9768a2a00e71a9badb75ce9c367c69e8af461ee43d8efdad">OVRHand.Hand.HandRight</a> + 1]</td></tr>
 <tr class="separator:a6329f623c914725b88f3b3e26c981170"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab886f270b32c92bc4b4f65e35446135"><td class="memItemLeft" align="right" valign="top"><a id="aab886f270b32c92bc4b4f65e35446135" name="aab886f270b32c92bc4b4f65e35446135"></a>
-<a class="el" href="class_o_v_r_skeleton.html">OVRSkeleton</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>_handSkeleton</b> = new <a class="el" href="class_o_v_r_skeleton.html">OVRSkeleton</a>[(int)OVRHand.Hand.HandRight + 1]</td></tr>
+<tr class="memitem:aab886f270b32c92bc4b4f65e35446135"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_skeleton.html">OVRSkeleton</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#aab886f270b32c92bc4b4f65e35446135">_handSkeleton</a> = new <a class="el" href="class_o_v_r_skeleton.html">OVRSkeleton</a>[(int)<a class="el" href="class_o_v_r_hand.html#aa219dc4c5abfcb55c9768a2a00e71a9badb75ce9c367c69e8af461ee43d8efdad">OVRHand.Hand.HandRight</a> + 1]</td></tr>
 <tr class="separator:aab886f270b32c92bc4b4f65e35446135"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7243fae026c9c96c8eb40808f30354d8"><td class="memItemLeft" align="right" valign="top"><a id="a7243fae026c9c96c8eb40808f30354d8" name="a7243fae026c9c96c8eb40808f30354d8"></a>
-<a class="el" href="class_o_v_r_skeleton_renderer.html">OVRSkeletonRenderer</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>_handSkeletonRenderer</b> = new <a class="el" href="class_o_v_r_skeleton_renderer.html">OVRSkeletonRenderer</a>[(int)OVRHand.Hand.HandRight + 1]</td></tr>
+<tr class="memitem:a7243fae026c9c96c8eb40808f30354d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_skeleton_renderer.html">OVRSkeletonRenderer</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#a7243fae026c9c96c8eb40808f30354d8">_handSkeletonRenderer</a> = new <a class="el" href="class_o_v_r_skeleton_renderer.html">OVRSkeletonRenderer</a>[(int)<a class="el" href="class_o_v_r_hand.html#aa219dc4c5abfcb55c9768a2a00e71a9badb75ce9c367c69e8af461ee43d8efdad">OVRHand.Hand.HandRight</a> + 1]</td></tr>
 <tr class="separator:a7243fae026c9c96c8eb40808f30354d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73e6cbb6ceb5114bc65aad22245de9d2"><td class="memItemLeft" align="right" valign="top"><a id="a73e6cbb6ceb5114bc65aad22245de9d2" name="a73e6cbb6ceb5114bc65aad22245de9d2"></a>
-<a class="el" href="class_o_v_r_mesh.html">OVRMesh</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>_handMesh</b> = new <a class="el" href="class_o_v_r_mesh.html">OVRMesh</a>[(int)OVRHand.Hand.HandRight + 1]</td></tr>
+<tr class="memitem:a73e6cbb6ceb5114bc65aad22245de9d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_mesh.html">OVRMesh</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#a73e6cbb6ceb5114bc65aad22245de9d2">_handMesh</a> = new <a class="el" href="class_o_v_r_mesh.html">OVRMesh</a>[(int)<a class="el" href="class_o_v_r_hand.html#aa219dc4c5abfcb55c9768a2a00e71a9badb75ce9c367c69e8af461ee43d8efdad">OVRHand.Hand.HandRight</a> + 1]</td></tr>
 <tr class="separator:a73e6cbb6ceb5114bc65aad22245de9d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae475a2deaa0a53d25707e9a7610dd2c2"><td class="memItemLeft" align="right" valign="top"><a id="ae475a2deaa0a53d25707e9a7610dd2c2" name="ae475a2deaa0a53d25707e9a7610dd2c2"></a>
-<a class="el" href="class_o_v_r_mesh_renderer.html">OVRMeshRenderer</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>_handMeshRenderer</b> = new <a class="el" href="class_o_v_r_mesh_renderer.html">OVRMeshRenderer</a>[(int)OVRHand.Hand.HandRight + 1]</td></tr>
+<tr class="memitem:ae475a2deaa0a53d25707e9a7610dd2c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_mesh_renderer.html">OVRMeshRenderer</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#ae475a2deaa0a53d25707e9a7610dd2c2">_handMeshRenderer</a> = new <a class="el" href="class_o_v_r_mesh_renderer.html">OVRMeshRenderer</a>[(int)<a class="el" href="class_o_v_r_hand.html#aa219dc4c5abfcb55c9768a2a00e71a9badb75ce9c367c69e8af461ee43d8efdad">OVRHand.Hand.HandRight</a> + 1]</td></tr>
 <tr class="separator:ae475a2deaa0a53d25707e9a7610dd2c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47702f6f80ccd159fd2b5e7f7d59fc01"><td class="memItemLeft" align="right" valign="top"><a id="a47702f6f80ccd159fd2b5e7f7d59fc01" name="a47702f6f80ccd159fd2b5e7f7d59fc01"></a>
-SkinnedMeshRenderer&#160;</td><td class="memItemRight" valign="bottom"><b>_leftMeshRenderer</b> = null</td></tr>
+<tr class="memitem:a47702f6f80ccd159fd2b5e7f7d59fc01"><td class="memItemLeft" align="right" valign="top">SkinnedMeshRenderer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#a47702f6f80ccd159fd2b5e7f7d59fc01">_leftMeshRenderer</a> = null</td></tr>
 <tr class="separator:a47702f6f80ccd159fd2b5e7f7d59fc01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea9d7879d0645a32c12543bca8efb3e3"><td class="memItemLeft" align="right" valign="top"><a id="aea9d7879d0645a32c12543bca8efb3e3" name="aea9d7879d0645a32c12543bca8efb3e3"></a>
-SkinnedMeshRenderer&#160;</td><td class="memItemRight" valign="bottom"><b>_rightMeshRenderer</b> = null</td></tr>
+<tr class="memitem:aea9d7879d0645a32c12543bca8efb3e3"><td class="memItemLeft" align="right" valign="top">SkinnedMeshRenderer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#aea9d7879d0645a32c12543bca8efb3e3">_rightMeshRenderer</a> = null</td></tr>
 <tr class="separator:aea9d7879d0645a32c12543bca8efb3e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a929a543968a973582e5186449b6f6a88"><td class="memItemLeft" align="right" valign="top"><a id="a929a543968a973582e5186449b6f6a88" name="a929a543968a973582e5186449b6f6a88"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>_leftSkeletonVisual</b> = null</td></tr>
+<tr class="memitem:a929a543968a973582e5186449b6f6a88"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#a929a543968a973582e5186449b6f6a88">_leftSkeletonVisual</a> = null</td></tr>
 <tr class="separator:a929a543968a973582e5186449b6f6a88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29942b6f4820cbde1939fb131bf2210f"><td class="memItemLeft" align="right" valign="top"><a id="a29942b6f4820cbde1939fb131bf2210f" name="a29942b6f4820cbde1939fb131bf2210f"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>_rightSkeletonVisual</b> = null</td></tr>
+<tr class="memitem:a29942b6f4820cbde1939fb131bf2210f"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#a29942b6f4820cbde1939fb131bf2210f">_rightSkeletonVisual</a> = null</td></tr>
 <tr class="separator:a29942b6f4820cbde1939fb131bf2210f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e5b2002e0336ba38531ec822f4a4388"><td class="memItemLeft" align="right" valign="top"><a id="a8e5b2002e0336ba38531ec822f4a4388" name="a8e5b2002e0336ba38531ec822f4a4388"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>_currentHandAlpha</b> = 1.0f</td></tr>
+<tr class="memitem:a8e5b2002e0336ba38531ec822f4a4388"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#a8e5b2002e0336ba38531ec822f4a4388">_currentHandAlpha</a> = 1.0f</td></tr>
 <tr class="separator:a8e5b2002e0336ba38531ec822f4a4388"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a747c2f09ccd7e3ed2f3b5205cb078d8f"><td class="memItemLeft" align="right" valign="top"><a id="a747c2f09ccd7e3ed2f3b5205cb078d8f" name="a747c2f09ccd7e3ed2f3b5205cb078d8f"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>HandAlphaId</b> = Shader.PropertyToID(&quot;_HandAlpha&quot;)</td></tr>
+<tr class="memitem:a747c2f09ccd7e3ed2f3b5205cb078d8f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#a747c2f09ccd7e3ed2f3b5205cb078d8f">HandAlphaId</a> = Shader.PropertyToID(&quot;_HandAlpha&quot;)</td></tr>
 <tr class="separator:a747c2f09ccd7e3ed2f3b5205cb078d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:a718d2f61d7d0c4553ad1bea408a96304"><td class="memItemLeft" align="right" valign="top"><a id="a718d2f61d7d0c4553ad1bea408a96304" name="a718d2f61d7d0c4553ad1bea408a96304"></a>
-const string&#160;</td><td class="memItemRight" valign="bottom"><b>SKELETON_VISUALIZER_NAME</b> = &quot;SkeletonRenderer&quot;</td></tr>
+<tr class="memitem:a718d2f61d7d0c4553ad1bea408a96304"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#a718d2f61d7d0c4553ad1bea408a96304">SKELETON_VISUALIZER_NAME</a> = &quot;SkeletonRenderer&quot;</td></tr>
 <tr class="separator:a718d2f61d7d0c4553ad1bea408a96304"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="ae5a011cabcd2e9b1f9119112cf42c964" name="ae5a011cabcd2e9b1f9119112cf42c964"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5a011cabcd2e9b1f9119112cf42c964">&#9670;&#160;</a></span>HandsVisualMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#ae5a011cabcd2e9b1f9119112cf42c964">OculusSampleFramework.HandsManager.HandsVisualMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae5a011cabcd2e9b1f9119112cf42c964a710fdb6adb881b408116ef95335e1961" name="ae5a011cabcd2e9b1f9119112cf42c964a710fdb6adb881b408116ef95335e1961"></a>Mesh&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae5a011cabcd2e9b1f9119112cf42c964a6ab48f7ed56efc362f41853c5616bf75" name="ae5a011cabcd2e9b1f9119112cf42c964a6ab48f7ed56efc362f41853c5616bf75"></a>Skeleton&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae5a011cabcd2e9b1f9119112cf42c964a130c5b3473c57faa76e2a1c54e26f88e" name="ae5a011cabcd2e9b1f9119112cf42c964a130c5b3473c57faa76e2a1c54e26f88e"></a>Both&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1d2227c24a7b7321623c8e6b6a778780" name="a1d2227c24a7b7321623c8e6b6a778780"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d2227c24a7b7321623c8e6b6a778780">&#9670;&#160;</a></span>Awake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OculusSampleFramework.HandsManager.Awake </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeec0603712fa6c658302f5eb272ac556" name="aeec0603712fa6c658302f5eb272ac556"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeec0603712fa6c658302f5eb272ac556">&#9670;&#160;</a></span>FindSkeletonVisualGameObjects()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerator OculusSampleFramework.HandsManager.FindSkeletonVisualGameObjects </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a370ebe4f943fa18400574b0a469eebc1" name="a370ebe4f943fa18400574b0a469eebc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a370ebe4f943fa18400574b0a469eebc1">&#9670;&#160;</a></span>GetCapsulesPerBone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static List&lt; <a class="el" href="class_o_v_r_bone_capsule.html">OVRBoneCapsule</a> &gt; OculusSampleFramework.HandsManager.GetCapsulesPerBone </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_o_v_r_skeleton.html">OVRSkeleton</a>&#160;</td>
+          <td class="paramname"><em>skeleton</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_o_v_r_skeleton.html#a628dde873fc63990b43777310dd1d353">OVRSkeleton::BoneId</a>&#160;</td>
+          <td class="paramname"><em>boneId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab30106b85abaf066f742969c9fbe4822" name="ab30106b85abaf066f742969c9fbe4822"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab30106b85abaf066f742969c9fbe4822">&#9670;&#160;</a></span>IsInitialized()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OculusSampleFramework.HandsManager.IsInitialized </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af061c14df261f044d3435f2303e4e8e6" name="af061c14df261f044d3435f2303e4e8e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af061c14df261f044d3435f2303e4e8e6">&#9670;&#160;</a></span>SetToCurrentVisualMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OculusSampleFramework.HandsManager.SetToCurrentVisualMode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3928303b7b412c4485836421aded37b4" name="a3928303b7b412c4485836421aded37b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3928303b7b412c4485836421aded37b4">&#9670;&#160;</a></span>SwitchVisualization()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OculusSampleFramework.HandsManager.SwitchVisualization </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af9fc2be67b07d1652f75be13176ebe6c" name="af9fc2be67b07d1652f75be13176ebe6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9fc2be67b07d1652f75be13176ebe6c">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OculusSampleFramework.HandsManager.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a8e5b2002e0336ba38531ec822f4a4388" name="a8e5b2002e0336ba38531ec822f4a4388"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e5b2002e0336ba38531ec822f4a4388">&#9670;&#160;</a></span>_currentHandAlpha</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float OculusSampleFramework.HandsManager._currentHandAlpha = 1.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6329f623c914725b88f3b3e26c981170" name="a6329f623c914725b88f3b3e26c981170"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6329f623c914725b88f3b3e26c981170">&#9670;&#160;</a></span>_hand</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_hand.html">OVRHand</a> [] OculusSampleFramework.HandsManager._hand = new <a class="el" href="class_o_v_r_hand.html">OVRHand</a>[(int)<a class="el" href="class_o_v_r_hand.html#aa219dc4c5abfcb55c9768a2a00e71a9badb75ce9c367c69e8af461ee43d8efdad">OVRHand.Hand.HandRight</a> + 1]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a73e6cbb6ceb5114bc65aad22245de9d2" name="a73e6cbb6ceb5114bc65aad22245de9d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73e6cbb6ceb5114bc65aad22245de9d2">&#9670;&#160;</a></span>_handMesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_mesh.html">OVRMesh</a> [] OculusSampleFramework.HandsManager._handMesh = new <a class="el" href="class_o_v_r_mesh.html">OVRMesh</a>[(int)<a class="el" href="class_o_v_r_hand.html#aa219dc4c5abfcb55c9768a2a00e71a9badb75ce9c367c69e8af461ee43d8efdad">OVRHand.Hand.HandRight</a> + 1]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae475a2deaa0a53d25707e9a7610dd2c2" name="ae475a2deaa0a53d25707e9a7610dd2c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae475a2deaa0a53d25707e9a7610dd2c2">&#9670;&#160;</a></span>_handMeshRenderer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_mesh_renderer.html">OVRMeshRenderer</a> [] OculusSampleFramework.HandsManager._handMeshRenderer = new <a class="el" href="class_o_v_r_mesh_renderer.html">OVRMeshRenderer</a>[(int)<a class="el" href="class_o_v_r_hand.html#aa219dc4c5abfcb55c9768a2a00e71a9badb75ce9c367c69e8af461ee43d8efdad">OVRHand.Hand.HandRight</a> + 1]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aab886f270b32c92bc4b4f65e35446135" name="aab886f270b32c92bc4b4f65e35446135"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab886f270b32c92bc4b4f65e35446135">&#9670;&#160;</a></span>_handSkeleton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_skeleton.html">OVRSkeleton</a> [] OculusSampleFramework.HandsManager._handSkeleton = new <a class="el" href="class_o_v_r_skeleton.html">OVRSkeleton</a>[(int)<a class="el" href="class_o_v_r_hand.html#aa219dc4c5abfcb55c9768a2a00e71a9badb75ce9c367c69e8af461ee43d8efdad">OVRHand.Hand.HandRight</a> + 1]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7243fae026c9c96c8eb40808f30354d8" name="a7243fae026c9c96c8eb40808f30354d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7243fae026c9c96c8eb40808f30354d8">&#9670;&#160;</a></span>_handSkeletonRenderer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_skeleton_renderer.html">OVRSkeletonRenderer</a> [] OculusSampleFramework.HandsManager._handSkeletonRenderer = new <a class="el" href="class_o_v_r_skeleton_renderer.html">OVRSkeletonRenderer</a>[(int)<a class="el" href="class_o_v_r_hand.html#aa219dc4c5abfcb55c9768a2a00e71a9badb75ce9c367c69e8af461ee43d8efdad">OVRHand.Hand.HandRight</a> + 1]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9a9333fc3dd49a31f0554f07f64f6516" name="a9a9333fc3dd49a31f0554f07f64f6516"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a9333fc3dd49a31f0554f07f64f6516">&#9670;&#160;</a></span>_leftHand</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject OculusSampleFramework.HandsManager._leftHand = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a47702f6f80ccd159fd2b5e7f7d59fc01" name="a47702f6f80ccd159fd2b5e7f7d59fc01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47702f6f80ccd159fd2b5e7f7d59fc01">&#9670;&#160;</a></span>_leftMeshRenderer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SkinnedMeshRenderer OculusSampleFramework.HandsManager._leftMeshRenderer = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a929a543968a973582e5186449b6f6a88" name="a929a543968a973582e5186449b6f6a88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a929a543968a973582e5186449b6f6a88">&#9670;&#160;</a></span>_leftSkeletonVisual</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject OculusSampleFramework.HandsManager._leftSkeletonVisual = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab251613a6f78369413e3a3b5401054ed" name="ab251613a6f78369413e3a3b5401054ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab251613a6f78369413e3a3b5401054ed">&#9670;&#160;</a></span>_rightHand</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject OculusSampleFramework.HandsManager._rightHand = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aea9d7879d0645a32c12543bca8efb3e3" name="aea9d7879d0645a32c12543bca8efb3e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea9d7879d0645a32c12543bca8efb3e3">&#9670;&#160;</a></span>_rightMeshRenderer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SkinnedMeshRenderer OculusSampleFramework.HandsManager._rightMeshRenderer = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a29942b6f4820cbde1939fb131bf2210f" name="a29942b6f4820cbde1939fb131bf2210f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29942b6f4820cbde1939fb131bf2210f">&#9670;&#160;</a></span>_rightSkeletonVisual</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject OculusSampleFramework.HandsManager._rightSkeletonVisual = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a747c2f09ccd7e3ed2f3b5205cb078d8f" name="a747c2f09ccd7e3ed2f3b5205cb078d8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a747c2f09ccd7e3ed2f3b5205cb078d8f">&#9670;&#160;</a></span>HandAlphaId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OculusSampleFramework.HandsManager.HandAlphaId = Shader.PropertyToID(&quot;_HandAlpha&quot;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a718d2f61d7d0c4553ad1bea408a96304" name="a718d2f61d7d0c4553ad1bea408a96304"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a718d2f61d7d0c4553ad1bea408a96304">&#9670;&#160;</a></span>SKELETON_VISUALIZER_NAME</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string OculusSampleFramework.HandsManager.SKELETON_VISUALIZER_NAME = &quot;SkeletonRenderer&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a80455fd136649243fd88c24cc6e42ea4" name="a80455fd136649243fd88c24cc6e42ea4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80455fd136649243fd88c24cc6e42ea4">&#9670;&#160;</a></span>VisualMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#ae5a011cabcd2e9b1f9119112cf42c964">HandsVisualMode</a> OculusSampleFramework.HandsManager.VisualMode = <a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html#ae5a011cabcd2e9b1f9119112cf42c964a710fdb6adb881b408116ef95335e1961">HandsVisualMode.Mesh</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a54b5605db1db65c84e1044474d2b01a0" name="a54b5605db1db65c84e1044474d2b01a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54b5605db1db65c84e1044474d2b01a0">&#9670;&#160;</a></span>Instance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_oculus_sample_framework_1_1_hands_manager.html">HandsManager</a> OculusSampleFramework.HandsManager.Instance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e1a61bc5d6f68c24ccef350ce2b5faf" name="a9e1a61bc5d6f68c24ccef350ce2b5faf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e1a61bc5d6f68c24ccef350ce2b5faf">&#9670;&#160;</a></span>LeftHand</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_hand.html">OVRHand</a> OculusSampleFramework.HandsManager.LeftHand</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a92ec2ad781c70f74efcf516ce3e70a42" name="a92ec2ad781c70f74efcf516ce3e70a42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92ec2ad781c70f74efcf516ce3e70a42">&#9670;&#160;</a></span>LeftHandMesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_mesh.html">OVRMesh</a> OculusSampleFramework.HandsManager.LeftHandMesh</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5813ab0eb5bc365325a4aa753a5e7bde" name="a5813ab0eb5bc365325a4aa753a5e7bde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5813ab0eb5bc365325a4aa753a5e7bde">&#9670;&#160;</a></span>LeftHandMeshRenderer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_mesh_renderer.html">OVRMeshRenderer</a> OculusSampleFramework.HandsManager.LeftHandMeshRenderer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2fbeb8a0c670062ab366c7a4c58ca841" name="a2fbeb8a0c670062ab366c7a4c58ca841"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fbeb8a0c670062ab366c7a4c58ca841">&#9670;&#160;</a></span>LeftHandSkeleton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_skeleton.html">OVRSkeleton</a> OculusSampleFramework.HandsManager.LeftHandSkeleton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a85cbca03a5b7d98705dfe79608b65485" name="a85cbca03a5b7d98705dfe79608b65485"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85cbca03a5b7d98705dfe79608b65485">&#9670;&#160;</a></span>LeftHandSkeletonRenderer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_skeleton_renderer.html">OVRSkeletonRenderer</a> OculusSampleFramework.HandsManager.LeftHandSkeletonRenderer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad77e704b6f636d78060c35764f140e89" name="ad77e704b6f636d78060c35764f140e89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad77e704b6f636d78060c35764f140e89">&#9670;&#160;</a></span>RightHand</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_hand.html">OVRHand</a> OculusSampleFramework.HandsManager.RightHand</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a104723813138ed98296675ab0bb4ac67" name="a104723813138ed98296675ab0bb4ac67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a104723813138ed98296675ab0bb4ac67">&#9670;&#160;</a></span>RightHandMesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_mesh.html">OVRMesh</a> OculusSampleFramework.HandsManager.RightHandMesh</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af53bce8bbcea6dcab7a24aac7ae438fe" name="af53bce8bbcea6dcab7a24aac7ae438fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af53bce8bbcea6dcab7a24aac7ae438fe">&#9670;&#160;</a></span>RightHandMeshRenderer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_mesh_renderer.html">OVRMeshRenderer</a> OculusSampleFramework.HandsManager.RightHandMeshRenderer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4367e81c2be7106ebae3177d386ad9b2" name="a4367e81c2be7106ebae3177d386ad9b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4367e81c2be7106ebae3177d386ad9b2">&#9670;&#160;</a></span>RightHandSkeleton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_skeleton.html">OVRSkeleton</a> OculusSampleFramework.HandsManager.RightHandSkeleton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf23ef81145897650bdb6f20f84432d2" name="aaf23ef81145897650bdb6f20f84432d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf23ef81145897650bdb6f20f84432d2">&#9670;&#160;</a></span>RightHandSkeletonRenderer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_skeleton_renderer.html">OVRSkeletonRenderer</a> OculusSampleFramework.HandsManager.RightHandSkeletonRenderer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/HandsManager.cs</li>
+<li>Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/<a class="el" href="_hands_manager_8cs.html">HandsManager.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

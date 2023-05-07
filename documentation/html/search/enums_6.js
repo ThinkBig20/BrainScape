@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['initconfigoptions_0',['InitConfigOptions',['../namespace_oculus_1_1_platform.html#a8d7b18b99f7b8f79e360fb0066fb202a',1,'Oculus::Platform']]],
-  ['inputmodes_1',['InputModes',['../class_teleport_input_handler_touch.html#ac79ffec142cdbec3b263740998fabecd',1,'TeleportInputHandlerTouch']]],
-  ['interactablecollisiondepth_2',['InteractableCollisionDepth',['../namespace_oculus_sample_framework.html#a772810ffa57e1f179983ee4003a899a4',1,'OculusSampleFramework']]],
-  ['interactabletooltags_3',['InteractableToolTags',['../namespace_oculus_sample_framework.html#a7e741d13e3dd02c4734118cf32889e5f',1,'OculusSampleFramework']]]
+  ['gamestate_0',['GameState',['../class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_game_controller.html#a6597d22fe6296f1b7f0b2066e0823d10',1,'Oculus::Platform::Samples::VrBoardGame::GameController']]],
+  ['geometrytype_1',['GeometryType',['../class_volume_and_plane_switcher.html#a8b6e7f93ad376f222a4c0507eb9cb48f',1,'VolumeAndPlaneSwitcher']]],
+  ['grabanchor_2',['GrabAnchor',['../class_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_grab_target.html#a278cb5046fd2fbc414bd6b30c92a3ba1',1,'Oculus::Interaction::HandGrab::HandGrabTarget']]],
+  ['grabtype_3',['GrabType',['../namespace_oculus_1_1_interaction_1_1_grab.html#acbbe1ab9205e023b3ab579e581844d23',1,'Oculus::Interaction::Grab']]],
+  ['grabtypeflags_4',['GrabTypeFlags',['../namespace_oculus_1_1_interaction_1_1_grab.html#ace6e0bbc72c26c46818bfbc30a46fd16',1,'Oculus::Interaction::Grab']]]
 ];

@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['bindto_0',['BindTo',['../struct_o_v_r_spatial_anchor_1_1_unbound_anchor.html#aed93410b40c076b72042703aae8286cb',1,'OVRSpatialAnchor::UnboundAnchor']]],
-  ['blinkcoroutine_1',['BlinkCoroutine',['../class_teleport_transition_blink.html#a42336ab23b56acb580c86dd423055c93',1,'TeleportTransitionBlink']]],
-  ['bufferedvelocitiesvalid_2',['BufferedVelocitiesValid',['../class_oculus_1_1_interaction_1_1_throw_1_1_standard_velocity_calculator.html#a515e54e47aad72152fd15b3f39a91672',1,'Oculus::Interaction::Throw::StandardVelocityCalculator']]],
-  ['builddatasourcefactory_3',['buildDataSourceFactory',['../classcom_1_1oculus_1_1videoplayer_1_1_native_video_player.html#a70ecb31681cac25dea0a1d2ab3e27279',1,'com::oculus::videoplayer::NativeVideoPlayer']]]
+  ['_5binstance_20initializer_5d_0',['[instance initializer]',['../_pointable_canvas_module_8cs.html#a4705de58d379b70d9bb0fe65cb520a6e',1,'[instance initializer]:&#160;PointableCanvasModule.cs'],['../_assert_utils_8cs.html#a9d6874f609e7ac9e92481b1966cd103d',1,'[instance initializer]:&#160;AssertUtils.cs'],['../_firebase_enabler_8cs.html#afe323f8ccb25538ae296c7c39dcaeb24',1,'[instance initializer]:&#160;FirebaseEnabler.cs'],['../_timer_controller_8cs.html#a5aa822b430b256e9eb878b3afa979ea5',1,'[instance initializer]:&#160;TimerController.cs'],['../_manifest_8cs.html#aaf9e9f58e0fbaf878e07fcb8bcfe8483',1,'[instance initializer]:&#160;Manifest.cs']]]
 ];

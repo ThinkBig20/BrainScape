@@ -18,10 +18,11 @@ var searchData=
   ['eventpropertydrawer_3c_20dictationevents_20_3e_15',['EventPropertyDrawer&lt; DictationEvents &gt;',['../class_meta_1_1_wit_ai_1_1_events_1_1_editor_1_1_event_property_drawer.html',1,'Meta::WitAi::Events::Editor']]],
   ['eventpropertydrawer_3c_20voiceevents_20_3e_16',['EventPropertyDrawer&lt; VoiceEvents &gt;',['../class_meta_1_1_wit_ai_1_1_events_1_1_editor_1_1_event_property_drawer.html',1,'Meta::WitAi::Events::Editor']]],
   ['eventregistry_17',['EventRegistry',['../class_meta_1_1_wit_ai_1_1_events_1_1_event_registry.html',1,'Meta::WitAi::Events']]],
-  ['eyecamera_18',['EyeCamera',['../class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_eye_camera.html',1,'Oculus::Platform::Samples::VrBoardGame']]],
-  ['eyefov_19',['EyeFov',['../struct_o_v_r_display_1_1_eye_fov.html',1,'OVRDisplay']]],
-  ['eyegazesstate_20',['EyeGazesState',['../struct_o_v_r_plugin_1_1_eye_gazes_state.html',1,'OVRPlugin']]],
-  ['eyegazesstateinternal_21',['EyeGazesStateInternal',['../struct_o_v_r_plugin_1_1_eye_gazes_state_internal.html',1,'OVRPlugin']]],
-  ['eyegazestate_22',['EyeGazeState',['../struct_o_v_r_plugin_1_1_eye_gaze_state.html',1,'OVRPlugin']]],
-  ['eyerenderdesc_23',['EyeRenderDesc',['../struct_o_v_r_display_1_1_eye_render_desc.html',1,'OVRDisplay']]]
+  ['extralinks_18',['ExtraLinks',['../class_slim_u_i_1_1_modern_menu_1_1_extra_links.html',1,'SlimUI::ModernMenu']]],
+  ['eyecamera_19',['EyeCamera',['../class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_eye_camera.html',1,'Oculus::Platform::Samples::VrBoardGame']]],
+  ['eyefov_20',['EyeFov',['../struct_o_v_r_display_1_1_eye_fov.html',1,'OVRDisplay']]],
+  ['eyegazesstate_21',['EyeGazesState',['../struct_o_v_r_plugin_1_1_eye_gazes_state.html',1,'OVRPlugin']]],
+  ['eyegazesstateinternal_22',['EyeGazesStateInternal',['../struct_o_v_r_plugin_1_1_eye_gazes_state_internal.html',1,'OVRPlugin']]],
+  ['eyegazestate_23',['EyeGazeState',['../struct_o_v_r_plugin_1_1_eye_gaze_state.html',1,'OVRPlugin']]],
+  ['eyerenderdesc_24',['EyeRenderDesc',['../struct_o_v_r_display_1_1_eye_render_desc.html',1,'OVRDisplay']]]
 ];

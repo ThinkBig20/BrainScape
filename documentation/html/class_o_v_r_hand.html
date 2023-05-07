@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: OVRHand Class Reference</title>
+<title>BrainScape: OVRHand Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">BrainScape
    </div>
   </td>
  </tr>
@@ -94,129 +94,317 @@ Inheritance diagram for OVRHand:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aa219dc4c5abfcb55c9768a2a00e71a9b"><td class="memItemLeft" align="right" valign="top"><a id="aa219dc4c5abfcb55c9768a2a00e71a9b" name="aa219dc4c5abfcb55c9768a2a00e71a9b"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>Hand</b> { <b>None</b> = OVRPlugin.Hand.None
-, <b>HandLeft</b> = OVRPlugin.Hand.HandLeft
-, <b>HandRight</b> = OVRPlugin.Hand.HandRight
+<tr class="memitem:aa219dc4c5abfcb55c9768a2a00e71a9b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#aa219dc4c5abfcb55c9768a2a00e71a9b">Hand</a> { <a class="el" href="class_o_v_r_hand.html#aa219dc4c5abfcb55c9768a2a00e71a9ba6adf97f83acf6453d4a6a4b1070f3754">None</a> = OVRPlugin.Hand.None
+, <a class="el" href="class_o_v_r_hand.html#aa219dc4c5abfcb55c9768a2a00e71a9ba558c4cce30e979b441f36bcac58692c3">HandLeft</a> = OVRPlugin.Hand.HandLeft
+, <a class="el" href="class_o_v_r_hand.html#aa219dc4c5abfcb55c9768a2a00e71a9badb75ce9c367c69e8af461ee43d8efdad">HandRight</a> = OVRPlugin.Hand.HandRight
  }</td></tr>
 <tr class="separator:aa219dc4c5abfcb55c9768a2a00e71a9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28b87cce1bd85d625658790e34f21abe"><td class="memItemLeft" align="right" valign="top"><a id="a28b87cce1bd85d625658790e34f21abe" name="a28b87cce1bd85d625658790e34f21abe"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>HandFinger</b> { <br />
-&#160;&#160;<b>Thumb</b> = OVRPlugin.HandFinger.Thumb
-, <b>Index</b> = OVRPlugin.HandFinger.Index
-, <b>Middle</b> = OVRPlugin.HandFinger.Middle
-, <b>Ring</b> = OVRPlugin.HandFinger.Ring
+<tr class="memitem:a28b87cce1bd85d625658790e34f21abe"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#a28b87cce1bd85d625658790e34f21abe">HandFinger</a> { <br />
+&#160;&#160;<a class="el" href="class_o_v_r_hand.html#a28b87cce1bd85d625658790e34f21abea8807c97721e343cdc1fa2444cc00415b">Thumb</a> = OVRPlugin.HandFinger.Thumb
+, <a class="el" href="class_o_v_r_hand.html#a28b87cce1bd85d625658790e34f21abea88fa71f0a6e0dfedbb46d91cc0b37a50">Index</a> = OVRPlugin.HandFinger.Index
+, <a class="el" href="class_o_v_r_hand.html#a28b87cce1bd85d625658790e34f21abeab1ca34f82e83c52b010f86955f264e05">Middle</a> = OVRPlugin.HandFinger.Middle
+, <a class="el" href="class_o_v_r_hand.html#a28b87cce1bd85d625658790e34f21abead4db177c94738b72bf9ce61e988ab1f1">Ring</a> = OVRPlugin.HandFinger.Ring
 , <br />
-&#160;&#160;<b>Pinky</b> = OVRPlugin.HandFinger.Pinky
-, <b>Max</b> = OVRPlugin.HandFinger.Max
+&#160;&#160;<a class="el" href="class_o_v_r_hand.html#a28b87cce1bd85d625658790e34f21abeaf1644920859642d272a9ac1ec0471635">Pinky</a> = OVRPlugin.HandFinger.Pinky
+, <a class="el" href="class_o_v_r_hand.html#a28b87cce1bd85d625658790e34f21abea6a061313d22e51e0f25b7cd4dc065233">Max</a> = OVRPlugin.HandFinger.Max
 <br />
  }</td></tr>
 <tr class="separator:a28b87cce1bd85d625658790e34f21abe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a252fcc1112bba0d3fcfcc16bb14d8571"><td class="memItemLeft" align="right" valign="top"><a id="a252fcc1112bba0d3fcfcc16bb14d8571" name="a252fcc1112bba0d3fcfcc16bb14d8571"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>TrackingConfidence</b> { <b>Low</b> = OVRPlugin.TrackingConfidence.Low
-, <b>High</b> = OVRPlugin.TrackingConfidence.High
+<tr class="memitem:a252fcc1112bba0d3fcfcc16bb14d8571"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#a252fcc1112bba0d3fcfcc16bb14d8571">TrackingConfidence</a> { <a class="el" href="class_o_v_r_hand.html#a252fcc1112bba0d3fcfcc16bb14d8571a28d0edd045e05cf5af64e35ae0c4c6ef">Low</a> = OVRPlugin.TrackingConfidence.Low
+, <a class="el" href="class_o_v_r_hand.html#a252fcc1112bba0d3fcfcc16bb14d8571a655d20c1ca69519ca647684edbb2db35">High</a> = OVRPlugin.TrackingConfidence.High
  }</td></tr>
 <tr class="separator:a252fcc1112bba0d3fcfcc16bb14d8571"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:afd44f43efd7755b3f81302e269b8d795"><td class="memItemLeft" align="right" valign="top"><a id="afd44f43efd7755b3f81302e269b8d795" name="afd44f43efd7755b3f81302e269b8d795"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>GetFingerIsPinching</b> (HandFinger finger)</td></tr>
+<tr class="memitem:afd44f43efd7755b3f81302e269b8d795"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#afd44f43efd7755b3f81302e269b8d795">GetFingerIsPinching</a> (<a class="el" href="class_o_v_r_hand.html#a28b87cce1bd85d625658790e34f21abe">HandFinger</a> finger)</td></tr>
 <tr class="separator:afd44f43efd7755b3f81302e269b8d795"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a478645eca74d22b6846df326565b006b"><td class="memItemLeft" align="right" valign="top"><a id="a478645eca74d22b6846df326565b006b" name="a478645eca74d22b6846df326565b006b"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>GetFingerPinchStrength</b> (HandFinger finger)</td></tr>
+<tr class="memitem:a478645eca74d22b6846df326565b006b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#a478645eca74d22b6846df326565b006b">GetFingerPinchStrength</a> (<a class="el" href="class_o_v_r_hand.html#a28b87cce1bd85d625658790e34f21abe">HandFinger</a> finger)</td></tr>
 <tr class="separator:a478645eca74d22b6846df326565b006b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cfd41b583f4d79edfbb3d84540f8e23"><td class="memItemLeft" align="right" valign="top"><a id="a8cfd41b583f4d79edfbb3d84540f8e23" name="a8cfd41b583f4d79edfbb3d84540f8e23"></a>
-TrackingConfidence&#160;</td><td class="memItemRight" valign="bottom"><b>GetFingerConfidence</b> (HandFinger finger)</td></tr>
+<tr class="memitem:a8cfd41b583f4d79edfbb3d84540f8e23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_hand.html#a252fcc1112bba0d3fcfcc16bb14d8571">TrackingConfidence</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#a8cfd41b583f4d79edfbb3d84540f8e23">GetFingerConfidence</a> (<a class="el" href="class_o_v_r_hand.html#a28b87cce1bd85d625658790e34f21abe">HandFinger</a> finger)</td></tr>
 <tr class="separator:a8cfd41b583f4d79edfbb3d84540f8e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3db40e42a26d4f9f60495bf9b648088"><td class="memItemLeft" align="right" valign="top"><a id="aa3db40e42a26d4f9f60495bf9b648088" name="aa3db40e42a26d4f9f60495bf9b648088"></a>
-SkeletonType&#160;</td><td class="memItemRight" valign="bottom"><b>GetSkeletonType</b> ()</td></tr>
+<tr class="memitem:aa3db40e42a26d4f9f60495bf9b648088"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_skeleton.html#a82da87f182c9208a36c36ab3b269905b">SkeletonType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_o_v_r_skeleton_1_1_i_o_v_r_skeleton_data_provider.html#aa3db40e42a26d4f9f60495bf9b648088">GetSkeletonType</a> ()</td></tr>
 <tr class="separator:aa3db40e42a26d4f9f60495bf9b648088"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af656bae69d4da0121fa9fa2c28f11523"><td class="memItemLeft" align="right" valign="top"><a id="af656bae69d4da0121fa9fa2c28f11523" name="af656bae69d4da0121fa9fa2c28f11523"></a>
-<a class="el" href="struct_o_v_r_skeleton_1_1_skeleton_pose_data.html">SkeletonPoseData</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetSkeletonPoseData</b> ()</td></tr>
+<tr class="memitem:af656bae69d4da0121fa9fa2c28f11523"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_o_v_r_skeleton_1_1_skeleton_pose_data.html">SkeletonPoseData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_o_v_r_skeleton_1_1_i_o_v_r_skeleton_data_provider.html#af656bae69d4da0121fa9fa2c28f11523">GetSkeletonPoseData</a> ()</td></tr>
 <tr class="separator:af656bae69d4da0121fa9fa2c28f11523"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a135f06a565dcac9a2c863f55f4fed5ed"><td class="memItemLeft" align="right" valign="top"><a id="a135f06a565dcac9a2c863f55f4fed5ed" name="a135f06a565dcac9a2c863f55f4fed5ed"></a>
-<a class="el" href="struct_o_v_r_skeleton_renderer_1_1_skeleton_renderer_data.html">SkeletonRendererData</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetSkeletonRendererData</b> ()</td></tr>
+<tr class="memitem:a135f06a565dcac9a2c863f55f4fed5ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_o_v_r_skeleton_renderer_1_1_skeleton_renderer_data.html">SkeletonRendererData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_o_v_r_skeleton_renderer_1_1_i_o_v_r_skeleton_renderer_data_provider.html#a135f06a565dcac9a2c863f55f4fed5ed">GetSkeletonRendererData</a> ()</td></tr>
 <tr class="separator:a135f06a565dcac9a2c863f55f4fed5ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d12233d7484421fe69af01c302831e2"><td class="memItemLeft" align="right" valign="top"><a id="a2d12233d7484421fe69af01c302831e2" name="a2d12233d7484421fe69af01c302831e2"></a>
-MeshType&#160;</td><td class="memItemRight" valign="bottom"><b>GetMeshType</b> ()</td></tr>
+<tr class="memitem:a2d12233d7484421fe69af01c302831e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_mesh.html#a28d6ff48e5eaedbcd2105b2d694209d3">MeshType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_o_v_r_mesh_1_1_i_o_v_r_mesh_data_provider.html#a2d12233d7484421fe69af01c302831e2">GetMeshType</a> ()</td></tr>
 <tr class="separator:a2d12233d7484421fe69af01c302831e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a812f3fc388d95ab5f1f81fdbc1fe0284"><td class="memItemLeft" align="right" valign="top"><a id="a812f3fc388d95ab5f1f81fdbc1fe0284" name="a812f3fc388d95ab5f1f81fdbc1fe0284"></a>
-<a class="el" href="struct_o_v_r_mesh_renderer_1_1_mesh_renderer_data.html">MeshRendererData</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetMeshRendererData</b> ()</td></tr>
+<tr class="memitem:a812f3fc388d95ab5f1f81fdbc1fe0284"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_o_v_r_mesh_renderer_1_1_mesh_renderer_data.html">MeshRendererData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_o_v_r_mesh_renderer_1_1_i_o_v_r_mesh_renderer_data_provider.html#a812f3fc388d95ab5f1f81fdbc1fe0284">GetMeshRendererData</a> ()</td></tr>
 <tr class="separator:a812f3fc388d95ab5f1f81fdbc1fe0284"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a6a5daba5d48658558ed350fca53beb93"><td class="memItemLeft" align="right" valign="top"><a id="a6a5daba5d48658558ed350fca53beb93" name="a6a5daba5d48658558ed350fca53beb93"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsDataValid</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:a6a5daba5d48658558ed350fca53beb93"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#a6a5daba5d48658558ed350fca53beb93">IsDataValid</a><code> [get, private set]</code></td></tr>
 <tr class="separator:a6a5daba5d48658558ed350fca53beb93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6719064df689d3ef99774a3049bb132a"><td class="memItemLeft" align="right" valign="top"><a id="a6719064df689d3ef99774a3049bb132a" name="a6719064df689d3ef99774a3049bb132a"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsDataHighConfidence</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:a6719064df689d3ef99774a3049bb132a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#a6719064df689d3ef99774a3049bb132a">IsDataHighConfidence</a><code> [get, private set]</code></td></tr>
 <tr class="separator:a6719064df689d3ef99774a3049bb132a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af00185f01aab85fa12fdb283958abfdc"><td class="memItemLeft" align="right" valign="top"><a id="af00185f01aab85fa12fdb283958abfdc" name="af00185f01aab85fa12fdb283958abfdc"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsTracked</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:af00185f01aab85fa12fdb283958abfdc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#af00185f01aab85fa12fdb283958abfdc">IsTracked</a><code> [get, private set]</code></td></tr>
 <tr class="separator:af00185f01aab85fa12fdb283958abfdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05d670d61c1971c5e8ef106c964ebbbc"><td class="memItemLeft" align="right" valign="top"><a id="a05d670d61c1971c5e8ef106c964ebbbc" name="a05d670d61c1971c5e8ef106c964ebbbc"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsSystemGestureInProgress</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:a05d670d61c1971c5e8ef106c964ebbbc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#a05d670d61c1971c5e8ef106c964ebbbc">IsSystemGestureInProgress</a><code> [get, private set]</code></td></tr>
 <tr class="separator:a05d670d61c1971c5e8ef106c964ebbbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a549bd4c43268a51343018e9bffd3b782"><td class="memItemLeft" align="right" valign="top"><a id="a549bd4c43268a51343018e9bffd3b782" name="a549bd4c43268a51343018e9bffd3b782"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsPointerPoseValid</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:a549bd4c43268a51343018e9bffd3b782"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#a549bd4c43268a51343018e9bffd3b782">IsPointerPoseValid</a><code> [get, private set]</code></td></tr>
 <tr class="separator:a549bd4c43268a51343018e9bffd3b782"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9c19b1d10b3557074fd72fffda1c172"><td class="memItemLeft" align="right" valign="top"><a id="ae9c19b1d10b3557074fd72fffda1c172" name="ae9c19b1d10b3557074fd72fffda1c172"></a>
-Transform&#160;</td><td class="memItemRight" valign="bottom"><b>PointerPose</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:ae9c19b1d10b3557074fd72fffda1c172"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#ae9c19b1d10b3557074fd72fffda1c172">PointerPose</a><code> [get, private set]</code></td></tr>
 <tr class="separator:ae9c19b1d10b3557074fd72fffda1c172"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27ded3cf29a987fd4052c6afdf86c96e"><td class="memItemLeft" align="right" valign="top"><a id="a27ded3cf29a987fd4052c6afdf86c96e" name="a27ded3cf29a987fd4052c6afdf86c96e"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>HandScale</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:a27ded3cf29a987fd4052c6afdf86c96e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#a27ded3cf29a987fd4052c6afdf86c96e">HandScale</a><code> [get, private set]</code></td></tr>
 <tr class="separator:a27ded3cf29a987fd4052c6afdf86c96e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3918c76c7218c442a688076c44d5861f"><td class="memItemLeft" align="right" valign="top"><a id="a3918c76c7218c442a688076c44d5861f" name="a3918c76c7218c442a688076c44d5861f"></a>
-TrackingConfidence&#160;</td><td class="memItemRight" valign="bottom"><b>HandConfidence</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:a3918c76c7218c442a688076c44d5861f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_hand.html#a252fcc1112bba0d3fcfcc16bb14d8571">TrackingConfidence</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#a3918c76c7218c442a688076c44d5861f">HandConfidence</a><code> [get, private set]</code></td></tr>
 <tr class="separator:a3918c76c7218c442a688076c44d5861f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62c438e3b93d73a0cc1c5743800c0da9"><td class="memItemLeft" align="right" valign="top"><a id="a62c438e3b93d73a0cc1c5743800c0da9" name="a62c438e3b93d73a0cc1c5743800c0da9"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsDominantHand</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:a62c438e3b93d73a0cc1c5743800c0da9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#a62c438e3b93d73a0cc1c5743800c0da9">IsDominantHand</a><code> [get, private set]</code></td></tr>
 <tr class="separator:a62c438e3b93d73a0cc1c5743800c0da9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_interface_o_v_r_skeleton_1_1_i_o_v_r_skeleton_data_provider"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_o_v_r_skeleton_1_1_i_o_v_r_skeleton_data_provider')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_o_v_r_skeleton_1_1_i_o_v_r_skeleton_data_provider.html">OVRSkeleton.IOVRSkeletonDataProvider</a></td></tr>
-<tr class="memitem:a0c0b15f57e5b29748ead2c7a8ce78467 inherit properties_interface_o_v_r_skeleton_1_1_i_o_v_r_skeleton_data_provider"><td class="memItemLeft" align="right" valign="top"><a id="a0c0b15f57e5b29748ead2c7a8ce78467" name="a0c0b15f57e5b29748ead2c7a8ce78467"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>enabled</b><code> [get]</code></td></tr>
+<tr class="memitem:a0c0b15f57e5b29748ead2c7a8ce78467 inherit properties_interface_o_v_r_skeleton_1_1_i_o_v_r_skeleton_data_provider"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_o_v_r_skeleton_1_1_i_o_v_r_skeleton_data_provider.html#a0c0b15f57e5b29748ead2c7a8ce78467">enabled</a><code> [get]</code></td></tr>
 <tr class="separator:a0c0b15f57e5b29748ead2c7a8ce78467 inherit properties_interface_o_v_r_skeleton_1_1_i_o_v_r_skeleton_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a74db066d13262ee5057b0bc68040b687"><td class="memItemLeft" align="right" valign="top"><a id="a74db066d13262ee5057b0bc68040b687" name="a74db066d13262ee5057b0bc68040b687"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
+<tr class="memitem:a74db066d13262ee5057b0bc68040b687"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#a74db066d13262ee5057b0bc68040b687">Awake</a> ()</td></tr>
 <tr class="separator:a74db066d13262ee5057b0bc68040b687"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b918703fc1d44996eab3a409fcf369f"><td class="memItemLeft" align="right" valign="top"><a id="a4b918703fc1d44996eab3a409fcf369f" name="a4b918703fc1d44996eab3a409fcf369f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
+<tr class="memitem:a4b918703fc1d44996eab3a409fcf369f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#a4b918703fc1d44996eab3a409fcf369f">Update</a> ()</td></tr>
 <tr class="separator:a4b918703fc1d44996eab3a409fcf369f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab12cb8e30620754f4bab7abcca37503"><td class="memItemLeft" align="right" valign="top"><a id="aab12cb8e30620754f4bab7abcca37503" name="aab12cb8e30620754f4bab7abcca37503"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>FixedUpdate</b> ()</td></tr>
+<tr class="memitem:aab12cb8e30620754f4bab7abcca37503"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#aab12cb8e30620754f4bab7abcca37503">FixedUpdate</a> ()</td></tr>
 <tr class="separator:aab12cb8e30620754f4bab7abcca37503"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1646d418f4fc71e652b78ebbd63c937a"><td class="memItemLeft" align="right" valign="top"><a id="a1646d418f4fc71e652b78ebbd63c937a" name="a1646d418f4fc71e652b78ebbd63c937a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>GetHandState</b> (OVRPlugin.Step step)</td></tr>
+<tr class="memitem:a1646d418f4fc71e652b78ebbd63c937a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#a1646d418f4fc71e652b78ebbd63c937a">GetHandState</a> (OVRPlugin.Step step)</td></tr>
 <tr class="separator:a1646d418f4fc71e652b78ebbd63c937a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac669830ea3237e22cac5eeb25b9dc78e"><td class="memItemLeft" align="right" valign="top">OVRSkeleton.SkeletonType OVRSkeleton.IOVRSkeletonDataProvider.&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#ac669830ea3237e22cac5eeb25b9dc78e">GetSkeletonType</a> ()</td></tr>
+<tr class="memitem:ac669830ea3237e22cac5eeb25b9dc78e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_skeleton.html#a82da87f182c9208a36c36ab3b269905b">OVRSkeleton.SkeletonType</a> OVRSkeleton.IOVRSkeletonDataProvider.&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#ac669830ea3237e22cac5eeb25b9dc78e">GetSkeletonType</a> ()</td></tr>
 <tr class="separator:ac669830ea3237e22cac5eeb25b9dc78e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca20843f3e4983c8367ee269401675a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_o_v_r_skeleton_1_1_skeleton_pose_data.html">OVRSkeleton.SkeletonPoseData</a> OVRSkeleton.IOVRSkeletonDataProvider.&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#aca20843f3e4983c8367ee269401675a0">GetSkeletonPoseData</a> ()</td></tr>
 <tr class="separator:aca20843f3e4983c8367ee269401675a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad44467d54fc3ac4ab91d41c93393d0ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_o_v_r_skeleton_renderer_1_1_skeleton_renderer_data.html">OVRSkeletonRenderer.SkeletonRendererData</a> OVRSkeletonRenderer.IOVRSkeletonRendererDataProvider.&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#ad44467d54fc3ac4ab91d41c93393d0ea">GetSkeletonRendererData</a> ()</td></tr>
 <tr class="separator:ad44467d54fc3ac4ab91d41c93393d0ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4919b56077ad8bd0fadd72209828772d"><td class="memItemLeft" align="right" valign="top">OVRMesh.MeshType OVRMesh.IOVRMeshDataProvider.&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#a4919b56077ad8bd0fadd72209828772d">GetMeshType</a> ()</td></tr>
+<tr class="memitem:a4919b56077ad8bd0fadd72209828772d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_mesh.html#a28d6ff48e5eaedbcd2105b2d694209d3">OVRMesh.MeshType</a> OVRMesh.IOVRMeshDataProvider.&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#a4919b56077ad8bd0fadd72209828772d">GetMeshType</a> ()</td></tr>
 <tr class="separator:a4919b56077ad8bd0fadd72209828772d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a757bedb0d236cd69e7cd731dae094f0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_o_v_r_mesh_renderer_1_1_mesh_renderer_data.html">OVRMeshRenderer.MeshRendererData</a> OVRMeshRenderer.IOVRMeshRendererDataProvider.&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#a757bedb0d236cd69e7cd731dae094f0f">GetMeshRendererData</a> ()</td></tr>
 <tr class="separator:a757bedb0d236cd69e7cd731dae094f0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a4b06b1715017b3879f9f449700feb54a"><td class="memItemLeft" align="right" valign="top"><a id="a4b06b1715017b3879f9f449700feb54a" name="a4b06b1715017b3879f9f449700feb54a"></a>
-Hand&#160;</td><td class="memItemRight" valign="bottom"><b>HandType</b> = Hand.None</td></tr>
+<tr class="memitem:a4b06b1715017b3879f9f449700feb54a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_hand.html#aa219dc4c5abfcb55c9768a2a00e71a9b">Hand</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#a4b06b1715017b3879f9f449700feb54a">HandType</a> = <a class="el" href="class_o_v_r_hand.html#aa219dc4c5abfcb55c9768a2a00e71a9ba6adf97f83acf6453d4a6a4b1070f3754">Hand.None</a></td></tr>
 <tr class="separator:a4b06b1715017b3879f9f449700feb54a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6a5933961098f49fc226ba0aac4bf3a"><td class="memItemLeft" align="right" valign="top"><a id="ac6a5933961098f49fc226ba0aac4bf3a" name="ac6a5933961098f49fc226ba0aac4bf3a"></a>
-Transform&#160;</td><td class="memItemRight" valign="bottom"><b>_pointerPoseRoot</b> = null</td></tr>
+<tr class="memitem:ac6a5933961098f49fc226ba0aac4bf3a"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#ac6a5933961098f49fc226ba0aac4bf3a">_pointerPoseRoot</a> = null</td></tr>
 <tr class="separator:ac6a5933961098f49fc226ba0aac4bf3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca8f499441b2b8d278102a28cf4b9b94"><td class="memItemLeft" align="right" valign="top"><a id="aca8f499441b2b8d278102a28cf4b9b94" name="aca8f499441b2b8d278102a28cf4b9b94"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>_pointerPoseGO</b></td></tr>
+<tr class="memitem:aca8f499441b2b8d278102a28cf4b9b94"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#aca8f499441b2b8d278102a28cf4b9b94">_pointerPoseGO</a></td></tr>
 <tr class="separator:aca8f499441b2b8d278102a28cf4b9b94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade1459da0640c2993909c99bf40a2fab"><td class="memItemLeft" align="right" valign="top"><a id="ade1459da0640c2993909c99bf40a2fab" name="ade1459da0640c2993909c99bf40a2fab"></a>
-<a class="el" href="struct_o_v_r_plugin_1_1_hand_state.html">OVRPlugin.HandState</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_handState</b> = new <a class="el" href="struct_o_v_r_plugin_1_1_hand_state.html">OVRPlugin.HandState</a>()</td></tr>
+<tr class="memitem:ade1459da0640c2993909c99bf40a2fab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_o_v_r_plugin_1_1_hand_state.html">OVRPlugin.HandState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_hand.html#ade1459da0640c2993909c99bf40a2fab">_handState</a> = new <a class="el" href="struct_o_v_r_plugin_1_1_hand_state.html">OVRPlugin.HandState</a>()</td></tr>
 <tr class="separator:ade1459da0640c2993909c99bf40a2fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="aa219dc4c5abfcb55c9768a2a00e71a9b" name="aa219dc4c5abfcb55c9768a2a00e71a9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa219dc4c5abfcb55c9768a2a00e71a9b">&#9670;&#160;</a></span>Hand</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_o_v_r_hand.html#aa219dc4c5abfcb55c9768a2a00e71a9b">OVRHand.Hand</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa219dc4c5abfcb55c9768a2a00e71a9ba6adf97f83acf6453d4a6a4b1070f3754" name="aa219dc4c5abfcb55c9768a2a00e71a9ba6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa219dc4c5abfcb55c9768a2a00e71a9ba558c4cce30e979b441f36bcac58692c3" name="aa219dc4c5abfcb55c9768a2a00e71a9ba558c4cce30e979b441f36bcac58692c3"></a>HandLeft&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa219dc4c5abfcb55c9768a2a00e71a9badb75ce9c367c69e8af461ee43d8efdad" name="aa219dc4c5abfcb55c9768a2a00e71a9badb75ce9c367c69e8af461ee43d8efdad"></a>HandRight&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a28b87cce1bd85d625658790e34f21abe" name="a28b87cce1bd85d625658790e34f21abe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28b87cce1bd85d625658790e34f21abe">&#9670;&#160;</a></span>HandFinger</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_o_v_r_hand.html#a28b87cce1bd85d625658790e34f21abe">OVRHand.HandFinger</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a28b87cce1bd85d625658790e34f21abea8807c97721e343cdc1fa2444cc00415b" name="a28b87cce1bd85d625658790e34f21abea8807c97721e343cdc1fa2444cc00415b"></a>Thumb&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a28b87cce1bd85d625658790e34f21abea88fa71f0a6e0dfedbb46d91cc0b37a50" name="a28b87cce1bd85d625658790e34f21abea88fa71f0a6e0dfedbb46d91cc0b37a50"></a>Index&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a28b87cce1bd85d625658790e34f21abeab1ca34f82e83c52b010f86955f264e05" name="a28b87cce1bd85d625658790e34f21abeab1ca34f82e83c52b010f86955f264e05"></a>Middle&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a28b87cce1bd85d625658790e34f21abead4db177c94738b72bf9ce61e988ab1f1" name="a28b87cce1bd85d625658790e34f21abead4db177c94738b72bf9ce61e988ab1f1"></a>Ring&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a28b87cce1bd85d625658790e34f21abeaf1644920859642d272a9ac1ec0471635" name="a28b87cce1bd85d625658790e34f21abeaf1644920859642d272a9ac1ec0471635"></a>Pinky&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a28b87cce1bd85d625658790e34f21abea6a061313d22e51e0f25b7cd4dc065233" name="a28b87cce1bd85d625658790e34f21abea6a061313d22e51e0f25b7cd4dc065233"></a>Max&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a252fcc1112bba0d3fcfcc16bb14d8571" name="a252fcc1112bba0d3fcfcc16bb14d8571"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a252fcc1112bba0d3fcfcc16bb14d8571">&#9670;&#160;</a></span>TrackingConfidence</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_o_v_r_hand.html#a252fcc1112bba0d3fcfcc16bb14d8571">OVRHand.TrackingConfidence</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a252fcc1112bba0d3fcfcc16bb14d8571a28d0edd045e05cf5af64e35ae0c4c6ef" name="a252fcc1112bba0d3fcfcc16bb14d8571a28d0edd045e05cf5af64e35ae0c4c6ef"></a>Low&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a252fcc1112bba0d3fcfcc16bb14d8571a655d20c1ca69519ca647684edbb2db35" name="a252fcc1112bba0d3fcfcc16bb14d8571a655d20c1ca69519ca647684edbb2db35"></a>High&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a74db066d13262ee5057b0bc68040b687" name="a74db066d13262ee5057b0bc68040b687"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74db066d13262ee5057b0bc68040b687">&#9670;&#160;</a></span>Awake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVRHand.Awake </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aab12cb8e30620754f4bab7abcca37503" name="aab12cb8e30620754f4bab7abcca37503"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab12cb8e30620754f4bab7abcca37503">&#9670;&#160;</a></span>FixedUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVRHand.FixedUpdate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8cfd41b583f4d79edfbb3d84540f8e23" name="a8cfd41b583f4d79edfbb3d84540f8e23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cfd41b583f4d79edfbb3d84540f8e23">&#9670;&#160;</a></span>GetFingerConfidence()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_hand.html#a252fcc1112bba0d3fcfcc16bb14d8571">TrackingConfidence</a> OVRHand.GetFingerConfidence </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_o_v_r_hand.html#a28b87cce1bd85d625658790e34f21abe">HandFinger</a>&#160;</td>
+          <td class="paramname"><em>finger</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afd44f43efd7755b3f81302e269b8d795" name="afd44f43efd7755b3f81302e269b8d795"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd44f43efd7755b3f81302e269b8d795">&#9670;&#160;</a></span>GetFingerIsPinching()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVRHand.GetFingerIsPinching </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_o_v_r_hand.html#a28b87cce1bd85d625658790e34f21abe">HandFinger</a>&#160;</td>
+          <td class="paramname"><em>finger</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a478645eca74d22b6846df326565b006b" name="a478645eca74d22b6846df326565b006b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a478645eca74d22b6846df326565b006b">&#9670;&#160;</a></span>GetFingerPinchStrength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float OVRHand.GetFingerPinchStrength </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_o_v_r_hand.html#a28b87cce1bd85d625658790e34f21abe">HandFinger</a>&#160;</td>
+          <td class="paramname"><em>finger</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1646d418f4fc71e652b78ebbd63c937a" name="a1646d418f4fc71e652b78ebbd63c937a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1646d418f4fc71e652b78ebbd63c937a">&#9670;&#160;</a></span>GetHandState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVRHand.GetHandState </td>
+          <td>(</td>
+          <td class="paramtype">OVRPlugin::Step&#160;</td>
+          <td class="paramname"><em>step</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a757bedb0d236cd69e7cd731dae094f0f" name="a757bedb0d236cd69e7cd731dae094f0f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a757bedb0d236cd69e7cd731dae094f0f">&#9670;&#160;</a></span>GetMeshRendererData()</h2>
 
@@ -240,7 +428,7 @@ GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>_pointerPoseGO<
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interface_o_v_r_mesh_renderer_1_1_i_o_v_r_mesh_renderer_data_provider.html">OVRMeshRenderer.IOVRMeshRendererDataProvider</a>.</p>
+<p>Implements <a class="el" href="interface_o_v_r_mesh_renderer_1_1_i_o_v_r_mesh_renderer_data_provider.html#a812f3fc388d95ab5f1f81fdbc1fe0284">OVRMeshRenderer.IOVRMeshRendererDataProvider</a>.</p>
 
 </div>
 </div>
@@ -254,7 +442,7 @@ GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>_pointerPoseGO<
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">OVRMesh.MeshType OVRMesh.IOVRMeshDataProvider. OVRHand.GetMeshType </td>
+          <td class="memname"><a class="el" href="class_o_v_r_mesh.html#a28d6ff48e5eaedbcd2105b2d694209d3">OVRMesh.MeshType</a> OVRMesh.IOVRMeshDataProvider. OVRHand.GetMeshType </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -267,7 +455,7 @@ GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>_pointerPoseGO<
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interface_o_v_r_mesh_1_1_i_o_v_r_mesh_data_provider.html">OVRMesh.IOVRMeshDataProvider</a>.</p>
+<p>Implements <a class="el" href="interface_o_v_r_mesh_1_1_i_o_v_r_mesh_data_provider.html#a2d12233d7484421fe69af01c302831e2">OVRMesh.IOVRMeshDataProvider</a>.</p>
 
 </div>
 </div>
@@ -294,7 +482,7 @@ GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>_pointerPoseGO<
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interface_o_v_r_skeleton_1_1_i_o_v_r_skeleton_data_provider.html">OVRSkeleton.IOVRSkeletonDataProvider</a>.</p>
+<p>Implements <a class="el" href="interface_o_v_r_skeleton_1_1_i_o_v_r_skeleton_data_provider.html#af656bae69d4da0121fa9fa2c28f11523">OVRSkeleton.IOVRSkeletonDataProvider</a>.</p>
 
 </div>
 </div>
@@ -321,7 +509,7 @@ GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>_pointerPoseGO<
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interface_o_v_r_skeleton_renderer_1_1_i_o_v_r_skeleton_renderer_data_provider.html">OVRSkeletonRenderer.IOVRSkeletonRendererDataProvider</a>.</p>
+<p>Implements <a class="el" href="interface_o_v_r_skeleton_renderer_1_1_i_o_v_r_skeleton_renderer_data_provider.html#a135f06a565dcac9a2c863f55f4fed5ed">OVRSkeletonRenderer.IOVRSkeletonRendererDataProvider</a>.</p>
 
 </div>
 </div>
@@ -335,7 +523,7 @@ GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>_pointerPoseGO<
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">OVRSkeleton.SkeletonType OVRSkeleton.IOVRSkeletonDataProvider. OVRHand.GetSkeletonType </td>
+          <td class="memname"><a class="el" href="class_o_v_r_skeleton.html#a82da87f182c9208a36c36ab3b269905b">OVRSkeleton.SkeletonType</a> OVRSkeleton.IOVRSkeletonDataProvider. OVRHand.GetSkeletonType </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -348,12 +536,325 @@ GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>_pointerPoseGO<
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interface_o_v_r_skeleton_1_1_i_o_v_r_skeleton_data_provider.html">OVRSkeleton.IOVRSkeletonDataProvider</a>.</p>
+<p>Implements <a class="el" href="interface_o_v_r_skeleton_1_1_i_o_v_r_skeleton_data_provider.html#aa3db40e42a26d4f9f60495bf9b648088">OVRSkeleton.IOVRSkeletonDataProvider</a>.</p>
+
+</div>
+</div>
+<a id="a4b918703fc1d44996eab3a409fcf369f" name="a4b918703fc1d44996eab3a409fcf369f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b918703fc1d44996eab3a409fcf369f">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVRHand.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ade1459da0640c2993909c99bf40a2fab" name="ade1459da0640c2993909c99bf40a2fab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade1459da0640c2993909c99bf40a2fab">&#9670;&#160;</a></span>_handState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_o_v_r_plugin_1_1_hand_state.html">OVRPlugin.HandState</a> OVRHand._handState = new <a class="el" href="struct_o_v_r_plugin_1_1_hand_state.html">OVRPlugin.HandState</a>()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aca8f499441b2b8d278102a28cf4b9b94" name="aca8f499441b2b8d278102a28cf4b9b94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca8f499441b2b8d278102a28cf4b9b94">&#9670;&#160;</a></span>_pointerPoseGO</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject OVRHand._pointerPoseGO</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6a5933961098f49fc226ba0aac4bf3a" name="ac6a5933961098f49fc226ba0aac4bf3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6a5933961098f49fc226ba0aac4bf3a">&#9670;&#160;</a></span>_pointerPoseRoot</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Transform OVRHand._pointerPoseRoot = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4b06b1715017b3879f9f449700feb54a" name="a4b06b1715017b3879f9f449700feb54a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b06b1715017b3879f9f449700feb54a">&#9670;&#160;</a></span>HandType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_hand.html#aa219dc4c5abfcb55c9768a2a00e71a9b">Hand</a> OVRHand.HandType = <a class="el" href="class_o_v_r_hand.html#aa219dc4c5abfcb55c9768a2a00e71a9ba6adf97f83acf6453d4a6a4b1070f3754">Hand.None</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a3918c76c7218c442a688076c44d5861f" name="a3918c76c7218c442a688076c44d5861f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3918c76c7218c442a688076c44d5861f">&#9670;&#160;</a></span>HandConfidence</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_hand.html#a252fcc1112bba0d3fcfcc16bb14d8571">TrackingConfidence</a> OVRHand.HandConfidence</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a27ded3cf29a987fd4052c6afdf86c96e" name="a27ded3cf29a987fd4052c6afdf86c96e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27ded3cf29a987fd4052c6afdf86c96e">&#9670;&#160;</a></span>HandScale</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float OVRHand.HandScale</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6719064df689d3ef99774a3049bb132a" name="a6719064df689d3ef99774a3049bb132a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6719064df689d3ef99774a3049bb132a">&#9670;&#160;</a></span>IsDataHighConfidence</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVRHand.IsDataHighConfidence</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6a5daba5d48658558ed350fca53beb93" name="a6a5daba5d48658558ed350fca53beb93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a5daba5d48658558ed350fca53beb93">&#9670;&#160;</a></span>IsDataValid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVRHand.IsDataValid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a62c438e3b93d73a0cc1c5743800c0da9" name="a62c438e3b93d73a0cc1c5743800c0da9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62c438e3b93d73a0cc1c5743800c0da9">&#9670;&#160;</a></span>IsDominantHand</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVRHand.IsDominantHand</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a549bd4c43268a51343018e9bffd3b782" name="a549bd4c43268a51343018e9bffd3b782"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a549bd4c43268a51343018e9bffd3b782">&#9670;&#160;</a></span>IsPointerPoseValid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVRHand.IsPointerPoseValid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a05d670d61c1971c5e8ef106c964ebbbc" name="a05d670d61c1971c5e8ef106c964ebbbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05d670d61c1971c5e8ef106c964ebbbc">&#9670;&#160;</a></span>IsSystemGestureInProgress</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVRHand.IsSystemGestureInProgress</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af00185f01aab85fa12fdb283958abfdc" name="af00185f01aab85fa12fdb283958abfdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af00185f01aab85fa12fdb283958abfdc">&#9670;&#160;</a></span>IsTracked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVRHand.IsTracked</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae9c19b1d10b3557074fd72fffda1c172" name="ae9c19b1d10b3557074fd72fffda1c172"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9c19b1d10b3557074fd72fffda1c172">&#9670;&#160;</a></span>PointerPose</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Transform OVRHand.PointerPose</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Oculus/VR/Scripts/Util/OVRHand.cs</li>
+<li>Assets/Oculus/VR/Scripts/Util/<a class="el" href="_o_v_r_hand_8cs.html">OVRHand.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
