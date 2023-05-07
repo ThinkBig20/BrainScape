@@ -1,7 +1,6 @@
 /**
 * @file Lose.cs
 * @brief Ce script permet de relancer la scène en cas de défaite
-* @version 1.0
 */
 
 
@@ -27,16 +26,16 @@ namespace BrainScape
         }
         
 
-        /// la fonction PlayAudio permet de jouer le son attaché à l'objet
+        /// la fonction PlayAudio permet de jouer le son attaché à l'objet et relancer la scène
          public void PlayAudio()
         {   
         audioSource.Play();
 
         StartCoroutine(waitForSound()); //Start Coroutine
 
-      
         }
-        
+
+        /// la fonction waitForSound permet d'attendre la fin du son pour relancer la scène        
          IEnumerator waitForSound()
     {
         //Wait Until Sound has finished playing
@@ -45,8 +44,7 @@ namespace BrainScape
             yield return null;
         }
 
-       //Auidio has finished playing, disable GameObject
-         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
         // Update is called once per frame
