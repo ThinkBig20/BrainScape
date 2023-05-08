@@ -68,8 +68,13 @@ var searchData=
   ['updateafter_65',['UpdateAfter',['../class_oculus_1_1_interaction_1_1_input_1_1_data_source.html#a9129996fa309538fd3aedbbb43c65869',1,'Oculus::Interaction::Input::DataSource']]],
   ['updateclock_66',['UpdateClock',['../class_f_i_m_space_1_1_ground_fitter_1_1_f_ground_fitter.html#af774d5c546e486abfc1b8b9b9dd8ec06',1,'FIMSpace.GroundFitter.FGroundFitter.UpdateClock()'],['../class_f_i_m_space_1_1_ground_fitter_1_1_f_ground_rotator.html#a9284e0fbc749cab5c40afbc29977046d',1,'FIMSpace.GroundFitter.FGroundRotator.UpdateClock()'],['../class_f_i_m_space_1_1_basics_1_1_f_basic___t_p_p_camera_behaviour.html#a3082f70379eb68710d1a5490145e0b9d',1,'FIMSpace.Basics.FBasic_TPPCameraBehaviour.UpdateClock()']]],
   ['updatedriver_67',['UpdateDriver',['../class_oculus_1_1_interaction_1_1_update_driver_after_data_source.html#a8a95c61b2fcada075fcc43dd0057808a',1,'Oculus::Interaction::UpdateDriverAfterDataSource']]],
+<<<<<<< HEAD
   ['updateinterval_68',['updateInterval',['../class_o_v_r_debug_info.html#af34ddf3005f323307f468db64b5a26fa',1,'OVRDebugInfo']]],
   ['updateinterval_69',['UpdateInterval',['../class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter.html#ae8d84e2e21d6d819d48f594b09b0319b',1,'TMPro.Examples.TMP_FrameRateCounter.UpdateInterval()'],['../class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter.html#a826c5dd240c35cc3cec70d82d0e6d76e',1,'TMPro.Examples.TMP_UiFrameRateCounter.UpdateInterval()']]],
+=======
+  ['updateinterval_68',['UpdateInterval',['../class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter.html#ae8d84e2e21d6d819d48f594b09b0319b',1,'TMPro.Examples.TMP_FrameRateCounter.UpdateInterval()'],['../class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter.html#a826c5dd240c35cc3cec70d82d0e6d76e',1,'TMPro.Examples.TMP_UiFrameRateCounter.UpdateInterval()']]],
+  ['updateinterval_69',['updateInterval',['../class_o_v_r_debug_info.html#af34ddf3005f323307f468db64b5a26fa',1,'OVRDebugInfo']]],
+>>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   ['updatekeyboardroutine_5f_70',['updateKeyboardRoutine_',['../class_o_v_r_tracked_keyboard.html#af28fdd4d8e8ed7f68aaa2d444ae50091',1,'OVRTrackedKeyboard']]],
   ['updateorientationduringaim_71',['UpdateOrientationDuringAim',['../class_teleport_orientation_handler_h_m_d.html#a8024594c61d2596cffd446c041fecd60',1,'TeleportOrientationHandlerHMD']]],
   ['updaterequired_72',['UpdateRequired',['../class_oculus_1_1_interaction_1_1_input_1_1_synthetic_hand.html#abcf4f442e0d82ee5da272c01792d172d',1,'Oculus::Interaction::Input::SyntheticHand']]],
@@ -130,6 +135,11 @@ var searchData=
   ['uuidcountoutput_127',['uuidCountOutput',['../struct_o_v_r_plugin_1_1_space_container_internal.html#a2c29f07a1c136f0929a3e8b4d397ec19',1,'OVRPlugin::SpaceContainerInternal']]],
   ['uuids_128',['uuids',['../struct_o_v_r_plugin_1_1_space_container_internal.html#aec31e3b5eedb45eb2411eb63bcdf019c',1,'OVRPlugin::SpaceContainerInternal']]],
   ['uuservalue_129',['uUserValue',['../struct_o_v_r_1_1_open_v_r_1_1_v_r_event___keyboard__t.html#a28b3fac175a86edf104338ebf152eca4',1,'OVR::OpenVR::VREvent_Keyboard_t']]],
+<<<<<<< HEAD
   ['uv_130',['uv',['../struct_oculus_1_1_interaction_1_1_tube_renderer_1_1_vertex_layout.html#a7686169fcf6ccbdc958d68d7bd097387',1,'Oculus::Interaction::TubeRenderer::VertexLayout']]],
   ['uv_131',['UV',['../struct_o_v_r_mesh_jobs_1_1_transform_to_unity_space_job.html#a2d05697334f5a0a13fc73592314e3990',1,'OVRMeshJobs::TransformToUnitySpaceJob']]]
+=======
+  ['uv_130',['UV',['../struct_o_v_r_mesh_jobs_1_1_transform_to_unity_space_job.html#a2d05697334f5a0a13fc73592314e3990',1,'OVRMeshJobs::TransformToUnitySpaceJob']]],
+  ['uv_131',['uv',['../struct_oculus_1_1_interaction_1_1_tube_renderer_1_1_vertex_layout.html#a7686169fcf6ccbdc958d68d7bd097387',1,'Oculus::Interaction::TubeRenderer::VertexLayout']]]
+>>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
 ];

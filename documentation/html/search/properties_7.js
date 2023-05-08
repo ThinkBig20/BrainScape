@@ -13,8 +13,13 @@ var searchData=
   ['grabbedrigidbody_10',['grabbedRigidbody',['../class_o_v_r_grabbable.html#a1d51db48a25275e13dd7b319d111b8a5',1,'OVRGrabbable']]],
   ['grabbedtransform_11',['grabbedTransform',['../class_o_v_r_grabbable.html#a0d005bed31e1179bb68d62d209a91113',1,'OVRGrabbable']]],
   ['grabpoint_12',['GrabPoint',['../struct_oculus_1_1_interaction_1_1_hand_grab_1_1_recorder_1_1_hand_grab_pose_live_recorder_1_1_recorder_step.html#a5b8a2fd1ddd20b33d149ceb613fcb775',1,'Oculus::Interaction::HandGrab::Recorder::HandGrabPoseLiveRecorder::RecorderStep']]],
+<<<<<<< HEAD
   ['grabpoints_13',['GrabPoints',['../class_oculus_1_1_interaction_1_1_grabbable.html#a96d41a8096fac315f27b73014b3736e5',1,'Oculus.Interaction.Grabbable.GrabPoints()'],['../interface_oculus_1_1_interaction_1_1_i_grabbable.html#a87b73376b703c054c0b06401739096ec',1,'Oculus.Interaction.IGrabbable.GrabPoints()']]],
   ['grabpoints_14',['grabPoints',['../class_o_v_r_grabbable.html#a0a8028e3e63a41a2a52f563e6b19cc67',1,'OVRGrabbable']]],
+=======
+  ['grabpoints_13',['grabPoints',['../class_o_v_r_grabbable.html#a0a8028e3e63a41a2a52f563e6b19cc67',1,'OVRGrabbable']]],
+  ['grabpoints_14',['GrabPoints',['../class_oculus_1_1_interaction_1_1_grabbable.html#a96d41a8096fac315f27b73014b3736e5',1,'Oculus.Interaction.Grabbable.GrabPoints()'],['../interface_oculus_1_1_interaction_1_1_i_grabbable.html#a87b73376b703c054c0b06401739096ec',1,'Oculus.Interaction.IGrabbable.GrabPoints()']]],
+>>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   ['grabposition_15',['GrabPosition',['../class_oculus_1_1_interaction_1_1_touch_hand_grab_interactor.html#a73c2389c7692d6e8d2726c65d1fda64b',1,'Oculus::Interaction::TouchHandGrabInteractor']]],
   ['grabrotation_16',['GrabRotation',['../class_oculus_1_1_interaction_1_1_touch_hand_grab_interactor.html#ac33a91bacb6232d6ff2b195d7e5d9cfd',1,'Oculus::Interaction::TouchHandGrabInteractor']]],
   ['gradient_17',['Gradient',['../class_oculus_1_1_interaction_1_1_tube_renderer.html#ab4fa35bbeb3992ad403c00578a0e779c',1,'Oculus::Interaction::TubeRenderer']]],

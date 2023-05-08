@@ -53,8 +53,13 @@ var searchData=
   ['getalphacutoutthreshold_50',['GetAlphaCutoutThreshold',['../class_oculus_1_1_interaction_1_1_unity_canvas_1_1_o_v_r_canvas_mesh_renderer.html#a378fec4ab24f5dcc5aed7f2f98a257c4',1,'Oculus.Interaction.UnityCanvas.OVRCanvasMeshRenderer.GetAlphaCutoutThreshold()'],['../class_oculus_1_1_interaction_1_1_unity_canvas_1_1_canvas_mesh_renderer.html#a735ab81c1bb139e662d35e20c15fceee',1,'Oculus.Interaction.UnityCanvas.CanvasMeshRenderer.GetAlphaCutoutThreshold()']]],
   ['getanalogactiondata_51',['GetAnalogActionData',['../class_o_v_r_1_1_open_v_r_1_1_c_v_r_input.html#aa562b3225977e71bdaccc63c2ace75a1',1,'OVR::OpenVR::CVRInput']]],
   ['getandroidsdkpath_52',['GetAndroidSDKPath',['../class_o_v_r_config.html#ab8a6394a6ed49ea44dfb17166b64144a',1,'OVRConfig']]],
+<<<<<<< HEAD
   ['getappid_53',['getAppID',['../class_oculus_1_1_platform_1_1_core.html#abaa512b216e13cf78ec285c9747f1f18',1,'Oculus::Platform::Core']]],
   ['getappid_54',['GetAppId',['../class_meta_1_1_wit_ai_1_1_wit_auth_utility.html#ae35744d92030a9724855042989c84132',1,'Meta::WitAi::WitAuthUtility']]],
+=======
+  ['getappid_53',['GetAppId',['../class_meta_1_1_wit_ai_1_1_wit_auth_utility.html#ae35744d92030a9724855042989c84132',1,'Meta::WitAi::WitAuthUtility']]],
+  ['getappid_54',['getAppID',['../class_oculus_1_1_platform_1_1_core.html#abaa512b216e13cf78ec285c9747f1f18',1,'Oculus::Platform::Core']]],
+>>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   ['getappidfromconfig_55',['GetAppIDFromConfig',['../class_oculus_1_1_platform_1_1_core.html#a5ecd207e22ab7c787201902c13c62457',1,'Oculus::Platform::Core']]],
   ['getapplicationautolaunch_56',['GetApplicationAutoLaunch',['../class_o_v_r_1_1_open_v_r_1_1_c_v_r_applications.html#afad064eb59896035028f1f8c89da0e9d',1,'OVR::OpenVR::CVRApplications']]],
   ['getapplicationcount_57',['GetApplicationCount',['../class_o_v_r_1_1_open_v_r_1_1_c_v_r_applications.html#a43bdd6ee5c94a204211c7563db2af16f',1,'OVR::OpenVR::CVRApplications']]],
@@ -622,8 +627,13 @@ var searchData=
   ['getupcomingstatenearfield_619',['GetUpcomingStateNearField',['../class_oculus_sample_framework_1_1_button_controller.html#a24b7f6682fb28f45da06df0710cddb18',1,'OculusSampleFramework::ButtonController']]],
   ['getupvector_620',['GetUpVector',['../class_f_i_m_space_1_1_ground_fitter_1_1_f_ground_fitter___base.html#abd67338f60aeced70ba761a8da9ae95b',1,'FIMSpace::GroundFitter::FGroundFitter_Base']]],
   ['geturi_621',['GetUri',['../class_meta_1_1_wit_ai_1_1_requests_1_1_wit_v_request.html#a9c5d2f1f55b50f2c0f09b4bfdd306a5e',1,'Meta::WitAi::Requests::WitVRequest']]],
+<<<<<<< HEAD
   ['getuser_622',['GetUser',['../class_oculus_1_1_platform_1_1_message.html#abb7b6712489717bb4a20eb0ca3bba11e',1,'Oculus.Platform.Message.GetUser()'],['../class_oculus_1_1_platform_1_1_message_with_user.html#a8dacd5547b3446c6d9d02b1ec04a54b5',1,'Oculus.Platform.MessageWithUser.GetUser()']]],
   ['getuser_623',['getUser',['../class_oculus_1_1_platform_1_1_samples_1_1_simple_platform_sample_1_1_data_entry.html#a14e6c3551700c2e6c9020febc6ac9c2f',1,'Oculus::Platform::Samples::SimplePlatformSample::DataEntry']]],
+=======
+  ['getuser_622',['getUser',['../class_oculus_1_1_platform_1_1_samples_1_1_simple_platform_sample_1_1_data_entry.html#a14e6c3551700c2e6c9020febc6ac9c2f',1,'Oculus::Platform::Samples::SimplePlatformSample::DataEntry']]],
+  ['getuser_623',['GetUser',['../class_oculus_1_1_platform_1_1_message.html#abb7b6712489717bb4a20eb0ca3bba11e',1,'Oculus.Platform.Message.GetUser()'],['../class_oculus_1_1_platform_1_1_message_with_user.html#a8dacd5547b3446c6d9d02b1ec04a54b5',1,'Oculus.Platform.MessageWithUser.GetUser()']]],
+>>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   ['getuseragentheader_624',['GetUserAgentHeader',['../class_meta_1_1_wit_ai_1_1_requests_1_1_wit_v_request.html#a7742d4db0da711d7cb4be9384c46d02f',1,'Meta::WitAi::Requests::WitVRequest']]],
   ['getuserandroomlist_625',['GetUserAndRoomList',['../class_oculus_1_1_platform_1_1_message.html#ac054f38a490ab153021d72e8210f01e3',1,'Oculus.Platform.Message.GetUserAndRoomList()'],['../class_oculus_1_1_platform_1_1_message_with_user_and_room_list.html#aedc26884600c9816e77e447628ff27ee',1,'Oculus.Platform.MessageWithUserAndRoomList.GetUserAndRoomList()']]],
   ['getusercallback_626',['getUserCallback',['../class_oculus_1_1_platform_1_1_samples_1_1_simple_platform_sample_1_1_data_entry.html#aac5d6f529b8a9910b8487ecdcc6b92a7',1,'Oculus::Platform::Samples::SimplePlatformSample::DataEntry']]],

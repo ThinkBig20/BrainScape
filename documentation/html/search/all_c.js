@@ -11,8 +11,13 @@ var searchData=
   ['joinexistingroom_8',['JoinExistingRoom',['../class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_room_manager.html#a9e67827fc3f4beb5e460921be1c5ff18',1,'Oculus::Platform::Samples::VrVoiceChat::RoomManager']]],
   ['joinpolicy_9',['JoinPolicy',['../class_oculus_1_1_platform_1_1_models_1_1_room.html#a6c984aa8d1115cc6f4e788afdef31734',1,'Oculus::Platform::Models::Room']]],
   ['joinroom_10',['joinRoom',['../class_oculus_1_1_platform_1_1_samples_1_1_simple_platform_sample_1_1_data_entry.html#a58ed8acdc390936d7a11799575e4b3dd',1,'Oculus::Platform::Samples::SimplePlatformSample::DataEntry']]],
+<<<<<<< HEAD
   ['joinroomcallback_11',['JoinRoomCallback',['../class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_room_manager.html#a0e932354ce797c89cbd27cc0a3cc248f',1,'Oculus::Platform::Samples::VrVoiceChat::RoomManager']]],
   ['joinroomcallback_12',['joinRoomCallback',['../class_oculus_1_1_platform_1_1_samples_1_1_simple_platform_sample_1_1_data_entry.html#a20d7015be1e5e0de3337b3381a61de66',1,'Oculus::Platform::Samples::SimplePlatformSample::DataEntry']]],
+=======
+  ['joinroomcallback_11',['joinRoomCallback',['../class_oculus_1_1_platform_1_1_samples_1_1_simple_platform_sample_1_1_data_entry.html#a20d7015be1e5e0de3337b3381a61de66',1,'Oculus::Platform::Samples::SimplePlatformSample::DataEntry']]],
+  ['joinroomcallback_12',['JoinRoomCallback',['../class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_room_manager.html#a0e932354ce797c89cbd27cc0a3cc248f',1,'Oculus::Platform::Samples::VrVoiceChat::RoomManager']]],
+>>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   ['joinroomresponse_13',['joinRoomResponse',['../class_oculus_1_1_platform_1_1_samples_1_1_net_chat_1_1_data_entry.html#a689a92cb8818f44c165b4a7cf3d5a943',1,'Oculus::Platform::Samples::NetChat::DataEntry']]],
   ['joint_14',['Joint',['../struct_oculus_1_1_interaction_1_1_hand_sphere.html#ae0be0d20e787bfe064dd0cdf1c45b707',1,'Oculus::Interaction::HandSphere']]],
   ['joint_5fto_5ffinger_15',['JOINT_TO_FINGER',['../class_oculus_1_1_interaction_1_1_input_1_1_fingers_metadata.html#a12955626becb2d0f80dedddbf7a02dd9',1,'Oculus::Interaction::Input::FingersMetadata']]],
@@ -29,8 +34,13 @@ var searchData=
   ['jointdistancewithinthreshold_26',['JointDistanceWithinThreshold',['../class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_distance_active_state.html#ab49615bf39da356df00ef4ac18018320',1,'Oculus::Interaction::PoseDetection::JointDistanceActiveState']]],
   ['jointfreedom_27',['JointFreedom',['../namespace_oculus_1_1_interaction_1_1_input.html#a0fbdba8a1bbb4585fa11bc02a9bb39fc',1,'Oculus::Interaction::Input']]],
   ['jointid_28',['JointId',['../class_oculus_1_1_interaction_1_1_throw_1_1_hand_pose_input_device_1_1_hand_joint_pose_meta_data.html#a692c2e7068750fc6dc857f1bf2d96081',1,'Oculus::Interaction::Throw::HandPoseInputDevice::HandJointPoseMetaData']]],
+<<<<<<< HEAD
   ['jointids_29',['JointIDs',['../class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_delta_config.html#a5083412083392d4e0ffd16a36b1263a5',1,'Oculus::Interaction::PoseDetection::JointDeltaConfig']]],
   ['jointids_30',['JointIds',['../class_oculus_1_1_interaction_1_1_input_1_1_hand_joint_utils.html#a3edf842d29088e3bcedec31cf76d562e',1,'Oculus::Interaction::Input::HandJointUtils']]],
+=======
+  ['jointids_29',['JointIds',['../class_oculus_1_1_interaction_1_1_input_1_1_hand_joint_utils.html#a3edf842d29088e3bcedec31cf76d562e',1,'Oculus::Interaction::Input::HandJointUtils']]],
+  ['jointids_30',['JointIDs',['../class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_delta_config.html#a5083412083392d4e0ffd16a36b1263a5',1,'Oculus::Interaction::PoseDetection::JointDeltaConfig']]],
+>>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   ['jointlocation_5f0_31',['JointLocation_0',['../struct_o_v_r_plugin_1_1_body_state_internal.html#a1a88dc74d9a5847f7c193b749ad194c4',1,'OVRPlugin::BodyStateInternal']]],
   ['jointlocation_5f1_32',['JointLocation_1',['../struct_o_v_r_plugin_1_1_body_state_internal.html#a2b47117581fa9d1f3fc765b156fac583',1,'OVRPlugin::BodyStateInternal']]],
   ['jointlocation_5f10_33',['JointLocation_10',['../struct_o_v_r_plugin_1_1_body_state_internal.html#a4b1e11a9981b5823b90d902d9886e648',1,'OVRPlugin::BodyStateInternal']]],

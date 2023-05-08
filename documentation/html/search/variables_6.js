@@ -40,8 +40,13 @@ var searchData=
   ['enabletouchinput_37',['enableTouchInput',['../class_o_v_r_lip_sync_context.html#ad879f4ce1ffcf049514bf083e1e6cc23',1,'OVRLipSyncContext']]],
   ['enablevisemetestkeys_38',['enableVisemeTestKeys',['../class_o_v_r_lip_sync_context_morph_target.html#aae355d2fc08a9cea6607e392b3041856',1,'OVRLipSyncContextMorphTarget']]],
   ['encoding_39',['encoding',['../class_meta_1_1_wit_ai_1_1_data_1_1_audio_encoding.html#a648a0353c67758f8b620edcc8e2208ba',1,'Meta::WitAi::Data::AudioEncoding']]],
+<<<<<<< HEAD
   ['end_40',['end',['../class_meta_1_1_wit_ai_1_1_data_1_1_entities_1_1_wit_entity_data_base.html#a9094d0c4172e8e9f93178ec762d357a1',1,'Meta::WitAi::Data::Entities::WitEntityDataBase']]],
   ['end_41',['End',['../struct_r_t_l_t_m_pro_1_1_rich_text_fixer_1_1_tag.html#a9c3955c5dce09461a3aed156b41e7703',1,'RTLTMPro::RichTextFixer::Tag']]],
+=======
+  ['end_40',['End',['../struct_r_t_l_t_m_pro_1_1_rich_text_fixer_1_1_tag.html#a9c3955c5dce09461a3aed156b41e7703',1,'RTLTMPro::RichTextFixer::Tag']]],
+  ['end_41',['end',['../class_meta_1_1_wit_ai_1_1_data_1_1_entities_1_1_wit_entity_data_base.html#a9094d0c4172e8e9f93178ec762d357a1',1,'Meta::WitAi::Data::Entities::WitEntityDataBase']]],
+>>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   ['enddate_42',['EndDate',['../class_oculus_1_1_platform_1_1_models_1_1_challenge.html#a43c7635297060d322e2f116d034059cd',1,'Oculus::Platform::Models::Challenge']]],
   ['endian_43',['endian',['../class_meta_1_1_wit_ai_1_1_data_1_1_audio_encoding.html#a75a68111cc6af0bd122f4990005e2327',1,'Meta::WitAi::Data::AudioEncoding']]],
   ['endplaytime_44',['endPlayTime',['../class_o_v_r_1_1_sound_emitter.html#a5cba5efe3b4101d6e96fded9e62c2461',1,'OVR::SoundEmitter']]],

@@ -274,8 +274,13 @@ var searchData=
   ['keyboardpositionid_5f_271',['keyboardPositionID_',['../class_o_v_r_tracked_keyboard_hands.html#a05b70b85c878e0e4ff6a2b2cfa8d2c1a',1,'OVRTrackedKeyboardHands']]],
   ['keyboardpresentation_272',['KeyboardPresentation',['../class_o_v_r_tracked_keyboard.html#ac04e5dcd8c08fc293a1618e1bf250ac4',1,'OVRTrackedKeyboard']]],
   ['keyboardprevscene_273',['KeyboardPrevScene',['../class_ui_scene_menu.html#a64ececb30b6c45129938753a2ef85a34',1,'UiSceneMenu']]],
+<<<<<<< HEAD
   ['keyboardqueryflags_274',['keyboardQueryFlags',['../class_o_v_r_tracked_keyboard.html#ac2e398e0ada21267c195d501a140f2b9',1,'OVRTrackedKeyboard']]],
   ['keyboardqueryflags_275',['KeyboardQueryFlags',['../class_o_v_r_tracked_keyboard.html#a4dfd37fde777a3e0b6b14caeba9a94a4',1,'OVRTrackedKeyboard']]],
+=======
+  ['keyboardqueryflags_274',['KeyboardQueryFlags',['../class_o_v_r_tracked_keyboard.html#a4dfd37fde777a3e0b6b14caeba9a94a4',1,'OVRTrackedKeyboard']]],
+  ['keyboardqueryflags_275',['keyboardQueryFlags',['../class_o_v_r_tracked_keyboard.html#ac2e398e0ada21267c195d501a140f2b9',1,'OVRTrackedKeyboard']]],
+>>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   ['keyboardrotationid_5f_276',['keyboardRotationID_',['../class_o_v_r_tracked_keyboard_hands.html#a1be9fe66ee99e1ee17c297f7a4d6785a',1,'OVRTrackedKeyboardHands']]],
   ['keyboardscaleid_5f_277',['keyboardScaleID_',['../class_o_v_r_tracked_keyboard_hands.html#a47c699f90ce89e97887af2584a1be3d7',1,'OVRTrackedKeyboardHands']]],
   ['keyboardstate_278',['KeyboardState',['../struct_o_v_r_plugin_1_1_keyboard_state.html',1,'OVRPlugin']]],

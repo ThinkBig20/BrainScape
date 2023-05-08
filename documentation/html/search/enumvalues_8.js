@@ -78,6 +78,7 @@ var searchData=
   ['headup_75',['HeadUp',['../class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_velocity_active_state.html#a77745489b21b84c731f4d54124242cd1a4702f196d314b0f8fbda383381495176',1,'Oculus::Interaction::PoseDetection::JointVelocityActiveState']]],
   ['heh_76',['Heh',['../namespace_r_t_l_t_m_pro.html#ab993a82e57428b4845a7101f559ab2dca7bc34037758eedb3631d102b3832ea79',1,'RTLTMPro']]],
   ['hidden_77',['Hidden',['../class_oculus_1_1_interaction_1_1_distance_reticles_1_1_reticle_data_teleport.html#adb116e19fd727421849da018b5e26b8fa7acdf85c69cc3c5305456a293524386e',1,'Oculus::Interaction::DistanceReticles::ReticleDataTeleport']]],
+<<<<<<< HEAD
   ['high_78',['HIGH',['../class_o_v_r_project_config.html#add1b902dbb6449b41904464454844a74ab89de3b4b81c4facfac906edf29aec8c',1,'OVRProjectConfig']]],
   ['high_79',['High',['../class_o_v_r_manager.html#acbd6d504192d2a2a7461382a4eae0715a655d20c1ca69519ca647684edbb2db35',1,'OVRManager.High()'],['../class_o_v_r_manager.html#a9b4498417a81a43d67cfcd6f7d5d7793a655d20c1ca69519ca647684edbb2db35',1,'OVRManager.High()'],['../class_o_v_r_hand.html#a252fcc1112bba0d3fcfcc16bb14d8571a655d20c1ca69519ca647684edbb2db35',1,'OVRHand.High()'],['../namespace_o_v_r.html#a1cae31b048f39cc393097f968e78623ba655d20c1ca69519ca647684edbb2db35',1,'OVR.High()'],['../namespace_oculus_1_1_platform.html#a72efcf4f8e0c1177bb3d1df6d9f3a81aa655d20c1ca69519ca647684edbb2db35',1,'Oculus.Platform.High()']]],
   ['highlighted_80',['Highlighted',['../class_oculus_sample_framework_1_1_selection_cylinder.html#adb35c98c43f150f66d170694aec4c099a128f36ec46f7ca11bafb48cd2022a54c',1,'OculusSampleFramework::SelectionCylinder']]],
@@ -91,4 +92,20 @@ var searchData=
   ['hz24000_88',['HZ24000',['../namespace_oculus_1_1_platform.html#a24ed10c7da24e527e72710c20ad5a0f0ac98a70dfab0789c4db7e9bf349e34f5b',1,'Oculus::Platform']]],
   ['hz44100_89',['HZ44100',['../namespace_oculus_1_1_platform.html#a24ed10c7da24e527e72710c20ad5a0f0acd6ed50204e1768f1e9f5fc813193e80',1,'Oculus::Platform']]],
   ['hz48000_90',['HZ48000',['../namespace_oculus_1_1_platform.html#a24ed10c7da24e527e72710c20ad5a0f0a708e72e1371df8f3c56bbe596b5b15ae',1,'Oculus::Platform']]]
+=======
+  ['high_78',['High',['../class_o_v_r_manager.html#acbd6d504192d2a2a7461382a4eae0715a655d20c1ca69519ca647684edbb2db35',1,'OVRManager.High()'],['../class_o_v_r_manager.html#a9b4498417a81a43d67cfcd6f7d5d7793a655d20c1ca69519ca647684edbb2db35',1,'OVRManager.High()'],['../class_o_v_r_hand.html#a252fcc1112bba0d3fcfcc16bb14d8571a655d20c1ca69519ca647684edbb2db35',1,'OVRHand.High()']]],
+  ['high_79',['HIGH',['../class_o_v_r_project_config.html#add1b902dbb6449b41904464454844a74ab89de3b4b81c4facfac906edf29aec8c',1,'OVRProjectConfig']]],
+  ['high_80',['High',['../namespace_o_v_r.html#a1cae31b048f39cc393097f968e78623ba655d20c1ca69519ca647684edbb2db35',1,'OVR.High()'],['../namespace_oculus_1_1_platform.html#a72efcf4f8e0c1177bb3d1df6d9f3a81aa655d20c1ca69519ca647684edbb2db35',1,'Oculus.Platform.High()']]],
+  ['highlighted_81',['Highlighted',['../class_oculus_sample_framework_1_1_selection_cylinder.html#adb35c98c43f150f66d170694aec4c099a128f36ec46f7ca11bafb48cd2022a54c',1,'OculusSampleFramework::SelectionCylinder']]],
+  ['hightop_82',['HighTop',['../class_o_v_r_manager.html#a9b4498417a81a43d67cfcd6f7d5d7793a84ec48f67b50df5ba7f823879769e0ad',1,'OVRManager.HighTop()'],['../class_o_v_r_manager.html#acbd6d504192d2a2a7461382a4eae0715a84ec48f67b50df5ba7f823879769e0ad',1,'OVRManager.HighTop()']]],
+  ['hmd_83',['HMD',['../namespace_o_v_r_1_1_open_v_r.html#a0f5bd2e69bc13594cbc8ac29250b006ea23491c02b030c68a53215159710681bb',1,'OVR::OpenVR']]],
+  ['holdtospeak_84',['HoldToSpeak',['../class_o_v_r_lip_sync_mic_input.html#abb2861311b7630c8328b132ddb0c42beaf779d272e0b21a70ac25b9515ff9ffa8',1,'OVRLipSyncMicInput']]],
+  ['horizontal_85',['Horizontal',['../namespace_oculus_1_1_interaction.html#a6b331d8a21e14675030cf1a07d22745dac1b5fa03ecdb95d4a45dd1c40b02527f',1,'Oculus::Interaction']]],
+  ['horizontallayout_86',['HorizontalLayout',['../namespace_o_v_r_1_1_open_v_r.html#ae8e3119fedda4392300d171dacacd6d0aa11ad2861aa124e8c52da66a5f44cf68',1,'OVR::OpenVR']]],
+  ['horizontalscaled_87',['HorizontalScaled',['../class_grab_object.html#a0355acbe72a8f5f882dda6eb04c09873abcf68aab5b5870410842541c50000cd4',1,'GrabObject']]],
+  ['hover_88',['Hover',['../namespace_oculus_1_1_interaction.html#ab85365ef32620beedc7f353f9db2a651aeee0168be69b854c20621fc6f01cc3fc',1,'Oculus.Interaction.Hover()'],['../namespace_oculus_1_1_interaction.html#a8f16c31a466636d165d0e3e6030b719eaeee0168be69b854c20621fc6f01cc3fc',1,'Oculus.Interaction.Hover()'],['../namespace_oculus_1_1_interaction.html#a547e47ab04f8801af26efa44efaa8807aeee0168be69b854c20621fc6f01cc3fc',1,'Oculus.Interaction.Hover()']]],
+  ['hz24000_89',['HZ24000',['../namespace_oculus_1_1_platform.html#a24ed10c7da24e527e72710c20ad5a0f0ac98a70dfab0789c4db7e9bf349e34f5b',1,'Oculus::Platform']]],
+  ['hz44100_90',['HZ44100',['../namespace_oculus_1_1_platform.html#a24ed10c7da24e527e72710c20ad5a0f0acd6ed50204e1768f1e9f5fc813193e80',1,'Oculus::Platform']]],
+  ['hz48000_91',['HZ48000',['../namespace_oculus_1_1_platform.html#a24ed10c7da24e527e72710c20ad5a0f0a708e72e1371df8f3c56bbe596b5b15ae',1,'Oculus::Platform']]]
+>>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
 ];

@@ -6,9 +6,15 @@ var searchData=
   ['tab_5fintents_5fid_3',['TAB_INTENTS_ID',['../class_meta_1_1_wit_ai_1_1_windows_1_1_wit_configuration_editor.html#ac2c0a9b6be0c330ff020de0358fb07ac',1,'Meta::WitAi::Windows::WitConfigurationEditor']]],
   ['tab_5ftraits_5fid_4',['TAB_TRAITS_ID',['../class_meta_1_1_wit_ai_1_1_windows_1_1_wit_configuration_editor.html#a56f1325f210cf8e8a4234d8b0efe8901',1,'Meta::WitAi::Windows::WitConfigurationEditor']]],
   ['tab_5fvoices_5fid_5',['TAB_VOICES_ID',['../class_meta_1_1_wit_ai_1_1_windows_1_1_wit_configuration_editor.html#a312daca49df7d134584161fecb4daab3',1,'Meta::WitAi::Windows::WitConfigurationEditor']]],
+<<<<<<< HEAD
   ['tag_6',['tag',['../class_meta_1_1_wit_ai_1_1_configuration_1_1_wit_request_options.html#a3ef1558a19840e941f4458ecd18782ab',1,'Meta::WitAi::Configuration::WitRequestOptions']]],
   ['tag_7',['Tag',['../class_oculus_1_1_platform_1_1_models_1_1_language_pack_info.html#a328e68ada143678f5f5312199be6c9bd',1,'Oculus::Platform::Models::LanguagePackInfo']]],
   ['tag_8',['TAG',['../classcom_1_1oculus_1_1videoplayer_1_1_native_video_player.html#ac7d17194647a07175b308799d517502a',1,'com.oculus.videoplayer.NativeVideoPlayer.TAG()'],['../class_oculus_1_1_voice_1_1_core_1_1_bindings_1_1_android_1_1_platform_logger_1_1_voice_s_d_k_console_logger_impl.html#ae246845f0b9bd1f553037e9664932291',1,'Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKConsoleLoggerImpl.TAG()']]],
+=======
+  ['tag_6',['Tag',['../class_oculus_1_1_platform_1_1_models_1_1_language_pack_info.html#a328e68ada143678f5f5312199be6c9bd',1,'Oculus::Platform::Models::LanguagePackInfo']]],
+  ['tag_7',['TAG',['../classcom_1_1oculus_1_1videoplayer_1_1_native_video_player.html#ac7d17194647a07175b308799d517502a',1,'com.oculus.videoplayer.NativeVideoPlayer.TAG()'],['../class_oculus_1_1_voice_1_1_core_1_1_bindings_1_1_android_1_1_platform_logger_1_1_voice_s_d_k_console_logger_impl.html#ae246845f0b9bd1f553037e9664932291',1,'Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKConsoleLoggerImpl.TAG()']]],
+  ['tag_8',['tag',['../class_meta_1_1_wit_ai_1_1_configuration_1_1_wit_request_options.html#a3ef1558a19840e941f4458ecd18782ab',1,'Meta::WitAi::Configuration::WitRequestOptions']]],
+>>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   ['tangentpoint_9',['tangentPoint',['../struct_oculus_1_1_interaction_1_1_grab_1_1_grab_surfaces_1_1_bezier_control_point.html#a4055876249f6450531394da24edf5a70',1,'Oculus::Interaction::Grab::GrabSurfaces::BezierControlPoint']]],
   ['target_10',['Target',['../class_oculus_1_1_interaction_1_1_tween_1_1_tween_curve.html#a57127b08881adc91fcd2e60ab4939461',1,'Oculus.Interaction.Tween.TweenCurve.Target()'],['../class_oculus_1_1_platform_1_1_models_1_1_achievement_definition.html#a436e8914f0f25868f68cd8ff793804e0',1,'Oculus.Platform.Models.AchievementDefinition.Target()']]],
   ['targetagent_11',['TargetAgent',['../class_f_i_m_space_1_1_ground_fitter_1_1_f_ground_fitter___demo___nav_mesh_input.html#a639d27612400c9d1256c82c23ed5515d',1,'FIMSpace::GroundFitter::FGroundFitter_Demo_NavMeshInput']]],

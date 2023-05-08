@@ -493,7 +493,11 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
+<<<<<<< HEAD
 <span class="mlabels"><span class="mlabel">private</span></span>  </td>
+=======
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+>>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   </tr>
 </table>
 </div><div class="memdoc">
@@ -560,6 +564,90 @@ Private Attributes</h2></td></tr>
 </div>
 <a id="aeca243463f39e019dc2290f961b4734c" name="aeca243463f39e019dc2290f961b4734c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeca243463f39e019dc2290f961b4734c">&#9670;&#160;</a></span>CreateNewTeleportDestination()</h2>
+<<<<<<< HEAD
+=======
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LocomotionTeleport.CreateNewTeleportDestination </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This is called whenever a new teleport destination is required. This might occur when rapidly switching between targets, or when teleporting multiple times in quick succession when the teleport destination requires additional time to complete any animations that are triggered by these actions. </p>
+
+</div>
+</div>
+<a id="a0bbffa6484d3e7e458ae58c052ef0b1d" name="a0bbffa6484d3e7e458ae58c052ef0b1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bbffa6484d3e7e458ae58c052ef0b1d">&#9670;&#160;</a></span>DeactivateDestination()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LocomotionTeleport.DeactivateDestination </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Notify the teleport destination that it needs to deactivate. If the destination has event handlers hooked up, the destination game object may not be immediately deactivated in order to allow it to trigger animated effects. </p>
+
+</div>
+</div>
+<a id="a8238ffd4461ad60fb1bfa634edcef054" name="a8238ffd4461ad60fb1bfa634edcef054"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8238ffd4461ad60fb1bfa634edcef054">&#9670;&#160;</a></span>DoTeleport()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LocomotionTeleport.DoTeleport </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Perform the actual teleport. Note that warp transitions do not call this function and instead moves the game object during the transition time time. </p>
+
+</div>
+</div>
+<a id="a720336cde8b2bf093c4fe7be9189a604" name="a720336cde8b2bf093c4fe7be9189a604"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a720336cde8b2bf093c4fe7be9189a604">&#9670;&#160;</a></span>DoWarp()</h2>
+>>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
 
 <div class="memitem">
 <div class="memproto">
@@ -891,6 +979,61 @@ Private Attributes</h2></td></tr>
 </div>
 <a id="a2c5386e4d4abea41783c02dc2c88d15d" name="a2c5386e4d4abea41783c02dc2c88d15d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2c5386e4d4abea41783c02dc2c88d15d">&#9670;&#160;</a></span>OnDisable()</h2>
+<<<<<<< HEAD
+=======
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void LocomotionTeleport.OnDisable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a788df8cf8c2b8829ac3ca443701b74dd" name="a788df8cf8c2b8829ac3ca443701b74dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a788df8cf8c2b8829ac3ca443701b74dd">&#9670;&#160;</a></span>OnEnable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void LocomotionTeleport.OnEnable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Start the state machine coroutines. </p>
+
+</div>
+</div>
+<a id="aac724425113682abff4f153925173c18" name="aac724425113682abff4f153925173c18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac724425113682abff4f153925173c18">&#9670;&#160;</a></span>OnUpdateAimData()</h2>
+>>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
 
 <div class="memitem">
 <div class="memproto">
@@ -1106,6 +1249,12 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<<<<<<< HEAD
+=======
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+>>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
       <table class="memname">
         <tr>
           <td class="memname">void LocomotionTeleport.RecycleTeleportDestination </td>
@@ -1115,6 +1264,14 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+<<<<<<< HEAD
+=======
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+>>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
 </div><div class="memdoc">
 
 </div>
@@ -1137,7 +1294,11 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
+<<<<<<< HEAD
 <span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+=======
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+>>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1753,7 +1914,11 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
+<<<<<<< HEAD
 <li><a class="el" href="_locomotion_teleport_8cs.html">LocomotionTeleport.cs</a></li>
+=======
+<li>Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/<a class="el" href="_locomotion_teleport_8cs.html">LocomotionTeleport.cs</a></li>
+>>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

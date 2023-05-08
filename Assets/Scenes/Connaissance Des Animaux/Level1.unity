@@ -658,7 +658,11 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: -1.771, y: 12.443, z: -3.888}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 459.22, y: 23.74}
+=======
+  m_AnchoredPosition: {x: 459.01227, y: 24.2}
+>>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   m_SizeDelta: {x: 100, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!65 &113867862
@@ -1081,12 +1085,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 238386095}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43c366e0f904f4c4bbdaa85c5b3f1e6e, type: 3}
+  m_Script: {fileID: 11500000, guid: b4f61c35ed8b7e24aaf455dbac8e6f3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioClips:
-  - {fileID: 8300000, guid: ec59117ace259564db41ef1172e8f50c, type: 3}
-  - {fileID: 8300000, guid: 0e9de65379006e044969e55df09a80ab, type: 3}
 --- !u!82 &238386098
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1097,7 +1098,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 66e134b0c7fc8584d9e9a9ca7ecf58af, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -3397,6 +3398,58 @@ PrefabInstance:
       propertyPath: _selectColorState.Color.r
       value: 0.9339623
       objectReference: {fileID: 0}
+    - target: {fileID: 9052892711818005985, guid: 323cb65d2594c79499a11a99ff0fb347, type: 3}
+      propertyPath: _hoverColorState.ColorCurve.m_Curve.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052892711818005985, guid: 323cb65d2594c79499a11a99ff0fb347, type: 3}
+      propertyPath: _hoverColorState.ColorCurve.m_Curve.Array.data[1].time
+      value: 0.9999404
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052892711818005985, guid: 323cb65d2594c79499a11a99ff0fb347, type: 3}
+      propertyPath: _hoverColorState.ColorCurve.m_Curve.Array.data[2].time
+      value: 1.0272964
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052892711818005985, guid: 323cb65d2594c79499a11a99ff0fb347, type: 3}
+      propertyPath: _hoverColorState.ColorCurve.m_Curve.Array.data[1].value
+      value: 3.4905026
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052892711818005985, guid: 323cb65d2594c79499a11a99ff0fb347, type: 3}
+      propertyPath: _hoverColorState.ColorCurve.m_Curve.Array.data[2].value
+      value: 6.453827
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052892711818005985, guid: 323cb65d2594c79499a11a99ff0fb347, type: 3}
+      propertyPath: _hoverColorState.ColorCurve.m_Curve.Array.data[1].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052892711818005985, guid: 323cb65d2594c79499a11a99ff0fb347, type: 3}
+      propertyPath: _hoverColorState.ColorCurve.m_Curve.Array.data[2].inSlope
+      value: 1.4105263
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052892711818005985, guid: 323cb65d2594c79499a11a99ff0fb347, type: 3}
+      propertyPath: _hoverColorState.ColorCurve.m_Curve.Array.data[1].inWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052892711818005985, guid: 323cb65d2594c79499a11a99ff0fb347, type: 3}
+      propertyPath: _hoverColorState.ColorCurve.m_Curve.Array.data[1].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052892711818005985, guid: 323cb65d2594c79499a11a99ff0fb347, type: 3}
+      propertyPath: _hoverColorState.ColorCurve.m_Curve.Array.data[2].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052892711818005985, guid: 323cb65d2594c79499a11a99ff0fb347, type: 3}
+      propertyPath: _hoverColorState.ColorCurve.m_Curve.Array.data[2].outSlope
+      value: 1.4105263
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052892711818005985, guid: 323cb65d2594c79499a11a99ff0fb347, type: 3}
+      propertyPath: _hoverColorState.ColorCurve.m_Curve.Array.data[1].outWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052892711818005985, guid: 323cb65d2594c79499a11a99ff0fb347, type: 3}
+      propertyPath: _hoverColorState.ColorCurve.m_Curve.Array.data[2].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
     - target: {fileID: 9221139118573929147, guid: 323cb65d2594c79499a11a99ff0fb347, type: 3}
       propertyPath: m_LocalScale.x
       value: 14.241867
@@ -4075,6 +4128,14 @@ PrefabInstance:
     - target: {fileID: 9052892711818005985, guid: 323cb65d2594c79499a11a99ff0fb347, type: 3}
       propertyPath: _selectColorState.Color.r
       value: 0.17979248
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052892711818005985, guid: 323cb65d2594c79499a11a99ff0fb347, type: 3}
+      propertyPath: _hoverColorState.ColorCurve.m_Curve.Array.data[1].time
+      value: 0.9833436
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052892711818005985, guid: 323cb65d2594c79499a11a99ff0fb347, type: 3}
+      propertyPath: _hoverColorState.ColorCurve.m_Curve.Array.data[1].value
+      value: 5.5066137
       objectReference: {fileID: 0}
     - target: {fileID: 9221139118573929147, guid: 323cb65d2594c79499a11a99ff0fb347, type: 3}
       propertyPath: m_LocalScale.x
@@ -5931,12 +5992,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1557442772}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ad0be1e5ece188499676210ee577871, type: 3}
+  m_Script: {fileID: 11500000, guid: 6151b0b017687d94f80e609357ce421a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioClips:
-  - {fileID: 8300000, guid: 403dbafcfe5047745a9e7d75a2621285, type: 3}
-  - {fileID: 8300000, guid: 3c32d61bb515d6b4b93b86d6ef9c9560, type: 3}
 --- !u!82 &1557442775
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5947,7 +6005,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: fa28330c1cede9d489114ff2584b0cea, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -6610,7 +6668,11 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: -1.478, y: 10.47, z: -2.96}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 458.6418, y: 23.790071}
+=======
+  m_AnchoredPosition: {x: 458.33957, y: 24.2}
+>>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   m_SizeDelta: {x: 100, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!65 &1797003404

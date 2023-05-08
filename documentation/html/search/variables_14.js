@@ -9,8 +9,13 @@ var searchData=
   ['samplecount_6',['SampleCount',['../struct_o_v_r_plugin_1_1_layer_desc.html#a935ab50b2d02757bc8156fffae879f5d',1,'OVRPlugin.LayerDesc.SampleCount()'],['../struct_o_v_r_plugin_1_1_layer_desc_internal.html#ab4989585a52e661c20f79b75b351774a',1,'OVRPlugin.LayerDescInternal.SampleCount()']]],
   ['samplefrequency_7',['SampleFrequency',['../class_oculus_1_1_interaction_1_1_throw_1_1_standard_velocity_calculator_1_1_buffering_params.html#a3f004e0a9abc107b4335a30e70fbca7c',1,'Oculus::Interaction::Throw::StandardVelocityCalculator::BufferingParams']]],
   ['samplelengthinms_8',['sampleLengthInMs',['../class_meta_1_1_wit_ai_1_1_data_1_1_audio_buffer_configuration.html#a2286e414f1c92898be7cbc679fc20a8e',1,'Meta.WitAi.Data.AudioBufferConfiguration.sampleLengthInMs()'],['../class_meta_1_1_wit_ai_1_1_configuration_1_1_wit_runtime_configuration.html#a62bf5228cbb9f996bb24cb8b058b294e',1,'Meta.WitAi.Configuration.WitRuntimeConfiguration.sampleLengthInMs()']]],
+<<<<<<< HEAD
   ['samplerate_9',['samplerate',['../class_meta_1_1_wit_ai_1_1_data_1_1_audio_encoding.html#a8bd002c4df4f06a7ad4a0058f9fbb15a',1,'Meta::WitAi::Data::AudioEncoding']]],
   ['samplerate_10',['sampleRate',['../class_buffered_audio_stream.html#a517311ce97d4727175afe0a44562f2ec',1,'BufferedAudioStream']]],
+=======
+  ['samplerate_9',['sampleRate',['../class_buffered_audio_stream.html#a517311ce97d4727175afe0a44562f2ec',1,'BufferedAudioStream']]],
+  ['samplerate_10',['samplerate',['../class_meta_1_1_wit_ai_1_1_data_1_1_audio_encoding.html#a8bd002c4df4f06a7ad4a0058f9fbb15a',1,'Meta::WitAi::Data::AudioEncoding']]],
+>>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   ['sampleratehz_11',['SampleRateHz',['../struct_o_v_r_input_1_1_haptics_pcm_vibration.html#a89cf30e5dbb27e4596258f88698251cc',1,'OVRInput.HapticsPcmVibration.SampleRateHz()'],['../struct_o_v_r_plugin_1_1_haptics_desc.html#a0d64343c4c1a97a4c0c3625baa898a37',1,'OVRPlugin.HapticsDesc.SampleRateHz()'],['../struct_o_v_r_plugin_1_1_haptics_pcm_vibration.html#ad3cf099c0182a36ada1e249d02c4f481',1,'OVRPlugin.HapticsPcmVibration.SampleRateHz()']]],
   ['samples_12',['Samples',['../struct_o_v_r_input_1_1_haptics_amplitude_envelope_vibration.html#ae4d4786bd1f45ae3d8ca208268f3ab9e',1,'OVRInput.HapticsAmplitudeEnvelopeVibration.Samples()'],['../struct_o_v_r_input_1_1_haptics_pcm_vibration.html#a5caea590e93b143396fabe67c7f0b01e',1,'OVRInput.HapticsPcmVibration.Samples()'],['../struct_o_v_r_plugin_1_1_haptics_buffer.html#a032817741a111a9f06e5270e35da4d66',1,'OVRPlugin.HapticsBuffer.Samples()']]],
   ['samplesavailable_13',['SamplesAvailable',['../struct_o_v_r_plugin_1_1_haptics_state.html#aad6de8af0ba4cf9b35fd49413ec80c6f',1,'OVRPlugin::HapticsState']]],
@@ -59,8 +64,13 @@ var searchData=
   ['screenshot_56',['screenshot',['../struct_o_v_r_1_1_open_v_r_1_1_v_r_event___data__t.html#a9c1b35a929f54c8b09080852b7b7bd01',1,'OVR::OpenVR::VREvent_Data_t']]],
   ['screenshotprogress_57',['screenshotProgress',['../struct_o_v_r_1_1_open_v_r_1_1_v_r_event___data__t.html#a3eedb67aa684f4dc30b8ee9bd4acae08',1,'OVR::OpenVR::VREvent_Data_t']]],
   ['scroll_58',['scroll',['../struct_o_v_r_1_1_open_v_r_1_1_v_r_event___data__t.html#a3ffd80cd2aa7a01cf2bb50d5ce557917',1,'OVR::OpenVR::VREvent_Data_t']]],
+<<<<<<< HEAD
   ['scrolloffset_59',['scrollOffset',['../class_meta_1_1_wit_ai_1_1_windows_1_1_wit_scriptable_wizard.html#af5493b3543457eba4b55d9aa8e9185a1',1,'Meta::WitAi::Windows::WitScriptableWizard']]],
   ['scrolloffset_60',['ScrollOffset',['../class_meta_1_1_wit_ai_1_1_windows_1_1_base_wit_window.html#a669c84164a430ab8ffa7ffc20d989606',1,'Meta::WitAi::Windows::BaseWitWindow']]],
+=======
+  ['scrolloffset_59',['ScrollOffset',['../class_meta_1_1_wit_ai_1_1_windows_1_1_base_wit_window.html#a669c84164a430ab8ffa7ffc20d989606',1,'Meta::WitAi::Windows::BaseWitWindow']]],
+  ['scrolloffset_60',['scrollOffset',['../class_meta_1_1_wit_ai_1_1_windows_1_1_wit_scriptable_wizard.html#af5493b3543457eba4b55d9aa8e9185a1',1,'Meta::WitAi::Windows::WitScriptableWizard']]],
+>>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   ['sd_5fdirmov_61',['sd_dirMov',['../class_f_i_m_space_1_1_ground_fitter_1_1_f_ground_fitter___demo___nav_mesh.html#ac8a7070f7e922f2e107a4b19be905803',1,'FIMSpace::GroundFitter::FGroundFitter_Demo_NavMesh']]],
   ['searchtext_62',['searchText',['../class_meta_1_1_wit_ai_1_1_callback_handlers_1_1_wit_utterance_matcher.html#a4b9caf747a94896b8877a7376fbd2c10',1,'Meta::WitAi::CallbackHandlers::WitUtteranceMatcher']]],
   ['seatedzeroposereset_63',['seatedZeroPoseReset',['../struct_o_v_r_1_1_open_v_r_1_1_v_r_event___data__t.html#a11aff6e644b191a14466cdcba6ece7c3',1,'OVR::OpenVR::VREvent_Data_t']]],
@@ -98,8 +108,13 @@ var searchData=
   ['selectsurface_95',['SelectSurface',['../class_oculus_1_1_interaction_1_1_ray_interactable.html#a2cc03a9982f55db8d26cfdf7a43f9fd6',1,'Oculus::Interaction::RayInteractable']]],
   ['selfcollider_96',['selfCollider',['../class_f_i_m_space_1_1_ground_fitter_1_1_f_ground_fitter___base.html#afbed4ca6d035138018b11c47f902e065',1,'FIMSpace::GroundFitter::FGroundFitter_Base']]],
   ['sendaudiotowit_97',['sendAudioToWit',['../class_meta_1_1_wit_ai_1_1_configuration_1_1_wit_runtime_configuration.html#af7f30b92c1b2fcd474489da5b64eaed3',1,'Meta::WitAi::Configuration::WitRuntimeConfiguration']]],
+<<<<<<< HEAD
   ['senderid_98',['SenderId',['../class_oculus_1_1_platform_1_1_models_1_1_party_update_notification.html#a9b06923d467880bf47e6e3858fc05121',1,'Oculus::Platform::Models::PartyUpdateNotification']]],
   ['senderid_99',['senderID',['../class_oculus_1_1_platform_1_1_voip_p_c_m_source_native.html#a8f28c3f327c38c02ec7888788e81c659',1,'Oculus::Platform::VoipPCMSourceNative']]],
+=======
+  ['senderid_98',['senderID',['../class_oculus_1_1_platform_1_1_voip_p_c_m_source_native.html#a8f28c3f327c38c02ec7888788e81c659',1,'Oculus::Platform::VoipPCMSourceNative']]],
+  ['senderid_99',['SenderId',['../class_oculus_1_1_platform_1_1_models_1_1_party_update_notification.html#a9b06923d467880bf47e6e3858fc05121',1,'Oculus::Platform::Models::PartyUpdateNotification']]],
+>>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   ['senderid_100',['SenderID',['../class_oculus_1_1_platform_1_1_models_1_1_room_invite_notification.html#aea047d2b6ced4dcebd1c62966955b47b',1,'Oculus::Platform::Models::RoomInviteNotification']]],
   ['sendfilteredposeeventtimer_5f_101',['sendFilteredPoseEventTimer_',['../class_o_v_r_tracked_keyboard.html#a58d28d11a69a17dad6cff61d9a64a240',1,'OVRTrackedKeyboard']]],
   ['sendtransformbuffer_102',['sendTransformBuffer',['../class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_p2_p_manager.html#a73dfd0487f1bbaf409c0c56fc5b46650',1,'Oculus::Platform::Samples::VrVoiceChat::P2PManager']]],
@@ -182,9 +197,15 @@ var searchData=
   ['singleton_179',['singleton',['../class_o_v_r_system_perf_metrics_1_1_o_v_r_system_perf_metrics_tcp_server.html#a6315652eec37c7a7592147843dc4420e',1,'OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer']]],
   ['sinitialized_180',['sInitialized',['../class_o_v_r_lip_sync.html#ab0cbadf5932f2a3ed5d22e34e49d2335',1,'OVRLipSync']]],
   ['sinstance_181',['sInstance',['../class_o_v_r_lip_sync.html#a11dd9e45b91934de32b328cb2077c3c2',1,'OVRLipSync']]],
+<<<<<<< HEAD
   ['size_182',['Size',['../struct_o_v_r_plugin_1_1_rectf.html#a13e0481009f249011ea20144db0e5d0a',1,'OVRPlugin.Rectf.Size()'],['../struct_o_v_r_plugin_1_1_boundsf.html#aeff2ca4e3df99340815e1f8b68ec34b1',1,'OVRPlugin.Boundsf.Size()']]],
   ['size_183',['size',['../class_fast_list.html#ac3511cd6d3c4ae65714f4ec7d4011f2e',1,'FastList.size()'],['../class_oculus_1_1_interaction_1_1_grab_1_1_grab_surfaces_1_1_box_grab_surface_data.html#a48853d8555f4d907a751971a560da010',1,'Oculus.Interaction.Grab.GrabSurfaces.BoxGrabSurfaceData.size()'],['../class_oculus_1_1_platform_1_1_packet.html#a8b49ebcb69221d9d305388efc831a5f6',1,'Oculus.Platform.Packet.size()'],['../class_o_v_r_screenshot_wizard.html#a0cda7fdb2e02d96690807af67ea51e6e',1,'OVRScreenshotWizard.size()'],['../struct_o_v_r_1_1_open_v_r_1_1_compositor___overlay_settings.html#a37a7eaaf922b829b38d167428a5fb850',1,'OVR.OpenVR.Compositor_OverlaySettings.size()']]],
   ['size_184',['Size',['../struct_o_v_r_plugin_1_1_recti.html#a9f8161cbb2e05eec3f1b6447393656ac',1,'OVRPlugin::Recti']]],
+=======
+  ['size_182',['size',['../class_oculus_1_1_interaction_1_1_grab_1_1_grab_surfaces_1_1_box_grab_surface_data.html#a48853d8555f4d907a751971a560da010',1,'Oculus.Interaction.Grab.GrabSurfaces.BoxGrabSurfaceData.size()'],['../class_oculus_1_1_platform_1_1_packet.html#a8b49ebcb69221d9d305388efc831a5f6',1,'Oculus.Platform.Packet.size()'],['../class_o_v_r_screenshot_wizard.html#a0cda7fdb2e02d96690807af67ea51e6e',1,'OVRScreenshotWizard.size()'],['../struct_o_v_r_1_1_open_v_r_1_1_compositor___overlay_settings.html#a37a7eaaf922b829b38d167428a5fb850',1,'OVR.OpenVR.Compositor_OverlaySettings.size()']]],
+  ['size_183',['Size',['../struct_o_v_r_plugin_1_1_recti.html#a9f8161cbb2e05eec3f1b6447393656ac',1,'OVRPlugin.Recti.Size()'],['../struct_o_v_r_plugin_1_1_rectf.html#a13e0481009f249011ea20144db0e5d0a',1,'OVRPlugin.Rectf.Size()'],['../struct_o_v_r_plugin_1_1_boundsf.html#aeff2ca4e3df99340815e1f8b68ec34b1',1,'OVRPlugin.Boundsf.Size()']]],
+  ['size_184',['size',['../class_fast_list.html#ac3511cd6d3c4ae65714f4ec7d4011f2e',1,'FastList']]],
+>>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   ['skel_5flh_185',['skel_LH',['../class_o_v_r_hand_test.html#a344a4b039ec53ab78523eead37c8e03c',1,'OVRHandTest']]],
   ['skel_5frh_186',['skel_RH',['../class_o_v_r_hand_test.html#a3f0e7a23e325b4cd8e3f742f3075673a',1,'OVRHandTest']]],
   ['skeleton_5fvisualizer_5fname_187',['SKELETON_VISUALIZER_NAME',['../class_oculus_sample_framework_1_1_hands_manager.html#a718d2f61d7d0c4553ad1bea408a96304',1,'OculusSampleFramework::HandsManager']]],
@@ -266,8 +287,13 @@ var searchData=
   ['stamp_5fmultiplier_5fproperty_263',['STAMP_MULTIPLIER_PROPERTY',['../class_oculus_1_1_interaction_1_1_demo_1_1_water_spray.html#aebe62758e9bd4a76c58ac60521d1bada',1,'Oculus::Interaction::Demo::WaterSpray']]],
   ['standard_264',['standard',['../struct_r_t_l_t_m_pro_1_1_r_t_l_default_controls_1_1_resources.html#addc32c802015854948af5dd6e3472a12',1,'RTLTMPro::RTLDefaultControls::Resources']]],
   ['standingtrackeddevicepose_265',['standingTrackedDevicePose',['../struct_o_v_r_1_1_open_v_r_1_1_camera_video_stream_frame_header__t.html#aeb381382903a87406e3304f172e0b1a7',1,'OVR::OpenVR::CameraVideoStreamFrameHeader_t']]],
+<<<<<<< HEAD
   ['start_266',['start',['../class_meta_1_1_wit_ai_1_1_data_1_1_entities_1_1_wit_entity_data_base.html#a1df537ad16efb20ffb8d41b0b431e358',1,'Meta::WitAi::Data::Entities::WitEntityDataBase']]],
   ['start_267',['Start',['../class_o_v_r_input_1_1_o_v_r_controller_base_1_1_virtual_button_map.html#a593b8061e5fbf95652ea7c69f65b11b0',1,'OVRInput.OVRControllerBase.VirtualButtonMap.Start()'],['../struct_r_t_l_t_m_pro_1_1_rich_text_fixer_1_1_tag.html#a2f5f84eed97ceccc1ec6a7084067d22c',1,'RTLTMPro.RichTextFixer.Tag.Start()']]],
+=======
+  ['start_266',['Start',['../class_o_v_r_input_1_1_o_v_r_controller_base_1_1_virtual_button_map.html#a593b8061e5fbf95652ea7c69f65b11b0',1,'OVRInput.OVRControllerBase.VirtualButtonMap.Start()'],['../struct_r_t_l_t_m_pro_1_1_rich_text_fixer_1_1_tag.html#a2f5f84eed97ceccc1ec6a7084067d22c',1,'RTLTMPro.RichTextFixer.Tag.Start()']]],
+  ['start_267',['start',['../class_meta_1_1_wit_ai_1_1_data_1_1_entities_1_1_wit_entity_data_base.html#a1df537ad16efb20ffb8d41b0b431e358',1,'Meta::WitAi::Data::Entities::WitEntityDataBase']]],
+>>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   ['start_5ftime_5fmessage_268',['START_TIME_MESSAGE',['../class_oculus_1_1_platform_1_1_samples_1_1_vr_hoops_1_1_p2_p_manager.html#ae4bbbd35f7f623654db4cf39ee3ae698',1,'Oculus::Platform::Samples::VrHoops::P2PManager']]],
   ['start_5ftime_5fmessage_5fsize_269',['START_TIME_MESSAGE_SIZE',['../class_oculus_1_1_platform_1_1_samples_1_1_vr_hoops_1_1_p2_p_manager.html#a9b700c599b174680b8169a5351d6c59e',1,'Oculus::Platform::Samples::VrHoops::P2PManager']]],
   ['startdate_270',['StartDate',['../class_oculus_1_1_platform_1_1_models_1_1_challenge.html#af3b1982c8abd3e76f43f373411eb6319',1,'Oculus::Platform::Models::Challenge']]],
@@ -286,8 +312,13 @@ var searchData=
   ['statuscode_283',['statusCode',['../class_meta_1_1_wit_ai_1_1_wit_request.html#a08237a172ed2c14590922e25d92de03d',1,'Meta::WitAi::WitRequest']]],
   ['statusdescription_284',['statusDescription',['../class_meta_1_1_wit_ai_1_1_wit_request.html#a52b0874814edf020b3d6eb19622f13d4',1,'Meta::WitAi::WitRequest']]],
   ['statusstate_285',['statusState',['../struct_o_v_r_1_1_open_v_r_1_1_v_r_event___status__t.html#aedef89f5c80f2734e65f51fc92bff040',1,'OVR::OpenVR::VREvent_Status_t']]],
+<<<<<<< HEAD
   ['steps_286',['Steps',['../class_t_m_pro_1_1_examples_1_1_benchmark04.html#abf9ed65203897e474c369e98aa8fa325',1,'TMPro::Examples::Benchmark04']]],
   ['steps_287',['steps',['../class_oculus_1_1_voice_1_1_demo_1_1_u_i_shapes_demo_1_1_instructions.html#ab807a8bb1626abd375818cda952a4f52',1,'Oculus::Voice::Demo::UIShapesDemo::Instructions']]],
+=======
+  ['steps_286',['steps',['../class_oculus_1_1_voice_1_1_demo_1_1_u_i_shapes_demo_1_1_instructions.html#ab807a8bb1626abd375818cda952a4f52',1,'Oculus::Voice::Demo::UIShapesDemo::Instructions']]],
+  ['steps_287',['Steps',['../class_t_m_pro_1_1_examples_1_1_benchmark04.html#abf9ed65203897e474c369e98aa8fa325',1,'TMPro::Examples::Benchmark04']]],
+>>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   ['stereo_288',['Stereo',['../class_movie_player_sample.html#a1f10418c7a48a33bf3a7fc55cc770ce3',1,'MoviePlayerSample']]],
   ['storage_289',['Storage',['../struct_o_v_r_spatial_anchor_1_1_save_options.html#a6ee6a55847b682adf5327571b3e02a1f',1,'OVRSpatialAnchor.SaveOptions.Storage()'],['../struct_o_v_r_spatial_anchor_1_1_erase_options.html#a3733fe513a96c6892967bc3a9280bd11',1,'OVRSpatialAnchor.EraseOptions.Storage()']]],
   ['strafespeed_290',['StrafeSpeed',['../class_o_v_r_debug_head_controller.html#acfcfc9773738e0d6bc1bb448af1fd8c3',1,'OVRDebugHeadController']]],
