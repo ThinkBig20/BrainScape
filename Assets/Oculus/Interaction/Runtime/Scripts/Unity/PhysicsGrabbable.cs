@@ -32,7 +32,8 @@ namespace Oculus.Interaction
         [SerializeField]
         private GameObject rightHand;
         /// la distance entre l objet et l utilisateur pour que l objet soit pris
-        public float catchRadius = 0.1f;
+        public float catchRadius = 0.7f;
+        // LineRenderer lineRenderer;
         /// variable pour verifier si l objet est pris ou pas
         private bool touched;
       
@@ -93,12 +94,12 @@ namespace Oculus.Interaction
                     touched=false;
                 }
             }
-
         }
 
         /// cette fonction de unity permet de faire les initialisations necessaires
         protected virtual void Start()
         {
+            // lineRenderer = GetComponent<LineRenderer>();
             this.BeginStart(ref _started);
             this.AssertField(_grabbable, nameof(_grabbable));
             this.AssertField(_rigidbody, nameof(_rigidbody));
@@ -161,6 +162,7 @@ namespace Oculus.Interaction
                 case PointerEventType.Unselect:
                     if (_grabbable.SelectingPointsCount == 0)
                     {
+                        // lineRenderer.enabled = false;
                         ReenablePhysics();
                         Vector3 throwDirection = transform.forward;
                         float throwForce = 5f; // Changer la valeur de la force de lancer selon votre besoin
