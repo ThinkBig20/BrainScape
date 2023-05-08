@@ -37,15 +37,9 @@ var searchData=
   ['vendorid_34',['VendorId',['../struct_o_v_r_plugin_1_1_render_model_properties.html#aff012bd9022fb83dc5134d08695ed706',1,'OVRPlugin.RenderModelProperties.VendorId()'],['../struct_o_v_r_plugin_1_1_render_model_properties_internal.html#ad7ed6c4cbd80fc1e279d6341bbcd0159',1,'OVRPlugin.RenderModelPropertiesInternal.VendorId()']]],
   ['verboselogging_35',['VerboseLogging',['../class_buffered_audio_stream.html#acd35f4717cd6ce4e552996ae7d1babdf',1,'BufferedAudioStream.VerboseLogging()'],['../class_o_v_r_scene_manager.html#a4bf17d75cbcb047ff37d76753638d915',1,'OVRSceneManager.VerboseLogging()']]],
   ['verboselogging_36',['verboseLogging',['../class_o_v_r_1_1_audio_manager.html#a24fd4aca46f648e3c638e30a62cd9dd9',1,'OVR.AudioManager.verboseLogging()'],['../class_oculus_1_1_platform_1_1_voip_audio_source_hi_level.html#ae2de4346ae700539f5fb4424e928bf1e',1,'Oculus.Platform.VoipAudioSourceHiLevel.verboseLogging()']]],
-<<<<<<< HEAD
   ['version_37',['VERSION',['../class_oculus_1_1_voice_1_1_utility_1_1_voice_s_d_k_version.html#a786a37d71dd57130cf63f04bb9905145',1,'Oculus::Voice::Utility::VoiceSDKVersion']]],
   ['version_38',['version',['../struct_o_v_r_scene_loader_1_1_scene_info.html#ab3fe4ace9146acec54b19dce550a55f7',1,'OVRSceneLoader::SceneInfo']]],
   ['version_39',['Version',['../class_oculus_1_1_platform_1_1_models_1_1_room.html#a1908dfed4a1333451daeee98b39f4632',1,'Oculus::Platform::Models::Room']]],
-=======
-  ['version_37',['Version',['../class_oculus_1_1_platform_1_1_models_1_1_room.html#a1908dfed4a1333451daeee98b39f4632',1,'Oculus::Platform::Models::Room']]],
-  ['version_38',['version',['../struct_o_v_r_scene_loader_1_1_scene_info.html#ab3fe4ace9146acec54b19dce550a55f7',1,'OVRSceneLoader::SceneInfo']]],
-  ['version_39',['VERSION',['../class_oculus_1_1_voice_1_1_utility_1_1_voice_s_d_k_version.html#a786a37d71dd57130cf63f04bb9905145',1,'Oculus::Voice::Utility::VoiceSDKVersion']]],
->>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   ['versioncode_40',['VersionCode',['../class_oculus_1_1_platform_1_1_models_1_1_installed_application.html#ae7149ccecb69cedf40b01d7943759aab',1,'Oculus::Platform::Models::InstalledApplication']]],
   ['versionhandle_41',['VersionHandle',['../class_oculus_1_1_platform_1_1_models_1_1_cloud_storage_metadata.html#addda39b0a4267c8f0fd7f270efb17a85',1,'Oculus.Platform.Models.CloudStorageMetadata.VersionHandle()'],['../class_oculus_1_1_platform_1_1_models_1_1_cloud_storage_update_response.html#adc73b72cc90b3b3e7b2ef7c0bc445722',1,'Oculus.Platform.Models.CloudStorageUpdateResponse.VersionHandle()']]],
   ['versionname_42',['VersionName',['../class_oculus_1_1_platform_1_1_models_1_1_installed_application.html#a432c9bb7adcff09e1bb0177775bad5b0',1,'Oculus::Platform::Models::InstalledApplication']]],
@@ -56,13 +50,8 @@ var searchData=
   ['vertexnormals_47',['VertexNormals',['../class_o_v_r_plugin_1_1_mesh.html#a8bb4ab2aac53f09ffb316c924fc80782',1,'OVRPlugin::Mesh']]],
   ['vertexpositions_48',['VertexPositions',['../class_o_v_r_plugin_1_1_mesh.html#a7e33764fed92e0e4a35681363b24cfd9',1,'OVRPlugin::Mesh']]],
   ['vertexuv0_49',['VertexUV0',['../class_o_v_r_plugin_1_1_mesh.html#adc66146275ec0166256bec7bad6a6bc0',1,'OVRPlugin::Mesh']]],
-<<<<<<< HEAD
   ['vertices_50',['Vertices',['../struct_o_v_r_mesh_jobs_1_1_transform_to_unity_space_job.html#ab29187eca2b339121ea1a0520cf4c5e1',1,'OVRMeshJobs::TransformToUnitySpaceJob']]],
   ['vertices_51',['vertices',['../struct_o_v_r_plugin_1_1_polygonal_boundary2_d_internal.html#af16c2f278d4383e21cb44f9511e81e44',1,'OVRPlugin::PolygonalBoundary2DInternal']]],
-=======
-  ['vertices_50',['vertices',['../struct_o_v_r_plugin_1_1_polygonal_boundary2_d_internal.html#af16c2f278d4383e21cb44f9511e81e44',1,'OVRPlugin::PolygonalBoundary2DInternal']]],
-  ['vertices_51',['Vertices',['../struct_o_v_r_mesh_jobs_1_1_transform_to_unity_space_job.html#ab29187eca2b339121ea1a0520cf4c5e1',1,'OVRMeshJobs::TransformToUnitySpaceJob']]],
->>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   ['verticesperdegree_52',['VerticesPerDegree',['../struct_oculus_1_1_interaction_1_1_unity_canvas_1_1_canvas_cylinder_1_1_mesh_generation_settings.html#a8182d8535a9e0b31a23e6106e26b8936',1,'Oculus::Interaction::UnityCanvas::CanvasCylinder::MeshGenerationSettings']]],
   ['vgyro_53',['vGyro',['../struct_o_v_r_1_1_open_v_r_1_1_imu_sample__t.html#a0f5383622acf0aff585d2d159aa4291a',1,'OVR::OpenVR::ImuSample_t']]],
   ['videopausedbeforeapppause_54',['videoPausedBeforeAppPause',['../class_movie_player_sample.html#a5b82638ad240d5f53e7ed3b6f5507e9a',1,'MoviePlayerSample']]],

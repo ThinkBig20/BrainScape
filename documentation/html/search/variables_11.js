@@ -94,13 +94,8 @@ var searchData=
   ['pixelsperunit_91',['PixelsPerUnit',['../class_o_v_r_overlay_canvas.html#aab5521cc29ff64c10133c2bb02a44b72',1,'OVROverlayCanvas']]],
   ['placeonground_92',['PlaceOnGround',['../class_f_i_m_space_1_1_basics_1_1_f_basic___duplicate_objects.html#a3b9255cfd92fa2884dbaae7ccc77b1de',1,'FIMSpace::Basics::FBasic_DuplicateObjects']]],
   ['planebounds_93',['PlaneBounds',['../class_oculus_1_1_interaction_1_1_surfaces_1_1_clipped_plane_surface.html#abde904f00f5475363dbed2e0b21657a5',1,'Oculus::Interaction::Surfaces::ClippedPlaneSurface']]],
-<<<<<<< HEAD
   ['planeprefab_94',['PlanePrefab',['../class_o_v_r_scene_manager.html#a6d081cbe65d91609cf30915d56e3d840',1,'OVRSceneManager']]],
   ['planeprefab_95',['planePrefab',['../class_volume_and_plane_switcher.html#ad867820d5a45574c55bcfb652d2b7bed',1,'VolumeAndPlaneSwitcher']]],
-=======
-  ['planeprefab_94',['planePrefab',['../class_volume_and_plane_switcher.html#ad867820d5a45574c55bcfb652d2b7bed',1,'VolumeAndPlaneSwitcher']]],
-  ['planeprefab_95',['PlanePrefab',['../class_o_v_r_scene_manager.html#a6d081cbe65d91609cf30915d56e3d840',1,'OVRSceneManager']]],
->>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   ['platform_96',['platform',['../class_slim_u_i_1_1_modern_menu_1_1_u_i_settings_manager.html#a819a2be8e60f154fc0289ee7ba20b4a0',1,'SlimUI::ModernMenu::UISettingsManager']]],
   ['platformservice_97',['platformService',['../class_oculus_1_1_voice_1_1_app_voice_experience.html#a24d3322dbbc8574baa4ade37f862a141',1,'Oculus::Voice::AppVoiceExperience']]],
   ['platformsessionid_98',['platformSessionId',['../class_oculus_1_1_voice_1_1_dictation_1_1_bindings_1_1_android_1_1_platform_dictation_session.html#a98de85c4502d7c14f84364b44b7caf35',1,'Oculus::Voice::Dictation::Bindings::Android::PlatformDictationSession']]],
@@ -108,13 +103,8 @@ var searchData=
   ['playback_100',['playback',['../class_o_v_r_1_1_sound_f_x.html#a8f03f2770f78397ba9ebccb2f50aeeca',1,'OVR::SoundFX']]],
   ['playbackdelayremaining_101',['playbackDelayRemaining',['../class_buffered_audio_stream.html#a7f5113daa9983cb93160576821af3274',1,'BufferedAudioStream']]],
   ['playbackdelaytimeseconds_102',['playbackDelayTimeSeconds',['../class_buffered_audio_stream.html#a32e958e7ae89a52ebaaa8bbefabb4233',1,'BufferedAudioStream']]],
-<<<<<<< HEAD
   ['player_103',['player',['../class_oculus_1_1_platform_1_1_samples_1_1_vr_hoops_1_1_p2_p_manager_1_1_remote_player_data.html#a32fbe29bdf6aef18a16c759e00567bf7',1,'Oculus::Platform::Samples::VrHoops::P2PManager::RemotePlayerData']]],
   ['player_104',['Player',['../class_movie_player_sample_controls.html#abc3c1024f84c3ff9c14fc202606f9450',1,'MoviePlayerSampleControls']]],
-=======
-  ['player_103',['Player',['../class_movie_player_sample_controls.html#abc3c1024f84c3ff9c14fc202606f9450',1,'MoviePlayerSampleControls']]],
-  ['player_104',['player',['../class_oculus_1_1_platform_1_1_samples_1_1_vr_hoops_1_1_p2_p_manager_1_1_remote_player_data.html#a32fbe29bdf6aef18a16c759e00567bf7',1,'Oculus::Platform::Samples::VrHoops::P2PManager::RemotePlayerData']]],
->>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   ['playercontroller_105',['playerController',['../class_o_v_r_scene_sample_controller.html#aa67f667cdb483754126387cafa5f913f',1,'OVRSceneSampleController']]],
   ['playercontroller_106',['PlayerController',['../class_locomotion_controller.html#ada6545a58b6f40d960d10af97db328bd',1,'LocomotionController']]],
   ['playercontrollerenabled_107',['playerControllerEnabled',['../class_o_v_r_player_controller.html#ac94498a079130e3ffc2baec29a4ce703',1,'OVRPlayerController']]],
@@ -137,32 +127,18 @@ var searchData=
   ['pointer_124',['pointer',['../class_o_v_r_raycaster.html#acfd5e170c9fac795139bc4db6b953998',1,'OVRRaycaster']]],
   ['pointerpose_125',['PointerPose',['../class_oculus_1_1_interaction_1_1_input_1_1_controller_data_asset.html#afee04a96aa5b3c4c2ec548009f68ea93',1,'Oculus.Interaction.Input.ControllerDataAsset.PointerPose()'],['../class_oculus_1_1_interaction_1_1_input_1_1_hand_data_asset.html#aa628506159b4c2767e573e266d76bafd',1,'Oculus.Interaction.Input.HandDataAsset.PointerPose()'],['../struct_o_v_r_plugin_1_1_hand_state.html#acc10ef6fb72c7cc44e1e9a0c9dccd383',1,'OVRPlugin.HandState.PointerPose()'],['../struct_o_v_r_plugin_1_1_hand_state_internal.html#aabba0cbd70b9cf0046905d8603c4b2ef',1,'OVRPlugin.HandStateInternal.PointerPose()']]],
   ['pointerposeorigin_126',['PointerPoseOrigin',['../class_oculus_1_1_interaction_1_1_input_1_1_controller_data_asset.html#ab98d5166aa00a98fc4e55fe729a1b3d2',1,'Oculus.Interaction.Input.ControllerDataAsset.PointerPoseOrigin()'],['../class_oculus_1_1_interaction_1_1_input_1_1_hand_data_asset.html#aaa74a397a6d5311a8354bc053def4cca',1,'Oculus.Interaction.Input.HandDataAsset.PointerPoseOrigin()']]],
-<<<<<<< HEAD
   ['points_127',['Points',['../struct_o_v_r_plugin_1_1_boundary_geometry.html#acd2c76c23c5fbc824f8c9475daa12edc',1,'OVRPlugin::BoundaryGeometry']]],
   ['points_128',['points',['../class_oculus_spatializer_unity.html#a3b99e77e8aa6be6a6ca72d3f6ee5fc88',1,'OculusSpatializerUnity.points()'],['../class_o_n_s_p_propagation_material_1_1_spectrum.html#add7f216ab047ceb7b5cfd5d299a4cd71',1,'ONSPPropagationMaterial.Spectrum.points()']]],
   ['pointscount_129',['PointsCount',['../struct_o_v_r_plugin_1_1_boundary_geometry.html#a54ef898001a08c728c0cb11c41781bea',1,'OVRPlugin::BoundaryGeometry']]],
   ['poll_5ffrequency_130',['POLL_FREQUENCY',['../class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#a51e67c41b38f41d696cfb88414b8a167',1,'Oculus::Platform::Samples::VrBoardGame::MatchmakingManager']]],
   ['pool_131',['Pool',['../class_oculus_1_1_platform_1_1_models_1_1_matchmaking_enqueue_result.html#a9a1cfd3975a5d43626b0d5e9a422e14f',1,'Oculus::Platform::Models::MatchmakingEnqueueResult']]],
   ['pool_132',['POOL',['../class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#a4b0ede1c43e09f922f23afeff92beffb',1,'Oculus::Platform::Samples::VrBoardGame::MatchmakingManager']]],
-=======
-  ['points_127',['points',['../class_oculus_spatializer_unity.html#a3b99e77e8aa6be6a6ca72d3f6ee5fc88',1,'OculusSpatializerUnity.points()'],['../class_o_n_s_p_propagation_material_1_1_spectrum.html#add7f216ab047ceb7b5cfd5d299a4cd71',1,'ONSPPropagationMaterial.Spectrum.points()']]],
-  ['points_128',['Points',['../struct_o_v_r_plugin_1_1_boundary_geometry.html#acd2c76c23c5fbc824f8c9475daa12edc',1,'OVRPlugin::BoundaryGeometry']]],
-  ['pointscount_129',['PointsCount',['../struct_o_v_r_plugin_1_1_boundary_geometry.html#a54ef898001a08c728c0cb11c41781bea',1,'OVRPlugin::BoundaryGeometry']]],
-  ['poll_5ffrequency_130',['POLL_FREQUENCY',['../class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#a51e67c41b38f41d696cfb88414b8a167',1,'Oculus::Platform::Samples::VrBoardGame::MatchmakingManager']]],
-  ['pool_131',['POOL',['../class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#a4b0ede1c43e09f922f23afeff92beffb',1,'Oculus::Platform::Samples::VrBoardGame::MatchmakingManager']]],
-  ['pool_132',['Pool',['../class_oculus_1_1_platform_1_1_models_1_1_matchmaking_enqueue_result.html#a9a1cfd3975a5d43626b0d5e9a422e14f',1,'Oculus::Platform::Models::MatchmakingEnqueueResult']]],
->>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   ['pop_133',['pop',['../class_bouncing_ball_logic.html#a513597a9f793765de3bf4b6f5083da8c',1,'BouncingBallLogic']]],
   ['port_134',['port',['../class_o_n_s_p_profiler.html#a451bec9a49aba9686dc1826ee1611485',1,'ONSPProfiler.port()'],['../struct_meta_1_1_wit_ai_1_1_wit_request_endpoint_override.html#a95ace3b5fa0fb214f25be8fc902c5f2f',1,'Meta.WitAi.WitRequestEndpointOverride.port()'],['../class_meta_1_1_wit_ai_1_1_configuration_1_1_wit_endpoint_config.html#ae5655bc8ce6829dbe21585140ebae9bc',1,'Meta.WitAi.Configuration.WitEndpointConfig.port()']]],
   ['pos_135',['pos',['../struct_oculus_1_1_interaction_1_1_tube_renderer_1_1_vertex_layout.html#a5aee3c5da1ff782a2227d172dcc104c5',1,'Oculus.Interaction.TubeRenderer.VertexLayout.pos()'],['../class_oculus_1_1_interaction_1_1_list_layout_1_1_list_element.html#a7eee6832c89684cd36e17c2bdc5589df',1,'Oculus.Interaction.ListLayout.ListElement.pos()']]],
   ['pos_136',['Pos',['../struct_o_v_r_plugin_1_1_recti.html#a4ffe357d243ce85e21aa21dcd98ad137',1,'OVRPlugin.Recti.Pos()'],['../struct_o_v_r_plugin_1_1_rectf.html#a80c384c2abd72fd14f585080f6875eb9',1,'OVRPlugin.Rectf.Pos()'],['../struct_o_v_r_plugin_1_1_boundsf.html#aeed10e335f99289cbdebf05770fd3311',1,'OVRPlugin.Boundsf.Pos()']]],
-<<<<<<< HEAD
   ['pose_137',['Pose',['../class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_delta_provider_1_1_pose_data.html#a17bb211e376c45d2e204fe2b47834d5b',1,'Oculus.Interaction.PoseDetection.JointDeltaProvider.PoseData.Pose()'],['../struct_o_v_r_plugin_1_1_pose_statef.html#a2bc3d66424a365453ce54887b0b804bd',1,'OVRPlugin.PoseStatef.Pose()'],['../struct_o_v_r_plugin_1_1_layer_submit.html#a83cdea8c29171ac86d95880683082a25',1,'OVRPlugin.LayerSubmit.Pose()'],['../struct_o_v_r_plugin_1_1_bone.html#a636f2228cba9aa58b9f89a2f25021d68',1,'OVRPlugin.Bone.Pose()'],['../struct_o_v_r_plugin_1_1_body_joint_location.html#a1d88a1a2fd7547b7b211a65ae8c55623',1,'OVRPlugin.BodyJointLocation.Pose()'],['../struct_o_v_r_plugin_1_1_eye_gaze_state.html#a34cab026fac770e01cfba2746e94cde5',1,'OVRPlugin.EyeGazeState.Pose()']]],
   ['pose_138',['pose',['../struct_oculus_1_1_interaction_1_1_grab_1_1_grab_surfaces_1_1_bezier_control_point.html#addc2576643ae1d05a0411326736a3832',1,'Oculus.Interaction.Grab.GrabSurfaces.BezierControlPoint.pose()'],['../struct_oculus_1_1_interaction_1_1_input_1_1_hand_skeleton_joint.html#a8d49a556f0fd457e0459a61ab454cb29',1,'Oculus.Interaction.Input.HandSkeletonJoint.pose()'],['../struct_o_v_r_plugin_1_1_space_locationf.html#a7b2ac1430412deb10ffdfc90d9468c2d',1,'OVRPlugin.SpaceLocationf.pose()'],['../struct_o_v_r_1_1_open_v_r_1_1_input_pose_action_data__t.html#ac1381fd89a0abe14cde030304149d00d',1,'OVR.OpenVR.InputPoseActionData_t.pose()']]],
-=======
-  ['pose_137',['pose',['../struct_oculus_1_1_interaction_1_1_grab_1_1_grab_surfaces_1_1_bezier_control_point.html#addc2576643ae1d05a0411326736a3832',1,'Oculus.Interaction.Grab.GrabSurfaces.BezierControlPoint.pose()'],['../struct_oculus_1_1_interaction_1_1_input_1_1_hand_skeleton_joint.html#a8d49a556f0fd457e0459a61ab454cb29',1,'Oculus.Interaction.Input.HandSkeletonJoint.pose()'],['../struct_o_v_r_plugin_1_1_space_locationf.html#a7b2ac1430412deb10ffdfc90d9468c2d',1,'OVRPlugin.SpaceLocationf.pose()'],['../struct_o_v_r_1_1_open_v_r_1_1_input_pose_action_data__t.html#ac1381fd89a0abe14cde030304149d00d',1,'OVR.OpenVR.InputPoseActionData_t.pose()']]],
-  ['pose_138',['Pose',['../class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_delta_provider_1_1_pose_data.html#a17bb211e376c45d2e204fe2b47834d5b',1,'Oculus.Interaction.PoseDetection.JointDeltaProvider.PoseData.Pose()'],['../struct_o_v_r_plugin_1_1_pose_statef.html#a2bc3d66424a365453ce54887b0b804bd',1,'OVRPlugin.PoseStatef.Pose()'],['../struct_o_v_r_plugin_1_1_layer_submit.html#a83cdea8c29171ac86d95880683082a25',1,'OVRPlugin.LayerSubmit.Pose()'],['../struct_o_v_r_plugin_1_1_bone.html#a636f2228cba9aa58b9f89a2f25021d68',1,'OVRPlugin.Bone.Pose()'],['../struct_o_v_r_plugin_1_1_body_joint_location.html#a1d88a1a2fd7547b7b211a65ae8c55623',1,'OVRPlugin.BodyJointLocation.Pose()'],['../struct_o_v_r_plugin_1_1_eye_gaze_state.html#a34cab026fac770e01cfba2746e94cde5',1,'OVRPlugin.EyeGazeState.Pose()']]],
->>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   ['poseinspace_139',['PoseInSpace',['../struct_o_v_r_plugin_1_1_spatial_anchor_create_info.html#af03542b03e6252e0b127444eecd5b3ac',1,'OVRPlugin::SpatialAnchorCreateInfo']]],
   ['poses_140',['poses',['../struct_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_grab_utils_1_1_hand_grab_interactable_data.html#ae89e27807eaed96dd2f0a93b4c8eea0e',1,'Oculus::Interaction::HandGrab::HandGrabUtils::HandGrabInteractableData']]],
   ['posestate_141',['PoseState',['../struct_o_v_r_plugin_1_1_keyboard_state.html#a6b028dadde9aee53e26d017e3a625a74',1,'OVRPlugin::KeyboardState']]],
@@ -243,13 +219,8 @@ var searchData=
   ['processor_216',['processor',['../class_o_v_r_lip_sync_tool_loader.html#a97dece94d7c76de320ebac33d500c2b8',1,'OVRLipSyncToolLoader']]],
   ['profilerenabled_217',['profilerEnabled',['../class_o_n_s_p_profiler.html#a0b06dfedd7fa3043bc5ca3e4e17db460',1,'ONSPProfiler']]],
   ['profilertcpport_218',['profilerTcpPort',['../class_o_v_r_manager.html#a01deb5c51badc73c8c5f17e07212871a',1,'OVRManager']]],
-<<<<<<< HEAD
   ['progress_219',['Progress',['../class_oculus_1_1_interaction_1_1_locomotion_1_1_teleport_procedural_arc_visual.html#acc0b818008df7ee4fea7cbf78fc8c832',1,'Oculus.Interaction.Locomotion.TeleportProceduralArcVisual.Progress()'],['../class_oculus_1_1_interaction_1_1_distance_reticles_1_1_teleport_reticle_drawer.html#a624171fa148e0ef2a86fcbd7d3d9a92f',1,'Oculus.Interaction.DistanceReticles.TeleportReticleDrawer.Progress()'],['../class_oculus_1_1_interaction_1_1_locomotion_1_1_locomotion_turner_interactor_visual.html#aa348a60879efb4d6289e73947e8f3bc0',1,'Oculus.Interaction.Locomotion.LocomotionTurnerInteractorVisual.Progress()']]],
   ['progress_220',['progress',['../struct_o_v_r_1_1_open_v_r_1_1_v_r_event___screenshot_progress__t.html#ac7f0f82e44fd80581ae98132ad6f7614',1,'OVR::OpenVR::VREvent_ScreenshotProgress_t']]],
-=======
-  ['progress_219',['progress',['../struct_o_v_r_1_1_open_v_r_1_1_v_r_event___screenshot_progress__t.html#ac7f0f82e44fd80581ae98132ad6f7614',1,'OVR::OpenVR::VREvent_ScreenshotProgress_t']]],
-  ['progress_220',['Progress',['../class_oculus_1_1_interaction_1_1_locomotion_1_1_teleport_procedural_arc_visual.html#acc0b818008df7ee4fea7cbf78fc8c832',1,'Oculus.Interaction.Locomotion.TeleportProceduralArcVisual.Progress()'],['../class_oculus_1_1_interaction_1_1_distance_reticles_1_1_teleport_reticle_drawer.html#a624171fa148e0ef2a86fcbd7d3d9a92f',1,'Oculus.Interaction.DistanceReticles.TeleportReticleDrawer.Progress()'],['../class_oculus_1_1_interaction_1_1_locomotion_1_1_locomotion_turner_interactor_visual.html#aa348a60879efb4d6289e73947e8f3bc0',1,'Oculus.Interaction.Locomotion.LocomotionTurnerInteractorVisual.Progress()']]],
->>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   ['progressbar_221',['ProgressBar',['../class_movie_player_sample_controls.html#acb519ce4041022e15ce79cad2ee18819',1,'MoviePlayerSampleControls']]],
   ['progressbarheight_222',['progressBarHeight',['../class_o_v_r_system_profiler_panel.html#aab52f9eeec9824450b1fb6bc1b8c3566',1,'OVRSystemProfilerPanel']]],
   ['progressbarpad_223',['progressBarPad',['../class_o_v_r_system_profiler_panel.html#a6c44333060c2849974ea870256bc8964',1,'OVRSystemProfilerPanel']]],

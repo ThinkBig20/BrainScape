@@ -83,10 +83,6 @@ var searchData=
   ['fstringmethods_2ecs_80',['FStringMethods.cs',['../_f_string_methods_8cs.html',1,'']]],
   ['ftransformmethods_2ecs_81',['FTransformMethods.cs',['../_f_transform_methods_8cs.html',1,'']]],
   ['furniturespawner_2ecs_82',['FurnitureSpawner.cs',['../_furniture_spawner_8cs.html',1,'']]],
-<<<<<<< HEAD
   ['fvectormethods_2ecs_83',['FVectorMethods.cs',['../_f_vector_methods_8cs.html',1,'']]],
   ['micpermissionsmanager_2ecs_84',['MicPermissionsManager.cs',['../_features_2_dictation_2_scripts_2_runtime_2_utilities_2_mic_permissions_manager_8cs.html',1,'']]]
-=======
-  ['fvectormethods_2ecs_83',['FVectorMethods.cs',['../_f_vector_methods_8cs.html',1,'']]]
->>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
 ];

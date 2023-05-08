@@ -422,8 +422,6 @@ Additional Inherited Members</h2></td></tr>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="af42407fd73b3cf16bef2d7806dd59c68" name="af42407fd73b3cf16bef2d7806dd59c68"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af42407fd73b3cf16bef2d7806dd59c68">&#9670;&#160;</a></span>Apply()</h2>
-<<<<<<< HEAD
-=======
 
 <div class="memitem">
 <div class="memproto">
@@ -436,391 +434,6 @@ Additional Inherited Members</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_data_asset.html">HandDataAsset</a>&#160;</td>
           <td class="paramname"><em>data</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a29b61178ad8db64a45354f471e95f695" name="a29b61178ad8db64a45354f471e95f695"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29b61178ad8db64a45354f471e95f695">&#9670;&#160;</a></span>FreeAllJoints()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Oculus.Interaction.Input.SyntheticHand.FreeAllJoints </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Short-hand method for setting the freedom level of all fingers in a hand to Free. Similar to calling SetFingerFreedom for each single finger in the hand with a value of FingerFreedom.Free for the freedomLevel. </p>
-
-</div>
-</div>
-<a id="af34207159187468889f3a0bb4cc4ab36" name="af34207159187468889f3a0bb4cc4ab36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af34207159187468889f3a0bb4cc4ab36">&#9670;&#160;</a></span>FreeWrist()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Oculus.Interaction.Input.SyntheticHand.FreeWrist </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_synthetic_hand.html#a8c46b81a279323901bef97841852b8d3">WristLockMode</a>&#160;</td>
-          <td class="paramname"><em>lockMode</em> = <code><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_synthetic_hand.html#a8c46b81a279323901bef97841852b8d3abbd47109890259c0127154db1af26c75">WristLockMode::Full</a></code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Unlocks the hand (locked at the OverrideWristPose method) starting a timer for the smooth release animation. </p>
-
-</div>
-</div>
-<a id="af2305684b8261dc3e5dc383758dffd12" name="af2305684b8261dc3e5dc383758dffd12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2305684b8261dc3e5dc383758dffd12">&#9670;&#160;</a></span>GetJointFreedom()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespace_oculus_1_1_interaction_1_1_input.html#a0fbdba8a1bbb4585fa11bc02a9bb39fc">JointFreedom</a> Oculus.Interaction.Input.SyntheticHand.GetJointFreedom </td>
-          <td>(</td>
-          <td class="paramtype">in <a class="el" href="namespace_oculus_1_1_interaction_1_1_input.html#a59106a617b51d35caaeef041c1db83b3">HandJointId</a>&#160;</td>
-          <td class="paramname"><em>jointId</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7c196081707d2f7070cad91c8228b9f8" name="a7c196081707d2f7070cad91c8228b9f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c196081707d2f7070cad91c8228b9f8">&#9670;&#160;</a></span>InjectAllSyntheticHandModifier()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Oculus.Interaction.Input.SyntheticHand.InjectAllSyntheticHandModifier </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="_data_source_8cs.html#a29ecf6b52337149d74da6c9e1fd6092b">UpdateModeFlags</a>&#160;</td>
-          <td class="paramname"><em>updateMode</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_data_source.html">IDataSource</a>&#160;</td>
-          <td class="paramname"><em>updateAfter</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_data_modifier.html">DataModifier</a>&lt; <a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_data_asset.html">HandDataAsset</a> &gt;&#160;</td>
-          <td class="paramname"><em>modifyDataFromSource</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>applyModifier</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_oculus_1_1_interaction_1_1_progress_curve.html">ProgressCurve</a>&#160;</td>
-          <td class="paramname"><em>wristPositionLockCurve</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_oculus_1_1_interaction_1_1_progress_curve.html">ProgressCurve</a>&#160;</td>
-          <td class="paramname"><em>wristPositionUnlockCurve</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_oculus_1_1_interaction_1_1_progress_curve.html">ProgressCurve</a>&#160;</td>
-          <td class="paramname"><em>wristRotationLockCurve</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_oculus_1_1_interaction_1_1_progress_curve.html">ProgressCurve</a>&#160;</td>
-          <td class="paramname"><em>wristRotationUnlockCurve</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_oculus_1_1_interaction_1_1_progress_curve.html">ProgressCurve</a>&#160;</td>
-          <td class="paramname"><em>jointLockCurve</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_oculus_1_1_interaction_1_1_progress_curve.html">ProgressCurve</a>&#160;</td>
-          <td class="paramname"><em>jointUnlockCurve</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>spreadAllowance</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1a4fb5eeea640a84e60c5bd0dd4f0e5c" name="a1a4fb5eeea640a84e60c5bd0dd4f0e5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a4fb5eeea640a84e60c5bd0dd4f0e5c">&#9670;&#160;</a></span>InjectJointLockCurve()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Oculus.Interaction.Input.SyntheticHand.InjectJointLockCurve </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_oculus_1_1_interaction_1_1_progress_curve.html">ProgressCurve</a>&#160;</td>
-          <td class="paramname"><em>jointLockCurve</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a05ca43d35c79c9ddc9b78564f7089be3" name="a05ca43d35c79c9ddc9b78564f7089be3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05ca43d35c79c9ddc9b78564f7089be3">&#9670;&#160;</a></span>InjectJointUnlockCurve()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Oculus.Interaction.Input.SyntheticHand.InjectJointUnlockCurve </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_oculus_1_1_interaction_1_1_progress_curve.html">ProgressCurve</a>&#160;</td>
-          <td class="paramname"><em>jointUnlockCurve</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac3b25b0ae72087ee161ebaa80d81669d" name="ac3b25b0ae72087ee161ebaa80d81669d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3b25b0ae72087ee161ebaa80d81669d">&#9670;&#160;</a></span>InjectSpreadAllowance()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Oculus.Interaction.Input.SyntheticHand.InjectSpreadAllowance </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>spreadAllowance</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afd0360636f1a708a9377c42153e6b12e" name="afd0360636f1a708a9377c42153e6b12e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd0360636f1a708a9377c42153e6b12e">&#9670;&#160;</a></span>InjectWristPositionLockCurve()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Oculus.Interaction.Input.SyntheticHand.InjectWristPositionLockCurve </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_oculus_1_1_interaction_1_1_progress_curve.html">ProgressCurve</a>&#160;</td>
-          <td class="paramname"><em>wristPositionLockCurve</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6011453b344fc5141bafa5744eb5863f" name="a6011453b344fc5141bafa5744eb5863f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6011453b344fc5141bafa5744eb5863f">&#9670;&#160;</a></span>InjectWristPositionUnlockCurve()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Oculus.Interaction.Input.SyntheticHand.InjectWristPositionUnlockCurve </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_oculus_1_1_interaction_1_1_progress_curve.html">ProgressCurve</a>&#160;</td>
-          <td class="paramname"><em>wristPositionUnlockCurve</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa5e6955e1c5cae8eb20bc1a65c2c7e44" name="aa5e6955e1c5cae8eb20bc1a65c2c7e44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5e6955e1c5cae8eb20bc1a65c2c7e44">&#9670;&#160;</a></span>InjectWristRotationLockCurve()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Oculus.Interaction.Input.SyntheticHand.InjectWristRotationLockCurve </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_oculus_1_1_interaction_1_1_progress_curve.html">ProgressCurve</a>&#160;</td>
-          <td class="paramname"><em>wristRotationLockCurve</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4da85d91532e2876c5219699f82c2508" name="a4da85d91532e2876c5219699f82c2508"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4da85d91532e2876c5219699f82c2508">&#9670;&#160;</a></span>InjectWristRotationUnlockCurve()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Oculus.Interaction.Input.SyntheticHand.InjectWristRotationUnlockCurve </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_oculus_1_1_interaction_1_1_progress_curve.html">ProgressCurve</a>&#160;</td>
-          <td class="paramname"><em>wristRotationUnlockCurve</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0a4c9853d7820b1c3f063188d54c2427" name="a0a4c9853d7820b1c3f063188d54c2427"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a4c9853d7820b1c3f063188d54c2427">&#9670;&#160;</a></span>LockFingerAtCurrent()</h2>
->>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">override void Oculus.Interaction.Input.SyntheticHand.Apply </td>
-          <td>(</td>
-<<<<<<< HEAD
-          <td class="paramtype"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_hand_data_asset.html">HandDataAsset</a>&#160;</td>
-          <td class="paramname"><em>data</em></td><td>)</td>
-=======
-          <td class="paramtype">in <a class="el" href="namespace_oculus_1_1_interaction_1_1_input.html#a419bf75388e8be288dcbfec4b285d99d">HandFinger</a>&#160;</td>
-          <td class="paramname"><em>finger</em></td><td>)</td>
->>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
           <td></td>
         </tr>
       </table>
@@ -1129,12 +742,6 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<<<<<<< HEAD
-=======
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
->>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
       <table class="memname">
         <tr>
           <td class="memname">void Oculus.Interaction.Input.SyntheticHand.LockJoint </td>
@@ -1160,14 +767,6 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-<<<<<<< HEAD
-=======
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
->>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
 </div><div class="memdoc">
 
 </div>
@@ -1235,12 +834,6 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<<<<<<< HEAD
-=======
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
->>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
       <table class="memname">
         <tr>
           <td class="memname">void Oculus.Interaction.Input.SyntheticHand.LockWristPosition </td>
@@ -1266,14 +859,6 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-<<<<<<< HEAD
-=======
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
->>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
 </div><div class="memdoc">
 
 </div>
@@ -1283,12 +868,6 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<<<<<<< HEAD
-=======
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
->>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
       <table class="memname">
         <tr>
           <td class="memname">void Oculus.Interaction.Input.SyntheticHand.LockWristRotation </td>
@@ -1314,14 +893,6 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-<<<<<<< HEAD
-=======
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
->>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
 </div><div class="memdoc">
 
 </div>
@@ -1629,7 +1200,6 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">in <a class="el" href="namespace_oculus_1_1_interaction_1_1_input.html#a0fbdba8a1bbb4585fa11bc02a9bb39fc">JointFreedom</a>&#160;</td>
-<<<<<<< HEAD
           <td class="paramname"><em>freedomLevel</em>, </td>
         </tr>
         <tr>
@@ -1709,8 +1279,6 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">in <a class="el" href="namespace_oculus_1_1_interaction_1_1_input.html#a0fbdba8a1bbb4585fa11bc02a9bb39fc">JointFreedom</a>&#160;</td>
-=======
->>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
           <td class="paramname"><em>freedomLevel</em>, </td>
         </tr>
         <tr>
@@ -2016,11 +1584,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<<<<<<< HEAD
 <span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-=======
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
->>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2586,11 +2150,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<<<<<<< HEAD
 <li><a class="el" href="_synthetic_hand_8cs.html">SyntheticHand.cs</a></li>
-=======
-<li>Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/<a class="el" href="_synthetic_hand_8cs.html">SyntheticHand.cs</a></li>
->>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

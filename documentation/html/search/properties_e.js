@@ -1,12 +1,7 @@
 var searchData=
 [
-<<<<<<< HEAD
   ['name_0',['name',['../class_o_v_r_1_1_sound_f_x_ref.html#a6e533cdc74deac8cc5ba694649ccf45b',1,'OVR::SoundFXRef']]],
   ['name_1',['Name',['../class_oculus_1_1_interaction_1_1_pose_detection_1_1_feature_state_description.html#ac5c28d3a59c4f42ec21695778cad1ee4',1,'Oculus.Interaction.PoseDetection.FeatureStateDescription.Name()'],['../class_oculus_spatializer_reflection_custom_g_u_i.html#a8092c7f3dad1b5159eb0bf1822e6bf0e',1,'OculusSpatializerReflectionCustomGUI.Name()'],['../class_meta_1_1_conduit_1_1_conduit_entity_attribute.html#a74f991c0c35705dbb65f6b8e3a53a0d3',1,'Meta.Conduit.ConduitEntityAttribute.Name()']]],
-=======
-  ['name_0',['Name',['../class_oculus_1_1_interaction_1_1_pose_detection_1_1_feature_state_description.html#ac5c28d3a59c4f42ec21695778cad1ee4',1,'Oculus.Interaction.PoseDetection.FeatureStateDescription.Name()'],['../class_oculus_spatializer_reflection_custom_g_u_i.html#a8092c7f3dad1b5159eb0bf1822e6bf0e',1,'OculusSpatializerReflectionCustomGUI.Name()'],['../class_meta_1_1_conduit_1_1_conduit_entity_attribute.html#a74f991c0c35705dbb65f6b8e3a53a0d3',1,'Meta.Conduit.ConduitEntityAttribute.Name()']]],
-  ['name_1',['name',['../class_o_v_r_1_1_sound_f_x_ref.html#a6e533cdc74deac8cc5ba694649ccf45b',1,'OVR::SoundFXRef']]],
->>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   ['nametext_2',['NameText',['../class_oculus_1_1_platform_1_1_samples_1_1_vr_hoops_1_1_player_area.html#a37cd87e4617207eeb6d3e6be9e0ea50a',1,'Oculus::Platform::Samples::VrHoops::PlayerArea']]],
   ['nativecolorgamut_3',['nativeColorGamut',['../class_o_v_r_manager.html#ac578ba859f4de5720666134f22dff781',1,'OVRManager']]],
   ['near_4',['Near',['../class_oculus_1_1_interaction_1_1_pose_detection_1_1_finger_feature_config_builder_1_1_opposition_state_builder.html#a4c07adff2992fa07c7b94e7c53f04a0b',1,'Oculus.Interaction.PoseDetection.FingerFeatureConfigBuilder.OppositionStateBuilder.Near()'],['../class_o_n_s_p_audio_source.html#a9cbbae61d8ece9dc710d89f2dfb423fd',1,'ONSPAudioSource.Near()']]],

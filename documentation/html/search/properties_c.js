@@ -27,13 +27,8 @@ var searchData=
   ['lefthandoverkeyboard_24',['LeftHandOverKeyboard',['../class_o_v_r_tracked_keyboard_hands.html#a7ee4efe889bc3253f040ef591b04b87e',1,'OVRTrackedKeyboardHands']]],
   ['lefthandskeleton_25',['LeftHandSkeleton',['../class_oculus_sample_framework_1_1_hands_manager.html#a2fbeb8a0c670062ab366c7a4c58ca841',1,'OculusSampleFramework::HandsManager']]],
   ['lefthandskeletonrenderer_26',['LeftHandSkeletonRenderer',['../class_oculus_sample_framework_1_1_hands_manager.html#a85cbca03a5b7d98705dfe79608b65485',1,'OculusSampleFramework::HandsManager']]],
-<<<<<<< HEAD
   ['length_27',['length',['../class_o_v_r_1_1_sound_emitter.html#ae253c1bade939acda164a8c0a5ad6cee',1,'OVR::SoundEmitter']]],
   ['length_28',['Length',['../class_o_v_r_1_1_sound_f_x.html#adb2d8e16cfad662e2e7608e7b465ba46',1,'OVR.SoundFX.Length()'],['../class_o_v_r_1_1_sound_f_x_ref.html#a172d515f48b16f7943c6d3871b845e7d',1,'OVR.SoundFXRef.Length()'],['../class_r_t_l_t_m_pro_1_1_fast_string_builder.html#a64369bc85e962847921dc69c548334de',1,'RTLTMPro.FastStringBuilder.Length()']]],
-=======
-  ['length_27',['Length',['../class_o_v_r_1_1_sound_f_x.html#adb2d8e16cfad662e2e7608e7b465ba46',1,'OVR.SoundFX.Length()'],['../class_o_v_r_1_1_sound_f_x_ref.html#a172d515f48b16f7943c6d3871b845e7d',1,'OVR.SoundFXRef.Length()'],['../class_r_t_l_t_m_pro_1_1_fast_string_builder.html#a64369bc85e962847921dc69c548334de',1,'RTLTMPro.FastStringBuilder.Length()']]],
-  ['length_28',['length',['../class_o_v_r_1_1_sound_emitter.html#ae253c1bade939acda164a8c0a5ad6cee',1,'OVR::SoundEmitter']]],
->>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   ['likestowin_29',['LikesToWin',['../class_oculus_1_1_platform_1_1_samples_1_1_vr_hoops_1_1_achievements_manager.html#a8e82f6d6ec963cefb2770ae4ca8e0042',1,'Oculus::Platform::Samples::VrHoops::AchievementsManager']]],
   ['linescalefactor_30',['LineScaleFactor',['../class_oculus_1_1_interaction_1_1_polyline_renderer.html#a881c2140ee3aa4d922ce27d949a17def',1,'Oculus::Interaction::PolylineRenderer']]],
   ['linewidth_31',['LineWidth',['../class_oculus_1_1_interaction_1_1_distance_reticles_1_1_distant_interaction_polyline_visual.html#a023dcaacbc39d04becb3f35840903278',1,'Oculus::Interaction::DistanceReticles::DistantInteractionPolylineVisual']]],

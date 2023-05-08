@@ -2,13 +2,8 @@ var searchData=
 [
   ['joinexistingroom_0',['JoinExistingRoom',['../class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_room_manager.html#a9e67827fc3f4beb5e460921be1c5ff18',1,'Oculus::Platform::Samples::VrVoiceChat::RoomManager']]],
   ['joinroom_1',['joinRoom',['../class_oculus_1_1_platform_1_1_samples_1_1_simple_platform_sample_1_1_data_entry.html#a58ed8acdc390936d7a11799575e4b3dd',1,'Oculus::Platform::Samples::SimplePlatformSample::DataEntry']]],
-<<<<<<< HEAD
   ['joinroomcallback_2',['JoinRoomCallback',['../class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_room_manager.html#a0e932354ce797c89cbd27cc0a3cc248f',1,'Oculus::Platform::Samples::VrVoiceChat::RoomManager']]],
   ['joinroomcallback_3',['joinRoomCallback',['../class_oculus_1_1_platform_1_1_samples_1_1_simple_platform_sample_1_1_data_entry.html#a20d7015be1e5e0de3337b3381a61de66',1,'Oculus::Platform::Samples::SimplePlatformSample::DataEntry']]],
-=======
-  ['joinroomcallback_2',['joinRoomCallback',['../class_oculus_1_1_platform_1_1_samples_1_1_simple_platform_sample_1_1_data_entry.html#a20d7015be1e5e0de3337b3381a61de66',1,'Oculus::Platform::Samples::SimplePlatformSample::DataEntry']]],
-  ['joinroomcallback_3',['JoinRoomCallback',['../class_oculus_1_1_platform_1_1_samples_1_1_vr_voice_chat_1_1_room_manager.html#a0e932354ce797c89cbd27cc0a3cc248f',1,'Oculus::Platform::Samples::VrVoiceChat::RoomManager']]],
->>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   ['joinroomresponse_4',['joinRoomResponse',['../class_oculus_1_1_platform_1_1_samples_1_1_net_chat_1_1_data_entry.html#a689a92cb8818f44c165b4a7cf3d5a943',1,'Oculus::Platform::Samples::NetChat::DataEntry']]],
   ['jointcollection_5',['JointCollection',['../class_oculus_1_1_interaction_1_1_hand_grab_1_1_visuals_1_1_joint_collection.html#a7886fdf4265fd4bffef5cb9a1a4986c3',1,'Oculus::Interaction::HandGrab::Visuals::JointCollection']]],
   ['jointdeltaconfig_6',['JointDeltaConfig',['../class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_delta_config.html#ab7ef01fe6e42a2c5d859c06e7787fa30',1,'Oculus::Interaction::PoseDetection::JointDeltaConfig']]],

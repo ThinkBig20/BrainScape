@@ -7,13 +7,8 @@ var searchData=
   ['jointchildrenlist_4',['JointChildrenList',['../class_oculus_1_1_interaction_1_1_input_1_1_hand_joint_utils.html#a893ebffd625a521837dd0aa6a3265556',1,'Oculus::Interaction::Input::HandJointUtils']]],
   ['jointdeltaprovider_5',['JointDeltaProvider',['../class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a6af029d72a21fbfccb5140851225951a',1,'Oculus::Interaction::PoseDetection::JointRotationActiveState']]],
   ['jointid_6',['JointId',['../class_oculus_1_1_interaction_1_1_throw_1_1_hand_pose_input_device_1_1_hand_joint_pose_meta_data.html#a692c2e7068750fc6dc857f1bf2d96081',1,'Oculus::Interaction::Throw::HandPoseInputDevice::HandJointPoseMetaData']]],
-<<<<<<< HEAD
   ['jointids_7',['JointIDs',['../class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_delta_config.html#a5083412083392d4e0ffd16a36b1263a5',1,'Oculus::Interaction::PoseDetection::JointDeltaConfig']]],
   ['jointids_8',['JointIds',['../class_oculus_1_1_interaction_1_1_input_1_1_hand_joint_utils.html#a3edf842d29088e3bcedec31cf76d562e',1,'Oculus::Interaction::Input::HandJointUtils']]],
-=======
-  ['jointids_7',['JointIds',['../class_oculus_1_1_interaction_1_1_input_1_1_hand_joint_utils.html#a3edf842d29088e3bcedec31cf76d562e',1,'Oculus::Interaction::Input::HandJointUtils']]],
-  ['jointids_8',['JointIDs',['../class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_delta_config.html#a5083412083392d4e0ffd16a36b1263a5',1,'Oculus::Interaction::PoseDetection::JointDeltaConfig']]],
->>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   ['jointlocation_5f0_9',['JointLocation_0',['../struct_o_v_r_plugin_1_1_body_state_internal.html#a1a88dc74d9a5847f7c193b749ad194c4',1,'OVRPlugin::BodyStateInternal']]],
   ['jointlocation_5f1_10',['JointLocation_1',['../struct_o_v_r_plugin_1_1_body_state_internal.html#a2b47117581fa9d1f3fc765b156fac583',1,'OVRPlugin::BodyStateInternal']]],
   ['jointlocation_5f10_11',['JointLocation_10',['../struct_o_v_r_plugin_1_1_body_state_internal.html#a4b1e11a9981b5823b90d902d9886e648',1,'OVRPlugin::BodyStateInternal']]],

@@ -32,13 +32,8 @@ var searchData=
   ['handmidfist_29',['handMidFist',['../class_oculus_1_1_interaction_1_1_hand_grab_1_1_editor_1_1_hand_animator_wizard_1_1_hand_clips.html#a37238fcfe3735bb173b1be3fbc6ab0d0',1,'Oculus::Interaction::HandGrab::Editor::HandAnimatorWizard::HandClips']]],
   ['handouteralphathreshold_5f_30',['handOuterAlphaThreshold_',['../class_o_v_r_tracked_keyboard_hands.html#a18319365145187c09b58215ba71a18a9',1,'OVRTrackedKeyboardHands']]],
   ['handpinch_31',['handPinch',['../class_oculus_1_1_interaction_1_1_hand_grab_1_1_editor_1_1_hand_animator_wizard_1_1_hand_clips.html#aef55abd7dadf9bf3272e90abb36d7cb6',1,'Oculus::Interaction::HandGrab::Editor::HandAnimatorWizard::HandClips']]],
-<<<<<<< HEAD
   ['handpose_32',['handPose',['../struct_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_grab_utils_1_1_hand_grab_pose_data.html#ae9bfd75bc4506f8862da448c38861b7c',1,'Oculus::Interaction::HandGrab::HandGrabUtils::HandGrabPoseData']]],
   ['handpose_33',['HandPose',['../class_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_grab_result.html#a6fa0cd701f49aef5a111b1f222d63318',1,'Oculus::Interaction::HandGrab::HandGrabResult']]],
-=======
-  ['handpose_32',['HandPose',['../class_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_grab_result.html#a6fa0cd701f49aef5a111b1f222d63318',1,'Oculus::Interaction::HandGrab::HandGrabResult']]],
-  ['handpose_33',['handPose',['../struct_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_grab_utils_1_1_hand_grab_pose_data.html#ae9bfd75bc4506f8862da448c38861b7c',1,'Oculus::Interaction::HandGrab::HandGrabUtils::HandGrabPoseData']]],
->>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
   ['handpresenceinitialized_5f_34',['handPresenceInitialized_',['../class_o_v_r_tracked_keyboard_hands.html#a996a0e75dc3179ba3914ddb3b75b51fd',1,'OVRTrackedKeyboardHands']]],
   ['handpresenceleftbonename_35',['HandPresenceLeftBoneName',['../struct_o_v_r_tracked_keyboard_hands_1_1_hand_bone_mapping.html#abf618ba4be2769bdb2a4bd2f6b590439',1,'OVRTrackedKeyboardHands::HandBoneMapping']]],
   ['handpresencerightbonename_36',['HandPresenceRightBoneName',['../struct_o_v_r_tracked_keyboard_hands_1_1_hand_bone_mapping.html#a1bcb7e8d20fb1e453aa40a2bfc2d15be',1,'OVRTrackedKeyboardHands::HandBoneMapping']]],

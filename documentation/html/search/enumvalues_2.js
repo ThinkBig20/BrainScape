@@ -100,7 +100,6 @@ var searchData=
   ['boost_97',['Boost',['../class_o_v_r_manager.html#a7ed525b945de68f811af4c45f9768e48a43c0b4ec5edcd9385319524f5ddee79e',1,'OVRManager']]],
   ['both_98',['Both',['../class_oculus_sample_framework_1_1_hands_manager.html#ae5a011cabcd2e9b1f9119112cf42c964a130c5b3473c57faa76e2a1c54e26f88e',1,'OculusSampleFramework::HandsManager']]],
   ['both_99',['BOTH',['../class_oculus_1_1_platform_1_1_samples_1_1_vr_hoops_1_1_detect_basket.html#af5439094473facd88859e0f80160e739a6328e5e3186c227a021ef2ff77e40197',1,'Oculus::Platform::Samples::VrHoops::DetectBasket']]],
-<<<<<<< HEAD
   ['bottom_100',['Bottom',['../class_o_v_r_overlay_mesh_generator.html#aad9f07619e942181edb7678552b9dfe0a2ad9d63b69c4a10a5cc9cad923133bc4',1,'OVROverlayMeshGenerator']]],
   ['bottom_101',['BOTTOM',['../class_oculus_1_1_platform_1_1_samples_1_1_vr_hoops_1_1_detect_basket.html#af5439094473facd88859e0f80160e739a1fabf63de5c96c78e2a40805bcdeb73b',1,'Oculus::Platform::Samples::VrHoops::DetectBasket']]],
   ['bottom_102',['Bottom',['../class_o_v_r_overlay_editor.html#a4d0ee6ec62af8838b1c5bdb8807319f5a2ad9d63b69c4a10a5cc9cad923133bc4',1,'OVROverlayEditor']]],
@@ -122,26 +121,4 @@ var searchData=
   ['buttonpress_5f3_118',['ButtonPress_3',['../namespace_o_v_r_1_1_open_v_r.html#a36310f7b08bec3f2b359cf16664045bda2c52fd54f514dcc928c81116202dffac',1,'OVR::OpenVR']]],
   ['buttons_119',['Buttons',['../class_unity_engine_1_1_event_systems_1_1_o_v_r_input_module.html#ae79bc7e3096c65401a148571bbd5eb34a5b3ec15499a125805b5bbf8e4afcec8c',1,'UnityEngine::EventSystems::OVRInputModule']]],
   ['byte_120',['BYTE',['../_o_v_r_g_l_t_f_accessor_8cs.html#ab888dd0e4f2d803b234016804a194ec9ae409eb2ba6eb6801f52763ae370c350e',1,'OVRGLTFAccessor.cs']]]
-=======
-  ['bottom_100',['Bottom',['../class_o_v_r_overlay_editor.html#a4d0ee6ec62af8838b1c5bdb8807319f5a2ad9d63b69c4a10a5cc9cad923133bc4',1,'OVROverlayEditor.Bottom()'],['../class_o_v_r_overlay_mesh_generator.html#aad9f07619e942181edb7678552b9dfe0a2ad9d63b69c4a10a5cc9cad923133bc4',1,'OVROverlayMeshGenerator.Bottom()']]],
-  ['bottom_101',['BOTTOM',['../class_oculus_1_1_platform_1_1_samples_1_1_vr_hoops_1_1_detect_basket.html#af5439094473facd88859e0f80160e739a1fabf63de5c96c78e2a40805bcdeb73b',1,'Oculus::Platform::Samples::VrHoops::DetectBasket']]],
-  ['bottomleft_102',['BottomLeft',['../class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter.html#af5d815df33bfd48fcbca765dbdc1a6e5a98e5a1c44509157ebcaf46c515c78875',1,'TMPro.Examples.TMP_FrameRateCounter.BottomLeft()'],['../class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay.html#a857c25d1c96e819dc39011d143ce3415a98e5a1c44509157ebcaf46c515c78875',1,'TMPro.Examples.TMPro_InstructionOverlay.BottomLeft()'],['../class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter.html#acd8edef652a3eca75ad3e389002d2ecea98e5a1c44509157ebcaf46c515c78875',1,'TMPro.Examples.TMP_UiFrameRateCounter.BottomLeft()']]],
-  ['bottomright_103',['BottomRight',['../class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay.html#a857c25d1c96e819dc39011d143ce3415a9146bfc669fddc88db2c4d89297d0e9a',1,'TMPro.Examples.TMPro_InstructionOverlay.BottomRight()'],['../class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter.html#acd8edef652a3eca75ad3e389002d2ecea9146bfc669fddc88db2c4d89297d0e9a',1,'TMPro.Examples.TMP_UiFrameRateCounter.BottomRight()'],['../class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter.html#af5d815df33bfd48fcbca765dbdc1a6e5a9146bfc669fddc88db2c4d89297d0e9a',1,'TMPro.Examples.TMP_FrameRateCounter.BottomRight()']]],
-  ['bottomtop_104',['BottomTop',['../class_movie_player_sample.html#a347662a20591cddd12bdd4bbda7e60d1a59b8f68e79d3beb033a55deb084c7250',1,'MoviePlayerSample']]],
-  ['brick_105',['Brick',['../class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadda1ff97d8cde3a648c648fd044b54916b9',1,'ONSPPropagationMaterial']]],
-  ['brickpainted_106',['BrickPainted',['../class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadda2f2c67192a1e7588bb49ee47792454e0',1,'ONSPPropagationMaterial']]],
-  ['browlowererl_107',['BrowLowererL',['../class_o_v_r_face_expressions.html#a464fa1523796d3d9ef583c3947815569a0ca47b58b812d1343fcbbe27f282b091',1,'OVRFaceExpressions']]],
-  ['browlowererr_108',['BrowLowererR',['../class_o_v_r_face_expressions.html#a464fa1523796d3d9ef583c3947815569a8df2ed91b14b8c81a1011911c6bc1038',1,'OVRFaceExpressions']]],
-  ['buffertoosmall_109',['BufferTooSmall',['../namespace_o_v_r_1_1_open_v_r.html#aba57f1288d2025a9c4015e60e5237dc9ab801c4d44abd4738b7f69c4e390ed61d',1,'OVR.OpenVR.BufferTooSmall()'],['../namespace_o_v_r_1_1_open_v_r.html#ac3805c02f8805e8b2deff405141e1a16ab801c4d44abd4738b7f69c4e390ed61d',1,'OVR.OpenVR.BufferTooSmall()'],['../namespace_o_v_r_1_1_open_v_r.html#a1f757a8da89ddd37f2fa236db0eb586eab801c4d44abd4738b7f69c4e390ed61d',1,'OVR.OpenVR.BufferTooSmall()'],['../namespace_o_v_r_1_1_open_v_r.html#a9939addfa7c6e790ddb7780b84066399ab801c4d44abd4738b7f69c4e390ed61d',1,'OVR.OpenVR.BufferTooSmall()']]],
-  ['buildsettings_110',['BuildSettings',['../class_o_v_r_project_config_editor.html#a3269f257c906a9cca0ae4b7ada33eb87ae51f8efbf46216cc665ab94d5d278cd6',1,'OVRProjectConfigEditor']]],
-  ['button_5fa_5fx_111',['Button_A_X',['../_o_v_r_g_l_t_f_animatinon_node_8cs.html#a8fbb30ad12a44044974159feac290666ac22bd108c78a5821d462a877a956762f',1,'OVRGLTFAnimatinonNode.cs']]],
-  ['button_5fb_5fy_112',['Button_B_Y',['../_o_v_r_g_l_t_f_animatinon_node_8cs.html#a8fbb30ad12a44044974159feac290666a16bdc172a1f44c5fd97db16c05fdc0e1',1,'OVRGLTFAnimatinonNode.cs']]],
-  ['button_5foculus_5fmenu_113',['Button_Oculus_Menu',['../_o_v_r_g_l_t_f_animatinon_node_8cs.html#a8fbb30ad12a44044974159feac290666a4e7dfd44317761683614d55a14d5ae3e',1,'OVRGLTFAnimatinonNode.cs']]],
-  ['buttonpress_5f0_114',['ButtonPress_0',['../namespace_o_v_r_1_1_open_v_r.html#a36310f7b08bec3f2b359cf16664045bda1f7f977a7696a6ac29ba3d408a966485',1,'OVR::OpenVR']]],
-  ['buttonpress_5f1_115',['ButtonPress_1',['../namespace_o_v_r_1_1_open_v_r.html#a36310f7b08bec3f2b359cf16664045bda8ff987a07ec663a984666deb7cb7c701',1,'OVR::OpenVR']]],
-  ['buttonpress_5f2_116',['ButtonPress_2',['../namespace_o_v_r_1_1_open_v_r.html#a36310f7b08bec3f2b359cf16664045bda4be7538ace2f2a47fa519fd185debab4',1,'OVR::OpenVR']]],
-  ['buttonpress_5f3_117',['ButtonPress_3',['../namespace_o_v_r_1_1_open_v_r.html#a36310f7b08bec3f2b359cf16664045bda2c52fd54f514dcc928c81116202dffac',1,'OVR::OpenVR']]],
-  ['buttons_118',['Buttons',['../class_unity_engine_1_1_event_systems_1_1_o_v_r_input_module.html#ae79bc7e3096c65401a148571bbd5eb34a5b3ec15499a125805b5bbf8e4afcec8c',1,'UnityEngine::EventSystems::OVRInputModule']]],
-  ['byte_119',['BYTE',['../_o_v_r_g_l_t_f_accessor_8cs.html#ab888dd0e4f2d803b234016804a194ec9ae409eb2ba6eb6801f52763ae370c350e',1,'OVRGLTFAccessor.cs']]]
->>>>>>> 0ef47d3fe6d283114a1f3f6d23d91995b1a645b8
 ];
