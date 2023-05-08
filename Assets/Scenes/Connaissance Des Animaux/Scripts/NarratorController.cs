@@ -1,3 +1,8 @@
+/**
+* @file NarratorController.cs
+* @brief Ce script permet de gerer l'affichage de la description de l'animal et de ses differents position lors de son animation
+*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,100 +13,143 @@ namespace BrainScape
 {
     public class NarratorController : MonoBehaviour
     {
-        private string nameDesc = "ﺐﻠﻛ ﺍﺬﻫ";
-        private string generalDesc = "ْﻝﺎﻔﻃﻷﺍ ﻯﺪﻟ ِﺓَﺑَّﺒﺤﻤﻟﺍ ﺔﻔﻴﻟﻷﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﻦﻣ ﺐﻠﻜﻟﺍ";
-        private string barkingDesc = "ِﺡﺎﺑُّﻨﻟﺍ ُﺓَّﻳِﻋْﺿَﻭ ِﻩِﺫَﻫ";
-        private string attackDesc="ِﻡﻭُﺟُﻬﻟﺍ ُﺓَّﻳِﻋْﺿَﻭ ِﻩِﺫَﻫ";
-        private string fightDesc = "ِﻙﺍﺭِﻌﻟﺍ ُﺓَّﻳِﻋْﺿَﻭ ِﻩِﺫَﻫ";
+        /**
+        *canva qui contient le nom de l'animal
+        */
+        public GameObject nameDesc;
+       /**
+       *canva qui contient une description general sur l'animal
+       */
+        public GameObject generalDesc ;
+        /**
+        *canva qui contient une description de la position d'attack de l'animal
+        */
+        public GameObject attackDesc;
+        /**
+        *canva qui contient une description de la position de combat de l'animal
+        */
+        public GameObject fightDesc ;
         
-
-        public TextMeshPro descriptionCanva;
+        /**
+        *audio contenant le son de l'animal
+        */
+        public AudioClip barkingClip;
+        /**
+        *audio contenant le nom de l'animal
+        */
         public AudioClip nameClip;
+        /**
+        *audio contenant une description general sur l'animal
+        */
         public AudioClip generalDescriptionClip;
+        /**
+        *audio contenant une description du son de l'animal
+        */
         public AudioClip barkingDescriptionClip;
+        /**
+        *audio contenant une description de la position d'attack de l'animal
+        */
         public AudioClip attackDescriptionClip;
+        /**
+        *audio contenant une description de la position de combat de l'animal
+        */
         public AudioClip fightDescriptionClip;
+        /**
+        *objet source d'audio responsable de jouer les morceaux d'audio
+        */
         AudioSource voiceOver;
+        /**
+        *une reference a la classe du GameManager deja creee qui permet de gerer le deroulement du jeu
+        */
         GameManager gameManager;
+        /**
+        *composant qui permet de controller les animations
+        */
+        Animator animatorComponent;
         
+        /**
+        *fonction Start qui est invoquer par unity une fois lors du debut du script
+        */
         void Start()
         {   
-            descriptionCanva.isRightToLeftText = true;
             gameManager = FindObjectOfType<GameManager>();
             voiceOver = GetComponent<AudioSource>();
-            StartCoroutine(ShowNameCoroutine());
+            animatorComponent = GetComponent<Animator>();
         }
-
+        
+        /**
+        *coroutine qui permet d'afficher le nom et la description general de l'animal ainsi
+        *que de jouer les morceaux d'audio correspondant
+        */
         IEnumerator ShowNameCoroutine(){
-            yield return new WaitForSeconds(2.5f);
-            descriptionCanva.text = nameDesc;
-            yield return new WaitForSeconds(1f);
+            nameDesc.SetActive(true);
             voiceOver.clip = nameClip;
             voiceOver.Play();
             yield return new WaitForSeconds(voiceOver.clip.length);
             voiceOver.Stop();
-            yield return new WaitForSeconds(2.5f);
+            nameDesc.SetActive(false);
             yield return new WaitForSeconds(1f);
-            descriptionCanva.text = generalDesc;
+            generalDesc.SetActive(true);
             voiceOver.clip = generalDescriptionClip;
             voiceOver.Play();
             yield return new WaitForSeconds(voiceOver.clip.length);
             voiceOver.Stop();
+            generalDesc.SetActive(false);
         }
-
-
-        IEnumerator ShowBarkingDescriptionCoroutine()
+        
+        /**
+        *coroutine responsable de jouer le son de l'animal
+        */
+        IEnumerator BarkingCoroutine(){
+            voiceOver.clip = barkingClip;
+            voiceOver.Play();
+            yield return new WaitForSeconds(voiceOver.clip.length);
+            voiceOver.Stop();
+            animatorComponent.SetBool("isBarking",false);
+        }
+        
+        /**
+        *coroutine responsable d'afficher la description du son de l'animal
+        */
+        IEnumerator BarkingDescription()
         {
-            descriptionCanva.text = barkingDesc;
             voiceOver.clip = barkingDescriptionClip;
             voiceOver.Play();
             yield return new WaitForSeconds(voiceOver.clip.length);
-            voiceOver.Stop();  
+            voiceOver.Stop();
+            animatorComponent.SetBool("isBarking",true);
         }
         
-        IEnumerator ShowAttackDescriptionCoroutine()
+
+        /**
+        *coroutine responsable d'afficher la description de la position d'attack de l'animal
+        */
+        IEnumerator ShowAttackDescription()
         {
-            descriptionCanva.text = attackDesc;
+            animatorComponent.SetBool("isAttacking",true);
+            attackDesc.SetActive(true);
             voiceOver.clip = attackDescriptionClip;
-            voiceOver.Play();
-            yield return new WaitForSeconds(voiceOver.clip.length);
-            voiceOver.Stop();  
+            voiceOver.Play(); 
+            yield return new WaitForSeconds(attackDescriptionClip.length);
+            voiceOver.Stop();
+            attackDesc.SetActive(false);
+            animatorComponent.SetBool("isAttacking",false);
         }
-
-        IEnumerator ShowFightDescriptionCoroutine()
+        
+        /**
+        *coroutine responsable d'afficher la description de la position de combat de l'animal
+        */
+        IEnumerator ShowFightDescription()
         {
-            descriptionCanva.text = fightDesc;
+            animatorComponent.SetBool("isFighting",true);
+            fightDesc.SetActive(true);
             voiceOver.clip = fightDescriptionClip;
-            voiceOver.Play();
-            yield return new WaitForSeconds(voiceOver.clip.length);
-            voiceOver.Stop();  
+            voiceOver.Play(); 
+            yield return new WaitForSeconds(fightDescriptionClip.length);
+            voiceOver.Stop();
+            fightDesc.SetActive(false);
+            gameManager.ShowQuizCards();
         }
-
-        // IEnumerator StartNarrator()
-        // {
-        //     yield return new WaitForSeconds(2.5f);
-        //     nameCanva.SetActive(true);
-        //     yield return new WaitForSeconds(1f);
-        //     voiceOver.clip = nameClip;
-        //     voiceOver.Play();
-        //     yield return new WaitForSeconds(voiceOver.clip.length);
-        //     voiceOver.Stop();
-        //     nameCanva.SetActive(false);
-
-        //     yield return new WaitForSeconds(2.5f);
-
-        //     descriptionCanva.SetActive(true);
-        //     yield return new WaitForSeconds(1f);
-        //     voiceOver.clip = descriptionClip;
-        //     voiceOver.Play();
-        //     yield return new WaitForSeconds(voiceOver.clip.length);
-        //     voiceOver.Stop();
-        //     yield return new WaitForSeconds(2.5f);
-        //     descriptionCanva.SetActive(false);
-        //     yield return new WaitForSeconds(5f);
-        //     gameManager.ShowQuizCards();
-        // }
-
     }
 
 }

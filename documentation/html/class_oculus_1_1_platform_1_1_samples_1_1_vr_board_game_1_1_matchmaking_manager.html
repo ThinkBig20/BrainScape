@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: Oculus.Platform.Samples.VrBoardGame.MatchmakingManager Class Reference</title>
+<title>BrainScape: Oculus.Platform.Samples.VrBoardGame.MatchmakingManager Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">BrainScape
    </div>
   </td>
  </tr>
@@ -92,106 +92,724 @@ Inheritance diagram for Oculus.Platform.Samples.VrBoardGame.MatchmakingManager:<
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae68d8c3f36b9ac0045334540ff528edd"><td class="memItemLeft" align="right" valign="top"><a id="ae68d8c3f36b9ac0045334540ff528edd" name="ae68d8c3f36b9ac0045334540ff528edd"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>MatchButtonPressed</b> ()</td></tr>
+<tr class="memitem:ae68d8c3f36b9ac0045334540ff528edd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#ae68d8c3f36b9ac0045334540ff528edd">MatchButtonPressed</a> ()</td></tr>
 <tr class="separator:ae68d8c3f36b9ac0045334540ff528edd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf7359c8a81b55b3684022e9545b9b40"><td class="memItemLeft" align="right" valign="top"><a id="acf7359c8a81b55b3684022e9545b9b40" name="acf7359c8a81b55b3684022e9545b9b40"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>EndMatch</b> (int localScore, int remoteScore)</td></tr>
+<tr class="memitem:acf7359c8a81b55b3684022e9545b9b40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#acf7359c8a81b55b3684022e9545b9b40">EndMatch</a> (int localScore, int remoteScore)</td></tr>
 <tr class="separator:acf7359c8a81b55b3684022e9545b9b40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04ae7e4515f3359e8af68d3076d57a81"><td class="memItemLeft" align="right" valign="top"><a id="a04ae7e4515f3359e8af68d3076d57a81" name="a04ae7e4515f3359e8af68d3076d57a81"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SendLocalMove</b> (GamePiece.Piece piece, int boardX, int boardY)</td></tr>
+<tr class="memitem:a04ae7e4515f3359e8af68d3076d57a81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#a04ae7e4515f3359e8af68d3076d57a81">SendLocalMove</a> (<a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_game_piece.html#adbec5c12bcda9901aabd232e0fb9f7e3">GamePiece.Piece</a> piece, int boardX, int boardY)</td></tr>
 <tr class="separator:a04ae7e4515f3359e8af68d3076d57a81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-types" name="pri-types"></a>
 Private Types</h2></td></tr>
-<tr class="memitem:aa7f29d65f0680a93e03c8a00c1b2df88"><td class="memItemLeft" align="right" valign="top"><a id="aa7f29d65f0680a93e03c8a00c1b2df88" name="aa7f29d65f0680a93e03c8a00c1b2df88"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>MatchRoomState</b> { <br />
-&#160;&#160;<b>None</b>
-, <b>Queued</b>
-, <b>Configuring</b>
-, <b>MyTurn</b>
+<tr class="memitem:aa7f29d65f0680a93e03c8a00c1b2df88"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#aa7f29d65f0680a93e03c8a00c1b2df88">MatchRoomState</a> { <br />
+&#160;&#160;<a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#aa7f29d65f0680a93e03c8a00c1b2df88a6adf97f83acf6453d4a6a4b1070f3754">None</a>
+, <a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#aa7f29d65f0680a93e03c8a00c1b2df88a7b2f31b90fe1c2cc33a52233c1925df3">Queued</a>
+, <a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#aa7f29d65f0680a93e03c8a00c1b2df88ad3f49ff7e6e57d0a1a3671214fc1681a">Configuring</a>
+, <a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#aa7f29d65f0680a93e03c8a00c1b2df88a19c43f0eed7b3027e34d77772367b1f3">MyTurn</a>
 , <br />
-&#160;&#160;<b>RemoteTurn</b>
+&#160;&#160;<a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#aa7f29d65f0680a93e03c8a00c1b2df88aa662831f77ecaeaeba7324c4778f8a7d">RemoteTurn</a>
 <br />
  }</td></tr>
 <tr class="separator:aa7f29d65f0680a93e03c8a00c1b2df88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a4dd2cd4d4f3255bd8bf486283657aa92"><td class="memItemLeft" align="right" valign="top"><a id="a4dd2cd4d4f3255bd8bf486283657aa92" name="a4dd2cd4d4f3255bd8bf486283657aa92"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
+<tr class="memitem:a4dd2cd4d4f3255bd8bf486283657aa92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#a4dd2cd4d4f3255bd8bf486283657aa92">Start</a> ()</td></tr>
 <tr class="separator:a4dd2cd4d4f3255bd8bf486283657aa92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed7cbcb8a701795c153e6b0b43abbb57"><td class="memItemLeft" align="right" valign="top"><a id="aed7cbcb8a701795c153e6b0b43abbb57" name="aed7cbcb8a701795c153e6b0b43abbb57"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
+<tr class="memitem:aed7cbcb8a701795c153e6b0b43abbb57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#aed7cbcb8a701795c153e6b0b43abbb57">Update</a> ()</td></tr>
 <tr class="separator:aed7cbcb8a701795c153e6b0b43abbb57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39c72c15351e15b25f2dcd1ccfdcf729"><td class="memItemLeft" align="right" valign="top"><a id="a39c72c15351e15b25f2dcd1ccfdcf729" name="a39c72c15351e15b25f2dcd1ccfdcf729"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>OnApplicationQuit</b> ()</td></tr>
+<tr class="memitem:a39c72c15351e15b25f2dcd1ccfdcf729"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#a39c72c15351e15b25f2dcd1ccfdcf729">OnApplicationQuit</a> ()</td></tr>
 <tr class="separator:a39c72c15351e15b25f2dcd1ccfdcf729"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a049dfcf743f12e8a840e15933b52457d"><td class="memItemLeft" align="right" valign="top"><a id="a049dfcf743f12e8a840e15933b52457d" name="a049dfcf743f12e8a840e15933b52457d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>TransitionToState</b> (MatchRoomState state)</td></tr>
+<tr class="memitem:a049dfcf743f12e8a840e15933b52457d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#a049dfcf743f12e8a840e15933b52457d">TransitionToState</a> (<a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#aa7f29d65f0680a93e03c8a00c1b2df88">MatchRoomState</a> state)</td></tr>
 <tr class="separator:a049dfcf743f12e8a840e15933b52457d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b9a2d47741bec7c5e33b96a4c023002"><td class="memItemLeft" align="right" valign="top"><a id="a7b9a2d47741bec7c5e33b96a4c023002" name="a7b9a2d47741bec7c5e33b96a4c023002"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>MatchmakingEnqueueCallback</b> (<a class="el" href="class_oculus_1_1_platform_1_1_message.html">Message</a> untyped_msg)</td></tr>
+<tr class="memitem:a7b9a2d47741bec7c5e33b96a4c023002"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#a7b9a2d47741bec7c5e33b96a4c023002">MatchmakingEnqueueCallback</a> (<a class="el" href="class_oculus_1_1_platform_1_1_message.html">Message</a> untyped_msg)</td></tr>
 <tr class="separator:a7b9a2d47741bec7c5e33b96a4c023002"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9de0b56989919ad7c6f8cc61f203dfd5"><td class="memItemLeft" align="right" valign="top"><a id="a9de0b56989919ad7c6f8cc61f203dfd5" name="a9de0b56989919ad7c6f8cc61f203dfd5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>MatchFoundCallback</b> (<a class="el" href="class_oculus_1_1_platform_1_1_message.html">Message</a>&lt; <a class="el" href="class_oculus_1_1_platform_1_1_models_1_1_room.html">Room</a> &gt; msg)</td></tr>
+<tr class="memitem:a9de0b56989919ad7c6f8cc61f203dfd5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#a9de0b56989919ad7c6f8cc61f203dfd5">MatchFoundCallback</a> (<a class="el" href="class_oculus_1_1_platform_1_1_message.html">Message</a>&lt; <a class="el" href="class_oculus_1_1_platform_1_1_models_1_1_room.html">Room</a> &gt; msg)</td></tr>
 <tr class="separator:a9de0b56989919ad7c6f8cc61f203dfd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeeef6ed03b5339a0c98e747d5fc518b4"><td class="memItemLeft" align="right" valign="top"><a id="aeeef6ed03b5339a0c98e747d5fc518b4" name="aeeef6ed03b5339a0c98e747d5fc518b4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>MatchmakingJoinRoomCallback</b> (<a class="el" href="class_oculus_1_1_platform_1_1_message.html">Message</a>&lt; <a class="el" href="class_oculus_1_1_platform_1_1_models_1_1_room.html">Room</a> &gt; msg)</td></tr>
+<tr class="memitem:aeeef6ed03b5339a0c98e747d5fc518b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#aeeef6ed03b5339a0c98e747d5fc518b4">MatchmakingJoinRoomCallback</a> (<a class="el" href="class_oculus_1_1_platform_1_1_message.html">Message</a>&lt; <a class="el" href="class_oculus_1_1_platform_1_1_models_1_1_room.html">Room</a> &gt; msg)</td></tr>
 <tr class="separator:aeeef6ed03b5339a0c98e747d5fc518b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5e8edba770b0e963caa9b0ef0b6a6a3"><td class="memItemLeft" align="right" valign="top"><a id="ad5e8edba770b0e963caa9b0ef0b6a6a3" name="ad5e8edba770b0e963caa9b0ef0b6a6a3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>MatchmakingRoomUpdateCallback</b> (<a class="el" href="class_oculus_1_1_platform_1_1_message.html">Message</a>&lt; <a class="el" href="class_oculus_1_1_platform_1_1_models_1_1_room.html">Room</a> &gt; msg)</td></tr>
+<tr class="memitem:ad5e8edba770b0e963caa9b0ef0b6a6a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#ad5e8edba770b0e963caa9b0ef0b6a6a3">MatchmakingRoomUpdateCallback</a> (<a class="el" href="class_oculus_1_1_platform_1_1_message.html">Message</a>&lt; <a class="el" href="class_oculus_1_1_platform_1_1_models_1_1_room.html">Room</a> &gt; msg)</td></tr>
 <tr class="separator:ad5e8edba770b0e963caa9b0ef0b6a6a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b962234c09462bbe5bc7f88ca0c879f"><td class="memItemLeft" align="right" valign="top"><a id="a9b962234c09462bbe5bc7f88ca0c879f" name="a9b962234c09462bbe5bc7f88ca0c879f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>ProcessRoomData</b> (<a class="el" href="class_oculus_1_1_platform_1_1_models_1_1_room.html">Room</a> room)</td></tr>
+<tr class="memitem:a9b962234c09462bbe5bc7f88ca0c879f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#a9b962234c09462bbe5bc7f88ca0c879f">ProcessRoomData</a> (<a class="el" href="class_oculus_1_1_platform_1_1_models_1_1_room.html">Room</a> room)</td></tr>
 <tr class="separator:a9b962234c09462bbe5bc7f88ca0c879f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b85a70c3faac871d8148c924e40509e"><td class="memItemLeft" align="right" valign="top"><a id="a5b85a70c3faac871d8148c924e40509e" name="a5b85a70c3faac871d8148c924e40509e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>ProcessRemoteMove</b> (string moveString)</td></tr>
+<tr class="memitem:a5b85a70c3faac871d8148c924e40509e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#a5b85a70c3faac871d8148c924e40509e">ProcessRemoteMove</a> (string moveString)</td></tr>
 <tr class="separator:a5b85a70c3faac871d8148c924e40509e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f8c2891d0673625d06c9443f93c038e"><td class="memItemLeft" align="right" valign="top"><a id="a6f8c2891d0673625d06c9443f93c038e" name="a6f8c2891d0673625d06c9443f93c038e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateDataStoreCallback</b> (<a class="el" href="class_oculus_1_1_platform_1_1_message.html">Message</a>&lt; <a class="el" href="class_oculus_1_1_platform_1_1_models_1_1_room.html">Room</a> &gt; msg)</td></tr>
+<tr class="memitem:a6f8c2891d0673625d06c9443f93c038e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#a6f8c2891d0673625d06c9443f93c038e">UpdateDataStoreCallback</a> (<a class="el" href="class_oculus_1_1_platform_1_1_message.html">Message</a>&lt; <a class="el" href="class_oculus_1_1_platform_1_1_models_1_1_room.html">Room</a> &gt; msg)</td></tr>
 <tr class="separator:a6f8c2891d0673625d06c9443f93c038e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d8c4d2820b75328098ef4ffa669cb68"><td class="memItemLeft" align="right" valign="top"><a id="a0d8c4d2820b75328098ef4ffa669cb68" name="a0d8c4d2820b75328098ef4ffa669cb68"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>DoesLocalUserGoFirst</b> ()</td></tr>
+<tr class="memitem:a0d8c4d2820b75328098ef4ffa669cb68"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#a0d8c4d2820b75328098ef4ffa669cb68">DoesLocalUserGoFirst</a> ()</td></tr>
 <tr class="separator:a0d8c4d2820b75328098ef4ffa669cb68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2d3f017b5662cf06d3247f05886d66f"><td class="memItemLeft" align="right" valign="top"><a id="ae2d3f017b5662cf06d3247f05886d66f" name="ae2d3f017b5662cf06d3247f05886d66f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>GenericErrorCheckCallback</b> (<a class="el" href="class_oculus_1_1_platform_1_1_message.html">Message</a> msg)</td></tr>
+<tr class="memitem:ae2d3f017b5662cf06d3247f05886d66f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#ae2d3f017b5662cf06d3247f05886d66f">GenericErrorCheckCallback</a> (<a class="el" href="class_oculus_1_1_platform_1_1_message.html">Message</a> msg)</td></tr>
 <tr class="separator:ae2d3f017b5662cf06d3247f05886d66f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a8eaa29986691657a9940735a4e5c2626"><td class="memItemLeft" align="right" valign="top"><a id="a8eaa29986691657a9940735a4e5c2626" name="a8eaa29986691657a9940735a4e5c2626"></a>
-<a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_game_controller.html">GameController</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_gameController</b> = null</td></tr>
+<tr class="memitem:a8eaa29986691657a9940735a4e5c2626"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_game_controller.html">GameController</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#a8eaa29986691657a9940735a4e5c2626">m_gameController</a> = null</td></tr>
 <tr class="separator:a8eaa29986691657a9940735a4e5c2626"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1ff973ce7c88b5d81f3201f7d5a4149"><td class="memItemLeft" align="right" valign="top"><a id="af1ff973ce7c88b5d81f3201f7d5a4149" name="af1ff973ce7c88b5d81f3201f7d5a4149"></a>
-Text&#160;</td><td class="memItemRight" valign="bottom"><b>m_matchButtonText</b> = null</td></tr>
+<tr class="memitem:af1ff973ce7c88b5d81f3201f7d5a4149"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#af1ff973ce7c88b5d81f3201f7d5a4149">m_matchButtonText</a> = null</td></tr>
 <tr class="separator:af1ff973ce7c88b5d81f3201f7d5a4149"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe1ce30d48d24635561ca3aa6ff544ce"><td class="memItemLeft" align="right" valign="top"><a id="afe1ce30d48d24635561ca3aa6ff544ce" name="afe1ce30d48d24635561ca3aa6ff544ce"></a>
-Text&#160;</td><td class="memItemRight" valign="bottom"><b>m_infoText</b> = null</td></tr>
+<tr class="memitem:afe1ce30d48d24635561ca3aa6ff544ce"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#afe1ce30d48d24635561ca3aa6ff544ce">m_infoText</a> = null</td></tr>
 <tr class="separator:afe1ce30d48d24635561ca3aa6ff544ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc7ddf34c8d19e7daf162cfb892399a9"><td class="memItemLeft" align="right" valign="top"><a id="abc7ddf34c8d19e7daf162cfb892399a9" name="abc7ddf34c8d19e7daf162cfb892399a9"></a>
-ulong&#160;</td><td class="memItemRight" valign="bottom"><b>m_matchRoom</b></td></tr>
+<tr class="memitem:abc7ddf34c8d19e7daf162cfb892399a9"><td class="memItemLeft" align="right" valign="top">ulong&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#abc7ddf34c8d19e7daf162cfb892399a9">m_matchRoom</a></td></tr>
 <tr class="separator:abc7ddf34c8d19e7daf162cfb892399a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa50ab1dd734a492beebbf2a6d8be4b78"><td class="memItemLeft" align="right" valign="top"><a id="aa50ab1dd734a492beebbf2a6d8be4b78" name="aa50ab1dd734a492beebbf2a6d8be4b78"></a>
-<a class="el" href="class_oculus_1_1_platform_1_1_models_1_1_user.html">User</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_remotePlayer</b></td></tr>
+<tr class="memitem:aa50ab1dd734a492beebbf2a6d8be4b78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_oculus_1_1_platform_1_1_models_1_1_user.html">User</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#aa50ab1dd734a492beebbf2a6d8be4b78">m_remotePlayer</a></td></tr>
 <tr class="separator:aa50ab1dd734a492beebbf2a6d8be4b78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad48f7c36179c8fcf5f0a4c820bbfdb85"><td class="memItemLeft" align="right" valign="top"><a id="ad48f7c36179c8fcf5f0a4c820bbfdb85" name="ad48f7c36179c8fcf5f0a4c820bbfdb85"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>m_lastUpdateTime</b></td></tr>
+<tr class="memitem:ad48f7c36179c8fcf5f0a4c820bbfdb85"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#ad48f7c36179c8fcf5f0a4c820bbfdb85">m_lastUpdateTime</a></td></tr>
 <tr class="separator:ad48f7c36179c8fcf5f0a4c820bbfdb85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8202ce6b6f73d3df81e0454d68f42972"><td class="memItemLeft" align="right" valign="top"><a id="a8202ce6b6f73d3df81e0454d68f42972" name="a8202ce6b6f73d3df81e0454d68f42972"></a>
-MatchRoomState&#160;</td><td class="memItemRight" valign="bottom"><b>m_state</b></td></tr>
+<tr class="memitem:a8202ce6b6f73d3df81e0454d68f42972"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#aa7f29d65f0680a93e03c8a00c1b2df88">MatchRoomState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#a8202ce6b6f73d3df81e0454d68f42972">m_state</a></td></tr>
 <tr class="separator:a8202ce6b6f73d3df81e0454d68f42972"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:a4b0ede1c43e09f922f23afeff92beffb"><td class="memItemLeft" align="right" valign="top"><a id="a4b0ede1c43e09f922f23afeff92beffb" name="a4b0ede1c43e09f922f23afeff92beffb"></a>
-const string&#160;</td><td class="memItemRight" valign="bottom"><b>POOL</b> = &quot;VR_BOARD_GAME_POOL&quot;</td></tr>
+<tr class="memitem:a4b0ede1c43e09f922f23afeff92beffb"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#a4b0ede1c43e09f922f23afeff92beffb">POOL</a> = &quot;VR_BOARD_GAME_POOL&quot;</td></tr>
 <tr class="separator:a4b0ede1c43e09f922f23afeff92beffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51e67c41b38f41d696cfb88414b8a167"><td class="memItemLeft" align="right" valign="top"><a id="a51e67c41b38f41d696cfb88414b8a167" name="a51e67c41b38f41d696cfb88414b8a167"></a>
-const float&#160;</td><td class="memItemRight" valign="bottom"><b>POLL_FREQUENCY</b> = 30.0f</td></tr>
+<tr class="memitem:a51e67c41b38f41d696cfb88414b8a167"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#a51e67c41b38f41d696cfb88414b8a167">POLL_FREQUENCY</a> = 30.0f</td></tr>
 <tr class="separator:a51e67c41b38f41d696cfb88414b8a167"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="aa7f29d65f0680a93e03c8a00c1b2df88" name="aa7f29d65f0680a93e03c8a00c1b2df88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7f29d65f0680a93e03c8a00c1b2df88">&#9670;&#160;</a></span>MatchRoomState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#aa7f29d65f0680a93e03c8a00c1b2df88">Oculus.Platform.Samples.VrBoardGame.MatchmakingManager.MatchRoomState</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa7f29d65f0680a93e03c8a00c1b2df88a6adf97f83acf6453d4a6a4b1070f3754" name="aa7f29d65f0680a93e03c8a00c1b2df88a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa7f29d65f0680a93e03c8a00c1b2df88a7b2f31b90fe1c2cc33a52233c1925df3" name="aa7f29d65f0680a93e03c8a00c1b2df88a7b2f31b90fe1c2cc33a52233c1925df3"></a>Queued&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa7f29d65f0680a93e03c8a00c1b2df88ad3f49ff7e6e57d0a1a3671214fc1681a" name="aa7f29d65f0680a93e03c8a00c1b2df88ad3f49ff7e6e57d0a1a3671214fc1681a"></a>Configuring&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa7f29d65f0680a93e03c8a00c1b2df88a19c43f0eed7b3027e34d77772367b1f3" name="aa7f29d65f0680a93e03c8a00c1b2df88a19c43f0eed7b3027e34d77772367b1f3"></a>MyTurn&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa7f29d65f0680a93e03c8a00c1b2df88aa662831f77ecaeaeba7324c4778f8a7d" name="aa7f29d65f0680a93e03c8a00c1b2df88aa662831f77ecaeaeba7324c4778f8a7d"></a>RemoteTurn&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0d8c4d2820b75328098ef4ffa669cb68" name="a0d8c4d2820b75328098ef4ffa669cb68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d8c4d2820b75328098ef4ffa669cb68">&#9670;&#160;</a></span>DoesLocalUserGoFirst()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Oculus.Platform.Samples.VrBoardGame.MatchmakingManager.DoesLocalUserGoFirst </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acf7359c8a81b55b3684022e9545b9b40" name="acf7359c8a81b55b3684022e9545b9b40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf7359c8a81b55b3684022e9545b9b40">&#9670;&#160;</a></span>EndMatch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Platform.Samples.VrBoardGame.MatchmakingManager.EndMatch </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>localScore</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>remoteScore</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae2d3f017b5662cf06d3247f05886d66f" name="ae2d3f017b5662cf06d3247f05886d66f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2d3f017b5662cf06d3247f05886d66f">&#9670;&#160;</a></span>GenericErrorCheckCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Platform.Samples.VrBoardGame.MatchmakingManager.GenericErrorCheckCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_oculus_1_1_platform_1_1_message.html">Message</a>&#160;</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae68d8c3f36b9ac0045334540ff528edd" name="ae68d8c3f36b9ac0045334540ff528edd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae68d8c3f36b9ac0045334540ff528edd">&#9670;&#160;</a></span>MatchButtonPressed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Platform.Samples.VrBoardGame.MatchmakingManager.MatchButtonPressed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9de0b56989919ad7c6f8cc61f203dfd5" name="a9de0b56989919ad7c6f8cc61f203dfd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9de0b56989919ad7c6f8cc61f203dfd5">&#9670;&#160;</a></span>MatchFoundCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Platform.Samples.VrBoardGame.MatchmakingManager.MatchFoundCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_oculus_1_1_platform_1_1_message.html">Message</a>&lt; <a class="el" href="class_oculus_1_1_platform_1_1_models_1_1_room.html">Room</a> &gt;&#160;</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7b9a2d47741bec7c5e33b96a4c023002" name="a7b9a2d47741bec7c5e33b96a4c023002"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b9a2d47741bec7c5e33b96a4c023002">&#9670;&#160;</a></span>MatchmakingEnqueueCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Platform.Samples.VrBoardGame.MatchmakingManager.MatchmakingEnqueueCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_oculus_1_1_platform_1_1_message.html">Message</a>&#160;</td>
+          <td class="paramname"><em>untyped_msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeeef6ed03b5339a0c98e747d5fc518b4" name="aeeef6ed03b5339a0c98e747d5fc518b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeeef6ed03b5339a0c98e747d5fc518b4">&#9670;&#160;</a></span>MatchmakingJoinRoomCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Platform.Samples.VrBoardGame.MatchmakingManager.MatchmakingJoinRoomCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_oculus_1_1_platform_1_1_message.html">Message</a>&lt; <a class="el" href="class_oculus_1_1_platform_1_1_models_1_1_room.html">Room</a> &gt;&#160;</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad5e8edba770b0e963caa9b0ef0b6a6a3" name="ad5e8edba770b0e963caa9b0ef0b6a6a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5e8edba770b0e963caa9b0ef0b6a6a3">&#9670;&#160;</a></span>MatchmakingRoomUpdateCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Platform.Samples.VrBoardGame.MatchmakingManager.MatchmakingRoomUpdateCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_oculus_1_1_platform_1_1_message.html">Message</a>&lt; <a class="el" href="class_oculus_1_1_platform_1_1_models_1_1_room.html">Room</a> &gt;&#160;</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a39c72c15351e15b25f2dcd1ccfdcf729" name="a39c72c15351e15b25f2dcd1ccfdcf729"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39c72c15351e15b25f2dcd1ccfdcf729">&#9670;&#160;</a></span>OnApplicationQuit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Platform.Samples.VrBoardGame.MatchmakingManager.OnApplicationQuit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5b85a70c3faac871d8148c924e40509e" name="a5b85a70c3faac871d8148c924e40509e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b85a70c3faac871d8148c924e40509e">&#9670;&#160;</a></span>ProcessRemoteMove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Platform.Samples.VrBoardGame.MatchmakingManager.ProcessRemoteMove </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>moveString</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9b962234c09462bbe5bc7f88ca0c879f" name="a9b962234c09462bbe5bc7f88ca0c879f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b962234c09462bbe5bc7f88ca0c879f">&#9670;&#160;</a></span>ProcessRoomData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Platform.Samples.VrBoardGame.MatchmakingManager.ProcessRoomData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_oculus_1_1_platform_1_1_models_1_1_room.html">Room</a>&#160;</td>
+          <td class="paramname"><em>room</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a04ae7e4515f3359e8af68d3076d57a81" name="a04ae7e4515f3359e8af68d3076d57a81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04ae7e4515f3359e8af68d3076d57a81">&#9670;&#160;</a></span>SendLocalMove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Platform.Samples.VrBoardGame.MatchmakingManager.SendLocalMove </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_game_piece.html#adbec5c12bcda9901aabd232e0fb9f7e3">GamePiece::Piece</a>&#160;</td>
+          <td class="paramname"><em>piece</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>boardX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>boardY</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4dd2cd4d4f3255bd8bf486283657aa92" name="a4dd2cd4d4f3255bd8bf486283657aa92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dd2cd4d4f3255bd8bf486283657aa92">&#9670;&#160;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Platform.Samples.VrBoardGame.MatchmakingManager.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a049dfcf743f12e8a840e15933b52457d" name="a049dfcf743f12e8a840e15933b52457d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a049dfcf743f12e8a840e15933b52457d">&#9670;&#160;</a></span>TransitionToState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Platform.Samples.VrBoardGame.MatchmakingManager.TransitionToState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#aa7f29d65f0680a93e03c8a00c1b2df88">MatchRoomState</a>&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed7cbcb8a701795c153e6b0b43abbb57" name="aed7cbcb8a701795c153e6b0b43abbb57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed7cbcb8a701795c153e6b0b43abbb57">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Platform.Samples.VrBoardGame.MatchmakingManager.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6f8c2891d0673625d06c9443f93c038e" name="a6f8c2891d0673625d06c9443f93c038e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f8c2891d0673625d06c9443f93c038e">&#9670;&#160;</a></span>UpdateDataStoreCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Platform.Samples.VrBoardGame.MatchmakingManager.UpdateDataStoreCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_oculus_1_1_platform_1_1_message.html">Message</a>&lt; <a class="el" href="class_oculus_1_1_platform_1_1_models_1_1_room.html">Room</a> &gt;&#160;</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a8eaa29986691657a9940735a4e5c2626" name="a8eaa29986691657a9940735a4e5c2626"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8eaa29986691657a9940735a4e5c2626">&#9670;&#160;</a></span>m_gameController</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_game_controller.html">GameController</a> Oculus.Platform.Samples.VrBoardGame.MatchmakingManager.m_gameController = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afe1ce30d48d24635561ca3aa6ff544ce" name="afe1ce30d48d24635561ca3aa6ff544ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe1ce30d48d24635561ca3aa6ff544ce">&#9670;&#160;</a></span>m_infoText</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text Oculus.Platform.Samples.VrBoardGame.MatchmakingManager.m_infoText = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad48f7c36179c8fcf5f0a4c820bbfdb85" name="ad48f7c36179c8fcf5f0a4c820bbfdb85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad48f7c36179c8fcf5f0a4c820bbfdb85">&#9670;&#160;</a></span>m_lastUpdateTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Oculus.Platform.Samples.VrBoardGame.MatchmakingManager.m_lastUpdateTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1ff973ce7c88b5d81f3201f7d5a4149" name="af1ff973ce7c88b5d81f3201f7d5a4149"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1ff973ce7c88b5d81f3201f7d5a4149">&#9670;&#160;</a></span>m_matchButtonText</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text Oculus.Platform.Samples.VrBoardGame.MatchmakingManager.m_matchButtonText = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abc7ddf34c8d19e7daf162cfb892399a9" name="abc7ddf34c8d19e7daf162cfb892399a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc7ddf34c8d19e7daf162cfb892399a9">&#9670;&#160;</a></span>m_matchRoom</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ulong Oculus.Platform.Samples.VrBoardGame.MatchmakingManager.m_matchRoom</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa50ab1dd734a492beebbf2a6d8be4b78" name="aa50ab1dd734a492beebbf2a6d8be4b78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa50ab1dd734a492beebbf2a6d8be4b78">&#9670;&#160;</a></span>m_remotePlayer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_oculus_1_1_platform_1_1_models_1_1_user.html">User</a> Oculus.Platform.Samples.VrBoardGame.MatchmakingManager.m_remotePlayer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8202ce6b6f73d3df81e0454d68f42972" name="a8202ce6b6f73d3df81e0454d68f42972"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8202ce6b6f73d3df81e0454d68f42972">&#9670;&#160;</a></span>m_state</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#aa7f29d65f0680a93e03c8a00c1b2df88">MatchRoomState</a> Oculus.Platform.Samples.VrBoardGame.MatchmakingManager.m_state</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a51e67c41b38f41d696cfb88414b8a167" name="a51e67c41b38f41d696cfb88414b8a167"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51e67c41b38f41d696cfb88414b8a167">&#9670;&#160;</a></span>POLL_FREQUENCY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float Oculus.Platform.Samples.VrBoardGame.MatchmakingManager.POLL_FREQUENCY = 30.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4b0ede1c43e09f922f23afeff92beffb" name="a4b0ede1c43e09f922f23afeff92beffb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b0ede1c43e09f922f23afeff92beffb">&#9670;&#160;</a></span>POOL</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string Oculus.Platform.Samples.VrBoardGame.MatchmakingManager.POOL = &quot;VR_BOARD_GAME_POOL&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Oculus/Platform/Samples/VrBoardGame/Scripts/MatchmakingManager.cs</li>
+<li><a class="el" href="_vr_board_game_2_scripts_2_matchmaking_manager_8cs.html">VrBoardGame/Scripts/MatchmakingManager.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

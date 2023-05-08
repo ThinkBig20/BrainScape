@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: CharacterCameraConstraint Class Reference</title>
+<title>BrainScape: CharacterCameraConstraint Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">BrainScape
    </div>
   </td>
  </tr>
@@ -90,74 +90,112 @@ Inheritance diagram for CharacterCameraConstraint:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:acd549a12915c2775eaa50229c7c057af"><td class="memItemLeft" align="right" valign="top"><a id="acd549a12915c2775eaa50229c7c057af" name="acd549a12915c2775eaa50229c7c057af"></a>
-<a class="el" href="class_o_v_r_camera_rig.html">OVRCameraRig</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CameraRig</b></td></tr>
-<tr class="memdesc:acd549a12915c2775eaa50229c7c057af"><td class="mdescLeft">&#160;</td><td class="mdescRight">This should be a reference to the <a class="el" href="class_o_v_r_camera_rig.html" title="A head-tracked stereoscopic virtual reality camera rig.">OVRCameraRig</a> that is usually a child of the PlayerController. <br /></td></tr>
+<tr class="memitem:acd549a12915c2775eaa50229c7c057af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_camera_rig.html">OVRCameraRig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_camera_constraint.html#acd549a12915c2775eaa50229c7c057af">CameraRig</a></td></tr>
+<tr class="memdesc:acd549a12915c2775eaa50229c7c057af"><td class="mdescLeft">&#160;</td><td class="mdescRight">This should be a reference to the <a class="el" href="class_o_v_r_camera_rig.html" title="A head-tracked stereoscopic virtual reality camera rig.">OVRCameraRig</a> that is usually a child of the PlayerController.  <br /></td></tr>
 <tr class="separator:acd549a12915c2775eaa50229c7c057af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90a189091b552e1b2d520a0a5f78ad10"><td class="memItemLeft" align="right" valign="top"><a id="a90a189091b552e1b2d520a0a5f78ad10" name="a90a189091b552e1b2d520a0a5f78ad10"></a>
-LayerMask&#160;</td><td class="memItemRight" valign="bottom"><b>CollideLayers</b></td></tr>
-<tr class="memdesc:a90a189091b552e1b2d520a0a5f78ad10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collision layers to be used for the purposes of fading out the screen when the HMD is inside world geometry and adjusting the capsule height. <br /></td></tr>
+<tr class="memitem:a90a189091b552e1b2d520a0a5f78ad10"><td class="memItemLeft" align="right" valign="top">LayerMask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_camera_constraint.html#a90a189091b552e1b2d520a0a5f78ad10">CollideLayers</a></td></tr>
+<tr class="memdesc:a90a189091b552e1b2d520a0a5f78ad10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collision layers to be used for the purposes of fading out the screen when the HMD is inside world geometry and adjusting the capsule height.  <br /></td></tr>
 <tr class="separator:a90a189091b552e1b2d520a0a5f78ad10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b897a03db74efd665506cab5b5e2538"><td class="memItemLeft" align="right" valign="top"><a id="a4b897a03db74efd665506cab5b5e2538" name="a4b897a03db74efd665506cab5b5e2538"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>HeightOffset</b></td></tr>
-<tr class="memdesc:a4b897a03db74efd665506cab5b5e2538"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offset is added to camera's real world height, effectively treating it as though the player was taller/standing higher. <br /></td></tr>
+<tr class="memitem:a4b897a03db74efd665506cab5b5e2538"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_camera_constraint.html#a4b897a03db74efd665506cab5b5e2538">HeightOffset</a></td></tr>
+<tr class="memdesc:a4b897a03db74efd665506cab5b5e2538"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offset is added to camera's real world height, effectively treating it as though the player was taller/standing higher.  <br /></td></tr>
 <tr class="separator:a4b897a03db74efd665506cab5b5e2538"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a692acebb9f4beef325eb3931a0ab64c3"><td class="memItemLeft" align="right" valign="top"><a id="a692acebb9f4beef325eb3931a0ab64c3" name="a692acebb9f4beef325eb3931a0ab64c3"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>MinimumHeight</b></td></tr>
-<tr class="memdesc:a692acebb9f4beef325eb3931a0ab64c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum height that the character capsule can shrink to. To disable, set to capsule's height. <br /></td></tr>
+<tr class="memitem:a692acebb9f4beef325eb3931a0ab64c3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_camera_constraint.html#a692acebb9f4beef325eb3931a0ab64c3">MinimumHeight</a></td></tr>
+<tr class="memdesc:a692acebb9f4beef325eb3931a0ab64c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum height that the character capsule can shrink to. To disable, set to capsule's height.  <br /></td></tr>
 <tr class="separator:a692acebb9f4beef325eb3931a0ab64c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3276b4c4e399fce310ece97a4554381f"><td class="memItemLeft" align="right" valign="top"><a id="a3276b4c4e399fce310ece97a4554381f" name="a3276b4c4e399fce310ece97a4554381f"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>MaximumHeight</b></td></tr>
-<tr class="memdesc:a3276b4c4e399fce310ece97a4554381f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum height that the character capsule can grow to. To disable, set to capsule's height. <br /></td></tr>
+<tr class="memitem:a3276b4c4e399fce310ece97a4554381f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_camera_constraint.html#a3276b4c4e399fce310ece97a4554381f">MaximumHeight</a></td></tr>
+<tr class="memdesc:a3276b4c4e399fce310ece97a4554381f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum height that the character capsule can grow to. To disable, set to capsule's height.  <br /></td></tr>
 <tr class="separator:a3276b4c4e399fce310ece97a4554381f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a28db40a4ecc66da346f184aad7796e17"><td class="memItemLeft" align="right" valign="top"><a id="a28db40a4ecc66da346f184aad7796e17" name="a28db40a4ecc66da346f184aad7796e17"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
+<tr class="memitem:aab12d8faaba4f36125a058c05cac9ac7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_camera_constraint.html#aab12d8faaba4f36125a058c05cac9ac7">CharacterCameraConstraint</a> ()</td></tr>
+<tr class="separator:aab12d8faaba4f36125a058c05cac9ac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28db40a4ecc66da346f184aad7796e17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_camera_constraint.html#a28db40a4ecc66da346f184aad7796e17">Awake</a> ()</td></tr>
 <tr class="separator:a28db40a4ecc66da346f184aad7796e17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7be9a6729269651319efa1da90c63d5"><td class="memItemLeft" align="right" valign="top"><a id="ac7be9a6729269651319efa1da90c63d5" name="ac7be9a6729269651319efa1da90c63d5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>OnEnable</b> ()</td></tr>
+<tr class="memitem:ac7be9a6729269651319efa1da90c63d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_camera_constraint.html#ac7be9a6729269651319efa1da90c63d5">OnEnable</a> ()</td></tr>
 <tr class="separator:ac7be9a6729269651319efa1da90c63d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59a365ed8bd6930e6ef070ff61009c6b"><td class="memItemLeft" align="right" valign="top"><a id="a59a365ed8bd6930e6ef070ff61009c6b" name="a59a365ed8bd6930e6ef070ff61009c6b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDisable</b> ()</td></tr>
+<tr class="memitem:a59a365ed8bd6930e6ef070ff61009c6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_camera_constraint.html#a59a365ed8bd6930e6ef070ff61009c6b">OnDisable</a> ()</td></tr>
 <tr class="separator:a59a365ed8bd6930e6ef070ff61009c6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55243dc9eca5ba54edb89a4ea3acc9a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_camera_constraint.html#a55243dc9eca5ba54edb89a4ea3acc9a9">CameraUpdate</a> ()</td></tr>
 <tr class="memdesc:a55243dc9eca5ba54edb89a4ea3acc9a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is the handler for the PlayerController.CameraUpdated event, which is used to handle whether or not the screen should fade out due to the camera's position (such as in a wall), and update the character height based on camera position.  <br /></td></tr>
 <tr class="separator:a55243dc9eca5ba54edb89a4ea3acc9a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d1bc99955de76231f513a5f853b596d"><td class="memItemLeft" align="right" valign="top"><a id="a5d1bc99955de76231f513a5f853b596d" name="a5d1bc99955de76231f513a5f853b596d"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>CheckCameraOverlapped</b> ()</td></tr>
-<tr class="memdesc:a5d1bc99955de76231f513a5f853b596d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method checks whether the camera is inside of geometry or has geometry between it and the character's capsule. <br /></td></tr>
+<tr class="memitem:a5d1bc99955de76231f513a5f853b596d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_camera_constraint.html#a5d1bc99955de76231f513a5f853b596d">CheckCameraOverlapped</a> ()</td></tr>
+<tr class="memdesc:a5d1bc99955de76231f513a5f853b596d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method checks whether the camera is inside of geometry or has geometry between it and the character's capsule.  <br /></td></tr>
 <tr class="separator:a5d1bc99955de76231f513a5f853b596d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7357eb87689611d685fa3bc75ccaadb9"><td class="memItemLeft" align="right" valign="top"><a id="a7357eb87689611d685fa3bc75ccaadb9" name="a7357eb87689611d685fa3bc75ccaadb9"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>CheckCameraNearClipping</b> (out float result)</td></tr>
-<tr class="memdesc:a7357eb87689611d685fa3bc75ccaadb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method checks whether the camera is close enough to geometry to cause it to start clipping, and if so, return the overlap amount. <br /></td></tr>
+<tr class="memitem:a7357eb87689611d685fa3bc75ccaadb9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_camera_constraint.html#a7357eb87689611d685fa3bc75ccaadb9">CheckCameraNearClipping</a> (out float result)</td></tr>
+<tr class="memdesc:a7357eb87689611d685fa3bc75ccaadb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method checks whether the camera is close enough to geometry to cause it to start clipping, and if so, return the overlap amount.  <br /></td></tr>
 <tr class="separator:a7357eb87689611d685fa3bc75ccaadb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ac3787f624ceb4def13302c0a960b2ec0"><td class="memItemLeft" align="right" valign="top"><a id="ac3787f624ceb4def13302c0a960b2ec0" name="ac3787f624ceb4def13302c0a960b2ec0"></a>
-CapsuleCollider&#160;</td><td class="memItemRight" valign="bottom"><b>_character</b></td></tr>
+<tr class="memitem:ac3787f624ceb4def13302c0a960b2ec0"><td class="memItemLeft" align="right" valign="top">CapsuleCollider&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_camera_constraint.html#ac3787f624ceb4def13302c0a960b2ec0">_character</a></td></tr>
 <tr class="separator:ac3787f624ceb4def13302c0a960b2ec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd45fa3b9036ae9b579140684d773410"><td class="memItemLeft" align="right" valign="top"><a id="afd45fa3b9036ae9b579140684d773410" name="afd45fa3b9036ae9b579140684d773410"></a>
-<a class="el" href="class_simple_capsule_with_stick_movement.html">SimpleCapsuleWithStickMovement</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_simplePlayerController</b></td></tr>
+<tr class="memitem:afd45fa3b9036ae9b579140684d773410"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_simple_capsule_with_stick_movement.html">SimpleCapsuleWithStickMovement</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_camera_constraint.html#afd45fa3b9036ae9b579140684d773410">_simplePlayerController</a></td></tr>
 <tr class="separator:afd45fa3b9036ae9b579140684d773410"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:a3389bf44ab5de0a598255d9574d4786f"><td class="memItemLeft" align="right" valign="top"><a id="a3389bf44ab5de0a598255d9574d4786f" name="a3389bf44ab5de0a598255d9574d4786f"></a>
-const float&#160;</td><td class="memItemRight" valign="bottom"><b>FADE_RAY_LENGTH</b> = 0.25f</td></tr>
+<tr class="memitem:a3389bf44ab5de0a598255d9574d4786f"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_camera_constraint.html#a3389bf44ab5de0a598255d9574d4786f">FADE_RAY_LENGTH</a> = 0.25f</td></tr>
 <tr class="separator:a3389bf44ab5de0a598255d9574d4786f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2789d0cb3730585637b2f4674cbc2d9"><td class="memItemLeft" align="right" valign="top"><a id="aa2789d0cb3730585637b2f4674cbc2d9" name="aa2789d0cb3730585637b2f4674cbc2d9"></a>
-const float&#160;</td><td class="memItemRight" valign="bottom"><b>FADE_OVERLAP_MAXIMUM</b> = 0.1f</td></tr>
+<tr class="memitem:aa2789d0cb3730585637b2f4674cbc2d9"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_camera_constraint.html#aa2789d0cb3730585637b2f4674cbc2d9">FADE_OVERLAP_MAXIMUM</a> = 0.1f</td></tr>
 <tr class="separator:aa2789d0cb3730585637b2f4674cbc2d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a288ba2fdc7a1ad9f0cc516ae4947383e"><td class="memItemLeft" align="right" valign="top"><a id="a288ba2fdc7a1ad9f0cc516ae4947383e" name="a288ba2fdc7a1ad9f0cc516ae4947383e"></a>
-const float&#160;</td><td class="memItemRight" valign="bottom"><b>FADE_AMOUNT_MAXIMUM</b> = 1.0f</td></tr>
+<tr class="memitem:a288ba2fdc7a1ad9f0cc516ae4947383e"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_camera_constraint.html#a288ba2fdc7a1ad9f0cc516ae4947383e">FADE_AMOUNT_MAXIMUM</a> = 1.0f</td></tr>
 <tr class="separator:a288ba2fdc7a1ad9f0cc516ae4947383e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This component is responsible for moving the character capsule to match the HMD, fading out the camera or blocking movement when collisions occur, and adjusting the character capsule height to match the HMD's offset from the ground. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aab12d8faaba4f36125a058c05cac9ac7" name="aab12d8faaba4f36125a058c05cac9ac7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab12d8faaba4f36125a058c05cac9ac7">&#9670;&#160;</a></span>CharacterCameraConstraint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CharacterCameraConstraint.CharacterCameraConstraint </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a28db40a4ecc66da346f184aad7796e17" name="a28db40a4ecc66da346f184aad7796e17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28db40a4ecc66da346f184aad7796e17">&#9670;&#160;</a></span>Awake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CharacterCameraConstraint.Awake </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a55243dc9eca5ba54edb89a4ea3acc9a9" name="a55243dc9eca5ba54edb89a4ea3acc9a9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a55243dc9eca5ba54edb89a4ea3acc9a9">&#9670;&#160;</a></span>CameraUpdate()</h2>
 
@@ -176,7 +214,7 @@ const float&#160;</td><td class="memItemRight" valign="bottom"><b>FADE_AMOUNT_MA
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -186,8 +224,304 @@ const float&#160;</td><td class="memItemRight" valign="bottom"><b>FADE_AMOUNT_MA
 
 </div>
 </div>
+<a id="a7357eb87689611d685fa3bc75ccaadb9" name="a7357eb87689611d685fa3bc75ccaadb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7357eb87689611d685fa3bc75ccaadb9">&#9670;&#160;</a></span>CheckCameraNearClipping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CharacterCameraConstraint.CheckCameraNearClipping </td>
+          <td>(</td>
+          <td class="paramtype">out float&#160;</td>
+          <td class="paramname"><em>result</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This method checks whether the camera is close enough to geometry to cause it to start clipping, and if so, return the overlap amount. </p>
+
+</div>
+</div>
+<a id="a5d1bc99955de76231f513a5f853b596d" name="a5d1bc99955de76231f513a5f853b596d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d1bc99955de76231f513a5f853b596d">&#9670;&#160;</a></span>CheckCameraOverlapped()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CharacterCameraConstraint.CheckCameraOverlapped </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This method checks whether the camera is inside of geometry or has geometry between it and the character's capsule. </p>
+
+</div>
+</div>
+<a id="a59a365ed8bd6930e6ef070ff61009c6b" name="a59a365ed8bd6930e6ef070ff61009c6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59a365ed8bd6930e6ef070ff61009c6b">&#9670;&#160;</a></span>OnDisable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CharacterCameraConstraint.OnDisable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7be9a6729269651319efa1da90c63d5" name="ac7be9a6729269651319efa1da90c63d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7be9a6729269651319efa1da90c63d5">&#9670;&#160;</a></span>OnEnable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CharacterCameraConstraint.OnEnable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ac3787f624ceb4def13302c0a960b2ec0" name="ac3787f624ceb4def13302c0a960b2ec0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3787f624ceb4def13302c0a960b2ec0">&#9670;&#160;</a></span>_character</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CapsuleCollider CharacterCameraConstraint._character</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afd45fa3b9036ae9b579140684d773410" name="afd45fa3b9036ae9b579140684d773410"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd45fa3b9036ae9b579140684d773410">&#9670;&#160;</a></span>_simplePlayerController</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_simple_capsule_with_stick_movement.html">SimpleCapsuleWithStickMovement</a> CharacterCameraConstraint._simplePlayerController</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acd549a12915c2775eaa50229c7c057af" name="acd549a12915c2775eaa50229c7c057af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd549a12915c2775eaa50229c7c057af">&#9670;&#160;</a></span>CameraRig</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_camera_rig.html">OVRCameraRig</a> CharacterCameraConstraint.CameraRig</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This should be a reference to the <a class="el" href="class_o_v_r_camera_rig.html" title="A head-tracked stereoscopic virtual reality camera rig.">OVRCameraRig</a> that is usually a child of the PlayerController. </p>
+
+</div>
+</div>
+<a id="a90a189091b552e1b2d520a0a5f78ad10" name="a90a189091b552e1b2d520a0a5f78ad10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90a189091b552e1b2d520a0a5f78ad10">&#9670;&#160;</a></span>CollideLayers</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LayerMask CharacterCameraConstraint.CollideLayers</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Collision layers to be used for the purposes of fading out the screen when the HMD is inside world geometry and adjusting the capsule height. </p>
+
+</div>
+</div>
+<a id="a288ba2fdc7a1ad9f0cc516ae4947383e" name="a288ba2fdc7a1ad9f0cc516ae4947383e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a288ba2fdc7a1ad9f0cc516ae4947383e">&#9670;&#160;</a></span>FADE_AMOUNT_MAXIMUM</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float CharacterCameraConstraint.FADE_AMOUNT_MAXIMUM = 1.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa2789d0cb3730585637b2f4674cbc2d9" name="aa2789d0cb3730585637b2f4674cbc2d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2789d0cb3730585637b2f4674cbc2d9">&#9670;&#160;</a></span>FADE_OVERLAP_MAXIMUM</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float CharacterCameraConstraint.FADE_OVERLAP_MAXIMUM = 0.1f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3389bf44ab5de0a598255d9574d4786f" name="a3389bf44ab5de0a598255d9574d4786f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3389bf44ab5de0a598255d9574d4786f">&#9670;&#160;</a></span>FADE_RAY_LENGTH</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float CharacterCameraConstraint.FADE_RAY_LENGTH = 0.25f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4b897a03db74efd665506cab5b5e2538" name="a4b897a03db74efd665506cab5b5e2538"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b897a03db74efd665506cab5b5e2538">&#9670;&#160;</a></span>HeightOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CharacterCameraConstraint.HeightOffset</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offset is added to camera's real world height, effectively treating it as though the player was taller/standing higher. </p>
+
+</div>
+</div>
+<a id="a3276b4c4e399fce310ece97a4554381f" name="a3276b4c4e399fce310ece97a4554381f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3276b4c4e399fce310ece97a4554381f">&#9670;&#160;</a></span>MaximumHeight</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CharacterCameraConstraint.MaximumHeight</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Maximum height that the character capsule can grow to. To disable, set to capsule's height. </p>
+
+</div>
+</div>
+<a id="a692acebb9f4beef325eb3931a0ab64c3" name="a692acebb9f4beef325eb3931a0ab64c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a692acebb9f4beef325eb3931a0ab64c3">&#9670;&#160;</a></span>MinimumHeight</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CharacterCameraConstraint.MinimumHeight</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Minimum height that the character capsule can shrink to. To disable, set to capsule's height. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/CharacterCameraConstraint.cs</li>
+<li><a class="el" href="_character_camera_constraint_8cs.html">CharacterCameraConstraint.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

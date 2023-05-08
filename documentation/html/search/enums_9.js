@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['netsyncdisconnectreason_0',['NetSyncDisconnectReason',['../namespace_oculus_1_1_platform.html#a6dbd5acf158a0bd1eda065015721c3e2',1,'Oculus::Platform']]],
-  ['node_1',['Node',['../class_o_v_r_boundary.html#aa16c75c1f7177f9232b7f694c95ac07d',1,'OVRBoundary']]],
-  ['normalfacing_2',['NormalFacing',['../class_oculus_1_1_interaction_1_1_surfaces_1_1_cylinder_surface.html#a15d7c5c286ea843ce46ead37721a42ce',1,'Oculus.Interaction.Surfaces.CylinderSurface.NormalFacing()'],['../class_oculus_1_1_interaction_1_1_surfaces_1_1_plane_surface.html#af4164271adfaf87358699cbbf35281cc',1,'Oculus.Interaction.Surfaces.PlaneSurface.NormalFacing()']]]
+  ['jointfreedom_0',['JointFreedom',['../namespace_oculus_1_1_interaction_1_1_input.html#a0fbdba8a1bbb4585fa11bc02a9bb39fc',1,'Oculus::Interaction::Input']]],
+  ['jsonbinarytag_1',['JSONBinaryTag',['../namespace_meta_1_1_wit_ai_1_1_json.html#a734a312a269e2f8f37632c57e0c19d89',1,'Meta::WitAi::Json']]],
+  ['jsoncontainertype_2',['JSONContainerType',['../namespace_o_v_r_simple_j_s_o_n.html#addf27d63afb31c5367683f283da5b577',1,'OVRSimpleJSON']]],
+  ['jsonnodetype_3',['JSONNodeType',['../namespace_o_v_r_simple_j_s_o_n.html#a1afa21a479d14728af7aa37b5958a639',1,'OVRSimpleJSON']]],
+  ['jsontextmode_4',['JSONTextMode',['../namespace_o_v_r_simple_j_s_o_n.html#a38bfde3b74679a448c2a327b9a1fb678',1,'OVRSimpleJSON']]]
 ];

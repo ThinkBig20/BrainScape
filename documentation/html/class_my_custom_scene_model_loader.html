@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: MyCustomSceneModelLoader Class Reference</title>
+<title>BrainScape: MyCustomSceneModelLoader Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">BrainScape
    </div>
   </td>
  </tr>
@@ -98,37 +98,57 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a012ba2dfb02eb8c860a4b9aa1d91a7cb inherit pro_methods_class_o_v_r_scene_model_loader"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_scene_model_loader.html#a012ba2dfb02eb8c860a4b9aa1d91a7cb">OnStart</a> ()</td></tr>
 <tr class="memdesc:a012ba2dfb02eb8c860a4b9aa1d91a7cb inherit pro_methods_class_o_v_r_scene_model_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoked from this component's <code>Start</code> method. The default behavior is to load the scene model using <a class="el" href="class_o_v_r_scene_manager.html#aa450c25b85929ddb2ae62076248a57ad" title="Loads the scene model from the Guardian.">OVRSceneManager.LoadSceneModel</a>.  <br /></td></tr>
 <tr class="separator:a012ba2dfb02eb8c860a4b9aa1d91a7cb inherit pro_methods_class_o_v_r_scene_model_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadefa1d0f12edfc34439ee3c8ccfa631 inherit pro_methods_class_o_v_r_scene_model_loader"><td class="memItemLeft" align="right" valign="top"><a id="aadefa1d0f12edfc34439ee3c8ccfa631" name="aadefa1d0f12edfc34439ee3c8ccfa631"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnSceneModelLoadedSuccessfully</b> ()</td></tr>
-<tr class="memdesc:aadefa1d0f12edfc34439ee3c8ccfa631 inherit pro_methods_class_o_v_r_scene_model_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoked when the scene model has successfully loaded. <br /></td></tr>
+<tr class="memitem:aadefa1d0f12edfc34439ee3c8ccfa631 inherit pro_methods_class_o_v_r_scene_model_loader"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_scene_model_loader.html#aadefa1d0f12edfc34439ee3c8ccfa631">OnSceneModelLoadedSuccessfully</a> ()</td></tr>
+<tr class="memdesc:aadefa1d0f12edfc34439ee3c8ccfa631 inherit pro_methods_class_o_v_r_scene_model_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoked when the scene model has successfully loaded.  <br /></td></tr>
 <tr class="separator:aadefa1d0f12edfc34439ee3c8ccfa631 inherit pro_methods_class_o_v_r_scene_model_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0df956955c5094e07de2de9c467678e0 inherit pro_methods_class_o_v_r_scene_model_loader"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_scene_model_loader.html#a0df956955c5094e07de2de9c467678e0">OnNoSceneModelToLoad</a> ()</td></tr>
 <tr class="memdesc:a0df956955c5094e07de2de9c467678e0 inherit pro_methods_class_o_v_r_scene_model_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoked when there is no scene model available. The default behavior requests scene capture using <a class="el" href="class_o_v_r_scene_manager.html#ada66e0a27c16e78d9f79e505ffb251f0" title="Requests scene capture from the Guardian.">OVRSceneManager.RequestSceneCapture</a>.  <br /></td></tr>
 <tr class="separator:a0df956955c5094e07de2de9c467678e0 inherit pro_methods_class_o_v_r_scene_model_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a2d7cbfb2094dc9f1e0f3a77e871757 inherit pro_methods_class_o_v_r_scene_model_loader"><td class="memItemLeft" align="right" valign="top"><a id="a3a2d7cbfb2094dc9f1e0f3a77e871757" name="a3a2d7cbfb2094dc9f1e0f3a77e871757"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnSceneCaptureReturnedWithoutError</b> ()</td></tr>
-<tr class="memdesc:a3a2d7cbfb2094dc9f1e0f3a77e871757 inherit pro_methods_class_o_v_r_scene_model_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoked when the scene capture succeeds without error. The default behavior loads the scene model using <a class="el" href="class_o_v_r_scene_manager.html#aa450c25b85929ddb2ae62076248a57ad" title="Loads the scene model from the Guardian.">OVRSceneManager.LoadSceneModel</a>. <br /></td></tr>
+<tr class="memitem:a3a2d7cbfb2094dc9f1e0f3a77e871757 inherit pro_methods_class_o_v_r_scene_model_loader"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_scene_model_loader.html#a3a2d7cbfb2094dc9f1e0f3a77e871757">OnSceneCaptureReturnedWithoutError</a> ()</td></tr>
+<tr class="memdesc:a3a2d7cbfb2094dc9f1e0f3a77e871757 inherit pro_methods_class_o_v_r_scene_model_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoked when the scene capture succeeds without error. The default behavior loads the scene model using <a class="el" href="class_o_v_r_scene_manager.html#aa450c25b85929ddb2ae62076248a57ad" title="Loads the scene model from the Guardian.">OVRSceneManager.LoadSceneModel</a>.  <br /></td></tr>
 <tr class="separator:a3a2d7cbfb2094dc9f1e0f3a77e871757 inherit pro_methods_class_o_v_r_scene_model_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6de8419f945e396bacd71e2c492532f0 inherit pro_methods_class_o_v_r_scene_model_loader"><td class="memItemLeft" align="right" valign="top"><a id="a6de8419f945e396bacd71e2c492532f0" name="a6de8419f945e396bacd71e2c492532f0"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnUnexpectedErrorWithSceneCapture</b> ()</td></tr>
-<tr class="memdesc:a6de8419f945e396bacd71e2c492532f0 inherit pro_methods_class_o_v_r_scene_model_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoked when the scene capture encounters an unexpected error. <br /></td></tr>
+<tr class="memitem:a6de8419f945e396bacd71e2c492532f0 inherit pro_methods_class_o_v_r_scene_model_loader"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_scene_model_loader.html#a6de8419f945e396bacd71e2c492532f0">OnUnexpectedErrorWithSceneCapture</a> ()</td></tr>
+<tr class="memdesc:a6de8419f945e396bacd71e2c492532f0 inherit pro_methods_class_o_v_r_scene_model_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoked when the scene capture encounters an unexpected error.  <br /></td></tr>
 <tr class="separator:a6de8419f945e396bacd71e2c492532f0 inherit pro_methods_class_o_v_r_scene_model_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:ae64c3f440c87ce7d633e3237d4ed9167"><td class="memItemLeft" align="right" valign="top"><a id="ae64c3f440c87ce7d633e3237d4ed9167" name="ae64c3f440c87ce7d633e3237d4ed9167"></a>
-IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>DelayedLoad</b> ()</td></tr>
+<tr class="memitem:ae64c3f440c87ce7d633e3237d4ed9167"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_my_custom_scene_model_loader.html#ae64c3f440c87ce7d633e3237d4ed9167">DelayedLoad</a> ()</td></tr>
 <tr class="separator:ae64c3f440c87ce7d633e3237d4ed9167"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header properties_class_o_v_r_scene_model_loader"><td colspan="2" onclick="javascript:toggleInherit('properties_class_o_v_r_scene_model_loader')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_o_v_r_scene_model_loader.html">OVRSceneModelLoader</a></td></tr>
-<tr class="memitem:ae510f04412f8134c5322276db354fbe0 inherit properties_class_o_v_r_scene_model_loader"><td class="memItemLeft" align="right" valign="top"><a id="ae510f04412f8134c5322276db354fbe0" name="ae510f04412f8134c5322276db354fbe0"></a>
-<a class="el" href="class_o_v_r_scene_manager.html">OVRSceneManager</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SceneManager</b><code> [get, private set]</code></td></tr>
-<tr class="memdesc:ae510f04412f8134c5322276db354fbe0 inherit properties_class_o_v_r_scene_model_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="class_o_v_r_scene_manager.html" title="A manager for OVRSceneAnchors created using the Guardian&#39;s Room Capture feature.">OVRSceneManager</a> component that this loader will use. <br /></td></tr>
+<tr class="memitem:ae510f04412f8134c5322276db354fbe0 inherit properties_class_o_v_r_scene_model_loader"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_scene_manager.html">OVRSceneManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_scene_model_loader.html#ae510f04412f8134c5322276db354fbe0">SceneManager</a><code> [get, private set]</code></td></tr>
+<tr class="memdesc:ae510f04412f8134c5322276db354fbe0 inherit properties_class_o_v_r_scene_model_loader"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="class_o_v_r_scene_manager.html" title="A manager for OVRSceneAnchors created using the Guardian&#39;s Room Capture feature.">OVRSceneManager</a> component that this loader will use.  <br /></td></tr>
 <tr class="separator:ae510f04412f8134c5322276db354fbe0 inherit properties_class_o_v_r_scene_model_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae64c3f440c87ce7d633e3237d4ed9167" name="ae64c3f440c87ce7d633e3237d4ed9167"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae64c3f440c87ce7d633e3237d4ed9167">&#9670;&#160;</a></span>DelayedLoad()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerator MyCustomSceneModelLoader.DelayedLoad </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5c3d754fd79ca7cecf294f1eb8b27aa8" name="a5c3d754fd79ca7cecf294f1eb8b27aa8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5c3d754fd79ca7cecf294f1eb8b27aa8">&#9670;&#160;</a></span>OnNoSceneModelToLoad()</h2>
 
@@ -147,7 +167,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -176,7 +196,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -188,7 +208,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Oculus/SampleFramework/Usage/SceneManager/Scripts/MyCustomSceneModelLoader.cs</li>
+<li><a class="el" href="_my_custom_scene_model_loader_8cs.html">MyCustomSceneModelLoader.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

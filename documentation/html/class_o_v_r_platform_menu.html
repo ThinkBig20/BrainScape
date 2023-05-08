@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: OVRPlatformMenu Class Reference</title>
+<title>BrainScape: OVRPlatformMenu Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">BrainScape
    </div>
   </td>
  </tr>
@@ -93,70 +93,317 @@ Inheritance diagram for OVRPlatformMenu:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ab1474eab038fe8ac5c87321daca62995"><td class="memItemLeft" align="right" valign="top"><a id="ab1474eab038fe8ac5c87321daca62995" name="ab1474eab038fe8ac5c87321daca62995"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>eHandler</b> { <b>ShowConfirmQuit</b>
-, <b>RetreatOneLevel</b>
+<tr class="memitem:ab1474eab038fe8ac5c87321daca62995"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_platform_menu.html#ab1474eab038fe8ac5c87321daca62995">eHandler</a> { <a class="el" href="class_o_v_r_platform_menu.html#ab1474eab038fe8ac5c87321daca62995a977792c941f7cbc35f962842e0576064">ShowConfirmQuit</a>
+, <a class="el" href="class_o_v_r_platform_menu.html#ab1474eab038fe8ac5c87321daca62995a9ec49c65565514590a83ce3227cb2117">RetreatOneLevel</a>
  }</td></tr>
 <tr class="separator:ab1474eab038fe8ac5c87321daca62995"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aa3f94c89432b18578b897331d7ebffec"><td class="memItemLeft" align="right" valign="top"><a id="aa3f94c89432b18578b897331d7ebffec" name="aa3f94c89432b18578b897331d7ebffec"></a>
-eHandler&#160;</td><td class="memItemRight" valign="bottom"><b>shortPressHandler</b> = eHandler.ShowConfirmQuit</td></tr>
+<tr class="memitem:aa3f94c89432b18578b897331d7ebffec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_platform_menu.html#ab1474eab038fe8ac5c87321daca62995">eHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_platform_menu.html#aa3f94c89432b18578b897331d7ebffec">shortPressHandler</a> = <a class="el" href="class_o_v_r_platform_menu.html#ab1474eab038fe8ac5c87321daca62995a977792c941f7cbc35f962842e0576064">eHandler.ShowConfirmQuit</a></td></tr>
 <tr class="separator:aa3f94c89432b18578b897331d7ebffec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40daa390d52b179d53c044be41311b81"><td class="memItemLeft" align="right" valign="top"><a id="a40daa390d52b179d53c044be41311b81" name="a40daa390d52b179d53c044be41311b81"></a>
-System.Func&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>OnShortPress</b></td></tr>
-<tr class="memdesc:a40daa390d52b179d53c044be41311b81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback to handle short press. Returns true if ConfirmQuit menu should be shown. <br /></td></tr>
+<tr class="memitem:a40daa390d52b179d53c044be41311b81"><td class="memItemLeft" align="right" valign="top">System.Func&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_platform_menu.html#a40daa390d52b179d53c044be41311b81">OnShortPress</a></td></tr>
+<tr class="memdesc:a40daa390d52b179d53c044be41311b81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback to handle short press. Returns true if ConfirmQuit menu should be shown.  <br /></td></tr>
 <tr class="separator:a40daa390d52b179d53c044be41311b81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-types" name="pri-types"></a>
 Private Types</h2></td></tr>
-<tr class="memitem:a9bebd8bd7984fcaac5ebdb64c2be8b9e"><td class="memItemLeft" align="right" valign="top"><a id="a9bebd8bd7984fcaac5ebdb64c2be8b9e" name="a9bebd8bd7984fcaac5ebdb64c2be8b9e"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>eBackButtonAction</b> { <b>NONE</b>
-, <b>SHORT_PRESS</b>
+<tr class="memitem:a9bebd8bd7984fcaac5ebdb64c2be8b9e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_platform_menu.html#a9bebd8bd7984fcaac5ebdb64c2be8b9e">eBackButtonAction</a> { <a class="el" href="class_o_v_r_platform_menu.html#a9bebd8bd7984fcaac5ebdb64c2be8b9eab50339a10e1de285ac99d4c3990b8693">NONE</a>
+, <a class="el" href="class_o_v_r_platform_menu.html#a9bebd8bd7984fcaac5ebdb64c2be8b9ea7c062e84a41e687728bacc27afc45c37">SHORT_PRESS</a>
  }</td></tr>
 <tr class="separator:a9bebd8bd7984fcaac5ebdb64c2be8b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a0175676f0ac97a0139422a6524a8dd82"><td class="memItemLeft" align="right" valign="top"><a id="a0175676f0ac97a0139422a6524a8dd82" name="a0175676f0ac97a0139422a6524a8dd82"></a>
-eBackButtonAction&#160;</td><td class="memItemRight" valign="bottom"><b>HandleBackButtonState</b> ()</td></tr>
+<tr class="memitem:a0175676f0ac97a0139422a6524a8dd82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_platform_menu.html#a9bebd8bd7984fcaac5ebdb64c2be8b9e">eBackButtonAction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_platform_menu.html#a0175676f0ac97a0139422a6524a8dd82">HandleBackButtonState</a> ()</td></tr>
 <tr class="separator:a0175676f0ac97a0139422a6524a8dd82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac48d7074ce0fdc654d213062a1872556"><td class="memItemLeft" align="right" valign="top"><a id="ac48d7074ce0fdc654d213062a1872556" name="ac48d7074ce0fdc654d213062a1872556"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
-<tr class="memdesc:ac48d7074ce0fdc654d213062a1872556"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instantiate the cursor timer. <br /></td></tr>
+<tr class="memitem:ac48d7074ce0fdc654d213062a1872556"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_platform_menu.html#ac48d7074ce0fdc654d213062a1872556">Awake</a> ()</td></tr>
+<tr class="memdesc:ac48d7074ce0fdc654d213062a1872556"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instantiate the cursor timer.  <br /></td></tr>
 <tr class="separator:ac48d7074ce0fdc654d213062a1872556"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e1072c2d679160d6e7b1066144ffb26"><td class="memItemLeft" align="right" valign="top"><a id="a3e1072c2d679160d6e7b1066144ffb26" name="a3e1072c2d679160d6e7b1066144ffb26"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>ShowConfirmQuitMenu</b> ()</td></tr>
-<tr class="memdesc:a3e1072c2d679160d6e7b1066144ffb26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show the confirm quit menu. <br /></td></tr>
+<tr class="memitem:a3e1072c2d679160d6e7b1066144ffb26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_platform_menu.html#a3e1072c2d679160d6e7b1066144ffb26">ShowConfirmQuitMenu</a> ()</td></tr>
+<tr class="memdesc:a3e1072c2d679160d6e7b1066144ffb26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show the confirm quit menu.  <br /></td></tr>
 <tr class="separator:a3e1072c2d679160d6e7b1066144ffb26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0e6759028f9b514de3273dcf3c2ae3d"><td class="memItemLeft" align="right" valign="top"><a id="ac0e6759028f9b514de3273dcf3c2ae3d" name="ac0e6759028f9b514de3273dcf3c2ae3d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
-<tr class="memdesc:ac0e6759028f9b514de3273dcf3c2ae3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests for long-press and activates global platform menu when detected. as per the Unity integration doc, the back button responds to "mouse 1" button down/up/etc. <br /></td></tr>
+<tr class="memitem:ac0e6759028f9b514de3273dcf3c2ae3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_platform_menu.html#ac0e6759028f9b514de3273dcf3c2ae3d">Update</a> ()</td></tr>
+<tr class="memdesc:ac0e6759028f9b514de3273dcf3c2ae3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests for long-press and activates global platform menu when detected. as per the Unity integration doc, the back button responds to "mouse 1" button down/up/etc.  <br /></td></tr>
 <tr class="separator:ac0e6759028f9b514de3273dcf3c2ae3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
-<tr class="memitem:a746492b0f4a953804f157eafaec4529c"><td class="memItemLeft" align="right" valign="top"><a id="a746492b0f4a953804f157eafaec4529c" name="a746492b0f4a953804f157eafaec4529c"></a>
-static bool&#160;</td><td class="memItemRight" valign="bottom"><b>RetreatOneLevel</b> ()</td></tr>
-<tr class="memdesc:a746492b0f4a953804f157eafaec4529c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sample handler for short press which retreats to the previous scene that used <a class="el" href="class_o_v_r_platform_menu.html" title="Shows the Oculus plaform UI.">OVRPlatformMenu</a>. <br /></td></tr>
+<tr class="memitem:a746492b0f4a953804f157eafaec4529c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_platform_menu.html#a746492b0f4a953804f157eafaec4529c">RetreatOneLevel</a> ()</td></tr>
+<tr class="memdesc:a746492b0f4a953804f157eafaec4529c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sample handler for short press which retreats to the previous scene that used <a class="el" href="class_o_v_r_platform_menu.html" title="Shows the Oculus plaform UI.">OVRPlatformMenu</a>.  <br /></td></tr>
 <tr class="separator:a746492b0f4a953804f157eafaec4529c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a826854a2d72fef616ef123d15b66d75a"><td class="memItemLeft" align="right" valign="top"><a id="a826854a2d72fef616ef123d15b66d75a" name="a826854a2d72fef616ef123d15b66d75a"></a>
-OVRInput.RawButton&#160;</td><td class="memItemRight" valign="bottom"><b>inputCode</b> = OVRInput.RawButton.Back</td></tr>
-<tr class="memdesc:a826854a2d72fef616ef123d15b66d75a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The key code. <br /></td></tr>
+<tr class="memitem:a826854a2d72fef616ef123d15b66d75a"><td class="memItemLeft" align="right" valign="top">OVRInput.RawButton&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_platform_menu.html#a826854a2d72fef616ef123d15b66d75a">inputCode</a> = OVRInput.RawButton.Back</td></tr>
+<tr class="memdesc:a826854a2d72fef616ef123d15b66d75a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The key code.  <br /></td></tr>
 <tr class="separator:a826854a2d72fef616ef123d15b66d75a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:a6564bc833a6ed16046c1e8316e2760e0"><td class="memItemLeft" align="right" valign="top"><a id="a6564bc833a6ed16046c1e8316e2760e0" name="a6564bc833a6ed16046c1e8316e2760e0"></a>
-static Stack&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>sceneStack</b> = new Stack&lt;string&gt;()</td></tr>
+<tr class="memitem:a6564bc833a6ed16046c1e8316e2760e0"><td class="memItemLeft" align="right" valign="top">static Stack&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_platform_menu.html#a6564bc833a6ed16046c1e8316e2760e0">sceneStack</a> = new Stack&lt;string&gt;()</td></tr>
 <tr class="separator:a6564bc833a6ed16046c1e8316e2760e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Shows the <a class="el" href="namespace_oculus.html">Oculus</a> plaform UI. </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Oculus/VR/Scripts/OVRPlatformMenu.cs</li>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a9bebd8bd7984fcaac5ebdb64c2be8b9e" name="a9bebd8bd7984fcaac5ebdb64c2be8b9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bebd8bd7984fcaac5ebdb64c2be8b9e">&#9670;&#160;</a></span>eBackButtonAction</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_o_v_r_platform_menu.html#a9bebd8bd7984fcaac5ebdb64c2be8b9e">OVRPlatformMenu.eBackButtonAction</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9bebd8bd7984fcaac5ebdb64c2be8b9eab50339a10e1de285ac99d4c3990b8693" name="a9bebd8bd7984fcaac5ebdb64c2be8b9eab50339a10e1de285ac99d4c3990b8693"></a>NONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9bebd8bd7984fcaac5ebdb64c2be8b9ea7c062e84a41e687728bacc27afc45c37" name="a9bebd8bd7984fcaac5ebdb64c2be8b9ea7c062e84a41e687728bacc27afc45c37"></a>SHORT_PRESS&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ab1474eab038fe8ac5c87321daca62995" name="ab1474eab038fe8ac5c87321daca62995"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1474eab038fe8ac5c87321daca62995">&#9670;&#160;</a></span>eHandler</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_o_v_r_platform_menu.html#ab1474eab038fe8ac5c87321daca62995">OVRPlatformMenu.eHandler</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab1474eab038fe8ac5c87321daca62995a977792c941f7cbc35f962842e0576064" name="ab1474eab038fe8ac5c87321daca62995a977792c941f7cbc35f962842e0576064"></a>ShowConfirmQuit&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab1474eab038fe8ac5c87321daca62995a9ec49c65565514590a83ce3227cb2117" name="ab1474eab038fe8ac5c87321daca62995a9ec49c65565514590a83ce3227cb2117"></a>RetreatOneLevel&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac48d7074ce0fdc654d213062a1872556" name="ac48d7074ce0fdc654d213062a1872556"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac48d7074ce0fdc654d213062a1872556">&#9670;&#160;</a></span>Awake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVRPlatformMenu.Awake </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Instantiate the cursor timer. </p>
+
+</div>
+</div>
+<a id="a0175676f0ac97a0139422a6524a8dd82" name="a0175676f0ac97a0139422a6524a8dd82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0175676f0ac97a0139422a6524a8dd82">&#9670;&#160;</a></span>HandleBackButtonState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_platform_menu.html#a9bebd8bd7984fcaac5ebdb64c2be8b9e">eBackButtonAction</a> OVRPlatformMenu.HandleBackButtonState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a746492b0f4a953804f157eafaec4529c" name="a746492b0f4a953804f157eafaec4529c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a746492b0f4a953804f157eafaec4529c">&#9670;&#160;</a></span>RetreatOneLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool OVRPlatformMenu.RetreatOneLevel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sample handler for short press which retreats to the previous scene that used <a class="el" href="class_o_v_r_platform_menu.html" title="Shows the Oculus plaform UI.">OVRPlatformMenu</a>. </p>
+
+</div>
+</div>
+<a id="a3e1072c2d679160d6e7b1066144ffb26" name="a3e1072c2d679160d6e7b1066144ffb26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e1072c2d679160d6e7b1066144ffb26">&#9670;&#160;</a></span>ShowConfirmQuitMenu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVRPlatformMenu.ShowConfirmQuitMenu </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Show the confirm quit menu. </p>
+
+</div>
+</div>
+<a id="ac0e6759028f9b514de3273dcf3c2ae3d" name="ac0e6759028f9b514de3273dcf3c2ae3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0e6759028f9b514de3273dcf3c2ae3d">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVRPlatformMenu.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Tests for long-press and activates global platform menu when detected. as per the Unity integration doc, the back button responds to "mouse 1" button down/up/etc. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a826854a2d72fef616ef123d15b66d75a" name="a826854a2d72fef616ef123d15b66d75a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a826854a2d72fef616ef123d15b66d75a">&#9670;&#160;</a></span>inputCode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">OVRInput.RawButton OVRPlatformMenu.inputCode = OVRInput.RawButton.Back</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The key code. </p>
+
+</div>
+</div>
+<a id="a40daa390d52b179d53c044be41311b81" name="a40daa390d52b179d53c044be41311b81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40daa390d52b179d53c044be41311b81">&#9670;&#160;</a></span>OnShortPress</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">System.Func&lt;bool&gt; OVRPlatformMenu.OnShortPress</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Callback to handle short press. Returns true if ConfirmQuit menu should be shown. </p>
+
+</div>
+</div>
+<a id="a6564bc833a6ed16046c1e8316e2760e0" name="a6564bc833a6ed16046c1e8316e2760e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6564bc833a6ed16046c1e8316e2760e0">&#9670;&#160;</a></span>sceneStack</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Stack&lt;string&gt; OVRPlatformMenu.sceneStack = new Stack&lt;string&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa3f94c89432b18578b897331d7ebffec" name="aa3f94c89432b18578b897331d7ebffec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3f94c89432b18578b897331d7ebffec">&#9670;&#160;</a></span>shortPressHandler</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_platform_menu.html#ab1474eab038fe8ac5c87321daca62995">eHandler</a> OVRPlatformMenu.shortPressHandler = <a class="el" href="class_o_v_r_platform_menu.html#ab1474eab038fe8ac5c87321daca62995a977792c941f7cbc35f962842e0576064">eHandler.ShowConfirmQuit</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="_o_v_r_platform_menu_8cs.html">OVRPlatformMenu.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

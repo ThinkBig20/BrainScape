@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: Oculus.Interaction.Input.OVRPointerPoseSelector Struct Reference</title>
+<title>BrainScape: Oculus.Interaction.Input.OVRPointerPoseSelector Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">BrainScape
    </div>
   </td>
  </tr>
@@ -87,14 +87,12 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae7b01797f570aa342b3cedc2d9493acc"><td class="memItemLeft" align="right" valign="top"><a id="ae7b01797f570aa342b3cedc2d9493acc" name="ae7b01797f570aa342b3cedc2d9493acc"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>OVRPointerPoseSelector</b> (Handedness handedness)</td></tr>
+<tr class="memitem:ae7b01797f570aa342b3cedc2d9493acc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_oculus_1_1_interaction_1_1_input_1_1_o_v_r_pointer_pose_selector.html#ae7b01797f570aa342b3cedc2d9493acc">OVRPointerPoseSelector</a> (<a class="el" href="namespace_oculus_1_1_interaction_1_1_input.html#af8e6d73e82de89079d4cf5a834940a30">Handedness</a> handedness)</td></tr>
 <tr class="separator:ae7b01797f570aa342b3cedc2d9493acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a6f6e1240b7c0635e4c605367f6721a0d"><td class="memItemLeft" align="right" valign="top"><a id="a6f6e1240b7c0635e4c605367f6721a0d" name="a6f6e1240b7c0635e4c605367f6721a0d"></a>
-Pose&#160;</td><td class="memItemRight" valign="bottom"><b>LocalPointerPose</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:a6f6e1240b7c0635e4c605367f6721a0d"><td class="memItemLeft" align="right" valign="top">Pose&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_oculus_1_1_interaction_1_1_input_1_1_o_v_r_pointer_pose_selector.html#a6f6e1240b7c0635e4c605367f6721a0d">LocalPointerPose</a><code> [get, private set]</code></td></tr>
 <tr class="separator:a6f6e1240b7c0635e4c605367f6721a0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
@@ -106,7 +104,26 @@ Static Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Returns the Pointer Pose for the active controller model as found in the official prefabs. This point is usually located at the front tip of the controller. </p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ae7b01797f570aa342b3cedc2d9493acc" name="ae7b01797f570aa342b3cedc2d9493acc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7b01797f570aa342b3cedc2d9493acc">&#9670;&#160;</a></span>OVRPointerPoseSelector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Oculus.Interaction.Input.OVRPointerPoseSelector.OVRPointerPoseSelector </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_oculus_1_1_interaction_1_1_input.html#af8e6d73e82de89079d4cf5a834940a30">Handedness</a>&#160;</td>
+          <td class="paramname"><em>handedness</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
 <a id="a46575c272d0d57236c079caca67637c3" name="a46575c272d0d57236c079caca67637c3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a46575c272d0d57236c079caca67637c3">&#9670;&#160;</a></span>QUEST1_POINTERS</h2>
 
@@ -128,11 +145,13 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> Pose[2]</div>
 <div class="line">        {</div>
-<div class="line">            <span class="keyword">new</span> Pose(<span class="keyword">new</span> Vector3(-0.00779999979f,-0.00410000002f,0.0375000015f),</div>
-<div class="line">                Quaternion.Euler(359.209534f, 6.45196056f, 6.95544577f)),</div>
-<div class="line">            <span class="keyword">new</span> Pose(<span class="keyword">new</span> Vector3(0.00779999979f,-0.00410000002f,0.0375000015f),</div>
-<div class="line">                Quaternion.Euler(359.209534f, 353.548035f, 353.044556f))</div>
+<div class="line">            <span class="keyword">new</span> Pose(<span class="keyword">new</span> <a class="code hl_typedef" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a>(-0.00779999979f,-0.00410000002f,0.0375000015f),</div>
+<div class="line">                <a class="code hl_typedef" href="_o_v_r_tracked_keyboard_8cs.html#a3115aee88de19f0e23050e8650bc3153">Quaternion</a>.Euler(359.209534f, 6.45196056f, 6.95544577f)),</div>
+<div class="line">            <span class="keyword">new</span> Pose(<span class="keyword">new</span> <a class="code hl_typedef" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a>(0.00779999979f,-0.00410000002f,0.0375000015f),</div>
+<div class="line">                <a class="code hl_typedef" href="_o_v_r_tracked_keyboard_8cs.html#a3115aee88de19f0e23050e8650bc3153">Quaternion</a>.Euler(359.209534f, 353.548035f, 353.044556f))</div>
 <div class="line">        }</div>
+<div class="ttc" id="a_o_v_r_tracked_keyboard_8cs_html_a3115aee88de19f0e23050e8650bc3153"><div class="ttname"><a href="_o_v_r_tracked_keyboard_8cs.html#a3115aee88de19f0e23050e8650bc3153">Quaternion</a></div><div class="ttdeci">UnityEngine.Quaternion Quaternion</div><div class="ttdef"><b>Definition:</b> OVRTrackedKeyboard.cs:25</div></div>
+<div class="ttc" id="a_o_v_r_tracked_keyboard_8cs_html_af3326292fdd04d2b384b6d781d9594f6"><div class="ttname"><a href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a></div><div class="ttdeci">UnityEngine.Vector3 Vector3</div><div class="ttdef"><b>Definition:</b> OVRTrackedKeyboard.cs:26</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -157,16 +176,39 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> Pose[2]</div>
 <div class="line">        {</div>
-<div class="line">            <span class="keyword">new</span> Pose(<span class="keyword">new</span> Vector3(0.00899999961f, -0.00321028521f, 0.030869998f),</div>
-<div class="line">                Quaternion.Euler(359.209534f, 6.45196056f, 6.95544577f)),</div>
-<div class="line">            <span class="keyword">new</span> Pose(<span class="keyword">new</span> Vector3(-0.00899999961f, -0.00321028521f, 0.030869998f),</div>
-<div class="line">                Quaternion.Euler(359.209534f, 353.548035f, 353.044556f))</div>
+<div class="line">            <span class="keyword">new</span> Pose(<span class="keyword">new</span> <a class="code hl_typedef" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a>(0.00899999961f, -0.00321028521f, 0.030869998f),</div>
+<div class="line">                <a class="code hl_typedef" href="_o_v_r_tracked_keyboard_8cs.html#a3115aee88de19f0e23050e8650bc3153">Quaternion</a>.Euler(359.209534f, 6.45196056f, 6.95544577f)),</div>
+<div class="line">            <span class="keyword">new</span> Pose(<span class="keyword">new</span> <a class="code hl_typedef" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a>(-0.00899999961f, -0.00321028521f, 0.030869998f),</div>
+<div class="line">                <a class="code hl_typedef" href="_o_v_r_tracked_keyboard_8cs.html#a3115aee88de19f0e23050e8650bc3153">Quaternion</a>.Euler(359.209534f, 353.548035f, 353.044556f))</div>
 <div class="line">        }</div>
 </div><!-- fragment -->
 </div>
 </div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a6f6e1240b7c0635e4c605367f6721a0d" name="a6f6e1240b7c0635e4c605367f6721a0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f6e1240b7c0635e4c605367f6721a0d">&#9670;&#160;</a></span>LocalPointerPose</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pose Oculus.Interaction.Input.OVRPointerPoseSelector.LocalPointerPose</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/FromOVRControllerDataSource.cs</li>
+<li><a class="el" href="_from_o_v_r_controller_data_source_8cs.html">FromOVRControllerDataSource.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

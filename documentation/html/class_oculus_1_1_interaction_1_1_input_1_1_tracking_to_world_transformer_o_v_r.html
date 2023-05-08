@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: Oculus.Interaction.Input.TrackingToWorldTransformerOVR Class Reference</title>
+<title>BrainScape: Oculus.Interaction.Input.TrackingToWorldTransformerOVR Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">BrainScape
    </div>
   </td>
  </tr>
@@ -100,11 +100,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adc499110275982d77afd66bc2d13474e"><td class="memItemLeft" align="right" valign="top">Pose&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_tracking_to_world_transformer_o_v_r.html#adc499110275982d77afd66bc2d13474e">ToTrackingPose</a> (in Pose worldPose)</td></tr>
 <tr class="memdesc:adc499110275982d77afd66bc2d13474e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a world space pose to a tracking space pose (Removes any transform applied to the <a class="el" href="class_o_v_r_camera_rig.html" title="A head-tracked stereoscopic virtual reality camera rig.">OVRCameraRig</a>)  <br /></td></tr>
 <tr class="separator:adc499110275982d77afd66bc2d13474e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4f2c29c858d03f4a3d13e81edda49bd"><td class="memItemLeft" align="right" valign="top"><a id="ab4f2c29c858d03f4a3d13e81edda49bd" name="ab4f2c29c858d03f4a3d13e81edda49bd"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>InjectAllTrackingToWorldTransformerOVR</b> (<a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_o_v_r_camera_rig_ref.html">IOVRCameraRigRef</a> cameraRigRef)</td></tr>
+<tr class="memitem:ab4f2c29c858d03f4a3d13e81edda49bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_tracking_to_world_transformer_o_v_r.html#ab4f2c29c858d03f4a3d13e81edda49bd">InjectAllTrackingToWorldTransformerOVR</a> (<a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_o_v_r_camera_rig_ref.html">IOVRCameraRigRef</a> cameraRigRef)</td></tr>
 <tr class="separator:ab4f2c29c858d03f4a3d13e81edda49bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addeea15796deb0dac8e71bc063dba6b7"><td class="memItemLeft" align="right" valign="top"><a id="addeea15796deb0dac8e71bc063dba6b7" name="addeea15796deb0dac8e71bc063dba6b7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>InjectCameraRigRef</b> (<a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_o_v_r_camera_rig_ref.html">IOVRCameraRigRef</a> cameraRigRef)</td></tr>
+<tr class="memitem:addeea15796deb0dac8e71bc063dba6b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_tracking_to_world_transformer_o_v_r.html#addeea15796deb0dac8e71bc063dba6b7">InjectCameraRigRef</a> (<a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_o_v_r_camera_rig_ref.html">IOVRCameraRigRef</a> cameraRigRef)</td></tr>
 <tr class="separator:addeea15796deb0dac8e71bc063dba6b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fabc13dec25262ed7a9fa05da327afc"><td class="memItemLeft" align="right" valign="top">Pose&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_tracking_to_world_transformer.html#a6fabc13dec25262ed7a9fa05da327afc">ToWorldPose</a> (Pose poseRh)</td></tr>
 <tr class="memdesc:a6fabc13dec25262ed7a9fa05da327afc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a tracking space pose to a pose in in Unity's world coordinate space (i.e. teleportation applied)  <br /></td></tr>
@@ -115,45 +113,122 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>InjectCameraRigRef</b
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:afb5f83c10209337913257909900ba7a6"><td class="memItemLeft" align="right" valign="top"><a id="afb5f83c10209337913257909900ba7a6" name="afb5f83c10209337913257909900ba7a6"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
+<tr class="memitem:afb5f83c10209337913257909900ba7a6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_tracking_to_world_transformer_o_v_r.html#afb5f83c10209337913257909900ba7a6">Awake</a> ()</td></tr>
 <tr class="separator:afb5f83c10209337913257909900ba7a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afda07c22ddfe42ad8c87f4fe68b6fd5f"><td class="memItemLeft" align="right" valign="top"><a id="afda07c22ddfe42ad8c87f4fe68b6fd5f" name="afda07c22ddfe42ad8c87f4fe68b6fd5f"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
+<tr class="memitem:afda07c22ddfe42ad8c87f4fe68b6fd5f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_tracking_to_world_transformer_o_v_r.html#afda07c22ddfe42ad8c87f4fe68b6fd5f">Start</a> ()</td></tr>
 <tr class="separator:afda07c22ddfe42ad8c87f4fe68b6fd5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:abd94ca5dd273d27bc0b4d73a8f2e4c39"><td class="memItemLeft" align="right" valign="top"><a id="abd94ca5dd273d27bc0b4d73a8f2e4c39" name="abd94ca5dd273d27bc0b4d73a8f2e4c39"></a>
-<a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_o_v_r_camera_rig_ref.html">IOVRCameraRigRef</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CameraRigRef</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:abd94ca5dd273d27bc0b4d73a8f2e4c39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_o_v_r_camera_rig_ref.html">IOVRCameraRigRef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_tracking_to_world_transformer_o_v_r.html#abd94ca5dd273d27bc0b4d73a8f2e4c39">CameraRigRef</a><code> [get, private set]</code></td></tr>
 <tr class="separator:abd94ca5dd273d27bc0b4d73a8f2e4c39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43777394b1ff6e08f70461056fe818cd"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_tracking_to_world_transformer_o_v_r.html#a43777394b1ff6e08f70461056fe818cd">Transform</a><code> [get]</code></td></tr>
 <tr class="separator:a43777394b1ff6e08f70461056fe818cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a039c5f855fb2ed39b8d13bcc62c09a99"><td class="memItemLeft" align="right" valign="top">Quaternion&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_tracking_to_world_transformer_o_v_r.html#a039c5f855fb2ed39b8d13bcc62c09a99">WorldToTrackingWristJointFixup</a><code> [get]</code></td></tr>
+<tr class="memitem:a039c5f855fb2ed39b8d13bcc62c09a99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#a3115aee88de19f0e23050e8650bc3153">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_tracking_to_world_transformer_o_v_r.html#a039c5f855fb2ed39b8d13bcc62c09a99">WorldToTrackingWristJointFixup</a><code> [get]</code></td></tr>
 <tr class="separator:a039c5f855fb2ed39b8d13bcc62c09a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_interface_oculus_1_1_interaction_1_1_input_1_1_i_tracking_to_world_transformer"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_oculus_1_1_interaction_1_1_input_1_1_i_tracking_to_world_transformer')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_tracking_to_world_transformer.html">Oculus.Interaction.Input.ITrackingToWorldTransformer</a></td></tr>
-<tr class="memitem:a3d13487074ebe954973b092a66d26f53 inherit properties_interface_oculus_1_1_interaction_1_1_input_1_1_i_tracking_to_world_transformer"><td class="memItemLeft" align="right" valign="top"><a id="a3d13487074ebe954973b092a66d26f53" name="a3d13487074ebe954973b092a66d26f53"></a>
-Transform&#160;</td><td class="memItemRight" valign="bottom"><b>Transform</b><code> [get]</code></td></tr>
+<tr class="memitem:a3d13487074ebe954973b092a66d26f53 inherit properties_interface_oculus_1_1_interaction_1_1_input_1_1_i_tracking_to_world_transformer"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_tracking_to_world_transformer.html#a3d13487074ebe954973b092a66d26f53">Transform</a><code> [get]</code></td></tr>
 <tr class="separator:a3d13487074ebe954973b092a66d26f53 inherit properties_interface_oculus_1_1_interaction_1_1_input_1_1_i_tracking_to_world_transformer"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39e5523f92633697c4429c2643ae2468 inherit properties_interface_oculus_1_1_interaction_1_1_input_1_1_i_tracking_to_world_transformer"><td class="memItemLeft" align="right" valign="top"><a id="a39e5523f92633697c4429c2643ae2468" name="a39e5523f92633697c4429c2643ae2468"></a>
-Quaternion&#160;</td><td class="memItemRight" valign="bottom"><b>WorldToTrackingWristJointFixup</b><code> [get]</code></td></tr>
+<tr class="memitem:a39e5523f92633697c4429c2643ae2468 inherit properties_interface_oculus_1_1_interaction_1_1_input_1_1_i_tracking_to_world_transformer"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#a3115aee88de19f0e23050e8650bc3153">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_tracking_to_world_transformer.html#a39e5523f92633697c4429c2643ae2468">WorldToTrackingWristJointFixup</a><code> [get]</code></td></tr>
 <tr class="separator:a39e5523f92633697c4429c2643ae2468 inherit properties_interface_oculus_1_1_interaction_1_1_input_1_1_i_tracking_to_world_transformer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:afec43464328238f0e7f75ca06d70e8f9"><td class="memItemLeft" align="right" valign="top"><a id="afec43464328238f0e7f75ca06d70e8f9" name="afec43464328238f0e7f75ca06d70e8f9"></a>
-MonoBehaviour&#160;</td><td class="memItemRight" valign="bottom"><b>_cameraRigRef</b></td></tr>
+<tr class="memitem:afec43464328238f0e7f75ca06d70e8f9"><td class="memItemLeft" align="right" valign="top">MonoBehaviour&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_tracking_to_world_transformer_o_v_r.html#afec43464328238f0e7f75ca06d70e8f9">_cameraRigRef</a></td></tr>
 <tr class="separator:afec43464328238f0e7f75ca06d70e8f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="adc499110275982d77afd66bc2d13474e" name="adc499110275982d77afd66bc2d13474e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc499110275982d77afd66bc2d13474e">&#9670;&#160;</a></span>ToTrackingPose()</h2>
+<a id="afb5f83c10209337913257909900ba7a6" name="afb5f83c10209337913257909900ba7a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb5f83c10209337913257909900ba7a6">&#9670;&#160;</a></span>Awake()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Oculus.Interaction.Input.TrackingToWorldTransformerOVR.Awake </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab4f2c29c858d03f4a3d13e81edda49bd" name="ab4f2c29c858d03f4a3d13e81edda49bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4f2c29c858d03f4a3d13e81edda49bd">&#9670;&#160;</a></span>InjectAllTrackingToWorldTransformerOVR()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Interaction.Input.TrackingToWorldTransformerOVR.InjectAllTrackingToWorldTransformerOVR </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_o_v_r_camera_rig_ref.html">IOVRCameraRigRef</a>&#160;</td>
+          <td class="paramname"><em>cameraRigRef</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="addeea15796deb0dac8e71bc063dba6b7" name="addeea15796deb0dac8e71bc063dba6b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addeea15796deb0dac8e71bc063dba6b7">&#9670;&#160;</a></span>InjectCameraRigRef()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Interaction.Input.TrackingToWorldTransformerOVR.InjectCameraRigRef </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_o_v_r_camera_rig_ref.html">IOVRCameraRigRef</a>&#160;</td>
+          <td class="paramname"><em>cameraRigRef</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afda07c22ddfe42ad8c87f4fe68b6fd5f" name="afda07c22ddfe42ad8c87f4fe68b6fd5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afda07c22ddfe42ad8c87f4fe68b6fd5f">&#9670;&#160;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Oculus.Interaction.Input.TrackingToWorldTransformerOVR.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adc499110275982d77afd66bc2d13474e" name="adc499110275982d77afd66bc2d13474e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc499110275982d77afd66bc2d13474e">&#9670;&#160;</a></span>ToTrackingPose()</h2>
+
+<div class="memitem">
+<div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">Pose Oculus.Interaction.Input.TrackingToWorldTransformerOVR.ToTrackingPose </td>
@@ -163,11 +238,6 @@ MonoBehaviour&#160;</td><td class="memItemRight" valign="bottom"><b>_cameraRigRe
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Converts a world space pose to a tracking space pose (Removes any transform applied to the <a class="el" href="class_o_v_r_camera_rig.html" title="A head-tracked stereoscopic virtual reality camera rig.">OVRCameraRig</a>) </p>
@@ -181,9 +251,6 @@ MonoBehaviour&#160;</td><td class="memItemRight" valign="bottom"><b>_cameraRigRe
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">Pose Oculus.Interaction.Input.TrackingToWorldTransformerOVR.ToWorldPose </td>
@@ -193,11 +260,6 @@ MonoBehaviour&#160;</td><td class="memItemRight" valign="bottom"><b>_cameraRigRe
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Converts a tracking space pose to a world space pose (Applies any transform applied to the <a class="el" href="class_o_v_r_camera_rig.html" title="A head-tracked stereoscopic virtual reality camera rig.">OVRCameraRig</a>) </p>
@@ -206,7 +268,52 @@ MonoBehaviour&#160;</td><td class="memItemRight" valign="bottom"><b>_cameraRigRe
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="afec43464328238f0e7f75ca06d70e8f9" name="afec43464328238f0e7f75ca06d70e8f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afec43464328238f0e7f75ca06d70e8f9">&#9670;&#160;</a></span>_cameraRigRef</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MonoBehaviour Oculus.Interaction.Input.TrackingToWorldTransformerOVR._cameraRigRef</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Property Documentation</h2>
+<a id="abd94ca5dd273d27bc0b4d73a8f2e4c39" name="abd94ca5dd273d27bc0b4d73a8f2e4c39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd94ca5dd273d27bc0b4d73a8f2e4c39">&#9670;&#160;</a></span>CameraRigRef</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_o_v_r_camera_rig_ref.html">IOVRCameraRigRef</a> Oculus.Interaction.Input.TrackingToWorldTransformerOVR.CameraRigRef</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a43777394b1ff6e08f70461056fe818cd" name="a43777394b1ff6e08f70461056fe818cd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a43777394b1ff6e08f70461056fe818cd">&#9670;&#160;</a></span>Transform</h2>
 
@@ -227,7 +334,7 @@ MonoBehaviour&#160;</td><td class="memItemRight" valign="bottom"><b>_cameraRigRe
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_tracking_to_world_transformer.html">Oculus.Interaction.Input.ITrackingToWorldTransformer</a>.</p>
+<p>Implements <a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_tracking_to_world_transformer.html#a3d13487074ebe954973b092a66d26f53">Oculus.Interaction.Input.ITrackingToWorldTransformer</a>.</p>
 
 </div>
 </div>
@@ -241,7 +348,7 @@ MonoBehaviour&#160;</td><td class="memItemRight" valign="bottom"><b>_cameraRigRe
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Quaternion Oculus.Interaction.Input.TrackingToWorldTransformerOVR.WorldToTrackingWristJointFixup</td>
+          <td class="memname"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#a3115aee88de19f0e23050e8650bc3153">Quaternion</a> Oculus.Interaction.Input.TrackingToWorldTransformerOVR.WorldToTrackingWristJointFixup</td>
         </tr>
       </table>
   </td>
@@ -251,12 +358,12 @@ MonoBehaviour&#160;</td><td class="memItemRight" valign="bottom"><b>_cameraRigRe
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_tracking_to_world_transformer.html">Oculus.Interaction.Input.ITrackingToWorldTransformer</a>.</p>
+<p>Implements <a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_tracking_to_world_transformer.html#a39e5523f92633697c4429c2643ae2468">Oculus.Interaction.Input.ITrackingToWorldTransformer</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs</li>
+<li><a class="el" href="_tracking_to_world_transformer_o_v_r_8cs.html">TrackingToWorldTransformerOVR.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

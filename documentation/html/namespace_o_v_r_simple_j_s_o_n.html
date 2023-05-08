@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: OVRSimpleJSON Namespace Reference</title>
+<title>BrainScape: OVRSimpleJSON Namespace Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">BrainScape
    </div>
   </td>
  </tr>
@@ -99,28 +99,89 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a1afa21a479d14728af7aa37b5958a639"><td class="memItemLeft" align="right" valign="top"><a id="a1afa21a479d14728af7aa37b5958a639" name="a1afa21a479d14728af7aa37b5958a639"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>JSONNodeType</b> { <br />
-&#160;&#160;<b>Array</b> = 1
-, <b>Object</b> = 2
-, <b>String</b> = 3
-, <b>Number</b> = 4
+<tr class="memitem:a1afa21a479d14728af7aa37b5958a639"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_o_v_r_simple_j_s_o_n.html#a1afa21a479d14728af7aa37b5958a639">JSONNodeType</a> { <br />
+&#160;&#160;<a class="el" href="namespace_o_v_r_simple_j_s_o_n.html#a1afa21a479d14728af7aa37b5958a639a4410ec34d9e6c1a68100ca0ce033fb17">Array</a> = 1
+, <a class="el" href="namespace_o_v_r_simple_j_s_o_n.html#a1afa21a479d14728af7aa37b5958a639a497031794414a552435f90151ac3b54b">Object</a> = 2
+, <a class="el" href="namespace_o_v_r_simple_j_s_o_n.html#a1afa21a479d14728af7aa37b5958a639a27118326006d3829667a400ad23d5d98">String</a> = 3
+, <a class="el" href="namespace_o_v_r_simple_j_s_o_n.html#a1afa21a479d14728af7aa37b5958a639ab2ee912b91d69b435159c7c3f6df7f5f">Number</a> = 4
 , <br />
-&#160;&#160;<b>NullValue</b> = 5
-, <b>Boolean</b> = 6
-, <b>None</b> = 7
-, <b>Custom</b> = 0xFF
+&#160;&#160;<a class="el" href="namespace_o_v_r_simple_j_s_o_n.html#a1afa21a479d14728af7aa37b5958a639ae8d27005eb87501714a8a4fc67b6347a">NullValue</a> = 5
+, <a class="el" href="namespace_o_v_r_simple_j_s_o_n.html#a1afa21a479d14728af7aa37b5958a639a27226c864bac7454a8504f8edb15d95b">Boolean</a> = 6
+, <a class="el" href="namespace_o_v_r_simple_j_s_o_n.html#a1afa21a479d14728af7aa37b5958a639a6adf97f83acf6453d4a6a4b1070f3754">None</a> = 7
+, <a class="el" href="namespace_o_v_r_simple_j_s_o_n.html#a1afa21a479d14728af7aa37b5958a639a90589c47f06eb971d548591f23c285af">Custom</a> = 0xFF
 <br />
  }</td></tr>
 <tr class="separator:a1afa21a479d14728af7aa37b5958a639"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38bfde3b74679a448c2a327b9a1fb678"><td class="memItemLeft" align="right" valign="top"><a id="a38bfde3b74679a448c2a327b9a1fb678" name="a38bfde3b74679a448c2a327b9a1fb678"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>JSONTextMode</b> { <b>Compact</b>
-, <b>Indent</b>
+<tr class="memitem:a38bfde3b74679a448c2a327b9a1fb678"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_o_v_r_simple_j_s_o_n.html#a38bfde3b74679a448c2a327b9a1fb678">JSONTextMode</a> { <a class="el" href="namespace_o_v_r_simple_j_s_o_n.html#a38bfde3b74679a448c2a327b9a1fb678ab1fe2c2a59e883740e7ea87667e44a24">Compact</a>
+, <a class="el" href="namespace_o_v_r_simple_j_s_o_n.html#a38bfde3b74679a448c2a327b9a1fb678a497470e76a40fc53e14c0df9b4e4ec9f">Indent</a>
  }</td></tr>
 <tr class="separator:a38bfde3b74679a448c2a327b9a1fb678"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addf27d63afb31c5367683f283da5b577"><td class="memItemLeft" align="right" valign="top"><a id="addf27d63afb31c5367683f283da5b577" name="addf27d63afb31c5367683f283da5b577"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>JSONContainerType</b> { <b>Array</b>
-, <b>Object</b>
+<tr class="memitem:addf27d63afb31c5367683f283da5b577"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_o_v_r_simple_j_s_o_n.html#addf27d63afb31c5367683f283da5b577">JSONContainerType</a> { <a class="el" href="namespace_o_v_r_simple_j_s_o_n.html#addf27d63afb31c5367683f283da5b577a4410ec34d9e6c1a68100ca0ce033fb17">Array</a>
+, <a class="el" href="namespace_o_v_r_simple_j_s_o_n.html#addf27d63afb31c5367683f283da5b577a497031794414a552435f90151ac3b54b">Object</a>
  }</td></tr>
 <tr class="separator:addf27d63afb31c5367683f283da5b577"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="addf27d63afb31c5367683f283da5b577" name="addf27d63afb31c5367683f283da5b577"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addf27d63afb31c5367683f283da5b577">&#9670;&#160;</a></span>JSONContainerType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespace_o_v_r_simple_j_s_o_n.html#addf27d63afb31c5367683f283da5b577">OVRSimpleJSON.JSONContainerType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="addf27d63afb31c5367683f283da5b577a4410ec34d9e6c1a68100ca0ce033fb17" name="addf27d63afb31c5367683f283da5b577a4410ec34d9e6c1a68100ca0ce033fb17"></a>Array&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="addf27d63afb31c5367683f283da5b577a497031794414a552435f90151ac3b54b" name="addf27d63afb31c5367683f283da5b577a497031794414a552435f90151ac3b54b"></a>Object&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a1afa21a479d14728af7aa37b5958a639" name="a1afa21a479d14728af7aa37b5958a639"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1afa21a479d14728af7aa37b5958a639">&#9670;&#160;</a></span>JSONNodeType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespace_o_v_r_simple_j_s_o_n.html#a1afa21a479d14728af7aa37b5958a639">OVRSimpleJSON.JSONNodeType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1afa21a479d14728af7aa37b5958a639a4410ec34d9e6c1a68100ca0ce033fb17" name="a1afa21a479d14728af7aa37b5958a639a4410ec34d9e6c1a68100ca0ce033fb17"></a>Array&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1afa21a479d14728af7aa37b5958a639a497031794414a552435f90151ac3b54b" name="a1afa21a479d14728af7aa37b5958a639a497031794414a552435f90151ac3b54b"></a>Object&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1afa21a479d14728af7aa37b5958a639a27118326006d3829667a400ad23d5d98" name="a1afa21a479d14728af7aa37b5958a639a27118326006d3829667a400ad23d5d98"></a>String&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1afa21a479d14728af7aa37b5958a639ab2ee912b91d69b435159c7c3f6df7f5f" name="a1afa21a479d14728af7aa37b5958a639ab2ee912b91d69b435159c7c3f6df7f5f"></a>Number&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1afa21a479d14728af7aa37b5958a639ae8d27005eb87501714a8a4fc67b6347a" name="a1afa21a479d14728af7aa37b5958a639ae8d27005eb87501714a8a4fc67b6347a"></a>NullValue&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1afa21a479d14728af7aa37b5958a639a27226c864bac7454a8504f8edb15d95b" name="a1afa21a479d14728af7aa37b5958a639a27226c864bac7454a8504f8edb15d95b"></a>Boolean&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1afa21a479d14728af7aa37b5958a639a6adf97f83acf6453d4a6a4b1070f3754" name="a1afa21a479d14728af7aa37b5958a639a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1afa21a479d14728af7aa37b5958a639a90589c47f06eb971d548591f23c285af" name="a1afa21a479d14728af7aa37b5958a639a90589c47f06eb971d548591f23c285af"></a>Custom&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a38bfde3b74679a448c2a327b9a1fb678" name="a38bfde3b74679a448c2a327b9a1fb678"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38bfde3b74679a448c2a327b9a1fb678">&#9670;&#160;</a></span>JSONTextMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespace_o_v_r_simple_j_s_o_n.html#a38bfde3b74679a448c2a327b9a1fb678">OVRSimpleJSON.JSONTextMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a38bfde3b74679a448c2a327b9a1fb678ab1fe2c2a59e883740e7ea87667e44a24" name="a38bfde3b74679a448c2a327b9a1fb678ab1fe2c2a59e883740e7ea87667e44a24"></a>Compact&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a38bfde3b74679a448c2a327b9a1fb678a497470e76a40fc53e14c0df9b4e4ec9f" name="a38bfde3b74679a448c2a327b9a1fb678a497470e76a40fc53e14c0df9b4e4ec9f"></a>Indent&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

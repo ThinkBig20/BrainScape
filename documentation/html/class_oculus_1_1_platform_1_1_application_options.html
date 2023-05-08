@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: Oculus.Platform.ApplicationOptions Class Reference</title>
+<title>BrainScape: Oculus.Platform.ApplicationOptions Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">BrainScape
    </div>
   </td>
  </tr>
@@ -76,6 +76,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_oculus_1_1_platform_1_1_application_options-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Oculus.Platform.ApplicationOptions Class Reference</div></div>
@@ -84,11 +85,12 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a58cb7b4248f8dd1a3272f3975b6c370b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_application_options.html#a58cb7b4248f8dd1a3272f3975b6c370b">ApplicationOptions</a> ()</td></tr>
+<tr class="separator:a58cb7b4248f8dd1a3272f3975b6c370b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a724e428e717d0c5a66457ef2fec42d3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_application_options.html#a724e428e717d0c5a66457ef2fec42d3f">SetDeeplinkMessage</a> (string value)</td></tr>
 <tr class="separator:a724e428e717d0c5a66457ef2fec42d3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c294a60d2b3545b65346c8d0d2c24a4"><td class="memItemLeft" align="right" valign="top"><a id="a4c294a60d2b3545b65346c8d0d2c24a4" name="a4c294a60d2b3545b65346c8d0d2c24a4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetDestinationApiName</b> (string value)</td></tr>
-<tr class="memdesc:a4c294a60d2b3545b65346c8d0d2c24a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">If provided, the intended destination to be passed to the launched app. <br /></td></tr>
+<tr class="memitem:a4c294a60d2b3545b65346c8d0d2c24a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_application_options.html#a4c294a60d2b3545b65346c8d0d2c24a4">SetDestinationApiName</a> (string value)</td></tr>
+<tr class="memdesc:a4c294a60d2b3545b65346c8d0d2c24a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">If provided, the intended destination to be passed to the launched app.  <br /></td></tr>
 <tr class="separator:a4c294a60d2b3545b65346c8d0d2c24a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5531513c54108c75af041e8be6ddd15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_application_options.html#ad5531513c54108c75af041e8be6ddd15">SetLobbySessionId</a> (string value)</td></tr>
 <tr class="separator:ad5531513c54108c75af041e8be6ddd15"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -99,26 +101,97 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SetDestinationApiName
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a2cc28d96daab8ee7ae3db5545694eb41"><td class="memItemLeft" align="right" valign="top"><a id="a2cc28d96daab8ee7ae3db5545694eb41" name="a2cc28d96daab8ee7ae3db5545694eb41"></a>
-static&#160;</td><td class="memItemRight" valign="bottom"><b>operator IntPtr</b> (<a class="el" href="class_oculus_1_1_platform_1_1_application_options.html">ApplicationOptions</a> options)</td></tr>
-<tr class="memdesc:a2cc28d96daab8ee7ae3db5545694eb41"><td class="mdescLeft">&#160;</td><td class="mdescRight">For passing to native C. <br /></td></tr>
+<tr class="memitem:a2cc28d96daab8ee7ae3db5545694eb41"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_application_options.html#a2cc28d96daab8ee7ae3db5545694eb41">operator IntPtr</a> (<a class="el" href="class_oculus_1_1_platform_1_1_application_options.html">ApplicationOptions</a> options)</td></tr>
+<tr class="memdesc:a2cc28d96daab8ee7ae3db5545694eb41"><td class="mdescLeft">&#160;</td><td class="mdescRight">For passing to native C.  <br /></td></tr>
 <tr class="separator:a2cc28d96daab8ee7ae3db5545694eb41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a787602983c9721f24e7d73e2981e094d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_application_options.html#a787602983c9721f24e7d73e2981e094d">~ApplicationOptions</a> ()</td></tr>
+<tr class="separator:a787602983c9721f24e7d73e2981e094d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a18b9a1666dc9cfeb8e0279c1a491d449"><td class="memItemLeft" align="right" valign="top"><a id="a18b9a1666dc9cfeb8e0279c1a491d449" name="a18b9a1666dc9cfeb8e0279c1a491d449"></a>
-IntPtr&#160;</td><td class="memItemRight" valign="bottom"><b>Handle</b></td></tr>
+<tr class="memitem:a18b9a1666dc9cfeb8e0279c1a491d449"><td class="memItemLeft" align="right" valign="top">IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_platform_1_1_application_options.html#a18b9a1666dc9cfeb8e0279c1a491d449">Handle</a></td></tr>
 <tr class="separator:a18b9a1666dc9cfeb8e0279c1a491d449"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a724e428e717d0c5a66457ef2fec42d3f" name="a724e428e717d0c5a66457ef2fec42d3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a724e428e717d0c5a66457ef2fec42d3f">&#9670;&#160;</a></span>SetDeeplinkMessage()</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a58cb7b4248f8dd1a3272f3975b6c370b" name="a58cb7b4248f8dd1a3272f3975b6c370b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58cb7b4248f8dd1a3272f3975b6c370b">&#9670;&#160;</a></span>ApplicationOptions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Oculus.Platform.ApplicationOptions.ApplicationOptions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a787602983c9721f24e7d73e2981e094d" name="a787602983c9721f24e7d73e2981e094d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a787602983c9721f24e7d73e2981e094d">&#9670;&#160;</a></span>~ApplicationOptions()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Oculus.Platform.ApplicationOptions.~ApplicationOptions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a2cc28d96daab8ee7ae3db5545694eb41" name="a2cc28d96daab8ee7ae3db5545694eb41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cc28d96daab8ee7ae3db5545694eb41">&#9670;&#160;</a></span>operator IntPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Oculus.Platform.ApplicationOptions.operator IntPtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_oculus_1_1_platform_1_1_application_options.html">ApplicationOptions</a>&#160;</td>
+          <td class="paramname"><em>options</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>For passing to native C. </p>
+
+</div>
+</div>
+<a id="a724e428e717d0c5a66457ef2fec42d3f" name="a724e428e717d0c5a66457ef2fec42d3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a724e428e717d0c5a66457ef2fec42d3f">&#9670;&#160;</a></span>SetDeeplinkMessage()</h2>
+
+<div class="memitem">
+<div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void Oculus.Platform.ApplicationOptions.SetDeeplinkMessage </td>
@@ -128,13 +201,28 @@ IntPtr&#160;</td><td class="memItemRight" valign="bottom"><b>Handle</b></td></tr
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <p>A message to be passed to a launched app, which can be retrieved with LaunchDetails.GetDeeplinkMessage() </p>
+
+</div>
+</div>
+<a id="a4c294a60d2b3545b65346c8d0d2c24a4" name="a4c294a60d2b3545b65346c8d0d2c24a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c294a60d2b3545b65346c8d0d2c24a4">&#9670;&#160;</a></span>SetDestinationApiName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Platform.ApplicationOptions.SetDestinationApiName </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>If provided, the intended destination to be passed to the launched app. </p>
 
 </div>
 </div>
@@ -143,9 +231,6 @@ IntPtr&#160;</td><td class="memItemRight" valign="bottom"><b>Handle</b></td></tr
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Oculus.Platform.ApplicationOptions.SetLobbySessionId </td>
@@ -155,11 +240,6 @@ IntPtr&#160;</td><td class="memItemRight" valign="bottom"><b>Handle</b></td></tr
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <p>If provided, the intended lobby where the launched app should take the user. All users with the same lobby_session_id should end up grouped together in the launched app. </p>
 
@@ -170,9 +250,6 @@ IntPtr&#160;</td><td class="memItemRight" valign="bottom"><b>Handle</b></td></tr
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Oculus.Platform.ApplicationOptions.SetMatchSessionId </td>
@@ -182,11 +259,6 @@ IntPtr&#160;</td><td class="memItemRight" valign="bottom"><b>Handle</b></td></tr
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <p>If provided, the intended instance of the destination that a user should be launched into </p>
 
@@ -197,9 +269,6 @@ IntPtr&#160;</td><td class="memItemRight" valign="bottom"><b>Handle</b></td></tr
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Oculus.Platform.ApplicationOptions.SetRoomId </td>
@@ -209,18 +278,36 @@ IntPtr&#160;</td><td class="memItemRight" valign="bottom"><b>Handle</b></td></tr
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <p>[Deprecated]If provided, the intended room where the launched app should take the user (all users heading to the same place should have the same value). A room_id of 0 is INVALID. </p>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a18b9a1666dc9cfeb8e0279c1a491d449" name="a18b9a1666dc9cfeb8e0279c1a491d449"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18b9a1666dc9cfeb8e0279c1a491d449">&#9670;&#160;</a></span>Handle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IntPtr Oculus.Platform.ApplicationOptions.Handle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Oculus/Platform/Scripts/ApplicationOptions.cs</li>
+<li><a class="el" href="_application_options_8cs.html">ApplicationOptions.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

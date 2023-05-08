@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: HandMeshMask Class Reference</title>
+<title>BrainScape: HandMeshMask Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">BrainScape
    </div>
   </td>
  </tr>
@@ -86,81 +86,554 @@ Inheritance diagram for HandMeshMask:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a5ec109edc5458ddfa0a4a7078d6298bc"><td class="memItemLeft" align="right" valign="top"><a id="a5ec109edc5458ddfa0a4a7078d6298bc" name="a5ec109edc5458ddfa0a4a7078d6298bc"></a>
-<a class="el" href="class_o_v_r_skeleton.html">OVRSkeleton</a>&#160;</td><td class="memItemRight" valign="bottom"><b>referenceHand</b></td></tr>
+<tr class="memitem:a5ec109edc5458ddfa0a4a7078d6298bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_skeleton.html">OVRSkeleton</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_mesh_mask.html#a5ec109edc5458ddfa0a4a7078d6298bc">referenceHand</a></td></tr>
 <tr class="separator:a5ec109edc5458ddfa0a4a7078d6298bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada32cb6351530b182662599082583177"><td class="memItemLeft" align="right" valign="top"><a id="ada32cb6351530b182662599082583177" name="ada32cb6351530b182662599082583177"></a>
-Material&#160;</td><td class="memItemRight" valign="bottom"><b>maskMaterial</b></td></tr>
+<tr class="memitem:ada32cb6351530b182662599082583177"><td class="memItemLeft" align="right" valign="top">Material&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_mesh_mask.html#ada32cb6351530b182662599082583177">maskMaterial</a></td></tr>
 <tr class="separator:ada32cb6351530b182662599082583177"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05b002a8a3b41d82dbe46f54ec5047e3"><td class="memItemLeft" align="right" valign="top"><a id="a05b002a8a3b41d82dbe46f54ec5047e3" name="a05b002a8a3b41d82dbe46f54ec5047e3"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>radialDivisions</b> = 9</td></tr>
+<tr class="memitem:a05b002a8a3b41d82dbe46f54ec5047e3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_mesh_mask.html#a05b002a8a3b41d82dbe46f54ec5047e3">radialDivisions</a> = 9</td></tr>
 <tr class="separator:a05b002a8a3b41d82dbe46f54ec5047e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a364c018bf33c6ca4c6a8c8dc7d913711"><td class="memItemLeft" align="right" valign="top"><a id="a364c018bf33c6ca4c6a8c8dc7d913711" name="a364c018bf33c6ca4c6a8c8dc7d913711"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>borderSize</b> = 0.2f</td></tr>
+<tr class="memitem:a364c018bf33c6ca4c6a8c8dc7d913711"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_mesh_mask.html#a364c018bf33c6ca4c6a8c8dc7d913711">borderSize</a> = 0.2f</td></tr>
 <tr class="separator:a364c018bf33c6ca4c6a8c8dc7d913711"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af32baa68b6b614f188b95f4fb255af9f"><td class="memItemLeft" align="right" valign="top"><a id="af32baa68b6b614f188b95f4fb255af9f" name="af32baa68b6b614f188b95f4fb255af9f"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>fingerTaper</b> = 0.13f</td></tr>
+<tr class="memitem:af32baa68b6b614f188b95f4fb255af9f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_mesh_mask.html#af32baa68b6b614f188b95f4fb255af9f">fingerTaper</a> = 0.13f</td></tr>
 <tr class="separator:af32baa68b6b614f188b95f4fb255af9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcb331db22717beeb9c1747ccbc4696a"><td class="memItemLeft" align="right" valign="top"><a id="abcb331db22717beeb9c1747ccbc4696a" name="abcb331db22717beeb9c1747ccbc4696a"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>fingerTipLength</b> = 0.8f</td></tr>
+<tr class="memitem:abcb331db22717beeb9c1747ccbc4696a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_mesh_mask.html#abcb331db22717beeb9c1747ccbc4696a">fingerTipLength</a> = 0.8f</td></tr>
 <tr class="separator:abcb331db22717beeb9c1747ccbc4696a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accd7b2ba16cfc1dbc7867ec71a7b2fc8"><td class="memItemLeft" align="right" valign="top"><a id="accd7b2ba16cfc1dbc7867ec71a7b2fc8" name="accd7b2ba16cfc1dbc7867ec71a7b2fc8"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>webOffset</b> = 0.25f</td></tr>
+<tr class="memitem:accd7b2ba16cfc1dbc7867ec71a7b2fc8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_mesh_mask.html#accd7b2ba16cfc1dbc7867ec71a7b2fc8">webOffset</a> = 0.25f</td></tr>
 <tr class="separator:accd7b2ba16cfc1dbc7867ec71a7b2fc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a7d711944b210ba9eabb5eb0b254aff8b"><td class="memItemLeft" align="right" valign="top"><a id="a7d711944b210ba9eabb5eb0b254aff8b" name="a7d711944b210ba9eabb5eb0b254aff8b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
+<tr class="memitem:a7d711944b210ba9eabb5eb0b254aff8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_mesh_mask.html#a7d711944b210ba9eabb5eb0b254aff8b">Awake</a> ()</td></tr>
 <tr class="separator:a7d711944b210ba9eabb5eb0b254aff8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4803b2af305a680ad78e5063c9158d1f"><td class="memItemLeft" align="right" valign="top"><a id="a4803b2af305a680ad78e5063c9158d1f" name="a4803b2af305a680ad78e5063c9158d1f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
+<tr class="memitem:a4803b2af305a680ad78e5063c9158d1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_mesh_mask.html#a4803b2af305a680ad78e5063c9158d1f">Update</a> ()</td></tr>
 <tr class="separator:a4803b2af305a680ad78e5063c9158d1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25ea241475c72198beccc6cd9968ba3f"><td class="memItemLeft" align="right" valign="top"><a id="a25ea241475c72198beccc6cd9968ba3f" name="a25ea241475c72198beccc6cd9968ba3f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>CreateHandMesh</b> ()</td></tr>
+<tr class="memitem:a25ea241475c72198beccc6cd9968ba3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_mesh_mask.html#a25ea241475c72198beccc6cd9968ba3f">CreateHandMesh</a> ()</td></tr>
 <tr class="separator:a25ea241475c72198beccc6cd9968ba3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92e2ca762caececfb984f8c5302d7ee9"><td class="memItemLeft" align="right" valign="top"><a id="a92e2ca762caececfb984f8c5302d7ee9" name="a92e2ca762caececfb984f8c5302d7ee9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>AddKnuckleMesh</b> (int knuckleVerts, float point1scale, float point2scale, Vector3 point1, Vector3 point2)</td></tr>
+<tr class="memitem:a92e2ca762caececfb984f8c5302d7ee9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_mesh_mask.html#a92e2ca762caececfb984f8c5302d7ee9">AddKnuckleMesh</a> (int knuckleVerts, float point1scale, float point2scale, <a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a> point1, <a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a> point2)</td></tr>
 <tr class="separator:a92e2ca762caececfb984f8c5302d7ee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf376d1a0580c98fbb9ab038622b582b"><td class="memItemLeft" align="right" valign="top"><a id="aaf376d1a0580c98fbb9ab038622b582b" name="aaf376d1a0580c98fbb9ab038622b582b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>AddPalmMesh</b> (int knuckleVerts)</td></tr>
+<tr class="memitem:aaf376d1a0580c98fbb9ab038622b582b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_mesh_mask.html#aaf376d1a0580c98fbb9ab038622b582b">AddPalmMesh</a> (int knuckleVerts)</td></tr>
 <tr class="separator:aaf376d1a0580c98fbb9ab038622b582b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada80879bfbfc4f2222e7ea8f2887cb65"><td class="memItemLeft" align="right" valign="top"><a id="ada80879bfbfc4f2222e7ea8f2887cb65" name="ada80879bfbfc4f2222e7ea8f2887cb65"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>AddVertex</b> (Vector3 position, Vector2 uv, Color color)</td></tr>
+<tr class="memitem:ada80879bfbfc4f2222e7ea8f2887cb65"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_mesh_mask.html#ada80879bfbfc4f2222e7ea8f2887cb65">AddVertex</a> (<a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a> position, Vector2 uv, Color color)</td></tr>
 <tr class="separator:ada80879bfbfc4f2222e7ea8f2887cb65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a13c7a7925584f3f89c55e548c83eac98"><td class="memItemLeft" align="right" valign="top"><a id="a13c7a7925584f3f89c55e548c83eac98" name="a13c7a7925584f3f89c55e548c83eac98"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>handScale</b> = 1.0f</td></tr>
+<tr class="memitem:a13c7a7925584f3f89c55e548c83eac98"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_mesh_mask.html#a13c7a7925584f3f89c55e548c83eac98">handScale</a> = 1.0f</td></tr>
 <tr class="separator:a13c7a7925584f3f89c55e548c83eac98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aead26906a0b9d9aced49a542aaca93af"><td class="memItemLeft" align="right" valign="top"><a id="aead26906a0b9d9aced49a542aaca93af" name="aead26906a0b9d9aced49a542aaca93af"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>maskMeshObject</b></td></tr>
+<tr class="memitem:aead26906a0b9d9aced49a542aaca93af"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_mesh_mask.html#aead26906a0b9d9aced49a542aaca93af">maskMeshObject</a></td></tr>
 <tr class="separator:aead26906a0b9d9aced49a542aaca93af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58e55c78e03c7387f9546e907f3348fa"><td class="memItemLeft" align="right" valign="top"><a id="a58e55c78e03c7387f9546e907f3348fa" name="a58e55c78e03c7387f9546e907f3348fa"></a>
-Mesh&#160;</td><td class="memItemRight" valign="bottom"><b>maskMesh</b></td></tr>
+<tr class="memitem:a58e55c78e03c7387f9546e907f3348fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#a90ebeffb103e2f718410c3a7eb2c948d">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_mesh_mask.html#a58e55c78e03c7387f9546e907f3348fa">maskMesh</a></td></tr>
 <tr class="separator:a58e55c78e03c7387f9546e907f3348fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef5d4363364102b986dd0ebbbe694dcc"><td class="memItemLeft" align="right" valign="top"><a id="aef5d4363364102b986dd0ebbbe694dcc" name="aef5d4363364102b986dd0ebbbe694dcc"></a>
-Vector3[]&#160;</td><td class="memItemRight" valign="bottom"><b>handVertices</b></td></tr>
+<tr class="memitem:aef5d4363364102b986dd0ebbbe694dcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_mesh_mask.html#aef5d4363364102b986dd0ebbbe694dcc">handVertices</a></td></tr>
 <tr class="separator:aef5d4363364102b986dd0ebbbe694dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab38df03cc44a8aff59e4e40e53fb97c3"><td class="memItemLeft" align="right" valign="top"><a id="ab38df03cc44a8aff59e4e40e53fb97c3" name="ab38df03cc44a8aff59e4e40e53fb97c3"></a>
-Vector2[]&#160;</td><td class="memItemRight" valign="bottom"><b>handUVs</b></td></tr>
+<tr class="memitem:ab38df03cc44a8aff59e4e40e53fb97c3"><td class="memItemLeft" align="right" valign="top">Vector2[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_mesh_mask.html#ab38df03cc44a8aff59e4e40e53fb97c3">handUVs</a></td></tr>
 <tr class="separator:ab38df03cc44a8aff59e4e40e53fb97c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac392af28390f85c17fd74a14b543cbb5"><td class="memItemLeft" align="right" valign="top"><a id="ac392af28390f85c17fd74a14b543cbb5" name="ac392af28390f85c17fd74a14b543cbb5"></a>
-Color32[]&#160;</td><td class="memItemRight" valign="bottom"><b>handColors</b></td></tr>
+<tr class="memitem:ac392af28390f85c17fd74a14b543cbb5"><td class="memItemLeft" align="right" valign="top">Color32[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_mesh_mask.html#ac392af28390f85c17fd74a14b543cbb5">handColors</a></td></tr>
 <tr class="separator:ac392af28390f85c17fd74a14b543cbb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a887999d314625bd3cd6faa5285c4e66f"><td class="memItemLeft" align="right" valign="top"><a id="a887999d314625bd3cd6faa5285c4e66f" name="a887999d314625bd3cd6faa5285c4e66f"></a>
-int[]&#160;</td><td class="memItemRight" valign="bottom"><b>handTriangles</b></td></tr>
+<tr class="memitem:a887999d314625bd3cd6faa5285c4e66f"><td class="memItemLeft" align="right" valign="top">int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_mesh_mask.html#a887999d314625bd3cd6faa5285c4e66f">handTriangles</a></td></tr>
 <tr class="separator:a887999d314625bd3cd6faa5285c4e66f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cfd49f08cda2a5e18b603aae881be44"><td class="memItemLeft" align="right" valign="top"><a id="a4cfd49f08cda2a5e18b603aae881be44" name="a4cfd49f08cda2a5e18b603aae881be44"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>vertCounter</b> = 0</td></tr>
+<tr class="memitem:a4cfd49f08cda2a5e18b603aae881be44"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_mesh_mask.html#a4cfd49f08cda2a5e18b603aae881be44">vertCounter</a> = 0</td></tr>
 <tr class="separator:a4cfd49f08cda2a5e18b603aae881be44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c749fb52df63436b5b05a92447ee529"><td class="memItemLeft" align="right" valign="top"><a id="a0c749fb52df63436b5b05a92447ee529" name="a0c749fb52df63436b5b05a92447ee529"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>triCounter</b> = 0</td></tr>
+<tr class="memitem:a0c749fb52df63436b5b05a92447ee529"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_mesh_mask.html#a0c749fb52df63436b5b05a92447ee529">triCounter</a> = 0</td></tr>
 <tr class="separator:a0c749fb52df63436b5b05a92447ee529"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a92e2ca762caececfb984f8c5302d7ee9" name="a92e2ca762caececfb984f8c5302d7ee9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92e2ca762caececfb984f8c5302d7ee9">&#9670;&#160;</a></span>AddKnuckleMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HandMeshMask.AddKnuckleMesh </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>knuckleVerts</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>point1scale</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>point2scale</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a>&#160;</td>
+          <td class="paramname"><em>point1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a>&#160;</td>
+          <td class="paramname"><em>point2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf376d1a0580c98fbb9ab038622b582b" name="aaf376d1a0580c98fbb9ab038622b582b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf376d1a0580c98fbb9ab038622b582b">&#9670;&#160;</a></span>AddPalmMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HandMeshMask.AddPalmMesh </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>knuckleVerts</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ada80879bfbfc4f2222e7ea8f2887cb65" name="ada80879bfbfc4f2222e7ea8f2887cb65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada80879bfbfc4f2222e7ea8f2887cb65">&#9670;&#160;</a></span>AddVertex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HandMeshMask.AddVertex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a>&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>uv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Color&#160;</td>
+          <td class="paramname"><em>color</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d711944b210ba9eabb5eb0b254aff8b" name="a7d711944b210ba9eabb5eb0b254aff8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d711944b210ba9eabb5eb0b254aff8b">&#9670;&#160;</a></span>Awake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HandMeshMask.Awake </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a25ea241475c72198beccc6cd9968ba3f" name="a25ea241475c72198beccc6cd9968ba3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25ea241475c72198beccc6cd9968ba3f">&#9670;&#160;</a></span>CreateHandMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HandMeshMask.CreateHandMesh </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4803b2af305a680ad78e5063c9158d1f" name="a4803b2af305a680ad78e5063c9158d1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4803b2af305a680ad78e5063c9158d1f">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HandMeshMask.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a364c018bf33c6ca4c6a8c8dc7d913711" name="a364c018bf33c6ca4c6a8c8dc7d913711"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a364c018bf33c6ca4c6a8c8dc7d913711">&#9670;&#160;</a></span>borderSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float HandMeshMask.borderSize = 0.2f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af32baa68b6b614f188b95f4fb255af9f" name="af32baa68b6b614f188b95f4fb255af9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af32baa68b6b614f188b95f4fb255af9f">&#9670;&#160;</a></span>fingerTaper</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float HandMeshMask.fingerTaper = 0.13f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abcb331db22717beeb9c1747ccbc4696a" name="abcb331db22717beeb9c1747ccbc4696a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcb331db22717beeb9c1747ccbc4696a">&#9670;&#160;</a></span>fingerTipLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float HandMeshMask.fingerTipLength = 0.8f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac392af28390f85c17fd74a14b543cbb5" name="ac392af28390f85c17fd74a14b543cbb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac392af28390f85c17fd74a14b543cbb5">&#9670;&#160;</a></span>handColors</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color32 [] HandMeshMask.handColors</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a13c7a7925584f3f89c55e548c83eac98" name="a13c7a7925584f3f89c55e548c83eac98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13c7a7925584f3f89c55e548c83eac98">&#9670;&#160;</a></span>handScale</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float HandMeshMask.handScale = 1.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a887999d314625bd3cd6faa5285c4e66f" name="a887999d314625bd3cd6faa5285c4e66f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a887999d314625bd3cd6faa5285c4e66f">&#9670;&#160;</a></span>handTriangles</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int [] HandMeshMask.handTriangles</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab38df03cc44a8aff59e4e40e53fb97c3" name="ab38df03cc44a8aff59e4e40e53fb97c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab38df03cc44a8aff59e4e40e53fb97c3">&#9670;&#160;</a></span>handUVs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector2 [] HandMeshMask.handUVs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef5d4363364102b986dd0ebbbe694dcc" name="aef5d4363364102b986dd0ebbbe694dcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef5d4363364102b986dd0ebbbe694dcc">&#9670;&#160;</a></span>handVertices</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a> [] HandMeshMask.handVertices</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ada32cb6351530b182662599082583177" name="ada32cb6351530b182662599082583177"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada32cb6351530b182662599082583177">&#9670;&#160;</a></span>maskMaterial</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Material HandMeshMask.maskMaterial</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a58e55c78e03c7387f9546e907f3348fa" name="a58e55c78e03c7387f9546e907f3348fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58e55c78e03c7387f9546e907f3348fa">&#9670;&#160;</a></span>maskMesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#a90ebeffb103e2f718410c3a7eb2c948d">Mesh</a> HandMeshMask.maskMesh</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aead26906a0b9d9aced49a542aaca93af" name="aead26906a0b9d9aced49a542aaca93af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aead26906a0b9d9aced49a542aaca93af">&#9670;&#160;</a></span>maskMeshObject</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject HandMeshMask.maskMeshObject</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a05b002a8a3b41d82dbe46f54ec5047e3" name="a05b002a8a3b41d82dbe46f54ec5047e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05b002a8a3b41d82dbe46f54ec5047e3">&#9670;&#160;</a></span>radialDivisions</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int HandMeshMask.radialDivisions = 9</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ec109edc5458ddfa0a4a7078d6298bc" name="a5ec109edc5458ddfa0a4a7078d6298bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ec109edc5458ddfa0a4a7078d6298bc">&#9670;&#160;</a></span>referenceHand</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_skeleton.html">OVRSkeleton</a> HandMeshMask.referenceHand</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0c749fb52df63436b5b05a92447ee529" name="a0c749fb52df63436b5b05a92447ee529"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c749fb52df63436b5b05a92447ee529">&#9670;&#160;</a></span>triCounter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int HandMeshMask.triCounter = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4cfd49f08cda2a5e18b603aae881be44" name="a4cfd49f08cda2a5e18b603aae881be44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cfd49f08cda2a5e18b603aae881be44">&#9670;&#160;</a></span>vertCounter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int HandMeshMask.vertCounter = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="accd7b2ba16cfc1dbc7867ec71a7b2fc8" name="accd7b2ba16cfc1dbc7867ec71a7b2fc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accd7b2ba16cfc1dbc7867ec71a7b2fc8">&#9670;&#160;</a></span>webOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float HandMeshMask.webOffset = 0.25f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Oculus/SampleFramework/Usage/Passthrough/Scripts/HandMeshMask.cs</li>
+<li><a class="el" href="_hand_mesh_mask_8cs.html">HandMeshMask.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

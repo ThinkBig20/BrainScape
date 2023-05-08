@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: OculusSampleFramework.TrackSegment Class Reference</title>
+<title>BrainScape: OculusSampleFramework.TrackSegment Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">BrainScape
    </div>
   </td>
  </tr>
@@ -93,109 +93,690 @@ Inheritance diagram for OculusSampleFramework.TrackSegment:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a3d98fef1f1b70b555520b97d1c7fc275"><td class="memItemLeft" align="right" valign="top"><a id="a3d98fef1f1b70b555520b97d1c7fc275" name="a3d98fef1f1b70b555520b97d1c7fc275"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>SegmentType</b> { <b>Straight</b> = 0
-, <b>LeftTurn</b>
-, <b>RightTurn</b>
-, <b>Switch</b>
+<tr class="memitem:a3d98fef1f1b70b555520b97d1c7fc275"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a3d98fef1f1b70b555520b97d1c7fc275">SegmentType</a> { <a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a3d98fef1f1b70b555520b97d1c7fc275ab6bd418b8879851e86bcaccd553b74db">Straight</a> = 0
+, <a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a3d98fef1f1b70b555520b97d1c7fc275ab1c6e5076cf20c389cdb5cca0e92650d">LeftTurn</a>
+, <a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a3d98fef1f1b70b555520b97d1c7fc275a57475f3e2fb784e9e212be1d32b28b7d">RightTurn</a>
+, <a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a3d98fef1f1b70b555520b97d1c7fc275abbc155fb2b111bf61c4f5ff892915e6b">Switch</a>
  }</td></tr>
 <tr class="separator:a3d98fef1f1b70b555520b97d1c7fc275"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a65e9046e90ff84cfbfcc4b7086e3960c"><td class="memItemLeft" align="right" valign="top"><a id="a65e9046e90ff84cfbfcc4b7086e3960c" name="a65e9046e90ff84cfbfcc4b7086e3960c"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>setGridSize</b> (float size)</td></tr>
+<tr class="memitem:a65e9046e90ff84cfbfcc4b7086e3960c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a65e9046e90ff84cfbfcc4b7086e3960c">setGridSize</a> (float size)</td></tr>
 <tr class="separator:a65e9046e90ff84cfbfcc4b7086e3960c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd64a07ee2eb7b62e97d17cbe1ddc479"><td class="memItemLeft" align="right" valign="top"><a id="abd64a07ee2eb7b62e97d17cbe1ddc479" name="abd64a07ee2eb7b62e97d17cbe1ddc479"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdatePose</b> (float distanceIntoSegment, <a class="el" href="class_oculus_sample_framework_1_1_pose.html">Pose</a> pose)</td></tr>
-<tr class="memdesc:abd64a07ee2eb7b62e97d17cbe1ddc479"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates pose given distance into segment. While this mutates a value, it avoids generating a new object. <br /></td></tr>
+<tr class="memitem:abd64a07ee2eb7b62e97d17cbe1ddc479"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#abd64a07ee2eb7b62e97d17cbe1ddc479">UpdatePose</a> (float distanceIntoSegment, <a class="el" href="class_oculus_sample_framework_1_1_pose.html">Pose</a> pose)</td></tr>
+<tr class="memdesc:abd64a07ee2eb7b62e97d17cbe1ddc479"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates pose given distance into segment. While this mutates a value, it avoids generating a new object.  <br /></td></tr>
 <tr class="separator:abd64a07ee2eb7b62e97d17cbe1ddc479"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46488994fc2ed42046481a23cd786f32"><td class="memItemLeft" align="right" valign="top"><a id="a46488994fc2ed42046481a23cd786f32" name="a46488994fc2ed42046481a23cd786f32"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>RegenerateTrackAndMesh</b> ()</td></tr>
+<tr class="memitem:a46488994fc2ed42046481a23cd786f32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a46488994fc2ed42046481a23cd786f32">RegenerateTrackAndMesh</a> ()</td></tr>
 <tr class="separator:a46488994fc2ed42046481a23cd786f32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:aa27affcc80c4d9662863808291028664"><td class="memItemLeft" align="right" valign="top"><a id="aa27affcc80c4d9662863808291028664" name="aa27affcc80c4d9662863808291028664"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>StartDistance</b><code> [get, set]</code></td></tr>
+<tr class="memitem:aa27affcc80c4d9662863808291028664"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#aa27affcc80c4d9662863808291028664">StartDistance</a><code> [get, set]</code></td></tr>
 <tr class="separator:aa27affcc80c4d9662863808291028664"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d011c7d04483a1ffb9a25b68e754e58"><td class="memItemLeft" align="right" valign="top"><a id="a3d011c7d04483a1ffb9a25b68e754e58" name="a3d011c7d04483a1ffb9a25b68e754e58"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>GridSize</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:a3d011c7d04483a1ffb9a25b68e754e58"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a3d011c7d04483a1ffb9a25b68e754e58">GridSize</a><code> [get, private set]</code></td></tr>
 <tr class="separator:a3d011c7d04483a1ffb9a25b68e754e58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62594f59c4f692647df1618d4d7cfe35"><td class="memItemLeft" align="right" valign="top"><a id="a62594f59c4f692647df1618d4d7cfe35" name="a62594f59c4f692647df1618d4d7cfe35"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>SubDivCount</b><code> [get, set]</code></td></tr>
+<tr class="memitem:a62594f59c4f692647df1618d4d7cfe35"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a62594f59c4f692647df1618d4d7cfe35">SubDivCount</a><code> [get, set]</code></td></tr>
 <tr class="separator:a62594f59c4f692647df1618d4d7cfe35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ecf845d4b2e4921d0527dbb771f9e17"><td class="memItemLeft" align="right" valign="top"><a id="a6ecf845d4b2e4921d0527dbb771f9e17" name="a6ecf845d4b2e4921d0527dbb771f9e17"></a>
-SegmentType&#160;</td><td class="memItemRight" valign="bottom"><b>Type</b><code> [get]</code></td></tr>
+<tr class="memitem:a6ecf845d4b2e4921d0527dbb771f9e17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a3d98fef1f1b70b555520b97d1c7fc275">SegmentType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a6ecf845d4b2e4921d0527dbb771f9e17">Type</a><code> [get]</code></td></tr>
 <tr class="separator:a6ecf845d4b2e4921d0527dbb771f9e17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8adef8735bf61fa86b4a7a67c26307d9"><td class="memItemLeft" align="right" valign="top"><a id="a8adef8735bf61fa86b4a7a67c26307d9" name="a8adef8735bf61fa86b4a7a67c26307d9"></a>
-<a class="el" href="class_oculus_sample_framework_1_1_pose.html">Pose</a>&#160;</td><td class="memItemRight" valign="bottom"><b>EndPose</b><code> [get]</code></td></tr>
+<tr class="memitem:a8adef8735bf61fa86b4a7a67c26307d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_oculus_sample_framework_1_1_pose.html">Pose</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a8adef8735bf61fa86b4a7a67c26307d9">EndPose</a><code> [get]</code></td></tr>
 <tr class="separator:a8adef8735bf61fa86b4a7a67c26307d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c6801624f77b961a25bcdfdf9ff2f9f"><td class="memItemLeft" align="right" valign="top"><a id="a4c6801624f77b961a25bcdfdf9ff2f9f" name="a4c6801624f77b961a25bcdfdf9ff2f9f"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>Radius</b><code> [get]</code></td></tr>
+<tr class="memitem:a4c6801624f77b961a25bcdfdf9ff2f9f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a4c6801624f77b961a25bcdfdf9ff2f9f">Radius</a><code> [get]</code></td></tr>
 <tr class="separator:a4c6801624f77b961a25bcdfdf9ff2f9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f4097808e8c00d994514fbc726c4380"><td class="memItemLeft" align="right" valign="top"><a id="a8f4097808e8c00d994514fbc726c4380" name="a8f4097808e8c00d994514fbc726c4380"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>SegmentLength</b><code> [get]</code></td></tr>
+<tr class="memitem:a8f4097808e8c00d994514fbc726c4380"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a8f4097808e8c00d994514fbc726c4380">SegmentLength</a><code> [get]</code></td></tr>
 <tr class="separator:a8f4097808e8c00d994514fbc726c4380"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:ab8c851620d6359f09049ce64ceae03d0"><td class="memItemLeft" align="right" valign="top"><a id="ab8c851620d6359f09049ce64ceae03d0" name="ab8c851620d6359f09049ce64ceae03d0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
+<tr class="memitem:ab8c851620d6359f09049ce64ceae03d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#ab8c851620d6359f09049ce64ceae03d0">Awake</a> ()</td></tr>
 <tr class="separator:ab8c851620d6359f09049ce64ceae03d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4eb2e62fc9801ed3612f9461570ed340"><td class="memItemLeft" align="right" valign="top"><a id="a4eb2e62fc9801ed3612f9461570ed340" name="a4eb2e62fc9801ed3612f9461570ed340"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
+<tr class="memitem:a4eb2e62fc9801ed3612f9461570ed340"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a4eb2e62fc9801ed3612f9461570ed340">Update</a> ()</td></tr>
 <tr class="separator:a4eb2e62fc9801ed3612f9461570ed340"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec6134add776646aa1cfcc0cee33db53"><td class="memItemLeft" align="right" valign="top"><a id="aec6134add776646aa1cfcc0cee33db53" name="aec6134add776646aa1cfcc0cee33db53"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDisable</b> ()</td></tr>
+<tr class="memitem:aec6134add776646aa1cfcc0cee33db53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#aec6134add776646aa1cfcc0cee33db53">OnDisable</a> ()</td></tr>
 <tr class="separator:aec6134add776646aa1cfcc0cee33db53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9446b25801ba45a95dc104dd9085956f"><td class="memItemLeft" align="right" valign="top"><a id="a9446b25801ba45a95dc104dd9085956f" name="a9446b25801ba45a95dc104dd9085956f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>DrawDebugLines</b> ()</td></tr>
+<tr class="memitem:a9446b25801ba45a95dc104dd9085956f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a9446b25801ba45a95dc104dd9085956f">DrawDebugLines</a> ()</td></tr>
 <tr class="separator:a9446b25801ba45a95dc104dd9085956f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a0a2712fe2833d51ffebc43a5b75eedbb"><td class="memItemLeft" align="right" valign="top"><a id="a0a2712fe2833d51ffebc43a5b75eedbb" name="a0a2712fe2833d51ffebc43a5b75eedbb"></a>
-SegmentType&#160;</td><td class="memItemRight" valign="bottom"><b>_segmentType</b> = SegmentType.Straight</td></tr>
+<tr class="memitem:a0a2712fe2833d51ffebc43a5b75eedbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a3d98fef1f1b70b555520b97d1c7fc275">SegmentType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a0a2712fe2833d51ffebc43a5b75eedbb">_segmentType</a> = <a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a3d98fef1f1b70b555520b97d1c7fc275ab6bd418b8879851e86bcaccd553b74db">SegmentType.Straight</a></td></tr>
 <tr class="separator:a0a2712fe2833d51ffebc43a5b75eedbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51e6beed987f35c273668dbaa4bed80b"><td class="memItemLeft" align="right" valign="top"><a id="a51e6beed987f35c273668dbaa4bed80b" name="a51e6beed987f35c273668dbaa4bed80b"></a>
-MeshFilter&#160;</td><td class="memItemRight" valign="bottom"><b>_straight</b> = null</td></tr>
+<tr class="memitem:a51e6beed987f35c273668dbaa4bed80b"><td class="memItemLeft" align="right" valign="top">MeshFilter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a51e6beed987f35c273668dbaa4bed80b">_straight</a> = null</td></tr>
 <tr class="separator:a51e6beed987f35c273668dbaa4bed80b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7462f53822eb29a83adcfb5fc615c904"><td class="memItemLeft" align="right" valign="top"><a id="a7462f53822eb29a83adcfb5fc615c904" name="a7462f53822eb29a83adcfb5fc615c904"></a>
-MeshFilter&#160;</td><td class="memItemRight" valign="bottom"><b>_leftTurn</b> = null</td></tr>
+<tr class="memitem:a7462f53822eb29a83adcfb5fc615c904"><td class="memItemLeft" align="right" valign="top">MeshFilter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a7462f53822eb29a83adcfb5fc615c904">_leftTurn</a> = null</td></tr>
 <tr class="separator:a7462f53822eb29a83adcfb5fc615c904"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f1b89657cab4232d8842663b43bd68c"><td class="memItemLeft" align="right" valign="top"><a id="a9f1b89657cab4232d8842663b43bd68c" name="a9f1b89657cab4232d8842663b43bd68c"></a>
-MeshFilter&#160;</td><td class="memItemRight" valign="bottom"><b>_rightTurn</b> = null</td></tr>
+<tr class="memitem:a9f1b89657cab4232d8842663b43bd68c"><td class="memItemLeft" align="right" valign="top">MeshFilter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a9f1b89657cab4232d8842663b43bd68c">_rightTurn</a> = null</td></tr>
 <tr class="separator:a9f1b89657cab4232d8842663b43bd68c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abba26a9311aa62cc086fef6a0cdf809b"><td class="memItemLeft" align="right" valign="top"><a id="abba26a9311aa62cc086fef6a0cdf809b" name="abba26a9311aa62cc086fef6a0cdf809b"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>_gridSize</b> = 0.8f</td></tr>
+<tr class="memitem:abba26a9311aa62cc086fef6a0cdf809b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#abba26a9311aa62cc086fef6a0cdf809b">_gridSize</a> = 0.8f</td></tr>
 <tr class="separator:abba26a9311aa62cc086fef6a0cdf809b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43d02e0e0c77d0dcb6295464e31c94bb"><td class="memItemLeft" align="right" valign="top"><a id="a43d02e0e0c77d0dcb6295464e31c94bb" name="a43d02e0e0c77d0dcb6295464e31c94bb"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>_subDivCount</b> = 20</td></tr>
+<tr class="memitem:a43d02e0e0c77d0dcb6295464e31c94bb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a43d02e0e0c77d0dcb6295464e31c94bb">_subDivCount</a> = 20</td></tr>
 <tr class="separator:a43d02e0e0c77d0dcb6295464e31c94bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a561ad42485748999dccffdf05de34fe4"><td class="memItemLeft" align="right" valign="top"><a id="a561ad42485748999dccffdf05de34fe4" name="a561ad42485748999dccffdf05de34fe4"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>_mesh</b> = null</td></tr>
+<tr class="memitem:a561ad42485748999dccffdf05de34fe4"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a561ad42485748999dccffdf05de34fe4">_mesh</a> = null</td></tr>
 <tr class="separator:a561ad42485748999dccffdf05de34fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab502be65a2fe2d536042e7873bbf0b60"><td class="memItemLeft" align="right" valign="top"><a id="ab502be65a2fe2d536042e7873bbf0b60" name="ab502be65a2fe2d536042e7873bbf0b60"></a>
-<a class="el" href="class_oculus_sample_framework_1_1_pose.html">Pose</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_p1</b> = new <a class="el" href="class_oculus_sample_framework_1_1_pose.html">Pose</a>()</td></tr>
+<tr class="memitem:ab502be65a2fe2d536042e7873bbf0b60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_oculus_sample_framework_1_1_pose.html">Pose</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#ab502be65a2fe2d536042e7873bbf0b60">_p1</a> = new <a class="el" href="class_oculus_sample_framework_1_1_pose.html">Pose</a>()</td></tr>
 <tr class="separator:ab502be65a2fe2d536042e7873bbf0b60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75e1808c01cb2e3ebc870b46407aaefe"><td class="memItemLeft" align="right" valign="top"><a id="a75e1808c01cb2e3ebc870b46407aaefe" name="a75e1808c01cb2e3ebc870b46407aaefe"></a>
-<a class="el" href="class_oculus_sample_framework_1_1_pose.html">Pose</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_p2</b> = new <a class="el" href="class_oculus_sample_framework_1_1_pose.html">Pose</a>()</td></tr>
+<tr class="memitem:a75e1808c01cb2e3ebc870b46407aaefe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_oculus_sample_framework_1_1_pose.html">Pose</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a75e1808c01cb2e3ebc870b46407aaefe">_p2</a> = new <a class="el" href="class_oculus_sample_framework_1_1_pose.html">Pose</a>()</td></tr>
 <tr class="separator:a75e1808c01cb2e3ebc870b46407aaefe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e28ff939d7782cde4c786e1293bb932"><td class="memItemLeft" align="right" valign="top"><a id="a8e28ff939d7782cde4c786e1293bb932" name="a8e28ff939d7782cde4c786e1293bb932"></a>
-<a class="el" href="class_oculus_sample_framework_1_1_pose.html">Pose</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_endPose</b> = new <a class="el" href="class_oculus_sample_framework_1_1_pose.html">Pose</a>()</td></tr>
+<tr class="memitem:a8e28ff939d7782cde4c786e1293bb932"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_oculus_sample_framework_1_1_pose.html">Pose</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a8e28ff939d7782cde4c786e1293bb932">_endPose</a> = new <a class="el" href="class_oculus_sample_framework_1_1_pose.html">Pose</a>()</td></tr>
 <tr class="separator:a8e28ff939d7782cde4c786e1293bb932"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:a0c178402430b1aba9fb05dc9826cd8e5"><td class="memItemLeft" align="right" valign="top"><a id="a0c178402430b1aba9fb05dc9826cd8e5" name="a0c178402430b1aba9fb05dc9826cd8e5"></a>
-const float&#160;</td><td class="memItemRight" valign="bottom"><b>_originalGridSize</b> = 0.8f</td></tr>
+<tr class="memitem:a0c178402430b1aba9fb05dc9826cd8e5"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a0c178402430b1aba9fb05dc9826cd8e5">_originalGridSize</a> = 0.8f</td></tr>
 <tr class="separator:a0c178402430b1aba9fb05dc9826cd8e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98a719655e33d49faf654370ffe68d87"><td class="memItemLeft" align="right" valign="top"><a id="a98a719655e33d49faf654370ffe68d87" name="a98a719655e33d49faf654370ffe68d87"></a>
-const float&#160;</td><td class="memItemRight" valign="bottom"><b>_trackWidth</b> = 0.15f</td></tr>
+<tr class="memitem:a98a719655e33d49faf654370ffe68d87"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a98a719655e33d49faf654370ffe68d87">_trackWidth</a> = 0.15f</td></tr>
 <tr class="separator:a98a719655e33d49faf654370ffe68d87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a3d98fef1f1b70b555520b97d1c7fc275" name="a3d98fef1f1b70b555520b97d1c7fc275"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d98fef1f1b70b555520b97d1c7fc275">&#9670;&#160;</a></span>SegmentType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a3d98fef1f1b70b555520b97d1c7fc275">OculusSampleFramework.TrackSegment.SegmentType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3d98fef1f1b70b555520b97d1c7fc275ab6bd418b8879851e86bcaccd553b74db" name="a3d98fef1f1b70b555520b97d1c7fc275ab6bd418b8879851e86bcaccd553b74db"></a>Straight&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d98fef1f1b70b555520b97d1c7fc275ab1c6e5076cf20c389cdb5cca0e92650d" name="a3d98fef1f1b70b555520b97d1c7fc275ab1c6e5076cf20c389cdb5cca0e92650d"></a>LeftTurn&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d98fef1f1b70b555520b97d1c7fc275a57475f3e2fb784e9e212be1d32b28b7d" name="a3d98fef1f1b70b555520b97d1c7fc275a57475f3e2fb784e9e212be1d32b28b7d"></a>RightTurn&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d98fef1f1b70b555520b97d1c7fc275abbc155fb2b111bf61c4f5ff892915e6b" name="a3d98fef1f1b70b555520b97d1c7fc275abbc155fb2b111bf61c4f5ff892915e6b"></a>Switch&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab8c851620d6359f09049ce64ceae03d0" name="ab8c851620d6359f09049ce64ceae03d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8c851620d6359f09049ce64ceae03d0">&#9670;&#160;</a></span>Awake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OculusSampleFramework.TrackSegment.Awake </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9446b25801ba45a95dc104dd9085956f" name="a9446b25801ba45a95dc104dd9085956f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9446b25801ba45a95dc104dd9085956f">&#9670;&#160;</a></span>DrawDebugLines()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OculusSampleFramework.TrackSegment.DrawDebugLines </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aec6134add776646aa1cfcc0cee33db53" name="aec6134add776646aa1cfcc0cee33db53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec6134add776646aa1cfcc0cee33db53">&#9670;&#160;</a></span>OnDisable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OculusSampleFramework.TrackSegment.OnDisable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a46488994fc2ed42046481a23cd786f32" name="a46488994fc2ed42046481a23cd786f32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46488994fc2ed42046481a23cd786f32">&#9670;&#160;</a></span>RegenerateTrackAndMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OculusSampleFramework.TrackSegment.RegenerateTrackAndMesh </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a65e9046e90ff84cfbfcc4b7086e3960c" name="a65e9046e90ff84cfbfcc4b7086e3960c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65e9046e90ff84cfbfcc4b7086e3960c">&#9670;&#160;</a></span>setGridSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float OculusSampleFramework.TrackSegment.setGridSize </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>size</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4eb2e62fc9801ed3612f9461570ed340" name="a4eb2e62fc9801ed3612f9461570ed340"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4eb2e62fc9801ed3612f9461570ed340">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OculusSampleFramework.TrackSegment.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abd64a07ee2eb7b62e97d17cbe1ddc479" name="abd64a07ee2eb7b62e97d17cbe1ddc479"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd64a07ee2eb7b62e97d17cbe1ddc479">&#9670;&#160;</a></span>UpdatePose()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OculusSampleFramework.TrackSegment.UpdatePose </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>distanceIntoSegment</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_oculus_sample_framework_1_1_pose.html">Pose</a>&#160;</td>
+          <td class="paramname"><em>pose</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Updates pose given distance into segment. While this mutates a value, it avoids generating a new object. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a8e28ff939d7782cde4c786e1293bb932" name="a8e28ff939d7782cde4c786e1293bb932"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e28ff939d7782cde4c786e1293bb932">&#9670;&#160;</a></span>_endPose</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_oculus_sample_framework_1_1_pose.html">Pose</a> OculusSampleFramework.TrackSegment._endPose = new <a class="el" href="class_oculus_sample_framework_1_1_pose.html">Pose</a>()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abba26a9311aa62cc086fef6a0cdf809b" name="abba26a9311aa62cc086fef6a0cdf809b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abba26a9311aa62cc086fef6a0cdf809b">&#9670;&#160;</a></span>_gridSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float OculusSampleFramework.TrackSegment._gridSize = 0.8f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7462f53822eb29a83adcfb5fc615c904" name="a7462f53822eb29a83adcfb5fc615c904"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7462f53822eb29a83adcfb5fc615c904">&#9670;&#160;</a></span>_leftTurn</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MeshFilter OculusSampleFramework.TrackSegment._leftTurn = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a561ad42485748999dccffdf05de34fe4" name="a561ad42485748999dccffdf05de34fe4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a561ad42485748999dccffdf05de34fe4">&#9670;&#160;</a></span>_mesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject OculusSampleFramework.TrackSegment._mesh = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0c178402430b1aba9fb05dc9826cd8e5" name="a0c178402430b1aba9fb05dc9826cd8e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c178402430b1aba9fb05dc9826cd8e5">&#9670;&#160;</a></span>_originalGridSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float OculusSampleFramework.TrackSegment._originalGridSize = 0.8f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab502be65a2fe2d536042e7873bbf0b60" name="ab502be65a2fe2d536042e7873bbf0b60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab502be65a2fe2d536042e7873bbf0b60">&#9670;&#160;</a></span>_p1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_oculus_sample_framework_1_1_pose.html">Pose</a> OculusSampleFramework.TrackSegment._p1 = new <a class="el" href="class_oculus_sample_framework_1_1_pose.html">Pose</a>()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a75e1808c01cb2e3ebc870b46407aaefe" name="a75e1808c01cb2e3ebc870b46407aaefe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75e1808c01cb2e3ebc870b46407aaefe">&#9670;&#160;</a></span>_p2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_oculus_sample_framework_1_1_pose.html">Pose</a> OculusSampleFramework.TrackSegment._p2 = new <a class="el" href="class_oculus_sample_framework_1_1_pose.html">Pose</a>()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9f1b89657cab4232d8842663b43bd68c" name="a9f1b89657cab4232d8842663b43bd68c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f1b89657cab4232d8842663b43bd68c">&#9670;&#160;</a></span>_rightTurn</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MeshFilter OculusSampleFramework.TrackSegment._rightTurn = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0a2712fe2833d51ffebc43a5b75eedbb" name="a0a2712fe2833d51ffebc43a5b75eedbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a2712fe2833d51ffebc43a5b75eedbb">&#9670;&#160;</a></span>_segmentType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a3d98fef1f1b70b555520b97d1c7fc275">SegmentType</a> OculusSampleFramework.TrackSegment._segmentType = <a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a3d98fef1f1b70b555520b97d1c7fc275ab6bd418b8879851e86bcaccd553b74db">SegmentType.Straight</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a51e6beed987f35c273668dbaa4bed80b" name="a51e6beed987f35c273668dbaa4bed80b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51e6beed987f35c273668dbaa4bed80b">&#9670;&#160;</a></span>_straight</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MeshFilter OculusSampleFramework.TrackSegment._straight = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a43d02e0e0c77d0dcb6295464e31c94bb" name="a43d02e0e0c77d0dcb6295464e31c94bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43d02e0e0c77d0dcb6295464e31c94bb">&#9670;&#160;</a></span>_subDivCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OculusSampleFramework.TrackSegment._subDivCount = 20</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a98a719655e33d49faf654370ffe68d87" name="a98a719655e33d49faf654370ffe68d87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98a719655e33d49faf654370ffe68d87">&#9670;&#160;</a></span>_trackWidth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float OculusSampleFramework.TrackSegment._trackWidth = 0.15f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a8adef8735bf61fa86b4a7a67c26307d9" name="a8adef8735bf61fa86b4a7a67c26307d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8adef8735bf61fa86b4a7a67c26307d9">&#9670;&#160;</a></span>EndPose</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_oculus_sample_framework_1_1_pose.html">Pose</a> OculusSampleFramework.TrackSegment.EndPose</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3d011c7d04483a1ffb9a25b68e754e58" name="a3d011c7d04483a1ffb9a25b68e754e58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d011c7d04483a1ffb9a25b68e754e58">&#9670;&#160;</a></span>GridSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float OculusSampleFramework.TrackSegment.GridSize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4c6801624f77b961a25bcdfdf9ff2f9f" name="a4c6801624f77b961a25bcdfdf9ff2f9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c6801624f77b961a25bcdfdf9ff2f9f">&#9670;&#160;</a></span>Radius</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float OculusSampleFramework.TrackSegment.Radius</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8f4097808e8c00d994514fbc726c4380" name="a8f4097808e8c00d994514fbc726c4380"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f4097808e8c00d994514fbc726c4380">&#9670;&#160;</a></span>SegmentLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float OculusSampleFramework.TrackSegment.SegmentLength</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa27affcc80c4d9662863808291028664" name="aa27affcc80c4d9662863808291028664"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa27affcc80c4d9662863808291028664">&#9670;&#160;</a></span>StartDistance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float OculusSampleFramework.TrackSegment.StartDistance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a62594f59c4f692647df1618d4d7cfe35" name="a62594f59c4f692647df1618d4d7cfe35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62594f59c4f692647df1618d4d7cfe35">&#9670;&#160;</a></span>SubDivCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OculusSampleFramework.TrackSegment.SubDivCount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6ecf845d4b2e4921d0527dbb771f9e17" name="a6ecf845d4b2e4921d0527dbb771f9e17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ecf845d4b2e4921d0527dbb771f9e17">&#9670;&#160;</a></span>Type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_oculus_sample_framework_1_1_track_segment.html#a3d98fef1f1b70b555520b97d1c7fc275">SegmentType</a> OculusSampleFramework.TrackSegment.Type</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/TrackSegment.cs</li>
+<li><a class="el" href="_track_segment_8cs.html">TrackSegment.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

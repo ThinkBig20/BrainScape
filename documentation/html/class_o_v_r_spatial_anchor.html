@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: OVRSpatialAnchor Class Reference</title>
+<title>BrainScape: OVRSpatialAnchor Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">BrainScape
    </div>
   </td>
  </tr>
@@ -122,11 +122,11 @@ Public Types</h2></td></tr>
 &#160;&#160;<a class="el" href="class_o_v_r_spatial_anchor.html#aa6b684524cb6bf6bc3f3633ea2d08ceea505a83f220c02df2f85c3810cd9ceb38">Success</a> = 0
 , <a class="el" href="class_o_v_r_spatial_anchor.html#aa6b684524cb6bf6bc3f3633ea2d08ceeae139a585510a502bbf1841cf589f5086">Failure</a> = -1000
 , <a class="el" href="class_o_v_r_spatial_anchor.html#aa6b684524cb6bf6bc3f3633ea2d08ceeafdebc5c74ca30a471b2ed778faeb9bf7">Failure_SpaceCloudStorageDisabled</a> = -2000
-, <b>Failure_SpaceMappingInsufficient</b> = -2001
+, <a class="el" href="class_o_v_r_spatial_anchor.html#aa6b684524cb6bf6bc3f3633ea2d08ceeadcc0eb183d5b11e04d093f79d40bbd27">Failure_SpaceMappingInsufficient</a> = -2001
 , <br />
-&#160;&#160;<b>Failure_SpaceLocalizationFailed</b> = -2002
-, <b>Failure_SpaceNetworkTimeout</b> = -2003
-, <b>Failure_SpaceNetworkRequestFailed</b> = -2004
+&#160;&#160;<a class="el" href="class_o_v_r_spatial_anchor.html#aa6b684524cb6bf6bc3f3633ea2d08ceea0db873da7930eb8efb8a4b313971be46">Failure_SpaceLocalizationFailed</a> = -2002
+, <a class="el" href="class_o_v_r_spatial_anchor.html#aa6b684524cb6bf6bc3f3633ea2d08ceea4e1082d1c3300de6ce355d115506cbbb">Failure_SpaceNetworkTimeout</a> = -2003
+, <a class="el" href="class_o_v_r_spatial_anchor.html#aa6b684524cb6bf6bc3f3633ea2d08ceea197ab2b9907caf489a063f01e58a28ff">Failure_SpaceNetworkRequestFailed</a> = -2004
 <br />
  }</td></tr>
 <tr class="separator:aa6b684524cb6bf6bc3f3633ea2d08cee"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -187,9 +187,8 @@ Properties</h2></td></tr>
 <tr class="memitem:a82baaab1352b8fd212fac4255e6aa122"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#a82baaab1352b8fd212fac4255e6aa122">Created</a><code> [get]</code></td></tr>
 <tr class="memdesc:a82baaab1352b8fd212fac4255e6aa122"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the spatial anchor has been created.  <br /></td></tr>
 <tr class="separator:a82baaab1352b8fd212fac4255e6aa122"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52555962c3dc4043d10137a901885ed6"><td class="memItemLeft" align="right" valign="top"><a id="a52555962c3dc4043d10137a901885ed6" name="a52555962c3dc4043d10137a901885ed6"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>PendingCreation</b><code> [get]</code></td></tr>
-<tr class="memdesc:a52555962c3dc4043d10137a901885ed6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the spatial anchor is pending creation. <br /></td></tr>
+<tr class="memitem:a52555962c3dc4043d10137a901885ed6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#a52555962c3dc4043d10137a901885ed6">PendingCreation</a><code> [get]</code></td></tr>
+<tr class="memdesc:a52555962c3dc4043d10137a901885ed6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the spatial anchor is pending creation.  <br /></td></tr>
 <tr class="separator:a52555962c3dc4043d10137a901885ed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61dcba6123bda06f29de13b107f2d35a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#a61dcba6123bda06f29de13b107f2d35a">Localized</a><code> [get]</code></td></tr>
 <tr class="memdesc:a61dcba6123bda06f29de13b107f2d35a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the spatial anchor has been localized.  <br /></td></tr>
@@ -197,112 +196,84 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>PendingCreation</b><c
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
 Events</h2></td></tr>
-<tr class="memitem:a50889aec7a4d2900d7a28153d908c2e8"><td class="memItemLeft" align="right" valign="top"><a id="a50889aec7a4d2900d7a28153d908c2e8" name="a50889aec7a4d2900d7a28153d908c2e8"></a>
-Action&lt; <a class="el" href="class_o_v_r_spatial_anchor.html#aa6b684524cb6bf6bc3f3633ea2d08cee">OperationResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>OnLocalize</b></td></tr>
-<tr class="memdesc:a50889aec7a4d2900d7a28153d908c2e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event that is dispatched when the localization process finishes. <br /></td></tr>
+<tr class="memitem:a50889aec7a4d2900d7a28153d908c2e8"><td class="memItemLeft" align="right" valign="top">Action&lt; <a class="el" href="class_o_v_r_spatial_anchor.html#aa6b684524cb6bf6bc3f3633ea2d08cee">OperationResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#a50889aec7a4d2900d7a28153d908c2e8">OnLocalize</a></td></tr>
+<tr class="memdesc:a50889aec7a4d2900d7a28153d908c2e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event that is dispatched when the localization process finishes.  <br /></td></tr>
 <tr class="separator:a50889aec7a4d2900d7a28153d908c2e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-types" name="pri-types"></a>
 Private Types</h2></td></tr>
-<tr class="memitem:ad771f1dc1e7392dd40e50ce0c5e244a5"><td class="memItemLeft" align="right" valign="top"><a id="ad771f1dc1e7392dd40e50ce0c5e244a5" name="ad771f1dc1e7392dd40e50ce0c5e244a5"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>MultiAnchorActionType</b> { <b>Save</b>
-, <b>Share</b>
+<tr class="memitem:ad771f1dc1e7392dd40e50ce0c5e244a5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#ad771f1dc1e7392dd40e50ce0c5e244a5">MultiAnchorActionType</a> { <a class="el" href="class_o_v_r_spatial_anchor.html#ad771f1dc1e7392dd40e50ce0c5e244a5ac9cc8cce247e49bae79f15173ce97354">Save</a>
+, <a class="el" href="class_o_v_r_spatial_anchor.html#ad771f1dc1e7392dd40e50ce0c5e244a5a5a95a425f74314a96f13a2f136992178">Share</a>
  }</td></tr>
 <tr class="separator:ad771f1dc1e7392dd40e50ce0c5e244a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:ae0f4c54bba2538bc6eae3291b097defa"><td class="memItemLeft" align="right" valign="top"><a id="ae0f4c54bba2538bc6eae3291b097defa" name="ae0f4c54bba2538bc6eae3291b097defa"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>ShareInternal</b> (List&lt; <a class="el" href="struct_o_v_r_space_user.html">OVRSpaceUser</a> &gt; users, Action&lt; <a class="el" href="class_o_v_r_spatial_anchor.html#aa6b684524cb6bf6bc3f3633ea2d08cee">OperationResult</a> &gt; onComplete=null)</td></tr>
+<tr class="memitem:ae0f4c54bba2538bc6eae3291b097defa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#ae0f4c54bba2538bc6eae3291b097defa">ShareInternal</a> (List&lt; <a class="el" href="struct_o_v_r_space_user.html">OVRSpaceUser</a> &gt; users, Action&lt; <a class="el" href="class_o_v_r_spatial_anchor.html#aa6b684524cb6bf6bc3f3633ea2d08cee">OperationResult</a> &gt; onComplete=null)</td></tr>
 <tr class="separator:ae0f4c54bba2538bc6eae3291b097defa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63f10ae41922d1c1aefd687209117462"><td class="memItemLeft" align="right" valign="top"><a id="a63f10ae41922d1c1aefd687209117462" name="a63f10ae41922d1c1aefd687209117462"></a>
-List&lt; <a class="el" href="class_o_v_r_spatial_anchor.html">OVRSpatialAnchor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetListToStoreTheShareRequest</b> (List&lt; <a class="el" href="struct_o_v_r_space_user.html">OVRSpaceUser</a> &gt; users)</td></tr>
+<tr class="memitem:a63f10ae41922d1c1aefd687209117462"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_o_v_r_spatial_anchor.html">OVRSpatialAnchor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#a63f10ae41922d1c1aefd687209117462">GetListToStoreTheShareRequest</a> (List&lt; <a class="el" href="struct_o_v_r_space_user.html">OVRSpaceUser</a> &gt; users)</td></tr>
 <tr class="separator:a63f10ae41922d1c1aefd687209117462"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1342e95080b04c5dffd80e36563df748"><td class="memItemLeft" align="right" valign="top"><a id="a1342e95080b04c5dffd80e36563df748" name="a1342e95080b04c5dffd80e36563df748"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>InitializeUnchecked</b> (<a class="el" href="struct_o_v_r_space.html">OVRSpace</a> space, Guid uuid)</td></tr>
+<tr class="memitem:a1342e95080b04c5dffd80e36563df748"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#a1342e95080b04c5dffd80e36563df748">InitializeUnchecked</a> (<a class="el" href="struct_o_v_r_space.html">OVRSpace</a> space, Guid uuid)</td></tr>
 <tr class="separator:a1342e95080b04c5dffd80e36563df748"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac70f99dfe6898197139488c5b4e16c00"><td class="memItemLeft" align="right" valign="top"><a id="ac70f99dfe6898197139488c5b4e16c00" name="ac70f99dfe6898197139488c5b4e16c00"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
+<tr class="memitem:ac70f99dfe6898197139488c5b4e16c00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#ac70f99dfe6898197139488c5b4e16c00">Start</a> ()</td></tr>
 <tr class="separator:ac70f99dfe6898197139488c5b4e16c00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8149369ad09bb64e4f950c39c9f2496"><td class="memItemLeft" align="right" valign="top"><a id="aa8149369ad09bb64e4f950c39c9f2496" name="aa8149369ad09bb64e4f950c39c9f2496"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
+<tr class="memitem:aa8149369ad09bb64e4f950c39c9f2496"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#aa8149369ad09bb64e4f950c39c9f2496">Update</a> ()</td></tr>
 <tr class="separator:aa8149369ad09bb64e4f950c39c9f2496"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62158087f18b8273d04645bc892a21bc"><td class="memItemLeft" align="right" valign="top"><a id="a62158087f18b8273d04645bc892a21bc" name="a62158087f18b8273d04645bc892a21bc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>LateUpdate</b> ()</td></tr>
+<tr class="memitem:a62158087f18b8273d04645bc892a21bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#a62158087f18b8273d04645bc892a21bc">LateUpdate</a> ()</td></tr>
 <tr class="separator:a62158087f18b8273d04645bc892a21bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b2b7f8647c4ee018afe2d404642b787"><td class="memItemLeft" align="right" valign="top"><a id="a1b2b7f8647c4ee018afe2d404642b787" name="a1b2b7f8647c4ee018afe2d404642b787"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDestroy</b> ()</td></tr>
+<tr class="memitem:a1b2b7f8647c4ee018afe2d404642b787"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#a1b2b7f8647c4ee018afe2d404642b787">OnDestroy</a> ()</td></tr>
 <tr class="separator:a1b2b7f8647c4ee018afe2d404642b787"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a927aeb629ab2647292ac2948ed8c07da"><td class="memItemLeft" align="right" valign="top"><a id="a927aeb629ab2647292ac2948ed8c07da" name="a927aeb629ab2647292ac2948ed8c07da"></a>
-<a class="el" href="struct_o_v_r_pose.html">OVRPose</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetTrackingSpacePose</b> ()</td></tr>
+<tr class="memitem:a927aeb629ab2647292ac2948ed8c07da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_o_v_r_pose.html">OVRPose</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#a927aeb629ab2647292ac2948ed8c07da">GetTrackingSpacePose</a> ()</td></tr>
 <tr class="separator:a927aeb629ab2647292ac2948ed8c07da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22278277481fecd9f500e92a7f6aa7de"><td class="memItemLeft" align="right" valign="top"><a id="a22278277481fecd9f500e92a7f6aa7de" name="a22278277481fecd9f500e92a7f6aa7de"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>CreateSpatialAnchor</b> ()</td></tr>
+<tr class="memitem:a22278277481fecd9f500e92a7f6aa7de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#a22278277481fecd9f500e92a7f6aa7de">CreateSpatialAnchor</a> ()</td></tr>
 <tr class="separator:a22278277481fecd9f500e92a7f6aa7de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ff438240518201a58cf1f45feb6f3a3"><td class="memItemLeft" align="right" valign="top"><a id="a7ff438240518201a58cf1f45feb6f3a3" name="a7ff438240518201a58cf1f45feb6f3a3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateTransform</b> ()</td></tr>
+<tr class="memitem:a7ff438240518201a58cf1f45feb6f3a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#a7ff438240518201a58cf1f45feb6f3a3">UpdateTransform</a> ()</td></tr>
 <tr class="separator:a7ff438240518201a58cf1f45feb6f3a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
-<tr class="memitem:ad4a49660421f16e842b3fabc76796496"><td class="memItemLeft" align="right" valign="top"><a id="ad4a49660421f16e842b3fabc76796496" name="ad4a49660421f16e842b3fabc76796496"></a>
-static NativeArray&lt; ulong &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>ToNativeArray</b> (ICollection&lt; <a class="el" href="class_o_v_r_spatial_anchor.html">OVRSpatialAnchor</a> &gt; anchors)</td></tr>
+<tr class="memitem:ad4a49660421f16e842b3fabc76796496"><td class="memItemLeft" align="right" valign="top">static NativeArray&lt; ulong &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#ad4a49660421f16e842b3fabc76796496">ToNativeArray</a> (ICollection&lt; <a class="el" href="class_o_v_r_spatial_anchor.html">OVRSpatialAnchor</a> &gt; anchors)</td></tr>
 <tr class="separator:ad4a49660421f16e842b3fabc76796496"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a533454dc99f096a52c16330f88cb22ff"><td class="memItemLeft" align="right" valign="top"><a id="a533454dc99f096a52c16330f88cb22ff" name="a533454dc99f096a52c16330f88cb22ff"></a>
-static List&lt; <a class="el" href="class_o_v_r_spatial_anchor.html">OVRSpatialAnchor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>CopyAnchorListIntoListFromPool</b> (IEnumerable&lt; <a class="el" href="class_o_v_r_spatial_anchor.html">OVRSpatialAnchor</a> &gt; anchorList)</td></tr>
+<tr class="memitem:a533454dc99f096a52c16330f88cb22ff"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="class_o_v_r_spatial_anchor.html">OVRSpatialAnchor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#a533454dc99f096a52c16330f88cb22ff">CopyAnchorListIntoListFromPool</a> (IEnumerable&lt; <a class="el" href="class_o_v_r_spatial_anchor.html">OVRSpatialAnchor</a> &gt; anchorList)</td></tr>
 <tr class="separator:a533454dc99f096a52c16330f88cb22ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad91981130fdf664b9e6fb8f2c3b40419"><td class="memItemLeft" align="right" valign="top"><a id="ad91981130fdf664b9e6fb8f2c3b40419" name="ad91981130fdf664b9e6fb8f2c3b40419"></a>
-static bool&#160;</td><td class="memItemRight" valign="bottom"><b>AreSortedUserListsEqual</b> (IReadOnlyList&lt; <a class="el" href="struct_o_v_r_space_user.html">OVRSpaceUser</a> &gt; sortedList1, IReadOnlyList&lt; <a class="el" href="struct_o_v_r_space_user.html">OVRSpaceUser</a> &gt; sortedList2)</td></tr>
+<tr class="memitem:ad91981130fdf664b9e6fb8f2c3b40419"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#ad91981130fdf664b9e6fb8f2c3b40419">AreSortedUserListsEqual</a> (IReadOnlyList&lt; <a class="el" href="struct_o_v_r_space_user.html">OVRSpaceUser</a> &gt; sortedList1, IReadOnlyList&lt; <a class="el" href="struct_o_v_r_space_user.html">OVRSpaceUser</a> &gt; sortedList2)</td></tr>
 <tr class="separator:ad91981130fdf664b9e6fb8f2c3b40419"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a553a9bc931062e7d214008cca2bdad4c"><td class="memItemLeft" align="right" valign="top"><a id="a553a9bc931062e7d214008cca2bdad4c" name="a553a9bc931062e7d214008cca2bdad4c"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>ThrowIfBound</b> (Guid uuid)</td></tr>
+<tr class="memitem:a553a9bc931062e7d214008cca2bdad4c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#a553a9bc931062e7d214008cca2bdad4c">ThrowIfBound</a> (Guid uuid)</td></tr>
 <tr class="separator:a553a9bc931062e7d214008cca2bdad4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50c81f6c6b66c8972d12b4cbf2879479"><td class="memItemLeft" align="right" valign="top"><a id="a50c81f6c6b66c8972d12b4cbf2879479" name="a50c81f6c6b66c8972d12b4cbf2879479"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveBatchAnchors</b> ()</td></tr>
+<tr class="memitem:a50c81f6c6b66c8972d12b4cbf2879479"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#a50c81f6c6b66c8972d12b4cbf2879479">SaveBatchAnchors</a> ()</td></tr>
 <tr class="separator:a50c81f6c6b66c8972d12b4cbf2879479"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44b5b9ea75ae50a1aa9bf3c814a801f1"><td class="memItemLeft" align="right" valign="top"><a id="a44b5b9ea75ae50a1aa9bf3c814a801f1" name="a44b5b9ea75ae50a1aa9bf3c814a801f1"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>ShareBatchAnchors</b> ()</td></tr>
+<tr class="memitem:a44b5b9ea75ae50a1aa9bf3c814a801f1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#a44b5b9ea75ae50a1aa9bf3c814a801f1">ShareBatchAnchors</a> ()</td></tr>
 <tr class="separator:a44b5b9ea75ae50a1aa9bf3c814a801f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae5e259ca8d7c3278173f72fbf8d6128"><td class="memItemLeft" align="right" valign="top"><a id="aae5e259ca8d7c3278173f72fbf8d6128" name="aae5e259ca8d7c3278173f72fbf8d6128"></a>
-static bool&#160;</td><td class="memItemRight" valign="bottom"><b>TryExtractValue&lt; TKey, TValue &gt;</b> (Dictionary&lt; TKey, TValue &gt; dict, TKey key, out TValue value)</td></tr>
+<tr class="memitem:aae5e259ca8d7c3278173f72fbf8d6128"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#aae5e259ca8d7c3278173f72fbf8d6128">TryExtractValue&lt; TKey, TValue &gt;</a> (Dictionary&lt; TKey, TValue &gt; dict, TKey key, out TValue value)</td></tr>
 <tr class="separator:aae5e259ca8d7c3278173f72fbf8d6128"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb3c3ad9224555f62cfe7a20f811b363"><td class="memItemLeft" align="right" valign="top"><a id="acb3c3ad9224555f62cfe7a20f811b363" name="acb3c3ad9224555f62cfe7a20f811b363"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>InitializeOnLoad</b> ()</td></tr>
+<tr class="memitem:acb3c3ad9224555f62cfe7a20f811b363"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#acb3c3ad9224555f62cfe7a20f811b363">InitializeOnLoad</a> ()</td></tr>
 <tr class="separator:acb3c3ad9224555f62cfe7a20f811b363"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1710e3c9b0f81022e2beb2fe236a28cc"><td class="memItemLeft" align="right" valign="top"><a id="a1710e3c9b0f81022e2beb2fe236a28cc" name="a1710e3c9b0f81022e2beb2fe236a28cc"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>InvokeSingleAnchorDelegate</b> (ulong requestId, bool result)</td></tr>
+<tr class="memitem:a83b40851a9cf2dcbe4813a932a766a00"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#a83b40851a9cf2dcbe4813a932a766a00">OVRSpatialAnchor</a> ()</td></tr>
+<tr class="separator:a83b40851a9cf2dcbe4813a932a766a00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1710e3c9b0f81022e2beb2fe236a28cc"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#a1710e3c9b0f81022e2beb2fe236a28cc">InvokeSingleAnchorDelegate</a> (ulong requestId, bool result)</td></tr>
 <tr class="separator:a1710e3c9b0f81022e2beb2fe236a28cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ba2ae8f61d07c885dcc32a91e194cb6"><td class="memItemLeft" align="right" valign="top"><a id="a9ba2ae8f61d07c885dcc32a91e194cb6" name="a9ba2ae8f61d07c885dcc32a91e194cb6"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>InvokeMultiAnchorDelegate</b> (ulong requestId, <a class="el" href="class_o_v_r_spatial_anchor.html#aa6b684524cb6bf6bc3f3633ea2d08cee">OperationResult</a> result, MultiAnchorActionType actionType)</td></tr>
+<tr class="memitem:a9ba2ae8f61d07c885dcc32a91e194cb6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#a9ba2ae8f61d07c885dcc32a91e194cb6">InvokeMultiAnchorDelegate</a> (ulong requestId, <a class="el" href="class_o_v_r_spatial_anchor.html#aa6b684524cb6bf6bc3f3633ea2d08cee">OperationResult</a> result, <a class="el" href="class_o_v_r_spatial_anchor.html#ad771f1dc1e7392dd40e50ce0c5e244a5">MultiAnchorActionType</a> actionType)</td></tr>
 <tr class="separator:a9ba2ae8f61d07c885dcc32a91e194cb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca13442b620ef0da358f019c26396d64"><td class="memItemLeft" align="right" valign="top"><a id="aca13442b620ef0da358f019c26396d64" name="aca13442b620ef0da358f019c26396d64"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>OnSpatialAnchorCreateComplete</b> (ulong requestId, bool success, <a class="el" href="struct_o_v_r_space.html">OVRSpace</a> space, Guid uuid)</td></tr>
+<tr class="memitem:aca13442b620ef0da358f019c26396d64"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#aca13442b620ef0da358f019c26396d64">OnSpatialAnchorCreateComplete</a> (ulong requestId, bool success, <a class="el" href="struct_o_v_r_space.html">OVRSpace</a> space, Guid uuid)</td></tr>
 <tr class="separator:aca13442b620ef0da358f019c26396d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7466b10ab31f0d93e1df55a171b8b533"><td class="memItemLeft" align="right" valign="top"><a id="a7466b10ab31f0d93e1df55a171b8b533" name="a7466b10ab31f0d93e1df55a171b8b533"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>OnSpaceSaveComplete</b> (ulong requestId, <a class="el" href="struct_o_v_r_space.html">OVRSpace</a> space, bool result, Guid uuid)</td></tr>
+<tr class="memitem:a7466b10ab31f0d93e1df55a171b8b533"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#a7466b10ab31f0d93e1df55a171b8b533">OnSpaceSaveComplete</a> (ulong requestId, <a class="el" href="struct_o_v_r_space.html">OVRSpace</a> space, bool result, Guid uuid)</td></tr>
 <tr class="separator:a7466b10ab31f0d93e1df55a171b8b533"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5af2b628201b5da50073d5242a2d9e54"><td class="memItemLeft" align="right" valign="top"><a id="a5af2b628201b5da50073d5242a2d9e54" name="a5af2b628201b5da50073d5242a2d9e54"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>OnSpaceEraseComplete</b> (ulong requestId, bool result, Guid uuid, OVRPlugin.SpaceStorageLocation location)</td></tr>
+<tr class="memitem:a5af2b628201b5da50073d5242a2d9e54"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#a5af2b628201b5da50073d5242a2d9e54">OnSpaceEraseComplete</a> (ulong requestId, bool result, Guid uuid, OVRPlugin.SpaceStorageLocation location)</td></tr>
 <tr class="separator:a5af2b628201b5da50073d5242a2d9e54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0427d7b2975057f82c4f1f9ab7f62b49"><td class="memItemLeft" align="right" valign="top"><a id="a0427d7b2975057f82c4f1f9ab7f62b49" name="a0427d7b2975057f82c4f1f9ab7f62b49"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>OnSpaceQueryComplete</b> (ulong requestId, bool queryResult)</td></tr>
+<tr class="memitem:a0427d7b2975057f82c4f1f9ab7f62b49"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#a0427d7b2975057f82c4f1f9ab7f62b49">OnSpaceQueryComplete</a> (ulong requestId, bool queryResult)</td></tr>
 <tr class="separator:a0427d7b2975057f82c4f1f9ab7f62b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a050c1df6996064b3794e851508b99348"><td class="memItemLeft" align="right" valign="top"><a id="a050c1df6996064b3794e851508b99348" name="a050c1df6996064b3794e851508b99348"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>OnSpaceSetComponentStatusComplete</b> (ulong requestId, bool result, <a class="el" href="struct_o_v_r_space.html">OVRSpace</a> space, Guid uuid, OVRPlugin.SpaceComponentType componentType, bool enabled)</td></tr>
+<tr class="memitem:a050c1df6996064b3794e851508b99348"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#a050c1df6996064b3794e851508b99348">OnSpaceSetComponentStatusComplete</a> (ulong requestId, bool result, <a class="el" href="struct_o_v_r_space.html">OVRSpace</a> space, Guid uuid, OVRPlugin.SpaceComponentType componentType, bool enabled)</td></tr>
 <tr class="separator:a050c1df6996064b3794e851508b99348"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b93e07f72b12c56eebf997d33d7552f"><td class="memItemLeft" align="right" valign="top"><a id="a0b93e07f72b12c56eebf997d33d7552f" name="a0b93e07f72b12c56eebf997d33d7552f"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>OnSpaceListSaveComplete</b> (ulong requestId, <a class="el" href="class_o_v_r_spatial_anchor.html#aa6b684524cb6bf6bc3f3633ea2d08cee">OperationResult</a> result)</td></tr>
+<tr class="memitem:a0b93e07f72b12c56eebf997d33d7552f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#a0b93e07f72b12c56eebf997d33d7552f">OnSpaceListSaveComplete</a> (ulong requestId, <a class="el" href="class_o_v_r_spatial_anchor.html#aa6b684524cb6bf6bc3f3633ea2d08cee">OperationResult</a> result)</td></tr>
 <tr class="separator:a0b93e07f72b12c56eebf997d33d7552f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a709638bb54439462d52b3a7caa7871a1"><td class="memItemLeft" align="right" valign="top"><a id="a709638bb54439462d52b3a7caa7871a1" name="a709638bb54439462d52b3a7caa7871a1"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>OnShareSpacesComplete</b> (ulong requestId, <a class="el" href="class_o_v_r_spatial_anchor.html#aa6b684524cb6bf6bc3f3633ea2d08cee">OperationResult</a> result)</td></tr>
+<tr class="memitem:a709638bb54439462d52b3a7caa7871a1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#a709638bb54439462d52b3a7caa7871a1">OnShareSpacesComplete</a> (ulong requestId, <a class="el" href="class_o_v_r_spatial_anchor.html#aa6b684524cb6bf6bc3f3633ea2d08cee">OperationResult</a> result)</td></tr>
 <tr class="separator:a709638bb54439462d52b3a7caa7871a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:adb9c38009c412d3b28d3a68246671dae"><td class="memItemLeft" align="right" valign="top"><a id="adb9c38009c412d3b28d3a68246671dae" name="adb9c38009c412d3b28d3a68246671dae"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_startCalled</b></td></tr>
+<tr class="memitem:adb9c38009c412d3b28d3a68246671dae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#adb9c38009c412d3b28d3a68246671dae">_startCalled</a></td></tr>
 <tr class="separator:adb9c38009c412d3b28d3a68246671dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad68e303cf5146996a9ace274ec74b57c"><td class="memItemLeft" align="right" valign="top"><a id="ad68e303cf5146996a9ace274ec74b57c" name="ad68e303cf5146996a9ace274ec74b57c"></a>
-ulong&#160;</td><td class="memItemRight" valign="bottom"><b>_requestId</b></td></tr>
+<tr class="memitem:ad68e303cf5146996a9ace274ec74b57c"><td class="memItemLeft" align="right" valign="top">ulong&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#ad68e303cf5146996a9ace274ec74b57c">_requestId</a></td></tr>
 <tr class="separator:ad68e303cf5146996a9ace274ec74b57c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61fb91e3e7d365ac15dfbeeb1c35eb3e"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="struct_o_v_r_spatial_anchor_1_1_save_options.html">SaveOptions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#a61fb91e3e7d365ac15dfbeeb1c35eb3e">_defaultSaveOptions</a></td></tr>
 <tr class="separator:a61fb91e3e7d365ac15dfbeeb1c35eb3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -329,11 +300,9 @@ Static Private Attributes</h2></td></tr>
 <tr class="separator:ad58e4119696d47c7ec93aa2555793d96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9dc41d04c06e3eaaca71a308131a7cbe"><td class="memItemLeft" align="right" valign="top">static readonly Dictionary&lt; ulong, Action&lt; <a class="el" href="struct_o_v_r_spatial_anchor_1_1_unbound_anchor.html">UnboundAnchor</a>[]&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#a9dc41d04c06e3eaaca71a308131a7cbe">Queries</a></td></tr>
 <tr class="separator:a9dc41d04c06e3eaaca71a308131a7cbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a969cd744dac1a592cd137d2caf73fa70"><td class="memItemLeft" align="right" valign="top"><a id="a969cd744dac1a592cd137d2caf73fa70" name="a969cd744dac1a592cd137d2caf73fa70"></a>
-static readonly List&lt; <a class="el" href="struct_o_v_r_spatial_anchor_1_1_unbound_anchor.html">UnboundAnchor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>UnboundAnchorBuffer</b> = new List&lt;<a class="el" href="struct_o_v_r_spatial_anchor_1_1_unbound_anchor.html">UnboundAnchor</a>&gt;()</td></tr>
+<tr class="memitem:a969cd744dac1a592cd137d2caf73fa70"><td class="memItemLeft" align="right" valign="top">static readonly List&lt; <a class="el" href="struct_o_v_r_spatial_anchor_1_1_unbound_anchor.html">UnboundAnchor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#a969cd744dac1a592cd137d2caf73fa70">UnboundAnchorBuffer</a> = new List&lt;<a class="el" href="struct_o_v_r_spatial_anchor_1_1_unbound_anchor.html">UnboundAnchor</a>&gt;()</td></tr>
 <tr class="separator:a969cd744dac1a592cd137d2caf73fa70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3bddf5cb98bf95d42d6f00f0d621fc5"><td class="memItemLeft" align="right" valign="top"><a id="ad3bddf5cb98bf95d42d6f00f0d621fc5" name="ad3bddf5cb98bf95d42d6f00f0d621fc5"></a>
-static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight" valign="bottom"><b>ComponentTypeBuffer</b> = new OVRPlugin.SpaceComponentType[32]</td></tr>
+<tr class="memitem:ad3bddf5cb98bf95d42d6f00f0d621fc5"><td class="memItemLeft" align="right" valign="top">static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_spatial_anchor.html#ad3bddf5cb98bf95d42d6f00f0d621fc5">ComponentTypeBuffer</a> = new OVRPlugin.SpaceComponentType[32]</td></tr>
 <tr class="separator:ad3bddf5cb98bf95d42d6f00f0d621fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -342,6 +311,32 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
 <p>To create a new spatial anchor, simply add this component to any GameObject. The transform of the GameObject is used to create a new spatial anchor in the <a class="el" href="namespace_oculus.html">Oculus</a> Runtime. Afterwards, the GameObject's transform will be updated automatically. The creation operation is asynchronous, and, if it fails, this component will be destroyed.</p>
 <p>To load previously saved anchors and bind them to an <a class="el" href="class_o_v_r_spatial_anchor.html" title="Represents a spatial anchor.">OVRSpatialAnchor</a>, see <a class="el" href="class_o_v_r_spatial_anchor.html#a191417479ac810a36e3298c9c7280e40" title="Performs a query for anchors with the specified options .">LoadUnboundAnchors</a>. </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="ad771f1dc1e7392dd40e50ce0c5e244a5" name="ad771f1dc1e7392dd40e50ce0c5e244a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad771f1dc1e7392dd40e50ce0c5e244a5">&#9670;&#160;</a></span>MultiAnchorActionType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_o_v_r_spatial_anchor.html#ad771f1dc1e7392dd40e50ce0c5e244a5">OVRSpatialAnchor.MultiAnchorActionType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad771f1dc1e7392dd40e50ce0c5e244a5ac9cc8cce247e49bae79f15173ce97354" name="ad771f1dc1e7392dd40e50ce0c5e244a5ac9cc8cce247e49bae79f15173ce97354"></a>Save&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad771f1dc1e7392dd40e50ce0c5e244a5a5a95a425f74314a96f13a2f136992178" name="ad771f1dc1e7392dd40e50ce0c5e244a5a5a95a425f74314a96f13a2f136992178"></a>Share&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="aa6b684524cb6bf6bc3f3633ea2d08cee" name="aa6b684524cb6bf6bc3f3633ea2d08cee"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa6b684524cb6bf6bc3f3633ea2d08cee">&#9670;&#160;</a></span>OperationResult</h2>
 
@@ -360,19 +355,133 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
 </td></tr>
 <tr><td class="fieldname"><a id="aa6b684524cb6bf6bc3f3633ea2d08ceeafdebc5c74ca30a471b2ed778faeb9bf7" name="aa6b684524cb6bf6bc3f3633ea2d08ceeafdebc5c74ca30a471b2ed778faeb9bf7"></a>Failure_SpaceCloudStorageDisabled&#160;</td><td class="fielddoc"><p>Space error cases. </p>
 </td></tr>
+<tr><td class="fieldname"><a id="aa6b684524cb6bf6bc3f3633ea2d08ceeadcc0eb183d5b11e04d093f79d40bbd27" name="aa6b684524cb6bf6bc3f3633ea2d08ceeadcc0eb183d5b11e04d093f79d40bbd27"></a>Failure_SpaceMappingInsufficient&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa6b684524cb6bf6bc3f3633ea2d08ceea0db873da7930eb8efb8a4b313971be46" name="aa6b684524cb6bf6bc3f3633ea2d08ceea0db873da7930eb8efb8a4b313971be46"></a>Failure_SpaceLocalizationFailed&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa6b684524cb6bf6bc3f3633ea2d08ceea4e1082d1c3300de6ce355d115506cbbb" name="aa6b684524cb6bf6bc3f3633ea2d08ceea4e1082d1c3300de6ce355d115506cbbb"></a>Failure_SpaceNetworkTimeout&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa6b684524cb6bf6bc3f3633ea2d08ceea197ab2b9907caf489a063f01e58a28ff" name="aa6b684524cb6bf6bc3f3633ea2d08ceea197ab2b9907caf489a063f01e58a28ff"></a>Failure_SpaceNetworkRequestFailed&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a5478320ab6734f9b853a220074560515" name="a5478320ab6734f9b853a220074560515"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5478320ab6734f9b853a220074560515">&#9670;&#160;</a></span>Erase() <span class="overload">[1/2]</span></h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a83b40851a9cf2dcbe4813a932a766a00" name="a83b40851a9cf2dcbe4813a932a766a00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83b40851a9cf2dcbe4813a932a766a00">&#9670;&#160;</a></span>OVRSpatialAnchor()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static OVRSpatialAnchor.OVRSpatialAnchor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad91981130fdf664b9e6fb8f2c3b40419" name="ad91981130fdf664b9e6fb8f2c3b40419"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad91981130fdf664b9e6fb8f2c3b40419">&#9670;&#160;</a></span>AreSortedUserListsEqual()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool OVRSpatialAnchor.AreSortedUserListsEqual </td>
+          <td>(</td>
+          <td class="paramtype">IReadOnlyList&lt; <a class="el" href="struct_o_v_r_space_user.html">OVRSpaceUser</a> &gt;&#160;</td>
+          <td class="paramname"><em>sortedList1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IReadOnlyList&lt; <a class="el" href="struct_o_v_r_space_user.html">OVRSpaceUser</a> &gt;&#160;</td>
+          <td class="paramname"><em>sortedList2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a533454dc99f096a52c16330f88cb22ff" name="a533454dc99f096a52c16330f88cb22ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a533454dc99f096a52c16330f88cb22ff">&#9670;&#160;</a></span>CopyAnchorListIntoListFromPool()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static List&lt; <a class="el" href="class_o_v_r_spatial_anchor.html">OVRSpatialAnchor</a> &gt; OVRSpatialAnchor.CopyAnchorListIntoListFromPool </td>
+          <td>(</td>
+          <td class="paramtype">IEnumerable&lt; <a class="el" href="class_o_v_r_spatial_anchor.html">OVRSpatialAnchor</a> &gt;&#160;</td>
+          <td class="paramname"><em>anchorList</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a22278277481fecd9f500e92a7f6aa7de" name="a22278277481fecd9f500e92a7f6aa7de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22278277481fecd9f500e92a7f6aa7de">&#9670;&#160;</a></span>CreateSpatialAnchor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVRSpatialAnchor.CreateSpatialAnchor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5478320ab6734f9b853a220074560515" name="a5478320ab6734f9b853a220074560515"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5478320ab6734f9b853a220074560515">&#9670;&#160;</a></span>Erase() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void OVRSpatialAnchor.Erase </td>
@@ -382,11 +491,6 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Erases the <a class="el" href="class_o_v_r_spatial_anchor.html" title="Represents a spatial anchor.">OVRSpatialAnchor</a> from persistent storage. </p>
@@ -409,9 +513,6 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void OVRSpatialAnchor.Erase </td>
@@ -431,11 +532,6 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Erases the <a class="el" href="class_o_v_r_spatial_anchor.html" title="Represents a spatial anchor.">OVRSpatialAnchor</a> from specified storage. </p>
@@ -454,14 +550,62 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
 
 </div>
 </div>
-<a id="a1a46dde6fe2c228fcb3d088db3d41883" name="a1a46dde6fe2c228fcb3d088db3d41883"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a46dde6fe2c228fcb3d088db3d41883">&#9670;&#160;</a></span>InitializeFromExisting()</h2>
+<a id="a63f10ae41922d1c1aefd687209117462" name="a63f10ae41922d1c1aefd687209117462"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63f10ae41922d1c1aefd687209117462">&#9670;&#160;</a></span>GetListToStoreTheShareRequest()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; <a class="el" href="class_o_v_r_spatial_anchor.html">OVRSpatialAnchor</a> &gt; OVRSpatialAnchor.GetListToStoreTheShareRequest </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="struct_o_v_r_space_user.html">OVRSpaceUser</a> &gt;&#160;</td>
+          <td class="paramname"><em>users</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a927aeb629ab2647292ac2948ed8c07da" name="a927aeb629ab2647292ac2948ed8c07da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a927aeb629ab2647292ac2948ed8c07da">&#9670;&#160;</a></span>GetTrackingSpacePose()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_o_v_r_pose.html">OVRPose</a> OVRSpatialAnchor.GetTrackingSpacePose </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1a46dde6fe2c228fcb3d088db3d41883" name="a1a46dde6fe2c228fcb3d088db3d41883"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a46dde6fe2c228fcb3d088db3d41883">&#9670;&#160;</a></span>InitializeFromExisting()</h2>
+
+<div class="memitem">
+<div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void OVRSpatialAnchor.InitializeFromExisting </td>
@@ -481,11 +625,6 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Initializes this component from an existing space handle and uuid, e.g., the result of a call to OVRPlugin.QuerySpaces. </p>
@@ -505,6 +644,170 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="acb3c3ad9224555f62cfe7a20f811b363" name="acb3c3ad9224555f62cfe7a20f811b363"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb3c3ad9224555f62cfe7a20f811b363">&#9670;&#160;</a></span>InitializeOnLoad()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void OVRSpatialAnchor.InitializeOnLoad </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1342e95080b04c5dffd80e36563df748" name="a1342e95080b04c5dffd80e36563df748"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1342e95080b04c5dffd80e36563df748">&#9670;&#160;</a></span>InitializeUnchecked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVRSpatialAnchor.InitializeUnchecked </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_o_v_r_space.html">OVRSpace</a>&#160;</td>
+          <td class="paramname"><em>space</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Guid&#160;</td>
+          <td class="paramname"><em>uuid</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9ba2ae8f61d07c885dcc32a91e194cb6" name="a9ba2ae8f61d07c885dcc32a91e194cb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ba2ae8f61d07c885dcc32a91e194cb6">&#9670;&#160;</a></span>InvokeMultiAnchorDelegate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void OVRSpatialAnchor.InvokeMultiAnchorDelegate </td>
+          <td>(</td>
+          <td class="paramtype">ulong&#160;</td>
+          <td class="paramname"><em>requestId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_o_v_r_spatial_anchor.html#aa6b684524cb6bf6bc3f3633ea2d08cee">OperationResult</a>&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_o_v_r_spatial_anchor.html#ad771f1dc1e7392dd40e50ce0c5e244a5">MultiAnchorActionType</a>&#160;</td>
+          <td class="paramname"><em>actionType</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1710e3c9b0f81022e2beb2fe236a28cc" name="a1710e3c9b0f81022e2beb2fe236a28cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1710e3c9b0f81022e2beb2fe236a28cc">&#9670;&#160;</a></span>InvokeSingleAnchorDelegate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void OVRSpatialAnchor.InvokeSingleAnchorDelegate </td>
+          <td>(</td>
+          <td class="paramtype">ulong&#160;</td>
+          <td class="paramname"><em>requestId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a62158087f18b8273d04645bc892a21bc" name="a62158087f18b8273d04645bc892a21bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62158087f18b8273d04645bc892a21bc">&#9670;&#160;</a></span>LateUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVRSpatialAnchor.LateUpdate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -537,13 +840,13 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Performs a query for anchors with the specified <em>options</em> . </p>
-<p>Use this method to find anchors that were previously persisted with Save(Action&lt;OVRSpatialAnchor, bool&gt;. The query is asynchronous; when the query completes, <em>onComplete</em>  is invoked with an array of <a class="el" href="struct_o_v_r_spatial_anchor_1_1_unbound_anchor.html" title="A spatial anchor that has not been bound to an OVRSpatialAnchor.">UnboundAnchor</a>s for which tracking may be requested. </p>
+<p>Use this method to find anchors that were previously persisted with <a class="el" href="class_o_v_r_spatial_anchor.html#ad771f1dc1e7392dd40e50ce0c5e244a5ac9cc8cce247e49bae79f15173ce97354">Save(Action&lt;OVRSpatialAnchor, bool&gt;</a>. The query is asynchronous; when the query completes, <em>onComplete</em>  is invoked with an array of <a class="el" href="struct_o_v_r_spatial_anchor_1_1_unbound_anchor.html" title="A spatial anchor that has not been bound to an OVRSpatialAnchor.">UnboundAnchor</a>s for which tracking may be requested. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">options</td><td>Options that affect the query.</td></tr>
@@ -566,14 +869,348 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
 
 </div>
 </div>
-<a id="a1a56b74c3adcdccbde2f24b2c2243cea" name="a1a56b74c3adcdccbde2f24b2c2243cea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a56b74c3adcdccbde2f24b2c2243cea">&#9670;&#160;</a></span>Save() <span class="overload">[1/3]</span></h2>
+<a id="a1b2b7f8647c4ee018afe2d404642b787" name="a1b2b7f8647c4ee018afe2d404642b787"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b2b7f8647c4ee018afe2d404642b787">&#9670;&#160;</a></span>OnDestroy()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVRSpatialAnchor.OnDestroy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a709638bb54439462d52b3a7caa7871a1" name="a709638bb54439462d52b3a7caa7871a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a709638bb54439462d52b3a7caa7871a1">&#9670;&#160;</a></span>OnShareSpacesComplete()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void OVRSpatialAnchor.OnShareSpacesComplete </td>
+          <td>(</td>
+          <td class="paramtype">ulong&#160;</td>
+          <td class="paramname"><em>requestId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_o_v_r_spatial_anchor.html#aa6b684524cb6bf6bc3f3633ea2d08cee">OperationResult</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5af2b628201b5da50073d5242a2d9e54" name="a5af2b628201b5da50073d5242a2d9e54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5af2b628201b5da50073d5242a2d9e54">&#9670;&#160;</a></span>OnSpaceEraseComplete()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void OVRSpatialAnchor.OnSpaceEraseComplete </td>
+          <td>(</td>
+          <td class="paramtype">ulong&#160;</td>
+          <td class="paramname"><em>requestId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Guid&#160;</td>
+          <td class="paramname"><em>uuid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">OVRPlugin::SpaceStorageLocation&#160;</td>
+          <td class="paramname"><em>location</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0b93e07f72b12c56eebf997d33d7552f" name="a0b93e07f72b12c56eebf997d33d7552f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b93e07f72b12c56eebf997d33d7552f">&#9670;&#160;</a></span>OnSpaceListSaveComplete()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void OVRSpatialAnchor.OnSpaceListSaveComplete </td>
+          <td>(</td>
+          <td class="paramtype">ulong&#160;</td>
+          <td class="paramname"><em>requestId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_o_v_r_spatial_anchor.html#aa6b684524cb6bf6bc3f3633ea2d08cee">OperationResult</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0427d7b2975057f82c4f1f9ab7f62b49" name="a0427d7b2975057f82c4f1f9ab7f62b49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0427d7b2975057f82c4f1f9ab7f62b49">&#9670;&#160;</a></span>OnSpaceQueryComplete()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void OVRSpatialAnchor.OnSpaceQueryComplete </td>
+          <td>(</td>
+          <td class="paramtype">ulong&#160;</td>
+          <td class="paramname"><em>requestId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>queryResult</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7466b10ab31f0d93e1df55a171b8b533" name="a7466b10ab31f0d93e1df55a171b8b533"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7466b10ab31f0d93e1df55a171b8b533">&#9670;&#160;</a></span>OnSpaceSaveComplete()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void OVRSpatialAnchor.OnSpaceSaveComplete </td>
+          <td>(</td>
+          <td class="paramtype">ulong&#160;</td>
+          <td class="paramname"><em>requestId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_o_v_r_space.html">OVRSpace</a>&#160;</td>
+          <td class="paramname"><em>space</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Guid&#160;</td>
+          <td class="paramname"><em>uuid</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a050c1df6996064b3794e851508b99348" name="a050c1df6996064b3794e851508b99348"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a050c1df6996064b3794e851508b99348">&#9670;&#160;</a></span>OnSpaceSetComponentStatusComplete()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void OVRSpatialAnchor.OnSpaceSetComponentStatusComplete </td>
+          <td>(</td>
+          <td class="paramtype">ulong&#160;</td>
+          <td class="paramname"><em>requestId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_o_v_r_space.html">OVRSpace</a>&#160;</td>
+          <td class="paramname"><em>space</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Guid&#160;</td>
+          <td class="paramname"><em>uuid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">OVRPlugin::SpaceComponentType&#160;</td>
+          <td class="paramname"><em>componentType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enabled</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aca13442b620ef0da358f019c26396d64" name="aca13442b620ef0da358f019c26396d64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca13442b620ef0da358f019c26396d64">&#9670;&#160;</a></span>OnSpatialAnchorCreateComplete()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void OVRSpatialAnchor.OnSpatialAnchorCreateComplete </td>
+          <td>(</td>
+          <td class="paramtype">ulong&#160;</td>
+          <td class="paramname"><em>requestId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>success</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_o_v_r_space.html">OVRSpace</a>&#160;</td>
+          <td class="paramname"><em>space</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Guid&#160;</td>
+          <td class="paramname"><em>uuid</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1a56b74c3adcdccbde2f24b2c2243cea" name="a1a56b74c3adcdccbde2f24b2c2243cea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a56b74c3adcdccbde2f24b2c2243cea">&#9670;&#160;</a></span>Save() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void OVRSpatialAnchor.Save </td>
@@ -583,11 +1220,6 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Saves the <a class="el" href="class_o_v_r_spatial_anchor.html" title="Represents a spatial anchor.">OVRSpatialAnchor</a> to local persistent storage. </p>
@@ -642,7 +1274,7 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -675,9 +1307,6 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void OVRSpatialAnchor.Save </td>
@@ -697,11 +1326,6 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Saves the <a class="el" href="class_o_v_r_spatial_anchor.html" title="Represents a spatial anchor.">OVRSpatialAnchor</a> with specified <a class="el" href="struct_o_v_r_spatial_anchor_1_1_save_options.html" title="Represents options for saving OVRSpatialAnchor.">SaveOptions</a>. </p>
@@ -721,14 +1345,36 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
 
 </div>
 </div>
-<a id="a3e43c666d3de873ea80674c6c60c09d8" name="a3e43c666d3de873ea80674c6c60c09d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e43c666d3de873ea80674c6c60c09d8">&#9670;&#160;</a></span>Share() <span class="overload">[1/6]</span></h2>
+<a id="a50c81f6c6b66c8972d12b4cbf2879479" name="a50c81f6c6b66c8972d12b4cbf2879479"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50c81f6c6b66c8972d12b4cbf2879479">&#9670;&#160;</a></span>SaveBatchAnchors()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void OVRSpatialAnchor.SaveBatchAnchors </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3e43c666d3de873ea80674c6c60c09d8" name="a3e43c666d3de873ea80674c6c60c09d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e43c666d3de873ea80674c6c60c09d8">&#9670;&#160;</a></span>Share() <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void OVRSpatialAnchor.Share </td>
@@ -748,11 +1394,6 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Shares the anchor to a collection of <a class="el" href="struct_o_v_r_space_user.html" title="Represents a user for purposes of sharing scene anchors.">OVRSpaceUser</a>. Specified users will be able to download, track, and share specified anchors. </p>
@@ -805,7 +1446,7 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -839,9 +1480,6 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void OVRSpatialAnchor.Share </td>
@@ -861,11 +1499,6 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Shares the anchor to an <a class="el" href="struct_o_v_r_space_user.html" title="Represents a user for purposes of sharing scene anchors.">OVRSpaceUser</a>. The specified user will be able to download, track, and share specified anchors. </p>
@@ -888,9 +1521,6 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void OVRSpatialAnchor.Share </td>
@@ -916,11 +1546,6 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Shares the anchor with two <a class="el" href="struct_o_v_r_space_user.html" title="Represents a user for purposes of sharing scene anchors.">OVRSpaceUser</a>. Specified users will be able to download, track, and share specified anchors. </p>
@@ -944,9 +1569,6 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void OVRSpatialAnchor.Share </td>
@@ -978,11 +1600,6 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Shares the anchor with three <a class="el" href="struct_o_v_r_space_user.html" title="Represents a user for purposes of sharing scene anchors.">OVRSpaceUser</a>. Specified users will be able to download, track, and share specified anchors. </p>
@@ -1007,9 +1624,6 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void OVRSpatialAnchor.Share </td>
@@ -1047,11 +1661,6 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Shares the anchor with four <a class="el" href="struct_o_v_r_space_user.html" title="Represents a user for purposes of sharing scene anchors.">OVRSpaceUser</a>. Specified users will be able to download, track, and share specified anchors. </p>
@@ -1069,6 +1678,236 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a44b5b9ea75ae50a1aa9bf3c814a801f1" name="a44b5b9ea75ae50a1aa9bf3c814a801f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44b5b9ea75ae50a1aa9bf3c814a801f1">&#9670;&#160;</a></span>ShareBatchAnchors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void OVRSpatialAnchor.ShareBatchAnchors </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae0f4c54bba2538bc6eae3291b097defa" name="ae0f4c54bba2538bc6eae3291b097defa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0f4c54bba2538bc6eae3291b097defa">&#9670;&#160;</a></span>ShareInternal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVRSpatialAnchor.ShareInternal </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="struct_o_v_r_space_user.html">OVRSpaceUser</a> &gt;&#160;</td>
+          <td class="paramname"><em>users</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action&lt; <a class="el" href="class_o_v_r_spatial_anchor.html#aa6b684524cb6bf6bc3f3633ea2d08cee">OperationResult</a> &gt;&#160;</td>
+          <td class="paramname"><em>onComplete</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac70f99dfe6898197139488c5b4e16c00" name="ac70f99dfe6898197139488c5b4e16c00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac70f99dfe6898197139488c5b4e16c00">&#9670;&#160;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVRSpatialAnchor.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a553a9bc931062e7d214008cca2bdad4c" name="a553a9bc931062e7d214008cca2bdad4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a553a9bc931062e7d214008cca2bdad4c">&#9670;&#160;</a></span>ThrowIfBound()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void OVRSpatialAnchor.ThrowIfBound </td>
+          <td>(</td>
+          <td class="paramtype">Guid&#160;</td>
+          <td class="paramname"><em>uuid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad4a49660421f16e842b3fabc76796496" name="ad4a49660421f16e842b3fabc76796496"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4a49660421f16e842b3fabc76796496">&#9670;&#160;</a></span>ToNativeArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static NativeArray&lt; ulong &gt; OVRSpatialAnchor.ToNativeArray </td>
+          <td>(</td>
+          <td class="paramtype">ICollection&lt; <a class="el" href="class_o_v_r_spatial_anchor.html">OVRSpatialAnchor</a> &gt;&#160;</td>
+          <td class="paramname"><em>anchors</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aae5e259ca8d7c3278173f72fbf8d6128" name="aae5e259ca8d7c3278173f72fbf8d6128"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae5e259ca8d7c3278173f72fbf8d6128">&#9670;&#160;</a></span>TryExtractValue&lt; TKey, TValue &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool OVRSpatialAnchor.TryExtractValue&lt; TKey, TValue &gt; </td>
+          <td>(</td>
+          <td class="paramtype">Dictionary&lt; TKey, TValue &gt;&#160;</td>
+          <td class="paramname"><em>dict</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TKey&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out TValue&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa8149369ad09bb64e4f950c39c9f2496" name="aa8149369ad09bb64e4f950c39c9f2496"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8149369ad09bb64e4f950c39c9f2496">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVRSpatialAnchor.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7ff438240518201a58cf1f45feb6f3a3" name="a7ff438240518201a58cf1f45feb6f3a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ff438240518201a58cf1f45feb6f3a3">&#9670;&#160;</a></span>UpdateTransform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVRSpatialAnchor.UpdateTransform </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1125,6 +1964,72 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
 <div class="line">        Storage = <a class="code hl_struct" href="struct_o_v_r_space.html">OVRSpace</a>.<a class="code hl_enumeration" href="struct_o_v_r_space.html#acf3cb17493e021d90428b114a548abd3">StorageLocation</a>.Local,</div>
 <div class="line">    }</div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="ad68e303cf5146996a9ace274ec74b57c" name="ad68e303cf5146996a9ace274ec74b57c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad68e303cf5146996a9ace274ec74b57c">&#9670;&#160;</a></span>_requestId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ulong OVRSpatialAnchor._requestId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb9c38009c412d3b28d3a68246671dae" name="adb9c38009c412d3b28d3a68246671dae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb9c38009c412d3b28d3a68246671dae">&#9670;&#160;</a></span>_startCalled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVRSpatialAnchor._startCalled</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad3bddf5cb98bf95d42d6f00f0d621fc5" name="ad3bddf5cb98bf95d42d6f00f0d621fc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3bddf5cb98bf95d42d6f00f0d621fc5">&#9670;&#160;</a></span>ComponentTypeBuffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly OVRPlugin.SpaceComponentType [] OVRSpatialAnchor.ComponentTypeBuffer = new OVRPlugin.SpaceComponentType[32]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <a id="a8dd834ceabca4ea6c5e767943ff30201" name="a8dd834ceabca4ea6c5e767943ff30201"></a>
@@ -1347,6 +2252,28 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
 </div><!-- fragment -->
 </div>
 </div>
+<a id="a969cd744dac1a592cd137d2caf73fa70" name="a969cd744dac1a592cd137d2caf73fa70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a969cd744dac1a592cd137d2caf73fa70">&#9670;&#160;</a></span>UnboundAnchorBuffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly List&lt;<a class="el" href="struct_o_v_r_spatial_anchor_1_1_unbound_anchor.html">UnboundAnchor</a>&gt; OVRSpatialAnchor.UnboundAnchorBuffer = new List&lt;<a class="el" href="struct_o_v_r_spatial_anchor_1_1_unbound_anchor.html">UnboundAnchor</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Property Documentation</h2>
 <a id="a82baaab1352b8fd212fac4255e6aa122" name="a82baaab1352b8fd212fac4255e6aa122"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a82baaab1352b8fd212fac4255e6aa122">&#9670;&#160;</a></span>Created</h2>
@@ -1395,6 +2322,30 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
 
 <p>Whether the spatial anchor has been localized. </p>
 <p>When you create a new spatial anchor, it may take a few frames before it is localized. Once localized, its transform will update automatically. </p>
+
+</div>
+</div>
+<a id="a52555962c3dc4043d10137a901885ed6" name="a52555962c3dc4043d10137a901885ed6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52555962c3dc4043d10137a901885ed6">&#9670;&#160;</a></span>PendingCreation</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVRSpatialAnchor.PendingCreation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether the spatial anchor is pending creation. </p>
 
 </div>
 </div>
@@ -1448,8 +2399,25 @@ static readonly OVRPlugin.SpaceComponentType[]&#160;</td><td class="memItemRight
 
 </div>
 </div>
+<h2 class="groupheader">Event Documentation</h2>
+<a id="a50889aec7a4d2900d7a28153d908c2e8" name="a50889aec7a4d2900d7a28153d908c2e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50889aec7a4d2900d7a28153d908c2e8">&#9670;&#160;</a></span>OnLocalize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action&lt;<a class="el" href="class_o_v_r_spatial_anchor.html#aa6b684524cb6bf6bc3f3633ea2d08cee">OperationResult</a>&gt; OVRSpatialAnchor.OnLocalize</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Event that is dispatched when the localization process finishes. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Oculus/VR/Scripts/OVRSpatialAnchor.cs</li>
+<li><a class="el" href="_o_v_r_spatial_anchor_8cs.html">OVRSpatialAnchor.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -58,5 +58,6 @@ var searchData=
   ['locomotiontutorialprogresstracker_55',['LocomotionTutorialProgressTracker',['../class_oculus_1_1_interaction_1_1_samples_1_1_locomotion_tutorial_progress_tracker.html',1,'Oculus::Interaction::Samples']]],
   ['locomotorsound_56',['LocomotorSound',['../class_oculus_1_1_interaction_1_1_locomotion_1_1_locomotor_sound.html',1,'Oculus::Interaction::Locomotion']]],
   ['lookattarget_57',['LookAtTarget',['../class_oculus_1_1_interaction_1_1_samples_1_1_look_at_target.html',1,'Oculus::Interaction::Samples']]],
-  ['lowpassfilter_58',['LowPassFilter',['../class_oculus_1_1_interaction_1_1_input_1_1_one_euro_filter_1_1_low_pass_filter.html',1,'Oculus::Interaction::Input::OneEuroFilter']]]
+  ['lose_58',['Lose',['../class_brain_scape_1_1_lose.html',1,'BrainScape']]],
+  ['lowpassfilter_59',['LowPassFilter',['../class_oculus_1_1_interaction_1_1_input_1_1_one_euro_filter_1_1_low_pass_filter.html',1,'Oculus::Interaction::Input::OneEuroFilter']]]
 ];

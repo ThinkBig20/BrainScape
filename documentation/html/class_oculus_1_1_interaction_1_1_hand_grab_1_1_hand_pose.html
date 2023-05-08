@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: Oculus.Interaction.HandGrab.HandPose Class Reference</title>
+<title>BrainScape: Oculus.Interaction.HandGrab.HandPose Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">BrainScape
    </div>
   </td>
  </tr>
@@ -88,11 +88,11 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aaf84bd589a61583e747baad00af27c4e"><td class="memItemLeft" align="right" valign="top"><a id="aaf84bd589a61583e747baad00af27c4e" name="aaf84bd589a61583e747baad00af27c4e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>HandPose</b> (<a class="el" href="class_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_pose.html#a58d07f9a71fe9759ae632fd2f07fe2b8">Handedness</a> handedness)</td></tr>
+<tr class="memitem:aaba6fc5f4c92cb2dc4509a1f63bb7de0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_pose.html#aaba6fc5f4c92cb2dc4509a1f63bb7de0">HandPose</a> ()</td></tr>
+<tr class="separator:aaba6fc5f4c92cb2dc4509a1f63bb7de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf84bd589a61583e747baad00af27c4e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_pose.html#aaf84bd589a61583e747baad00af27c4e">HandPose</a> (<a class="el" href="namespace_oculus_1_1_interaction_1_1_input.html#af8e6d73e82de89079d4cf5a834940a30">Handedness</a> handedness)</td></tr>
 <tr class="separator:aaf84bd589a61583e747baad00af27c4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a278b6cb7f88bea8cc5f867e1374256f9"><td class="memItemLeft" align="right" valign="top"><a id="a278b6cb7f88bea8cc5f867e1374256f9" name="a278b6cb7f88bea8cc5f867e1374256f9"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>HandPose</b> (<a class="el" href="class_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_pose.html">HandPose</a> other)</td></tr>
+<tr class="memitem:a278b6cb7f88bea8cc5f867e1374256f9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_pose.html#a278b6cb7f88bea8cc5f867e1374256f9">HandPose</a> (<a class="el" href="class_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_pose.html">HandPose</a> other)</td></tr>
 <tr class="separator:a278b6cb7f88bea8cc5f867e1374256f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6ae59a297a1974983cd448b3a304e4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_pose.html#ab6ae59a297a1974983cd448b3a304e4c">CopyFrom</a> (<a class="el" href="class_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_pose.html">HandPose</a> from, bool mirrorHandedness=false)</td></tr>
 <tr class="memdesc:ab6ae59a297a1974983cd448b3a304e4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the values over to the hand pose without requiring any new allocations.  <br /></td></tr>
@@ -100,49 +100,94 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a55550aad3a9e0ea5def77503ff63e423"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_pose.html#a55550aad3a9e0ea5def77503ff63e423">Lerp</a> (in <a class="el" href="class_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_pose.html">HandPose</a> from, in <a class="el" href="class_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_pose.html">HandPose</a> to, float t, ref <a class="el" href="class_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_pose.html">HandPose</a> result)</td></tr>
+<tr class="memitem:a55550aad3a9e0ea5def77503ff63e423"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_pose.html#a55550aad3a9e0ea5def77503ff63e423">Lerp</a> (in <a class="el" href="class_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_pose.html">HandPose</a> from, in <a class="el" href="class_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_pose.html">HandPose</a> to, float <a class="el" href="_json_convert_8cs.html#a668c27bab8c0c60a711fcc7cd41d7272">t</a>, ref <a class="el" href="class_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_pose.html">HandPose</a> result)</td></tr>
 <tr class="memdesc:a55550aad3a9e0ea5def77503ff63e423"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpolates between two HandPoses, if they have the same handedness and joints.  <br /></td></tr>
 <tr class="separator:a55550aad3a9e0ea5def77503ff63e423"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a58d07f9a71fe9759ae632fd2f07fe2b8"><td class="memItemLeft" align="right" valign="top"><a id="a58d07f9a71fe9759ae632fd2f07fe2b8" name="a58d07f9a71fe9759ae632fd2f07fe2b8"></a>
-Handedness&#160;</td><td class="memItemRight" valign="bottom"><b>Handedness</b><code> [get, set]</code></td></tr>
-<tr class="memdesc:a58d07f9a71fe9759ae632fd2f07fe2b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handedness of the hand. <br /></td></tr>
+<tr class="memitem:a58d07f9a71fe9759ae632fd2f07fe2b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_oculus_1_1_interaction_1_1_input.html#af8e6d73e82de89079d4cf5a834940a30">Handedness</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_pose.html#a58d07f9a71fe9759ae632fd2f07fe2b8">Handedness</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a58d07f9a71fe9759ae632fd2f07fe2b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handedness of the hand.  <br /></td></tr>
 <tr class="separator:a58d07f9a71fe9759ae632fd2f07fe2b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af114d7643527d4f12d337a4fbd96e888"><td class="memItemLeft" align="right" valign="top"><a id="af114d7643527d4f12d337a4fbd96e888" name="af114d7643527d4f12d337a4fbd96e888"></a>
-Quaternion[]&#160;</td><td class="memItemRight" valign="bottom"><b>JointRotations</b><code> [get, set]</code></td></tr>
-<tr class="memdesc:af114d7643527d4f12d337a4fbd96e888"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collection of joints and their rotations in this hand. It follows the <a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_fingers_metadata.html#a37de5df9153e259ff7bec90d850529de" title="Valid identifiers for the i-bone of a hand.">FingersMetadata.HAND_JOINT_IDS</a> convention. <br /></td></tr>
+<tr class="memitem:af114d7643527d4f12d337a4fbd96e888"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#a3115aee88de19f0e23050e8650bc3153">Quaternion</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_pose.html#af114d7643527d4f12d337a4fbd96e888">JointRotations</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:af114d7643527d4f12d337a4fbd96e888"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collection of joints and their rotations in this hand. It follows the <a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_fingers_metadata.html#a37de5df9153e259ff7bec90d850529de" title="Valid identifiers for the i-bone of a hand.">FingersMetadata.HAND_JOINT_IDS</a> convention.  <br /></td></tr>
 <tr class="separator:af114d7643527d4f12d337a4fbd96e888"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8007e10bfc3874ca9db1eb9b424b7058"><td class="memItemLeft" align="right" valign="top"><a id="a8007e10bfc3874ca9db1eb9b424b7058" name="a8007e10bfc3874ca9db1eb9b424b7058"></a>
-JointFreedom[]&#160;</td><td class="memItemRight" valign="bottom"><b>FingersFreedom</b><code> [get]</code></td></tr>
-<tr class="memdesc:a8007e10bfc3874ca9db1eb9b424b7058"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates which fingers can be locked, constrained or free in this hand pose. It follows the Hand.HandFinger order for the collection. <br /></td></tr>
+<tr class="memitem:a8007e10bfc3874ca9db1eb9b424b7058"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_oculus_1_1_interaction_1_1_input.html#a0fbdba8a1bbb4585fa11bc02a9bb39fc">JointFreedom</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_pose.html#a8007e10bfc3874ca9db1eb9b424b7058">FingersFreedom</a><code> [get]</code></td></tr>
+<tr class="memdesc:a8007e10bfc3874ca9db1eb9b424b7058"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates which fingers can be locked, constrained or free in this hand pose. It follows the Hand.HandFinger order for the collection.  <br /></td></tr>
 <tr class="separator:a8007e10bfc3874ca9db1eb9b424b7058"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ab9093120e5825980b7bb921b8b7cf08b"><td class="memItemLeft" align="right" valign="top"><a id="ab9093120e5825980b7bb921b8b7cf08b" name="ab9093120e5825980b7bb921b8b7cf08b"></a>
-<a class="el" href="class_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_pose.html#a58d07f9a71fe9759ae632fd2f07fe2b8">Handedness</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_handedness</b></td></tr>
+<tr class="memitem:ab9093120e5825980b7bb921b8b7cf08b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_oculus_1_1_interaction_1_1_input.html#af8e6d73e82de89079d4cf5a834940a30">Handedness</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_pose.html#ab9093120e5825980b7bb921b8b7cf08b">_handedness</a></td></tr>
 <tr class="separator:ab9093120e5825980b7bb921b8b7cf08b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaae1d72c71efe834ed15ce608ba1337f"><td class="memItemLeft" align="right" valign="top"><a id="aaae1d72c71efe834ed15ce608ba1337f" name="aaae1d72c71efe834ed15ce608ba1337f"></a>
-JointFreedom[]&#160;</td><td class="memItemRight" valign="bottom"><b>_fingersFreedom</b> = FingersMetadata.DefaultFingersFreedom()</td></tr>
+<tr class="memitem:aaae1d72c71efe834ed15ce608ba1337f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_oculus_1_1_interaction_1_1_input.html#a0fbdba8a1bbb4585fa11bc02a9bb39fc">JointFreedom</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_pose.html#aaae1d72c71efe834ed15ce608ba1337f">_fingersFreedom</a> = FingersMetadata.DefaultFingersFreedom()</td></tr>
 <tr class="separator:aaae1d72c71efe834ed15ce608ba1337f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbbba5113ec702e34c1153c20b3d0c25"><td class="memItemLeft" align="right" valign="top"><a id="abbbba5113ec702e34c1153c20b3d0c25" name="abbbba5113ec702e34c1153c20b3d0c25"></a>
-Quaternion[]&#160;</td><td class="memItemRight" valign="bottom"><b>_jointRotations</b> = new Quaternion[FingersMetadata.HAND_JOINT_IDS.Length]</td></tr>
+<tr class="memitem:abbbba5113ec702e34c1153c20b3d0c25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#a3115aee88de19f0e23050e8650bc3153">Quaternion</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_pose.html#abbbba5113ec702e34c1153c20b3d0c25">_jointRotations</a> = new <a class="el" href="_o_v_r_tracked_keyboard_8cs.html#a3115aee88de19f0e23050e8650bc3153">Quaternion</a>[FingersMetadata.HAND_JOINT_IDS.Length]</td></tr>
 <tr class="separator:abbbba5113ec702e34c1153c20b3d0c25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Data for the pose of a hand for grabbing an object. It contains not only the position of the hand and the fingers but other relevant data to the pose like the scale or which fingers are locked. </p>
 <p>Even though this class is Serializable it is not a Component. The HandPoseEditor class should be used (in conjunction with the HandGrabInteractableEditor class) to edit the values in the inspector. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aaba6fc5f4c92cb2dc4509a1f63bb7de0" name="aaba6fc5f4c92cb2dc4509a1f63bb7de0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaba6fc5f4c92cb2dc4509a1f63bb7de0">&#9670;&#160;</a></span>HandPose() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Oculus.Interaction.HandGrab.HandPose.HandPose </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf84bd589a61583e747baad00af27c4e" name="aaf84bd589a61583e747baad00af27c4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf84bd589a61583e747baad00af27c4e">&#9670;&#160;</a></span>HandPose() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Oculus.Interaction.HandGrab.HandPose.HandPose </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_oculus_1_1_interaction_1_1_input.html#af8e6d73e82de89079d4cf5a834940a30">Handedness</a>&#160;</td>
+          <td class="paramname"><em>handedness</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a278b6cb7f88bea8cc5f867e1374256f9" name="a278b6cb7f88bea8cc5f867e1374256f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a278b6cb7f88bea8cc5f867e1374256f9">&#9670;&#160;</a></span>HandPose() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Oculus.Interaction.HandGrab.HandPose.HandPose </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_oculus_1_1_interaction_1_1_hand_grab_1_1_hand_pose.html">HandPose</a>&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="ab6ae59a297a1974983cd448b3a304e4c" name="ab6ae59a297a1974983cd448b3a304e4c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab6ae59a297a1974983cd448b3a304e4c">&#9670;&#160;</a></span>CopyFrom()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Oculus.Interaction.HandGrab.HandPose.CopyFrom </td>
@@ -162,11 +207,6 @@ Quaternion[]&#160;</td><td class="memItemRight" valign="bottom"><b>_jointRotatio
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Copies the values over to the hand pose without requiring any new allocations. </p>
@@ -222,7 +262,7 @@ Quaternion[]&#160;</td><td class="memItemRight" valign="bottom"><b>_jointRotatio
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -240,8 +280,148 @@ Quaternion[]&#160;</td><td class="memItemRight" valign="bottom"><b>_jointRotatio
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aaae1d72c71efe834ed15ce608ba1337f" name="aaae1d72c71efe834ed15ce608ba1337f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaae1d72c71efe834ed15ce608ba1337f">&#9670;&#160;</a></span>_fingersFreedom</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_oculus_1_1_interaction_1_1_input.html#a0fbdba8a1bbb4585fa11bc02a9bb39fc">JointFreedom</a> [] Oculus.Interaction.HandGrab.HandPose._fingersFreedom = FingersMetadata.DefaultFingersFreedom()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab9093120e5825980b7bb921b8b7cf08b" name="ab9093120e5825980b7bb921b8b7cf08b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9093120e5825980b7bb921b8b7cf08b">&#9670;&#160;</a></span>_handedness</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_oculus_1_1_interaction_1_1_input.html#af8e6d73e82de89079d4cf5a834940a30">Handedness</a> Oculus.Interaction.HandGrab.HandPose._handedness</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abbbba5113ec702e34c1153c20b3d0c25" name="abbbba5113ec702e34c1153c20b3d0c25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbbba5113ec702e34c1153c20b3d0c25">&#9670;&#160;</a></span>_jointRotations</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#a3115aee88de19f0e23050e8650bc3153">Quaternion</a> [] Oculus.Interaction.HandGrab.HandPose._jointRotations = new <a class="el" href="_o_v_r_tracked_keyboard_8cs.html#a3115aee88de19f0e23050e8650bc3153">Quaternion</a>[FingersMetadata.HAND_JOINT_IDS.Length]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a8007e10bfc3874ca9db1eb9b424b7058" name="a8007e10bfc3874ca9db1eb9b424b7058"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8007e10bfc3874ca9db1eb9b424b7058">&#9670;&#160;</a></span>FingersFreedom</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_oculus_1_1_interaction_1_1_input.html#a0fbdba8a1bbb4585fa11bc02a9bb39fc">JointFreedom</a> [] Oculus.Interaction.HandGrab.HandPose.FingersFreedom</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Indicates which fingers can be locked, constrained or free in this hand pose. It follows the Hand.HandFinger order for the collection. </p>
+
+</div>
+</div>
+<a id="a58d07f9a71fe9759ae632fd2f07fe2b8" name="a58d07f9a71fe9759ae632fd2f07fe2b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58d07f9a71fe9759ae632fd2f07fe2b8">&#9670;&#160;</a></span>Handedness</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_oculus_1_1_interaction_1_1_input.html#af8e6d73e82de89079d4cf5a834940a30">Handedness</a> Oculus.Interaction.HandGrab.HandPose.Handedness</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handedness of the hand. </p>
+
+</div>
+</div>
+<a id="af114d7643527d4f12d337a4fbd96e888" name="af114d7643527d4f12d337a4fbd96e888"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af114d7643527d4f12d337a4fbd96e888">&#9670;&#160;</a></span>JointRotations</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#a3115aee88de19f0e23050e8650bc3153">Quaternion</a> [] Oculus.Interaction.HandGrab.HandPose.JointRotations</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Collection of joints and their rotations in this hand. It follows the <a class="el" href="class_oculus_1_1_interaction_1_1_input_1_1_fingers_metadata.html#a37de5df9153e259ff7bec90d850529de" title="Valid identifiers for the i-bone of a hand.">FingersMetadata.HAND_JOINT_IDS</a> convention. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/HandGrab/HandPose.cs</li>
+<li><a class="el" href="_interaction_2_runtime_2_scripts_2_interaction_2_models_2_hand_grab_2_hand_pose_8cs.html">Interaction/Runtime/Scripts/Interaction/Models/HandGrab/HandPose.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

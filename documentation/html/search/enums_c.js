@@ -1,5 +1,20 @@
 var searchData=
 [
-  ['retargetingtype_0',['RetargetingType',['../class_o_v_r_custom_skeleton.html#acf47dea1d024e95acbb9df3da94c0e30',1,'OVRCustomSkeleton']]],
-  ['richpresenceextracontext_1',['RichPresenceExtraContext',['../namespace_oculus_1_1_platform.html#a41ff2ef436f9ee680b0c56b222b15956',1,'Oculus::Platform']]]
+  ['manipulationtype_0',['ManipulationType',['../class_grab_object.html#a0355acbe72a8f5f882dda6eb04c09873',1,'GrabObject']]],
+  ['matchmakingcriterionimportance_1',['MatchmakingCriterionImportance',['../namespace_oculus_1_1_platform.html#a72efcf4f8e0c1177bb3d1df6d9f3a81a',1,'Oculus::Platform']]],
+  ['matchmakingstatapproach_2',['MatchmakingStatApproach',['../namespace_oculus_1_1_platform.html#a11a3d296f505b62c1c50cfc7e82b7576',1,'Oculus::Platform']]],
+  ['matchmethod_3',['MatchMethod',['../namespace_meta_1_1_wit_ai_1_1_callback_handlers.html#a6efe3c4a6ed515432cbb80a001538671',1,'Meta::WitAi::CallbackHandlers']]],
+  ['matchroomstate_4',['MatchRoomState',['../class_oculus_1_1_platform_1_1_samples_1_1_vr_board_game_1_1_matchmaking_manager.html#aa7f29d65f0680a93e03c8a00c1b2df88',1,'Oculus::Platform::Samples::VrBoardGame::MatchmakingManager']]],
+  ['materialproperty_5',['MaterialProperty',['../namespace_oculus_1_1_spatializer_1_1_propagation.html#a63e8e06ac58957a0ca0945f9dd691d7d',1,'Oculus::Spatializer::Propagation']]],
+  ['mediacontenttype_6',['MediaContentType',['../namespace_oculus_1_1_platform.html#a703caf903d5f44f1c8bb4edba15271b0',1,'Oculus::Platform']]],
+  ['meshcomplexitylevel_7',['MeshComplexityLevel',['../class_o_v_r_vignette.html#a4937e962c190ceea41793e2faa23208f',1,'OVRVignette']]],
+  ['meshtype_8',['MeshType',['../class_o_v_r_mesh.html#a28d6ff48e5eaedbcd2105b2d694209d3',1,'OVRMesh']]],
+  ['messagetype_9',['MessageType',['../class_oculus_1_1_platform_1_1_message.html#a3f37acee13a52d4f6d2f94778a48e79c',1,'Oculus::Platform::Message']]],
+  ['method_10',['Method',['../class_simple_resizable.html#a3bb37d43d18a6df779a46bea5ea64e74',1,'SimpleResizable']]],
+  ['micactivation_11',['micActivation',['../class_o_v_r_lip_sync_mic_input.html#abb2861311b7630c8328b132ddb0c42be',1,'OVRLipSyncMicInput']]],
+  ['motiontype_12',['MotionType',['../class_t_m_pro_1_1_examples_1_1_object_spin.html#a45f51bc7820e9bbc91c1806bcaded7fc',1,'TMPro::Examples::ObjectSpin']]],
+  ['movementdirection_13',['MovementDirection',['../class_unity_engine_1_1_x_r_1_1_interaction_1_1_toolkit_1_1_samples_1_1_starter_assets_1_1_dynamic_move_provider.html#aba88a876c428d0b628af52e3cac0778b',1,'UnityEngine::XR::Interaction::Toolkit::Samples::StarterAssets::DynamicMoveProvider']]],
+  ['mrcactivationmode_14',['MrcActivationMode',['../class_o_v_r_plugin_1_1_media.html#af3899a333821777c111cabbd785c021a',1,'OVRPlugin::Media']]],
+  ['multianchoractiontype_15',['MultiAnchorActionType',['../class_o_v_r_spatial_anchor.html#ad771f1dc1e7392dd40e50ce0c5e244a5',1,'OVRSpatialAnchor']]],
+  ['multiplayererrorerrorkey_16',['MultiplayerErrorErrorKey',['../namespace_oculus_1_1_platform.html#a9b429e7603e9ed6a66ccb4556fd03c0b',1,'Oculus::Platform']]]
 ];

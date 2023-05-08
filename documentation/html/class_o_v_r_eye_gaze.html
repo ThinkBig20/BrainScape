@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: OVREyeGaze Class Reference</title>
+<title>BrainScape: OVREyeGaze Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">BrainScape
    </div>
   </td>
  </tr>
@@ -92,117 +92,664 @@ Inheritance diagram for OVREyeGaze:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a6cf4f52ef87b28db0fdf5fe66860f570"><td class="memItemLeft" align="right" valign="top"><a id="a6cf4f52ef87b28db0fdf5fe66860f570" name="a6cf4f52ef87b28db0fdf5fe66860f570"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_eye_gaze.html#a6cf4f52ef87b28db0fdf5fe66860f570">EyeId</a> { <b>Left</b> = OVRPlugin.Eye.Left
-, <b>Right</b> = OVRPlugin.Eye.Right
+<tr class="memitem:a6cf4f52ef87b28db0fdf5fe66860f570"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_eye_gaze.html#a6cf4f52ef87b28db0fdf5fe66860f570">EyeId</a> { <a class="el" href="class_o_v_r_eye_gaze.html#a6cf4f52ef87b28db0fdf5fe66860f570a945d5e233cf7d6240f6b783b36a374ff">Left</a> = OVRPlugin.Eye.Left
+, <a class="el" href="class_o_v_r_eye_gaze.html#a6cf4f52ef87b28db0fdf5fe66860f570a92b09c7c48c520c3c55e497875da437c">Right</a> = OVRPlugin.Eye.Right
  }</td></tr>
-<tr class="memdesc:a6cf4f52ef87b28db0fdf5fe66860f570"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of eyes. <br /></td></tr>
+<tr class="memdesc:a6cf4f52ef87b28db0fdf5fe66860f570"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of eyes.  <a href="class_o_v_r_eye_gaze.html#a6cf4f52ef87b28db0fdf5fe66860f570">More...</a><br /></td></tr>
 <tr class="separator:a6cf4f52ef87b28db0fdf5fe66860f570"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9efca0aa3693231ff81f8592809b1764"><td class="memItemLeft" align="right" valign="top"><a id="a9efca0aa3693231ff81f8592809b1764" name="a9efca0aa3693231ff81f8592809b1764"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>EyeTrackingMode</b> { <b>HeadSpace</b>
-, <b>WorldSpace</b>
-, <b>TrackingSpace</b>
+<tr class="memitem:a9efca0aa3693231ff81f8592809b1764"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_eye_gaze.html#a9efca0aa3693231ff81f8592809b1764">EyeTrackingMode</a> { <a class="el" href="class_o_v_r_eye_gaze.html#a9efca0aa3693231ff81f8592809b1764ac0baa84a9561363f3ca6543cbb5ce469">HeadSpace</a>
+, <a class="el" href="class_o_v_r_eye_gaze.html#a9efca0aa3693231ff81f8592809b1764a43c5bd4a88c440bd0862f954e4faa177">WorldSpace</a>
+, <a class="el" href="class_o_v_r_eye_gaze.html#a9efca0aa3693231ff81f8592809b1764ada5f00f2956b737fad78402a366bd3c6">TrackingSpace</a>
  }</td></tr>
 <tr class="separator:a9efca0aa3693231ff81f8592809b1764"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ad95198d8c1eb2dc01ce3a4de51a89cdd"><td class="memItemLeft" align="right" valign="top"><a id="ad95198d8c1eb2dc01ce3a4de51a89cdd" name="ad95198d8c1eb2dc01ce3a4de51a89cdd"></a>
-<a class="el" href="class_o_v_r_eye_gaze.html#a6cf4f52ef87b28db0fdf5fe66860f570">EyeId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Eye</b></td></tr>
-<tr class="memdesc:ad95198d8c1eb2dc01ce3a4de51a89cdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">GameObject will automatically change position and rotate according to the selected eye. <br /></td></tr>
+<tr class="memitem:ad95198d8c1eb2dc01ce3a4de51a89cdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_eye_gaze.html#a6cf4f52ef87b28db0fdf5fe66860f570">EyeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_eye_gaze.html#ad95198d8c1eb2dc01ce3a4de51a89cdd">Eye</a></td></tr>
+<tr class="memdesc:ad95198d8c1eb2dc01ce3a4de51a89cdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">GameObject will automatically change position and rotate according to the selected eye.  <br /></td></tr>
 <tr class="separator:ad95198d8c1eb2dc01ce3a4de51a89cdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5f8e3de773954876e69a1dfff807a59"><td class="memItemLeft" align="right" valign="top"><a id="ab5f8e3de773954876e69a1dfff807a59" name="ab5f8e3de773954876e69a1dfff807a59"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>ConfidenceThreshold</b> = 0.5f</td></tr>
-<tr class="memdesc:ab5f8e3de773954876e69a1dfff807a59"><td class="mdescLeft">&#160;</td><td class="mdescRight">GameObject will not change if detected eye state confidence is below this threshold. <br /></td></tr>
+<tr class="memitem:ab5f8e3de773954876e69a1dfff807a59"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_eye_gaze.html#ab5f8e3de773954876e69a1dfff807a59">ConfidenceThreshold</a> = 0.5f</td></tr>
+<tr class="memdesc:ab5f8e3de773954876e69a1dfff807a59"><td class="mdescLeft">&#160;</td><td class="mdescRight">GameObject will not change if detected eye state confidence is below this threshold.  <br /></td></tr>
 <tr class="separator:ab5f8e3de773954876e69a1dfff807a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1276369905970fc5c51d0e96f3afe1fe"><td class="memItemLeft" align="right" valign="top"><a id="a1276369905970fc5c51d0e96f3afe1fe" name="a1276369905970fc5c51d0e96f3afe1fe"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>ApplyPosition</b> = true</td></tr>
-<tr class="memdesc:a1276369905970fc5c51d0e96f3afe1fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">GameObject will automatically change position. <br /></td></tr>
+<tr class="memitem:a1276369905970fc5c51d0e96f3afe1fe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_eye_gaze.html#a1276369905970fc5c51d0e96f3afe1fe">ApplyPosition</a> = true</td></tr>
+<tr class="memdesc:a1276369905970fc5c51d0e96f3afe1fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">GameObject will automatically change position.  <br /></td></tr>
 <tr class="separator:a1276369905970fc5c51d0e96f3afe1fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a060d45656f6598468d322fe8d131f6c6"><td class="memItemLeft" align="right" valign="top"><a id="a060d45656f6598468d322fe8d131f6c6" name="a060d45656f6598468d322fe8d131f6c6"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>ApplyRotation</b> = true</td></tr>
-<tr class="memdesc:a060d45656f6598468d322fe8d131f6c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">GameObject will automatically rotate. <br /></td></tr>
+<tr class="memitem:a060d45656f6598468d322fe8d131f6c6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_eye_gaze.html#a060d45656f6598468d322fe8d131f6c6">ApplyRotation</a> = true</td></tr>
+<tr class="memdesc:a060d45656f6598468d322fe8d131f6c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">GameObject will automatically rotate.  <br /></td></tr>
 <tr class="separator:a060d45656f6598468d322fe8d131f6c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9babf2607a3d4979d254af7b3ec84edd"><td class="memItemLeft" align="right" valign="top"><a id="a9babf2607a3d4979d254af7b3ec84edd" name="a9babf2607a3d4979d254af7b3ec84edd"></a>
-Transform&#160;</td><td class="memItemRight" valign="bottom"><b>ReferenceFrame</b></td></tr>
-<tr class="memdesc:a9babf2607a3d4979d254af7b3ec84edd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference frame for eye. If it's null, then world reference frame will be used. <br /></td></tr>
+<tr class="memitem:a9babf2607a3d4979d254af7b3ec84edd"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_eye_gaze.html#a9babf2607a3d4979d254af7b3ec84edd">ReferenceFrame</a></td></tr>
+<tr class="memdesc:a9babf2607a3d4979d254af7b3ec84edd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference frame for eye. If it's null, then world reference frame will be used.  <br /></td></tr>
 <tr class="separator:a9babf2607a3d4979d254af7b3ec84edd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7266806b38368f412166591f624e2268"><td class="memItemLeft" align="right" valign="top"><a id="a7266806b38368f412166591f624e2268" name="a7266806b38368f412166591f624e2268"></a>
-EyeTrackingMode&#160;</td><td class="memItemRight" valign="bottom"><b>TrackingMode</b></td></tr>
-<tr class="memdesc:a7266806b38368f412166591f624e2268"><td class="mdescLeft">&#160;</td><td class="mdescRight">HeadSpace: Track eye relative to head space. WorldSpace: Track eye in world space. TrackingSpace: Track eye relative to <a class="el" href="class_o_v_r_camera_rig.html" title="A head-tracked stereoscopic virtual reality camera rig.">OVRCameraRig</a>. <br /></td></tr>
+<tr class="memitem:a7266806b38368f412166591f624e2268"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_eye_gaze.html#a9efca0aa3693231ff81f8592809b1764">EyeTrackingMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_eye_gaze.html#a7266806b38368f412166591f624e2268">TrackingMode</a></td></tr>
+<tr class="memdesc:a7266806b38368f412166591f624e2268"><td class="mdescLeft">&#160;</td><td class="mdescRight">HeadSpace: Track eye relative to head space. WorldSpace: Track eye in world space. TrackingSpace: Track eye relative to <a class="el" href="class_o_v_r_camera_rig.html" title="A head-tracked stereoscopic virtual reality camera rig.">OVRCameraRig</a>.  <br /></td></tr>
 <tr class="separator:a7266806b38368f412166591f624e2268"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a8ecf6a1c262f302b71d1b4b41c5f5621"><td class="memItemLeft" align="right" valign="top"><a id="a8ecf6a1c262f302b71d1b4b41c5f5621" name="a8ecf6a1c262f302b71d1b4b41c5f5621"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>EyeTrackingEnabled</b><code> [get]</code></td></tr>
-<tr class="memdesc:a8ecf6a1c262f302b71d1b4b41c5f5621"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if eye tracking is enabled, otherwise false. <br /></td></tr>
+<tr class="memitem:a8ecf6a1c262f302b71d1b4b41c5f5621"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_eye_gaze.html#a8ecf6a1c262f302b71d1b4b41c5f5621">EyeTrackingEnabled</a><code> [get]</code></td></tr>
+<tr class="memdesc:a8ecf6a1c262f302b71d1b4b41c5f5621"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if eye tracking is enabled, otherwise false.  <br /></td></tr>
 <tr class="separator:a8ecf6a1c262f302b71d1b4b41c5f5621"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b2527281111c54bbb70f5a1d340bd8f"><td class="memItemLeft" align="right" valign="top"><a id="a8b2527281111c54bbb70f5a1d340bd8f" name="a8b2527281111c54bbb70f5a1d340bd8f"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>Confidence</b><code> [get, private set]</code></td></tr>
-<tr class="memdesc:a8b2527281111c54bbb70f5a1d340bd8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">A confidence value ranging from 0..1 indicating the reliability of the eye tracking data. <br /></td></tr>
+<tr class="memitem:a8b2527281111c54bbb70f5a1d340bd8f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_eye_gaze.html#a8b2527281111c54bbb70f5a1d340bd8f">Confidence</a><code> [get, private set]</code></td></tr>
+<tr class="memdesc:a8b2527281111c54bbb70f5a1d340bd8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">A confidence value ranging from 0..1 indicating the reliability of the eye tracking data.  <br /></td></tr>
 <tr class="separator:a8b2527281111c54bbb70f5a1d340bd8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a1ebb9bf962b0b4b632759bfe0bd4a295"><td class="memItemLeft" align="right" valign="top"><a id="a1ebb9bf962b0b4b632759bfe0bd4a295" name="a1ebb9bf962b0b4b632759bfe0bd4a295"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
+<tr class="memitem:a1ebb9bf962b0b4b632759bfe0bd4a295"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_eye_gaze.html#a1ebb9bf962b0b4b632759bfe0bd4a295">Awake</a> ()</td></tr>
 <tr class="separator:a1ebb9bf962b0b4b632759bfe0bd4a295"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9a9a4ccaa4e0d454797db26f5725e24"><td class="memItemLeft" align="right" valign="top"><a id="ac9a9a4ccaa4e0d454797db26f5725e24" name="ac9a9a4ccaa4e0d454797db26f5725e24"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
+<tr class="memitem:ac9a9a4ccaa4e0d454797db26f5725e24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_eye_gaze.html#ac9a9a4ccaa4e0d454797db26f5725e24">Start</a> ()</td></tr>
 <tr class="separator:ac9a9a4ccaa4e0d454797db26f5725e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a3351a5db0224d78bb0a2131e3b05a0"><td class="memItemLeft" align="right" valign="top"><a id="a3a3351a5db0224d78bb0a2131e3b05a0" name="a3a3351a5db0224d78bb0a2131e3b05a0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>OnEnable</b> ()</td></tr>
+<tr class="memitem:a3a3351a5db0224d78bb0a2131e3b05a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_eye_gaze.html#a3a3351a5db0224d78bb0a2131e3b05a0">OnEnable</a> ()</td></tr>
 <tr class="separator:a3a3351a5db0224d78bb0a2131e3b05a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d002514de8c3b9778bb261f983a1d13"><td class="memItemLeft" align="right" valign="top"><a id="a1d002514de8c3b9778bb261f983a1d13" name="a1d002514de8c3b9778bb261f983a1d13"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>OnPermissionGranted</b> (string permissionId)</td></tr>
+<tr class="memitem:a1d002514de8c3b9778bb261f983a1d13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_eye_gaze.html#a1d002514de8c3b9778bb261f983a1d13">OnPermissionGranted</a> (string permissionId)</td></tr>
 <tr class="separator:a1d002514de8c3b9778bb261f983a1d13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c978b0b7a0226d27b5394043d2570bf"><td class="memItemLeft" align="right" valign="top"><a id="a1c978b0b7a0226d27b5394043d2570bf" name="a1c978b0b7a0226d27b5394043d2570bf"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>StartEyeTracking</b> ()</td></tr>
+<tr class="memitem:a1c978b0b7a0226d27b5394043d2570bf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_eye_gaze.html#a1c978b0b7a0226d27b5394043d2570bf">StartEyeTracking</a> ()</td></tr>
 <tr class="separator:a1c978b0b7a0226d27b5394043d2570bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adda4785aeb52823002496d4e521b2429"><td class="memItemLeft" align="right" valign="top"><a id="adda4785aeb52823002496d4e521b2429" name="adda4785aeb52823002496d4e521b2429"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDisable</b> ()</td></tr>
+<tr class="memitem:adda4785aeb52823002496d4e521b2429"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_eye_gaze.html#adda4785aeb52823002496d4e521b2429">OnDisable</a> ()</td></tr>
 <tr class="separator:adda4785aeb52823002496d4e521b2429"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a236e3525295e70498c42aae8363953f6"><td class="memItemLeft" align="right" valign="top"><a id="a236e3525295e70498c42aae8363953f6" name="a236e3525295e70498c42aae8363953f6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDestroy</b> ()</td></tr>
+<tr class="memitem:a236e3525295e70498c42aae8363953f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_eye_gaze.html#a236e3525295e70498c42aae8363953f6">OnDestroy</a> ()</td></tr>
 <tr class="separator:a236e3525295e70498c42aae8363953f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd46b6ab6239ec029053756700ea8c2b"><td class="memItemLeft" align="right" valign="top"><a id="abd46b6ab6239ec029053756700ea8c2b" name="abd46b6ab6239ec029053756700ea8c2b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
+<tr class="memitem:abd46b6ab6239ec029053756700ea8c2b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_eye_gaze.html#abd46b6ab6239ec029053756700ea8c2b">Update</a> ()</td></tr>
 <tr class="separator:abd46b6ab6239ec029053756700ea8c2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff6ff2afbd70d9eee3c4137afb2f37e7"><td class="memItemLeft" align="right" valign="top"><a id="aff6ff2afbd70d9eee3c4137afb2f37e7" name="aff6ff2afbd70d9eee3c4137afb2f37e7"></a>
-Quaternion&#160;</td><td class="memItemRight" valign="bottom"><b>CalculateEyeRotation</b> (Quaternion eyeRotation)</td></tr>
+<tr class="memitem:aff6ff2afbd70d9eee3c4137afb2f37e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#a3115aee88de19f0e23050e8650bc3153">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_eye_gaze.html#aff6ff2afbd70d9eee3c4137afb2f37e7">CalculateEyeRotation</a> (<a class="el" href="_o_v_r_tracked_keyboard_8cs.html#a3115aee88de19f0e23050e8650bc3153">Quaternion</a> eyeRotation)</td></tr>
 <tr class="separator:aff6ff2afbd70d9eee3c4137afb2f37e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14d0b54cacb6d1d3d0809e064c5a32cf"><td class="memItemLeft" align="right" valign="top"><a id="a14d0b54cacb6d1d3d0809e064c5a32cf" name="a14d0b54cacb6d1d3d0809e064c5a32cf"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>PrepareHeadDirection</b> ()</td></tr>
+<tr class="memitem:a14d0b54cacb6d1d3d0809e064c5a32cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_eye_gaze.html#a14d0b54cacb6d1d3d0809e064c5a32cf">PrepareHeadDirection</a> ()</td></tr>
 <tr class="separator:a14d0b54cacb6d1d3d0809e064c5a32cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ad5e4005106cc40df5a827fa4b6267baf"><td class="memItemLeft" align="right" valign="top"><a id="ad5e4005106cc40df5a827fa4b6267baf" name="ad5e4005106cc40df5a827fa4b6267baf"></a>
-<a class="el" href="struct_o_v_r_plugin_1_1_eye_gazes_state.html">OVRPlugin.EyeGazesState</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_currentEyeGazesState</b></td></tr>
+<tr class="memitem:ad5e4005106cc40df5a827fa4b6267baf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_o_v_r_plugin_1_1_eye_gazes_state.html">OVRPlugin.EyeGazesState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_eye_gaze.html#ad5e4005106cc40df5a827fa4b6267baf">_currentEyeGazesState</a></td></tr>
 <tr class="separator:ad5e4005106cc40df5a827fa4b6267baf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb57678f6bb852be1cf96382574762f1"><td class="memItemLeft" align="right" valign="top"><a id="afb57678f6bb852be1cf96382574762f1" name="afb57678f6bb852be1cf96382574762f1"></a>
-Quaternion&#160;</td><td class="memItemRight" valign="bottom"><b>_initialRotationOffset</b></td></tr>
+<tr class="memitem:afb57678f6bb852be1cf96382574762f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#a3115aee88de19f0e23050e8650bc3153">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_eye_gaze.html#afb57678f6bb852be1cf96382574762f1">_initialRotationOffset</a></td></tr>
 <tr class="separator:afb57678f6bb852be1cf96382574762f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cd3724b8583549aadccdc4eb9814d7f"><td class="memItemLeft" align="right" valign="top"><a id="a8cd3724b8583549aadccdc4eb9814d7f" name="a8cd3724b8583549aadccdc4eb9814d7f"></a>
-Transform&#160;</td><td class="memItemRight" valign="bottom"><b>_viewTransform</b></td></tr>
+<tr class="memitem:a8cd3724b8583549aadccdc4eb9814d7f"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_eye_gaze.html#a8cd3724b8583549aadccdc4eb9814d7f">_viewTransform</a></td></tr>
 <tr class="separator:a8cd3724b8583549aadccdc4eb9814d7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4384c38cb829de5c875c22c4030864dc"><td class="memItemLeft" align="right" valign="top"><a id="a4384c38cb829de5c875c22c4030864dc" name="a4384c38cb829de5c875c22c4030864dc"></a>
-Action&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_onPermissionGranted</b></td></tr>
+<tr class="memitem:a4384c38cb829de5c875c22c4030864dc"><td class="memItemLeft" align="right" valign="top">Action&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_eye_gaze.html#a4384c38cb829de5c875c22c4030864dc">_onPermissionGranted</a></td></tr>
 <tr class="separator:a4384c38cb829de5c875c22c4030864dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:aa10b55894617a353dd37f6be66e44a9e"><td class="memItemLeft" align="right" valign="top"><a id="aa10b55894617a353dd37f6be66e44a9e" name="aa10b55894617a353dd37f6be66e44a9e"></a>
-const OVRPermissionsRequester.Permission&#160;</td><td class="memItemRight" valign="bottom"><b>EyeTrackingPermission</b> = OVRPermissionsRequester.Permission.EyeTracking</td></tr>
+<tr class="memitem:aa10b55894617a353dd37f6be66e44a9e"><td class="memItemLeft" align="right" valign="top">const OVRPermissionsRequester.Permission&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_eye_gaze.html#aa10b55894617a353dd37f6be66e44a9e">EyeTrackingPermission</a> = OVRPermissionsRequester.Permission.EyeTracking</td></tr>
 <tr class="separator:aa10b55894617a353dd37f6be66e44a9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a299f0950e58bd75a8ae0668611be0ec9"><td class="memItemLeft" align="right" valign="top"><a id="a299f0950e58bd75a8ae0668611be0ec9" name="a299f0950e58bd75a8ae0668611be0ec9"></a>
-static int&#160;</td><td class="memItemRight" valign="bottom"><b>_trackingInstanceCount</b></td></tr>
+<tr class="memitem:a299f0950e58bd75a8ae0668611be0ec9"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_eye_gaze.html#a299f0950e58bd75a8ae0668611be0ec9">_trackingInstanceCount</a></td></tr>
 <tr class="separator:a299f0950e58bd75a8ae0668611be0ec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class updates the transform of the GameObject to point toward an eye direction. </p>
 <p>See <a class="el" href="struct_o_v_r_plugin_1_1_eye_gaze_state.html">OVRPlugin.EyeGazeState</a> structure for list of eye state parameters. </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Oculus/VR/Scripts/OVREyeGaze.cs</li>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a6cf4f52ef87b28db0fdf5fe66860f570" name="a6cf4f52ef87b28db0fdf5fe66860f570"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cf4f52ef87b28db0fdf5fe66860f570">&#9670;&#160;</a></span>EyeId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_o_v_r_eye_gaze.html#a6cf4f52ef87b28db0fdf5fe66860f570">OVREyeGaze.EyeId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>List of eyes. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6cf4f52ef87b28db0fdf5fe66860f570a945d5e233cf7d6240f6b783b36a374ff" name="a6cf4f52ef87b28db0fdf5fe66860f570a945d5e233cf7d6240f6b783b36a374ff"></a>Left&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6cf4f52ef87b28db0fdf5fe66860f570a92b09c7c48c520c3c55e497875da437c" name="a6cf4f52ef87b28db0fdf5fe66860f570a92b09c7c48c520c3c55e497875da437c"></a>Right&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a9efca0aa3693231ff81f8592809b1764" name="a9efca0aa3693231ff81f8592809b1764"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9efca0aa3693231ff81f8592809b1764">&#9670;&#160;</a></span>EyeTrackingMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_o_v_r_eye_gaze.html#a9efca0aa3693231ff81f8592809b1764">OVREyeGaze.EyeTrackingMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9efca0aa3693231ff81f8592809b1764ac0baa84a9561363f3ca6543cbb5ce469" name="a9efca0aa3693231ff81f8592809b1764ac0baa84a9561363f3ca6543cbb5ce469"></a>HeadSpace&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9efca0aa3693231ff81f8592809b1764a43c5bd4a88c440bd0862f954e4faa177" name="a9efca0aa3693231ff81f8592809b1764a43c5bd4a88c440bd0862f954e4faa177"></a>WorldSpace&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9efca0aa3693231ff81f8592809b1764ada5f00f2956b737fad78402a366bd3c6" name="a9efca0aa3693231ff81f8592809b1764ada5f00f2956b737fad78402a366bd3c6"></a>TrackingSpace&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1ebb9bf962b0b4b632759bfe0bd4a295" name="a1ebb9bf962b0b4b632759bfe0bd4a295"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ebb9bf962b0b4b632759bfe0bd4a295">&#9670;&#160;</a></span>Awake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVREyeGaze.Awake </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aff6ff2afbd70d9eee3c4137afb2f37e7" name="aff6ff2afbd70d9eee3c4137afb2f37e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff6ff2afbd70d9eee3c4137afb2f37e7">&#9670;&#160;</a></span>CalculateEyeRotation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#a3115aee88de19f0e23050e8650bc3153">Quaternion</a> OVREyeGaze.CalculateEyeRotation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#a3115aee88de19f0e23050e8650bc3153">Quaternion</a>&#160;</td>
+          <td class="paramname"><em>eyeRotation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a236e3525295e70498c42aae8363953f6" name="a236e3525295e70498c42aae8363953f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a236e3525295e70498c42aae8363953f6">&#9670;&#160;</a></span>OnDestroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVREyeGaze.OnDestroy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adda4785aeb52823002496d4e521b2429" name="adda4785aeb52823002496d4e521b2429"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adda4785aeb52823002496d4e521b2429">&#9670;&#160;</a></span>OnDisable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVREyeGaze.OnDisable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3a3351a5db0224d78bb0a2131e3b05a0" name="a3a3351a5db0224d78bb0a2131e3b05a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a3351a5db0224d78bb0a2131e3b05a0">&#9670;&#160;</a></span>OnEnable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVREyeGaze.OnEnable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1d002514de8c3b9778bb261f983a1d13" name="a1d002514de8c3b9778bb261f983a1d13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d002514de8c3b9778bb261f983a1d13">&#9670;&#160;</a></span>OnPermissionGranted()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVREyeGaze.OnPermissionGranted </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>permissionId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a14d0b54cacb6d1d3d0809e064c5a32cf" name="a14d0b54cacb6d1d3d0809e064c5a32cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14d0b54cacb6d1d3d0809e064c5a32cf">&#9670;&#160;</a></span>PrepareHeadDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVREyeGaze.PrepareHeadDirection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac9a9a4ccaa4e0d454797db26f5725e24" name="ac9a9a4ccaa4e0d454797db26f5725e24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9a9a4ccaa4e0d454797db26f5725e24">&#9670;&#160;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVREyeGaze.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1c978b0b7a0226d27b5394043d2570bf" name="a1c978b0b7a0226d27b5394043d2570bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c978b0b7a0226d27b5394043d2570bf">&#9670;&#160;</a></span>StartEyeTracking()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVREyeGaze.StartEyeTracking </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abd46b6ab6239ec029053756700ea8c2b" name="abd46b6ab6239ec029053756700ea8c2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd46b6ab6239ec029053756700ea8c2b">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVREyeGaze.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ad5e4005106cc40df5a827fa4b6267baf" name="ad5e4005106cc40df5a827fa4b6267baf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5e4005106cc40df5a827fa4b6267baf">&#9670;&#160;</a></span>_currentEyeGazesState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_o_v_r_plugin_1_1_eye_gazes_state.html">OVRPlugin.EyeGazesState</a> OVREyeGaze._currentEyeGazesState</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb57678f6bb852be1cf96382574762f1" name="afb57678f6bb852be1cf96382574762f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb57678f6bb852be1cf96382574762f1">&#9670;&#160;</a></span>_initialRotationOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#a3115aee88de19f0e23050e8650bc3153">Quaternion</a> OVREyeGaze._initialRotationOffset</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4384c38cb829de5c875c22c4030864dc" name="a4384c38cb829de5c875c22c4030864dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4384c38cb829de5c875c22c4030864dc">&#9670;&#160;</a></span>_onPermissionGranted</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action&lt;string&gt; OVREyeGaze._onPermissionGranted</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a299f0950e58bd75a8ae0668611be0ec9" name="a299f0950e58bd75a8ae0668611be0ec9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a299f0950e58bd75a8ae0668611be0ec9">&#9670;&#160;</a></span>_trackingInstanceCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVREyeGaze._trackingInstanceCount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8cd3724b8583549aadccdc4eb9814d7f" name="a8cd3724b8583549aadccdc4eb9814d7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cd3724b8583549aadccdc4eb9814d7f">&#9670;&#160;</a></span>_viewTransform</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Transform OVREyeGaze._viewTransform</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1276369905970fc5c51d0e96f3afe1fe" name="a1276369905970fc5c51d0e96f3afe1fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1276369905970fc5c51d0e96f3afe1fe">&#9670;&#160;</a></span>ApplyPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVREyeGaze.ApplyPosition = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>GameObject will automatically change position. </p>
+
+</div>
+</div>
+<a id="a060d45656f6598468d322fe8d131f6c6" name="a060d45656f6598468d322fe8d131f6c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a060d45656f6598468d322fe8d131f6c6">&#9670;&#160;</a></span>ApplyRotation</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVREyeGaze.ApplyRotation = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>GameObject will automatically rotate. </p>
+
+</div>
+</div>
+<a id="ab5f8e3de773954876e69a1dfff807a59" name="ab5f8e3de773954876e69a1dfff807a59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5f8e3de773954876e69a1dfff807a59">&#9670;&#160;</a></span>ConfidenceThreshold</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float OVREyeGaze.ConfidenceThreshold = 0.5f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>GameObject will not change if detected eye state confidence is below this threshold. </p>
+
+</div>
+</div>
+<a id="ad95198d8c1eb2dc01ce3a4de51a89cdd" name="ad95198d8c1eb2dc01ce3a4de51a89cdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad95198d8c1eb2dc01ce3a4de51a89cdd">&#9670;&#160;</a></span>Eye</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_eye_gaze.html#a6cf4f52ef87b28db0fdf5fe66860f570">EyeId</a> OVREyeGaze.Eye</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>GameObject will automatically change position and rotate according to the selected eye. </p>
+
+</div>
+</div>
+<a id="aa10b55894617a353dd37f6be66e44a9e" name="aa10b55894617a353dd37f6be66e44a9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa10b55894617a353dd37f6be66e44a9e">&#9670;&#160;</a></span>EyeTrackingPermission</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const OVRPermissionsRequester.Permission OVREyeGaze.EyeTrackingPermission = OVRPermissionsRequester.Permission.EyeTracking</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9babf2607a3d4979d254af7b3ec84edd" name="a9babf2607a3d4979d254af7b3ec84edd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9babf2607a3d4979d254af7b3ec84edd">&#9670;&#160;</a></span>ReferenceFrame</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Transform OVREyeGaze.ReferenceFrame</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reference frame for eye. If it's null, then world reference frame will be used. </p>
+
+</div>
+</div>
+<a id="a7266806b38368f412166591f624e2268" name="a7266806b38368f412166591f624e2268"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7266806b38368f412166591f624e2268">&#9670;&#160;</a></span>TrackingMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_eye_gaze.html#a9efca0aa3693231ff81f8592809b1764">EyeTrackingMode</a> OVREyeGaze.TrackingMode</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>HeadSpace: Track eye relative to head space. WorldSpace: Track eye in world space. TrackingSpace: Track eye relative to <a class="el" href="class_o_v_r_camera_rig.html" title="A head-tracked stereoscopic virtual reality camera rig.">OVRCameraRig</a>. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a8b2527281111c54bbb70f5a1d340bd8f" name="a8b2527281111c54bbb70f5a1d340bd8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b2527281111c54bbb70f5a1d340bd8f">&#9670;&#160;</a></span>Confidence</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float OVREyeGaze.Confidence</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A confidence value ranging from 0..1 indicating the reliability of the eye tracking data. </p>
+
+</div>
+</div>
+<a id="a8ecf6a1c262f302b71d1b4b41c5f5621" name="a8ecf6a1c262f302b71d1b4b41c5f5621"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ecf6a1c262f302b71d1b4b41c5f5621">&#9670;&#160;</a></span>EyeTrackingEnabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVREyeGaze.EyeTrackingEnabled</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>True if eye tracking is enabled, otherwise false. </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="_o_v_r_eye_gaze_8cs.html">OVREyeGaze.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: OVRHaptics.OVRHapticsOutput Class Reference</title>
+<title>BrainScape: OVRHaptics.OVRHapticsOutput Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">BrainScape
    </div>
   </td>
  </tr>
@@ -89,70 +89,433 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a99821d0c3e09488e7dae9649448ebdca"><td class="memItemLeft" align="right" valign="top"><a id="a99821d0c3e09488e7dae9649448ebdca" name="a99821d0c3e09488e7dae9649448ebdca"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>OVRHapticsOutput</b> (uint controller)</td></tr>
+<tr class="memitem:a99821d0c3e09488e7dae9649448ebdca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_haptics_1_1_o_v_r_haptics_output.html#a99821d0c3e09488e7dae9649448ebdca">OVRHapticsOutput</a> (uint controller)</td></tr>
 <tr class="separator:a99821d0c3e09488e7dae9649448ebdca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8db3b9a4a7045c455b64319661b41c17"><td class="memItemLeft" align="right" valign="top"><a id="a8db3b9a4a7045c455b64319661b41c17" name="a8db3b9a4a7045c455b64319661b41c17"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Process</b> ()</td></tr>
-<tr class="memdesc:a8db3b9a4a7045c455b64319661b41c17"><td class="mdescLeft">&#160;</td><td class="mdescRight">The system calls this each frame to update haptics playback. <br /></td></tr>
+<tr class="memitem:a8db3b9a4a7045c455b64319661b41c17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_haptics_1_1_o_v_r_haptics_output.html#a8db3b9a4a7045c455b64319661b41c17">Process</a> ()</td></tr>
+<tr class="memdesc:a8db3b9a4a7045c455b64319661b41c17"><td class="mdescLeft">&#160;</td><td class="mdescRight">The system calls this each frame to update haptics playback.  <br /></td></tr>
 <tr class="separator:a8db3b9a4a7045c455b64319661b41c17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a27e2dfa9c2889f864f0589d9f88694"><td class="memItemLeft" align="right" valign="top"><a id="a7a27e2dfa9c2889f864f0589d9f88694" name="a7a27e2dfa9c2889f864f0589d9f88694"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Preempt</b> (<a class="el" href="class_o_v_r_haptics_clip.html">OVRHapticsClip</a> clip)</td></tr>
-<tr class="memdesc:a7a27e2dfa9c2889f864f0589d9f88694"><td class="mdescLeft">&#160;</td><td class="mdescRight">Immediately plays the specified clip without waiting for any currently-playing clip to finish. <br /></td></tr>
+<tr class="memitem:a7a27e2dfa9c2889f864f0589d9f88694"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_haptics_1_1_o_v_r_haptics_output.html#a7a27e2dfa9c2889f864f0589d9f88694">Preempt</a> (<a class="el" href="class_o_v_r_haptics_clip.html">OVRHapticsClip</a> clip)</td></tr>
+<tr class="memdesc:a7a27e2dfa9c2889f864f0589d9f88694"><td class="mdescLeft">&#160;</td><td class="mdescRight">Immediately plays the specified clip without waiting for any currently-playing clip to finish.  <br /></td></tr>
 <tr class="separator:a7a27e2dfa9c2889f864f0589d9f88694"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ebede5d142d478dc5e825b63454178c"><td class="memItemLeft" align="right" valign="top"><a id="a4ebede5d142d478dc5e825b63454178c" name="a4ebede5d142d478dc5e825b63454178c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Queue</b> (<a class="el" href="class_o_v_r_haptics_clip.html">OVRHapticsClip</a> clip)</td></tr>
-<tr class="memdesc:a4ebede5d142d478dc5e825b63454178c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enqueues the specified clip to play after any currently-playing clip finishes. <br /></td></tr>
+<tr class="memitem:a4ebede5d142d478dc5e825b63454178c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_haptics_1_1_o_v_r_haptics_output.html#a4ebede5d142d478dc5e825b63454178c">Queue</a> (<a class="el" href="class_o_v_r_haptics_clip.html">OVRHapticsClip</a> clip)</td></tr>
+<tr class="memdesc:a4ebede5d142d478dc5e825b63454178c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enqueues the specified clip to play after any currently-playing clip finishes.  <br /></td></tr>
 <tr class="separator:a4ebede5d142d478dc5e825b63454178c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae84d6c944df0a602c0de2b35c45f06eb"><td class="memItemLeft" align="right" valign="top"><a id="ae84d6c944df0a602c0de2b35c45f06eb" name="ae84d6c944df0a602c0de2b35c45f06eb"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Mix</b> (<a class="el" href="class_o_v_r_haptics_clip.html">OVRHapticsClip</a> clip)</td></tr>
-<tr class="memdesc:ae84d6c944df0a602c0de2b35c45f06eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the samples from the specified clip to the ones in the currently-playing clip(s). <br /></td></tr>
+<tr class="memitem:ae84d6c944df0a602c0de2b35c45f06eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_haptics_1_1_o_v_r_haptics_output.html#ae84d6c944df0a602c0de2b35c45f06eb">Mix</a> (<a class="el" href="class_o_v_r_haptics_clip.html">OVRHapticsClip</a> clip)</td></tr>
+<tr class="memdesc:ae84d6c944df0a602c0de2b35c45f06eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the samples from the specified clip to the ones in the currently-playing clip(s).  <br /></td></tr>
 <tr class="separator:ae84d6c944df0a602c0de2b35c45f06eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03ec0be7e244aef6e872ee478dfaa715"><td class="memItemLeft" align="right" valign="top"><a id="a03ec0be7e244aef6e872ee478dfaa715" name="a03ec0be7e244aef6e872ee478dfaa715"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Clear</b> ()</td></tr>
+<tr class="memitem:a03ec0be7e244aef6e872ee478dfaa715"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_haptics_1_1_o_v_r_haptics_output.html#a03ec0be7e244aef6e872ee478dfaa715">Clear</a> ()</td></tr>
 <tr class="separator:a03ec0be7e244aef6e872ee478dfaa715"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a2ab2ed457c45f0efc90e54aa81260a7c"><td class="memItemLeft" align="right" valign="top"><a id="a2ab2ed457c45f0efc90e54aa81260a7c" name="a2ab2ed457c45f0efc90e54aa81260a7c"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_lowLatencyMode</b> = true</td></tr>
+<tr class="memitem:a2ab2ed457c45f0efc90e54aa81260a7c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_haptics_1_1_o_v_r_haptics_output.html#a2ab2ed457c45f0efc90e54aa81260a7c">m_lowLatencyMode</a> = true</td></tr>
 <tr class="separator:a2ab2ed457c45f0efc90e54aa81260a7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7282f520e623df4a229cd413f2e5063"><td class="memItemLeft" align="right" valign="top"><a id="ad7282f520e623df4a229cd413f2e5063" name="ad7282f520e623df4a229cd413f2e5063"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_paddingEnabled</b> = true</td></tr>
+<tr class="memitem:ad7282f520e623df4a229cd413f2e5063"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_haptics_1_1_o_v_r_haptics_output.html#ad7282f520e623df4a229cd413f2e5063">m_paddingEnabled</a> = true</td></tr>
 <tr class="separator:ad7282f520e623df4a229cd413f2e5063"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a691d6d3b82b56e1041269853fec18ac1"><td class="memItemLeft" align="right" valign="top"><a id="a691d6d3b82b56e1041269853fec18ac1" name="a691d6d3b82b56e1041269853fec18ac1"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>m_prevSamplesQueued</b> = 0</td></tr>
+<tr class="memitem:a691d6d3b82b56e1041269853fec18ac1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_haptics_1_1_o_v_r_haptics_output.html#a691d6d3b82b56e1041269853fec18ac1">m_prevSamplesQueued</a> = 0</td></tr>
 <tr class="separator:a691d6d3b82b56e1041269853fec18ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76dee4072bb937f93d16ae55ba8d1f46"><td class="memItemLeft" align="right" valign="top"><a id="a76dee4072bb937f93d16ae55ba8d1f46" name="a76dee4072bb937f93d16ae55ba8d1f46"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>m_prevSamplesQueuedTime</b> = 0</td></tr>
+<tr class="memitem:a76dee4072bb937f93d16ae55ba8d1f46"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_haptics_1_1_o_v_r_haptics_output.html#a76dee4072bb937f93d16ae55ba8d1f46">m_prevSamplesQueuedTime</a> = 0</td></tr>
 <tr class="separator:a76dee4072bb937f93d16ae55ba8d1f46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5660c8f874ea2983e8b1b2949cbc505"><td class="memItemLeft" align="right" valign="top"><a id="ab5660c8f874ea2983e8b1b2949cbc505" name="ab5660c8f874ea2983e8b1b2949cbc505"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>m_numPredictionHits</b> = 0</td></tr>
+<tr class="memitem:ab5660c8f874ea2983e8b1b2949cbc505"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_haptics_1_1_o_v_r_haptics_output.html#ab5660c8f874ea2983e8b1b2949cbc505">m_numPredictionHits</a> = 0</td></tr>
 <tr class="separator:ab5660c8f874ea2983e8b1b2949cbc505"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6b38f3711512fad00ddf5edecd9b1a2"><td class="memItemLeft" align="right" valign="top"><a id="ad6b38f3711512fad00ddf5edecd9b1a2" name="ad6b38f3711512fad00ddf5edecd9b1a2"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>m_numPredictionMisses</b> = 0</td></tr>
+<tr class="memitem:ad6b38f3711512fad00ddf5edecd9b1a2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_haptics_1_1_o_v_r_haptics_output.html#ad6b38f3711512fad00ddf5edecd9b1a2">m_numPredictionMisses</a> = 0</td></tr>
 <tr class="separator:ad6b38f3711512fad00ddf5edecd9b1a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f3a829807215f6ba88a8a1f37fb0b0f"><td class="memItemLeft" align="right" valign="top"><a id="a5f3a829807215f6ba88a8a1f37fb0b0f" name="a5f3a829807215f6ba88a8a1f37fb0b0f"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>m_numUnderruns</b> = 0</td></tr>
+<tr class="memitem:a5f3a829807215f6ba88a8a1f37fb0b0f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_haptics_1_1_o_v_r_haptics_output.html#a5f3a829807215f6ba88a8a1f37fb0b0f">m_numUnderruns</a> = 0</td></tr>
 <tr class="separator:a5f3a829807215f6ba88a8a1f37fb0b0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fbe9c3a8db060ff71126b8957847cca"><td class="memItemLeft" align="right" valign="top"><a id="a4fbe9c3a8db060ff71126b8957847cca" name="a4fbe9c3a8db060ff71126b8957847cca"></a>
-List&lt; <a class="el" href="class_o_v_r_haptics_1_1_o_v_r_haptics_output_1_1_clip_playback_tracker.html">ClipPlaybackTracker</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_pendingClips</b> = new List&lt;<a class="el" href="class_o_v_r_haptics_1_1_o_v_r_haptics_output_1_1_clip_playback_tracker.html">ClipPlaybackTracker</a>&gt;()</td></tr>
+<tr class="memitem:a4fbe9c3a8db060ff71126b8957847cca"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_o_v_r_haptics_1_1_o_v_r_haptics_output_1_1_clip_playback_tracker.html">ClipPlaybackTracker</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_haptics_1_1_o_v_r_haptics_output.html#a4fbe9c3a8db060ff71126b8957847cca">m_pendingClips</a> = new List&lt;<a class="el" href="class_o_v_r_haptics_1_1_o_v_r_haptics_output_1_1_clip_playback_tracker.html">ClipPlaybackTracker</a>&gt;()</td></tr>
 <tr class="separator:a4fbe9c3a8db060ff71126b8957847cca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad990eefdc18d6a3a37cfa70463a39501"><td class="memItemLeft" align="right" valign="top"><a id="ad990eefdc18d6a3a37cfa70463a39501" name="ad990eefdc18d6a3a37cfa70463a39501"></a>
-uint&#160;</td><td class="memItemRight" valign="bottom"><b>m_controller</b> = 0</td></tr>
+<tr class="memitem:ad990eefdc18d6a3a37cfa70463a39501"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_haptics_1_1_o_v_r_haptics_output.html#ad990eefdc18d6a3a37cfa70463a39501">m_controller</a> = 0</td></tr>
 <tr class="separator:ad990eefdc18d6a3a37cfa70463a39501"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b45c57cd8d4398ffd3dcc86e2aceaca"><td class="memItemLeft" align="right" valign="top"><a id="a2b45c57cd8d4398ffd3dcc86e2aceaca" name="a2b45c57cd8d4398ffd3dcc86e2aceaca"></a>
-<a class="el" href="class_o_v_r_native_buffer.html">OVRNativeBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_nativeBuffer</b> = new <a class="el" href="class_o_v_r_native_buffer.html">OVRNativeBuffer</a>(OVRHaptics.Config.MaximumBufferSamplesCount * OVRHaptics.Config.SampleSizeInBytes)</td></tr>
+<tr class="memitem:a2b45c57cd8d4398ffd3dcc86e2aceaca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_native_buffer.html">OVRNativeBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_haptics_1_1_o_v_r_haptics_output.html#a2b45c57cd8d4398ffd3dcc86e2aceaca">m_nativeBuffer</a> = new <a class="el" href="class_o_v_r_native_buffer.html">OVRNativeBuffer</a>(OVRHaptics.Config.MaximumBufferSamplesCount * OVRHaptics.Config.SampleSizeInBytes)</td></tr>
 <tr class="separator:a2b45c57cd8d4398ffd3dcc86e2aceaca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4007d9e5330beb4111dbe4ce9913cf56"><td class="memItemLeft" align="right" valign="top"><a id="a4007d9e5330beb4111dbe4ce9913cf56" name="a4007d9e5330beb4111dbe4ce9913cf56"></a>
-<a class="el" href="class_o_v_r_haptics_clip.html">OVRHapticsClip</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_paddingClip</b> = new <a class="el" href="class_o_v_r_haptics_clip.html">OVRHapticsClip</a>()</td></tr>
+<tr class="memitem:a4007d9e5330beb4111dbe4ce9913cf56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_haptics_clip.html">OVRHapticsClip</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_haptics_1_1_o_v_r_haptics_output.html#a4007d9e5330beb4111dbe4ce9913cf56">m_paddingClip</a> = new <a class="el" href="class_o_v_r_haptics_clip.html">OVRHapticsClip</a>()</td></tr>
 <tr class="separator:a4007d9e5330beb4111dbe4ce9913cf56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1358490a0d7dce4fb769575126aa5f1"><td class="memItemLeft" align="right" valign="top"><a id="aa1358490a0d7dce4fb769575126aa5f1" name="aa1358490a0d7dce4fb769575126aa5f1"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>PrevSampleRateHz</b> = -1</td></tr>
+<tr class="memitem:aa1358490a0d7dce4fb769575126aa5f1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_haptics_1_1_o_v_r_haptics_output.html#aa1358490a0d7dce4fb769575126aa5f1">PrevSampleRateHz</a> = -1</td></tr>
 <tr class="separator:aa1358490a0d7dce4fb769575126aa5f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a99821d0c3e09488e7dae9649448ebdca" name="a99821d0c3e09488e7dae9649448ebdca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99821d0c3e09488e7dae9649448ebdca">&#9670;&#160;</a></span>OVRHapticsOutput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">OVRHaptics.OVRHapticsOutput.OVRHapticsOutput </td>
+          <td>(</td>
+          <td class="paramtype">uint&#160;</td>
+          <td class="paramname"><em>controller</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a03ec0be7e244aef6e872ee478dfaa715" name="a03ec0be7e244aef6e872ee478dfaa715"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03ec0be7e244aef6e872ee478dfaa715">&#9670;&#160;</a></span>Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVRHaptics.OVRHapticsOutput.Clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae84d6c944df0a602c0de2b35c45f06eb" name="ae84d6c944df0a602c0de2b35c45f06eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae84d6c944df0a602c0de2b35c45f06eb">&#9670;&#160;</a></span>Mix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVRHaptics.OVRHapticsOutput.Mix </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_o_v_r_haptics_clip.html">OVRHapticsClip</a>&#160;</td>
+          <td class="paramname"><em>clip</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds the samples from the specified clip to the ones in the currently-playing clip(s). </p>
+
+</div>
+</div>
+<a id="a7a27e2dfa9c2889f864f0589d9f88694" name="a7a27e2dfa9c2889f864f0589d9f88694"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a27e2dfa9c2889f864f0589d9f88694">&#9670;&#160;</a></span>Preempt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVRHaptics.OVRHapticsOutput.Preempt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_o_v_r_haptics_clip.html">OVRHapticsClip</a>&#160;</td>
+          <td class="paramname"><em>clip</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Immediately plays the specified clip without waiting for any currently-playing clip to finish. </p>
+
+</div>
+</div>
+<a id="a8db3b9a4a7045c455b64319661b41c17" name="a8db3b9a4a7045c455b64319661b41c17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8db3b9a4a7045c455b64319661b41c17">&#9670;&#160;</a></span>Process()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVRHaptics.OVRHapticsOutput.Process </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The system calls this each frame to update haptics playback. </p>
+
+</div>
+</div>
+<a id="a4ebede5d142d478dc5e825b63454178c" name="a4ebede5d142d478dc5e825b63454178c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ebede5d142d478dc5e825b63454178c">&#9670;&#160;</a></span>Queue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVRHaptics.OVRHapticsOutput.Queue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_o_v_r_haptics_clip.html">OVRHapticsClip</a>&#160;</td>
+          <td class="paramname"><em>clip</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enqueues the specified clip to play after any currently-playing clip finishes. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ad990eefdc18d6a3a37cfa70463a39501" name="ad990eefdc18d6a3a37cfa70463a39501"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad990eefdc18d6a3a37cfa70463a39501">&#9670;&#160;</a></span>m_controller</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint OVRHaptics.OVRHapticsOutput.m_controller = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2ab2ed457c45f0efc90e54aa81260a7c" name="a2ab2ed457c45f0efc90e54aa81260a7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ab2ed457c45f0efc90e54aa81260a7c">&#9670;&#160;</a></span>m_lowLatencyMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVRHaptics.OVRHapticsOutput.m_lowLatencyMode = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2b45c57cd8d4398ffd3dcc86e2aceaca" name="a2b45c57cd8d4398ffd3dcc86e2aceaca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b45c57cd8d4398ffd3dcc86e2aceaca">&#9670;&#160;</a></span>m_nativeBuffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_native_buffer.html">OVRNativeBuffer</a> OVRHaptics.OVRHapticsOutput.m_nativeBuffer = new <a class="el" href="class_o_v_r_native_buffer.html">OVRNativeBuffer</a>(OVRHaptics.Config.MaximumBufferSamplesCount * OVRHaptics.Config.SampleSizeInBytes)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab5660c8f874ea2983e8b1b2949cbc505" name="ab5660c8f874ea2983e8b1b2949cbc505"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5660c8f874ea2983e8b1b2949cbc505">&#9670;&#160;</a></span>m_numPredictionHits</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVRHaptics.OVRHapticsOutput.m_numPredictionHits = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad6b38f3711512fad00ddf5edecd9b1a2" name="ad6b38f3711512fad00ddf5edecd9b1a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6b38f3711512fad00ddf5edecd9b1a2">&#9670;&#160;</a></span>m_numPredictionMisses</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVRHaptics.OVRHapticsOutput.m_numPredictionMisses = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5f3a829807215f6ba88a8a1f37fb0b0f" name="a5f3a829807215f6ba88a8a1f37fb0b0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f3a829807215f6ba88a8a1f37fb0b0f">&#9670;&#160;</a></span>m_numUnderruns</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVRHaptics.OVRHapticsOutput.m_numUnderruns = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4007d9e5330beb4111dbe4ce9913cf56" name="a4007d9e5330beb4111dbe4ce9913cf56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4007d9e5330beb4111dbe4ce9913cf56">&#9670;&#160;</a></span>m_paddingClip</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_haptics_clip.html">OVRHapticsClip</a> OVRHaptics.OVRHapticsOutput.m_paddingClip = new <a class="el" href="class_o_v_r_haptics_clip.html">OVRHapticsClip</a>()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad7282f520e623df4a229cd413f2e5063" name="ad7282f520e623df4a229cd413f2e5063"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7282f520e623df4a229cd413f2e5063">&#9670;&#160;</a></span>m_paddingEnabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVRHaptics.OVRHapticsOutput.m_paddingEnabled = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4fbe9c3a8db060ff71126b8957847cca" name="a4fbe9c3a8db060ff71126b8957847cca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fbe9c3a8db060ff71126b8957847cca">&#9670;&#160;</a></span>m_pendingClips</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_o_v_r_haptics_1_1_o_v_r_haptics_output_1_1_clip_playback_tracker.html">ClipPlaybackTracker</a>&gt; OVRHaptics.OVRHapticsOutput.m_pendingClips = new List&lt;<a class="el" href="class_o_v_r_haptics_1_1_o_v_r_haptics_output_1_1_clip_playback_tracker.html">ClipPlaybackTracker</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a691d6d3b82b56e1041269853fec18ac1" name="a691d6d3b82b56e1041269853fec18ac1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a691d6d3b82b56e1041269853fec18ac1">&#9670;&#160;</a></span>m_prevSamplesQueued</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVRHaptics.OVRHapticsOutput.m_prevSamplesQueued = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a76dee4072bb937f93d16ae55ba8d1f46" name="a76dee4072bb937f93d16ae55ba8d1f46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76dee4072bb937f93d16ae55ba8d1f46">&#9670;&#160;</a></span>m_prevSamplesQueuedTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float OVRHaptics.OVRHapticsOutput.m_prevSamplesQueuedTime = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa1358490a0d7dce4fb769575126aa5f1" name="aa1358490a0d7dce4fb769575126aa5f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1358490a0d7dce4fb769575126aa5f1">&#9670;&#160;</a></span>PrevSampleRateHz</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVRHaptics.OVRHapticsOutput.PrevSampleRateHz = -1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Oculus/VR/Scripts/OVRHaptics.cs</li>
+<li><a class="el" href="_o_v_r_haptics_8cs.html">OVRHaptics.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: OVROverlayEditor Class Reference</title>
+<title>BrainScape: OVROverlayEditor Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">BrainScape
    </div>
   </td>
  </tr>
@@ -89,182 +89,1404 @@ Inheritance diagram for OVROverlayEditor:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:abc4715e06ef64d7b51521bcca35383f0"><td class="memItemLeft" align="right" valign="top"><a id="abc4715e06ef64d7b51521bcca35383f0" name="abc4715e06ef64d7b51521bcca35383f0"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#abc4715e06ef64d7b51521bcca35383f0">StereoType</a> { <br />
-&#160;&#160;<b>Custom</b> = 0
-, <b>Mono</b> = 1
-, <b>Stereo</b> = 2
-, <b>StereoLeftRight</b> = 3
+<tr class="memitem:abc4715e06ef64d7b51521bcca35383f0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#abc4715e06ef64d7b51521bcca35383f0">StereoType</a> { <br />
+&#160;&#160;<a class="el" href="class_o_v_r_overlay_editor.html#abc4715e06ef64d7b51521bcca35383f0a90589c47f06eb971d548591f23c285af">Custom</a> = 0
+, <a class="el" href="class_o_v_r_overlay_editor.html#abc4715e06ef64d7b51521bcca35383f0a5d9b47bd3b65072e0d5daf55f01da086">Mono</a> = 1
+, <a class="el" href="class_o_v_r_overlay_editor.html#abc4715e06ef64d7b51521bcca35383f0abbc45d9b35436f5f0ed9e33499efcea9">Stereo</a> = 2
+, <a class="el" href="class_o_v_r_overlay_editor.html#abc4715e06ef64d7b51521bcca35383f0a6b1f1c117adaf21e5968481f9f646bf1">StereoLeftRight</a> = 3
 , <br />
-&#160;&#160;<b>StereoTopBottom</b> = 4
+&#160;&#160;<a class="el" href="class_o_v_r_overlay_editor.html#abc4715e06ef64d7b51521bcca35383f0ab8cdcccd10e885ca1ed8ece2155cadb3">StereoTopBottom</a> = 4
 <br />
  }</td></tr>
-<tr class="memdesc:abc4715e06ef64d7b51521bcca35383f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Common Video Types, to ease source and dest rect creation. <br /></td></tr>
+<tr class="memdesc:abc4715e06ef64d7b51521bcca35383f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Common Video Types, to ease source and dest rect creation.  <a href="class_o_v_r_overlay_editor.html#abc4715e06ef64d7b51521bcca35383f0">More...</a><br /></td></tr>
 <tr class="separator:abc4715e06ef64d7b51521bcca35383f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21b0b36e2a34681e7e9e620534b0b3b5"><td class="memItemLeft" align="right" valign="top"><a id="a21b0b36e2a34681e7e9e620534b0b3b5" name="a21b0b36e2a34681e7e9e620534b0b3b5"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>DisplayType</b> { <b>Custom</b> = 0
-, <b>Full</b> = 1
-, <b>Half</b> = 2
+<tr class="memitem:a21b0b36e2a34681e7e9e620534b0b3b5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#a21b0b36e2a34681e7e9e620534b0b3b5">DisplayType</a> { <a class="el" href="class_o_v_r_overlay_editor.html#a21b0b36e2a34681e7e9e620534b0b3b5a90589c47f06eb971d548591f23c285af">Custom</a> = 0
+, <a class="el" href="class_o_v_r_overlay_editor.html#a21b0b36e2a34681e7e9e620534b0b3b5abbd47109890259c0127154db1af26c75">Full</a> = 1
+, <a class="el" href="class_o_v_r_overlay_editor.html#a21b0b36e2a34681e7e9e620534b0b3b5ac48615a1bc4197056d522af276aa5a85">Half</a> = 2
  }</td></tr>
 <tr class="separator:a21b0b36e2a34681e7e9e620534b0b3b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0d54d3d7ebe7fe36f48d10fd94265651"><td class="memItemLeft" align="right" valign="top"><a id="a0d54d3d7ebe7fe36f48d10fd94265651" name="a0d54d3d7ebe7fe36f48d10fd94265651"></a>
-override void&#160;</td><td class="memItemRight" valign="bottom"><b>OnInspectorGUI</b> ()</td></tr>
+<tr class="memitem:a0d54d3d7ebe7fe36f48d10fd94265651"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#a0d54d3d7ebe7fe36f48d10fd94265651">OnInspectorGUI</a> ()</td></tr>
 <tr class="separator:a0d54d3d7ebe7fe36f48d10fd94265651"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a7f3fab05bb7f28ff6fbf79e7afbf76b5"><td class="memItemLeft" align="right" valign="top"><a id="a7f3fab05bb7f28ff6fbf79e7afbf76b5" name="a7f3fab05bb7f28ff6fbf79e7afbf76b5"></a>
-Material&#160;</td><td class="memItemRight" valign="bottom"><b>SrcRectMaterial</b><code> [get]</code></td></tr>
+<tr class="memitem:a7f3fab05bb7f28ff6fbf79e7afbf76b5"><td class="memItemLeft" align="right" valign="top">Material&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#a7f3fab05bb7f28ff6fbf79e7afbf76b5">SrcRectMaterial</a><code> [get]</code></td></tr>
 <tr class="separator:a7f3fab05bb7f28ff6fbf79e7afbf76b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3199a4cac786589e32cb1561f6348931"><td class="memItemLeft" align="right" valign="top"><a id="a3199a4cac786589e32cb1561f6348931" name="a3199a4cac786589e32cb1561f6348931"></a>
-Material&#160;</td><td class="memItemRight" valign="bottom"><b>DestRectMaterial</b><code> [get]</code></td></tr>
+<tr class="memitem:a3199a4cac786589e32cb1561f6348931"><td class="memItemLeft" align="right" valign="top">Material&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#a3199a4cac786589e32cb1561f6348931">DestRectMaterial</a><code> [get]</code></td></tr>
 <tr class="separator:a3199a4cac786589e32cb1561f6348931"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-types" name="pri-types"></a>
 Private Types</h2></td></tr>
-<tr class="memitem:a7099e709887480f381c410514e058b22"><td class="memItemLeft" align="right" valign="top"><a id="a7099e709887480f381c410514e058b22" name="a7099e709887480f381c410514e058b22"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>TextureRect</b> { <br />
-&#160;&#160;<b>None</b>
-, <b>SrcLeft</b>
-, <b>SrcRight</b>
-, <b>DestLeft</b>
+<tr class="memitem:a7099e709887480f381c410514e058b22"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#a7099e709887480f381c410514e058b22">TextureRect</a> { <br />
+&#160;&#160;<a class="el" href="class_o_v_r_overlay_editor.html#a7099e709887480f381c410514e058b22a6adf97f83acf6453d4a6a4b1070f3754">None</a>
+, <a class="el" href="class_o_v_r_overlay_editor.html#a7099e709887480f381c410514e058b22a06c2b42ee83cf287148a949585984895">SrcLeft</a>
+, <a class="el" href="class_o_v_r_overlay_editor.html#a7099e709887480f381c410514e058b22a6d09966753d1933fa5882daad5032884">SrcRight</a>
+, <a class="el" href="class_o_v_r_overlay_editor.html#a7099e709887480f381c410514e058b22a3bff9897b79dbd5a2702dcedbb7d5c4a">DestLeft</a>
 , <br />
-&#160;&#160;<b>DestRight</b>
+&#160;&#160;<a class="el" href="class_o_v_r_overlay_editor.html#a7099e709887480f381c410514e058b22a250339ec7038f587c517a8cf7f353286">DestRight</a>
 <br />
  }</td></tr>
 <tr class="separator:a7099e709887480f381c410514e058b22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d0ee6ec62af8838b1c5bdb8807319f5"><td class="memItemLeft" align="right" valign="top"><a id="a4d0ee6ec62af8838b1c5bdb8807319f5" name="a4d0ee6ec62af8838b1c5bdb8807319f5"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>Side</b> { <b>Left</b>
-, <b>Right</b>
-, <b>Top</b>
-, <b>Bottom</b>
+<tr class="memitem:a4d0ee6ec62af8838b1c5bdb8807319f5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#a4d0ee6ec62af8838b1c5bdb8807319f5">Side</a> { <a class="el" href="class_o_v_r_overlay_editor.html#a4d0ee6ec62af8838b1c5bdb8807319f5a945d5e233cf7d6240f6b783b36a374ff">Left</a>
+, <a class="el" href="class_o_v_r_overlay_editor.html#a4d0ee6ec62af8838b1c5bdb8807319f5a92b09c7c48c520c3c55e497875da437c">Right</a>
+, <a class="el" href="class_o_v_r_overlay_editor.html#a4d0ee6ec62af8838b1c5bdb8807319f5aa4ffdcf0dc1f31b9acaf295d75b51d00">Top</a>
+, <a class="el" href="class_o_v_r_overlay_editor.html#a4d0ee6ec62af8838b1c5bdb8807319f5a2ad9d63b69c4a10a5cc9cad923133bc4">Bottom</a>
  }</td></tr>
 <tr class="separator:a4d0ee6ec62af8838b1c5bdb8807319f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a62c8a2ce3f3b2b67bfcc9312e38657c3"><td class="memItemLeft" align="right" valign="top"><a id="a62c8a2ce3f3b2b67bfcc9312e38657c3" name="a62c8a2ce3f3b2b67bfcc9312e38657c3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
+<tr class="memitem:a62c8a2ce3f3b2b67bfcc9312e38657c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#a62c8a2ce3f3b2b67bfcc9312e38657c3">Awake</a> ()</td></tr>
 <tr class="separator:a62c8a2ce3f3b2b67bfcc9312e38657c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adee2eaa592be3669c3a79e3e8d8c195c"><td class="memItemLeft" align="right" valign="top"><a id="adee2eaa592be3669c3a79e3e8d8c195c" name="adee2eaa592be3669c3a79e3e8d8c195c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>OnEnable</b> ()</td></tr>
+<tr class="memitem:adee2eaa592be3669c3a79e3e8d8c195c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#adee2eaa592be3669c3a79e3e8d8c195c">OnEnable</a> ()</td></tr>
 <tr class="separator:adee2eaa592be3669c3a79e3e8d8c195c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6951da18a55c479c96c9e8c3c55a6a7"><td class="memItemLeft" align="right" valign="top"><a id="ab6951da18a55c479c96c9e8c3c55a6a7" name="ab6951da18a55c479c96c9e8c3c55a6a7"></a>
-Rect&#160;</td><td class="memItemRight" valign="bottom"><b>Clamp01</b> (Rect rect)</td></tr>
+<tr class="memitem:ab6951da18a55c479c96c9e8c3c55a6a7"><td class="memItemLeft" align="right" valign="top">Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#ab6951da18a55c479c96c9e8c3c55a6a7">Clamp01</a> (Rect rect)</td></tr>
 <tr class="separator:ab6951da18a55c479c96c9e8c3c55a6a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62a0f18a60d7623df2d4134fa05554d5"><td class="memItemLeft" align="right" valign="top"><a id="a62a0f18a60d7623df2d4134fa05554d5" name="a62a0f18a60d7623df2d4134fa05554d5"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsUnitRect</b> (Rect rect)</td></tr>
+<tr class="memitem:a62a0f18a60d7623df2d4134fa05554d5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#a62a0f18a60d7623df2d4134fa05554d5">IsUnitRect</a> (Rect rect)</td></tr>
 <tr class="separator:a62a0f18a60d7623df2d4134fa05554d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afea2f0b8d15280ae60701c1b7043e2c7"><td class="memItemLeft" align="right" valign="top"><a id="afea2f0b8d15280ae60701c1b7043e2c7" name="afea2f0b8d15280ae60701c1b7043e2c7"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsRect</b> (Rect rect, float x, float y, float w, float h)</td></tr>
+<tr class="memitem:afea2f0b8d15280ae60701c1b7043e2c7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#afea2f0b8d15280ae60701c1b7043e2c7">IsRect</a> (Rect rect, float x, float y, float w, float h)</td></tr>
 <tr class="separator:afea2f0b8d15280ae60701c1b7043e2c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affc6adfc6fbb493979a0fc02de12b43b"><td class="memItemLeft" align="right" valign="top"><a id="affc6adfc6fbb493979a0fc02de12b43b" name="affc6adfc6fbb493979a0fc02de12b43b"></a>
-<a class="el" href="class_o_v_r_overlay_editor.html#abc4715e06ef64d7b51521bcca35383f0">StereoType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetStereoType</b> (<a class="el" href="class_o_v_r_overlay.html">OVROverlay</a> overlay)</td></tr>
+<tr class="memitem:affc6adfc6fbb493979a0fc02de12b43b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_overlay_editor.html#abc4715e06ef64d7b51521bcca35383f0">StereoType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#affc6adfc6fbb493979a0fc02de12b43b">GetStereoType</a> (<a class="el" href="class_o_v_r_overlay.html">OVROverlay</a> overlay)</td></tr>
 <tr class="separator:affc6adfc6fbb493979a0fc02de12b43b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aceed09dec3223cfebc4602268cd65890"><td class="memItemLeft" align="right" valign="top"><a id="aceed09dec3223cfebc4602268cd65890" name="aceed09dec3223cfebc4602268cd65890"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetRectsByVideoType</b> (<a class="el" href="class_o_v_r_overlay.html">OVROverlay</a> overlay, <a class="el" href="class_o_v_r_overlay_editor.html#abc4715e06ef64d7b51521bcca35383f0">StereoType</a> stereoType, DisplayType displayType)</td></tr>
+<tr class="memitem:aceed09dec3223cfebc4602268cd65890"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#aceed09dec3223cfebc4602268cd65890">SetRectsByVideoType</a> (<a class="el" href="class_o_v_r_overlay.html">OVROverlay</a> overlay, <a class="el" href="class_o_v_r_overlay_editor.html#abc4715e06ef64d7b51521bcca35383f0">StereoType</a> stereoType, <a class="el" href="class_o_v_r_overlay_editor.html#a21b0b36e2a34681e7e9e620534b0b3b5">DisplayType</a> displayType)</td></tr>
 <tr class="separator:aceed09dec3223cfebc4602268cd65890"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4948fbe1c209824e31ea51d906bce6d7"><td class="memItemLeft" align="right" valign="top"><a id="a4948fbe1c209824e31ea51d906bce6d7" name="a4948fbe1c209824e31ea51d906bce6d7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>GetCursorPoints</b> (Rect drawRect, Rect selectRect, bool invertY, out Vector2 leftPos, out Vector2 rightPos, out Vector2 topPos, out Vector2 bottomPos)</td></tr>
+<tr class="memitem:a4948fbe1c209824e31ea51d906bce6d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#a4948fbe1c209824e31ea51d906bce6d7">GetCursorPoints</a> (Rect drawRect, Rect selectRect, bool invertY, out Vector2 leftPos, out Vector2 rightPos, out Vector2 topPos, out Vector2 bottomPos)</td></tr>
 <tr class="separator:a4948fbe1c209824e31ea51d906bce6d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa75dd13deeca4b4bdd09c0ca4bb103e9"><td class="memItemLeft" align="right" valign="top"><a id="aa75dd13deeca4b4bdd09c0ca4bb103e9" name="aa75dd13deeca4b4bdd09c0ca4bb103e9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>CreateCursorRects</b> (Rect drawRect, Rect selectRect, bool invertY)</td></tr>
+<tr class="memitem:aa75dd13deeca4b4bdd09c0ca4bb103e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#aa75dd13deeca4b4bdd09c0ca4bb103e9">CreateCursorRects</a> (Rect drawRect, Rect selectRect, bool invertY)</td></tr>
 <tr class="separator:aa75dd13deeca4b4bdd09c0ca4bb103e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1f4e38d0bf2a378eeb08be4171a9bfb"><td class="memItemLeft" align="right" valign="top"><a id="ad1f4e38d0bf2a378eeb08be4171a9bfb" name="ad1f4e38d0bf2a378eeb08be4171a9bfb"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsOverRectControls</b> (Rect drawRect, Vector2 mousePos, Rect selectRect, bool invertY, ref Side side)</td></tr>
+<tr class="memitem:ad1f4e38d0bf2a378eeb08be4171a9bfb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#ad1f4e38d0bf2a378eeb08be4171a9bfb">IsOverRectControls</a> (Rect drawRect, Vector2 mousePos, Rect selectRect, bool invertY, ref <a class="el" href="class_o_v_r_overlay_editor.html#a4d0ee6ec62af8838b1c5bdb8807319f5">Side</a> side)</td></tr>
 <tr class="separator:ad1f4e38d0bf2a378eeb08be4171a9bfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5ce057b4c984dc434bcc1a18b5bb489"><td class="memItemLeft" align="right" valign="top"><a id="aa5ce057b4c984dc434bcc1a18b5bb489" name="aa5ce057b4c984dc434bcc1a18b5bb489"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateRectDragging</b> (Rect drawingRectLeft, Rect drawingRectRight, TextureRect rectLeftType, TextureRect rectRightType, bool invertY, ref Rect rectLeft, ref Rect rectRight)</td></tr>
+<tr class="memitem:aa5ce057b4c984dc434bcc1a18b5bb489"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#aa5ce057b4c984dc434bcc1a18b5bb489">UpdateRectDragging</a> (Rect drawingRectLeft, Rect drawingRectRight, <a class="el" href="class_o_v_r_overlay_editor.html#a7099e709887480f381c410514e058b22">TextureRect</a> rectLeftType, <a class="el" href="class_o_v_r_overlay_editor.html#a7099e709887480f381c410514e058b22">TextureRect</a> rectRightType, bool invertY, ref Rect rectLeft, ref Rect rectRight)</td></tr>
 <tr class="separator:aa5ce057b4c984dc434bcc1a18b5bb489"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af49ee943dcb3d8e9ce98d2d579f57028"><td class="memItemLeft" align="right" valign="top"><a id="af49ee943dcb3d8e9ce98d2d579f57028" name="af49ee943dcb3d8e9ce98d2d579f57028"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetRectSideValue</b> (Rect drawingRect, Vector2 mousePos, Side side, bool invertY, ref Rect rect)</td></tr>
+<tr class="memitem:af49ee943dcb3d8e9ce98d2d579f57028"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#af49ee943dcb3d8e9ce98d2d579f57028">SetRectSideValue</a> (Rect drawingRect, Vector2 mousePos, <a class="el" href="class_o_v_r_overlay_editor.html#a4d0ee6ec62af8838b1c5bdb8807319f5">Side</a> side, bool invertY, ref Rect rect)</td></tr>
 <tr class="separator:af49ee943dcb3d8e9ce98d2d579f57028"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a31a6413b3eff3a99909d51fb29aea83b"><td class="memItemLeft" align="right" valign="top"><a id="a31a6413b3eff3a99909d51fb29aea83b" name="a31a6413b3eff3a99909d51fb29aea83b"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>sourceRectsVisible</b> = false</td></tr>
+<tr class="memitem:a31a6413b3eff3a99909d51fb29aea83b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#a31a6413b3eff3a99909d51fb29aea83b">sourceRectsVisible</a> = false</td></tr>
 <tr class="separator:a31a6413b3eff3a99909d51fb29aea83b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92327236078c25ea6389043e6e28f27e"><td class="memItemLeft" align="right" valign="top"><a id="a92327236078c25ea6389043e6e28f27e" name="a92327236078c25ea6389043e6e28f27e"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>destRectsVisible</b> = false</td></tr>
+<tr class="memitem:a92327236078c25ea6389043e6e28f27e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#a92327236078c25ea6389043e6e28f27e">destRectsVisible</a> = false</td></tr>
 <tr class="separator:a92327236078c25ea6389043e6e28f27e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8635ea3f27ac88ff6b6ac7d921d67281"><td class="memItemLeft" align="right" valign="top"><a id="a8635ea3f27ac88ff6b6ac7d921d67281" name="a8635ea3f27ac88ff6b6ac7d921d67281"></a>
-Material&#160;</td><td class="memItemRight" valign="bottom"><b>_SrcRectMaterial</b></td></tr>
+<tr class="memitem:a8635ea3f27ac88ff6b6ac7d921d67281"><td class="memItemLeft" align="right" valign="top">Material&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#a8635ea3f27ac88ff6b6ac7d921d67281">_SrcRectMaterial</a></td></tr>
 <tr class="separator:a8635ea3f27ac88ff6b6ac7d921d67281"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a166ba1bbfdb4e080bff1a2474964973a"><td class="memItemLeft" align="right" valign="top"><a id="a166ba1bbfdb4e080bff1a2474964973a" name="a166ba1bbfdb4e080bff1a2474964973a"></a>
-Material&#160;</td><td class="memItemRight" valign="bottom"><b>_DestRectMaterial</b></td></tr>
+<tr class="memitem:a166ba1bbfdb4e080bff1a2474964973a"><td class="memItemLeft" align="right" valign="top">Material&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#a166ba1bbfdb4e080bff1a2474964973a">_DestRectMaterial</a></td></tr>
 <tr class="separator:a166ba1bbfdb4e080bff1a2474964973a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ed416379c00497bfc23937082aebcef"><td class="memItemLeft" align="right" valign="top"><a id="a6ed416379c00497bfc23937082aebcef" name="a6ed416379c00497bfc23937082aebcef"></a>
-TextureRect&#160;</td><td class="memItemRight" valign="bottom"><b>_DraggingRect</b></td></tr>
+<tr class="memitem:a6ed416379c00497bfc23937082aebcef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_overlay_editor.html#a7099e709887480f381c410514e058b22">TextureRect</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#a6ed416379c00497bfc23937082aebcef">_DraggingRect</a></td></tr>
 <tr class="separator:a6ed416379c00497bfc23937082aebcef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8d2f9b5d3e6b31f2528ac725a3aba06"><td class="memItemLeft" align="right" valign="top"><a id="af8d2f9b5d3e6b31f2528ac725a3aba06" name="af8d2f9b5d3e6b31f2528ac725a3aba06"></a>
-Side&#160;</td><td class="memItemRight" valign="bottom"><b>_DraggingSide</b></td></tr>
+<tr class="memitem:af8d2f9b5d3e6b31f2528ac725a3aba06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_overlay_editor.html#a4d0ee6ec62af8838b1c5bdb8807319f5">Side</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#af8d2f9b5d3e6b31f2528ac725a3aba06">_DraggingSide</a></td></tr>
 <tr class="separator:af8d2f9b5d3e6b31f2528ac725a3aba06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75ab114dde5ed5bb403a49d4db00e1a6"><td class="memItemLeft" align="right" valign="top"><a id="a75ab114dde5ed5bb403a49d4db00e1a6" name="a75ab114dde5ed5bb403a49d4db00e1a6"></a>
-GUIContent[]&#160;</td><td class="memItemRight" valign="bottom"><b>selectableShapeNames</b></td></tr>
+<tr class="memitem:a75ab114dde5ed5bb403a49d4db00e1a6"><td class="memItemLeft" align="right" valign="top">GUIContent[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#a75ab114dde5ed5bb403a49d4db00e1a6">selectableShapeNames</a></td></tr>
 <tr class="separator:a75ab114dde5ed5bb403a49d4db00e1a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a367bf895f940fb5d5a710ebaa812a5af"><td class="memItemLeft" align="right" valign="top"><a id="a367bf895f940fb5d5a710ebaa812a5af" name="a367bf895f940fb5d5a710ebaa812a5af"></a>
-<a class="el" href="class_o_v_r_overlay.html#a66270f911c2b6bdadf21de93ff3ab939">OVROverlay.OverlayShape</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>selectableShapeValues</b></td></tr>
+<tr class="memitem:a367bf895f940fb5d5a710ebaa812a5af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_overlay.html#a66270f911c2b6bdadf21de93ff3ab939">OVROverlay.OverlayShape</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#a367bf895f940fb5d5a710ebaa812a5af">selectableShapeValues</a></td></tr>
 <tr class="separator:a367bf895f940fb5d5a710ebaa812a5af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a265d143d0bbda3c992dde6ebd1b97edb"><td class="memItemLeft" align="right" valign="top"><a id="a265d143d0bbda3c992dde6ebd1b97edb" name="a265d143d0bbda3c992dde6ebd1b97edb"></a>
-SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><b>_propCurrentOverlayType</b></td></tr>
+<tr class="memitem:a265d143d0bbda3c992dde6ebd1b97edb"><td class="memItemLeft" align="right" valign="top">SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#a265d143d0bbda3c992dde6ebd1b97edb">_propCurrentOverlayType</a></td></tr>
 <tr class="separator:a265d143d0bbda3c992dde6ebd1b97edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb2e7073f0e94191eacc3844bf34444a"><td class="memItemLeft" align="right" valign="top"><a id="adb2e7073f0e94191eacc3844bf34444a" name="adb2e7073f0e94191eacc3844bf34444a"></a>
-SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><b>_propCompositionDepth</b></td></tr>
+<tr class="memitem:adb2e7073f0e94191eacc3844bf34444a"><td class="memItemLeft" align="right" valign="top">SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#adb2e7073f0e94191eacc3844bf34444a">_propCompositionDepth</a></td></tr>
 <tr class="separator:adb2e7073f0e94191eacc3844bf34444a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac14dd06e6081816b1855adcf9844bd81"><td class="memItemLeft" align="right" valign="top"><a id="ac14dd06e6081816b1855adcf9844bd81" name="ac14dd06e6081816b1855adcf9844bd81"></a>
-SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><b>_propNoDepthBufferTesting</b></td></tr>
+<tr class="memitem:ac14dd06e6081816b1855adcf9844bd81"><td class="memItemLeft" align="right" valign="top">SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#ac14dd06e6081816b1855adcf9844bd81">_propNoDepthBufferTesting</a></td></tr>
 <tr class="separator:ac14dd06e6081816b1855adcf9844bd81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab53303119daa1462e109c6a7613ff653"><td class="memItemLeft" align="right" valign="top"><a id="ab53303119daa1462e109c6a7613ff653" name="ab53303119daa1462e109c6a7613ff653"></a>
-SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><b>_propCurrentOverlayShape</b></td></tr>
+<tr class="memitem:ab53303119daa1462e109c6a7613ff653"><td class="memItemLeft" align="right" valign="top">SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#ab53303119daa1462e109c6a7613ff653">_propCurrentOverlayShape</a></td></tr>
 <tr class="separator:ab53303119daa1462e109c6a7613ff653"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaaa47238b8b61a11bbfdbead533d6b08"><td class="memItemLeft" align="right" valign="top"><a id="aaaa47238b8b61a11bbfdbead533d6b08" name="aaaa47238b8b61a11bbfdbead533d6b08"></a>
-SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><b>_propUseLegacyCubemapRotation</b></td></tr>
+<tr class="memitem:aaaa47238b8b61a11bbfdbead533d6b08"><td class="memItemLeft" align="right" valign="top">SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#aaaa47238b8b61a11bbfdbead533d6b08">_propUseLegacyCubemapRotation</a></td></tr>
 <tr class="separator:aaaa47238b8b61a11bbfdbead533d6b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af26a57d975a5d5482bdae09851eec965"><td class="memItemLeft" align="right" valign="top"><a id="af26a57d975a5d5482bdae09851eec965" name="af26a57d975a5d5482bdae09851eec965"></a>
-SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><b>_propUseBicubicFiltering</b></td></tr>
+<tr class="memitem:af26a57d975a5d5482bdae09851eec965"><td class="memItemLeft" align="right" valign="top">SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#af26a57d975a5d5482bdae09851eec965">_propUseBicubicFiltering</a></td></tr>
 <tr class="separator:af26a57d975a5d5482bdae09851eec965"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a708c50c818d1bd2f11abd52ec3f501d9"><td class="memItemLeft" align="right" valign="top"><a id="a708c50c818d1bd2f11abd52ec3f501d9" name="a708c50c818d1bd2f11abd52ec3f501d9"></a>
-SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><b>_propUseEfficientSupersample</b></td></tr>
+<tr class="memitem:a708c50c818d1bd2f11abd52ec3f501d9"><td class="memItemLeft" align="right" valign="top">SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#a708c50c818d1bd2f11abd52ec3f501d9">_propUseEfficientSupersample</a></td></tr>
 <tr class="separator:a708c50c818d1bd2f11abd52ec3f501d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9aad81ab66591ea0dc5e200096ac116"><td class="memItemLeft" align="right" valign="top"><a id="ab9aad81ab66591ea0dc5e200096ac116" name="ab9aad81ab66591ea0dc5e200096ac116"></a>
-SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><b>_propUseEfficientSharpen</b></td></tr>
+<tr class="memitem:ab9aad81ab66591ea0dc5e200096ac116"><td class="memItemLeft" align="right" valign="top">SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#ab9aad81ab66591ea0dc5e200096ac116">_propUseEfficientSharpen</a></td></tr>
 <tr class="separator:ab9aad81ab66591ea0dc5e200096ac116"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6db73b1b654a6dd9e1a5302fc70de74a"><td class="memItemLeft" align="right" valign="top"><a id="a6db73b1b654a6dd9e1a5302fc70de74a" name="a6db73b1b654a6dd9e1a5302fc70de74a"></a>
-SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><b>_propIsExternalSurface</b></td></tr>
+<tr class="memitem:a6db73b1b654a6dd9e1a5302fc70de74a"><td class="memItemLeft" align="right" valign="top">SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#a6db73b1b654a6dd9e1a5302fc70de74a">_propIsExternalSurface</a></td></tr>
 <tr class="separator:a6db73b1b654a6dd9e1a5302fc70de74a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa935079c43e5c3c87fa24c4e852d45f9"><td class="memItemLeft" align="right" valign="top"><a id="aa935079c43e5c3c87fa24c4e852d45f9" name="aa935079c43e5c3c87fa24c4e852d45f9"></a>
-SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><b>_propExternalSurfaceWidth</b></td></tr>
+<tr class="memitem:aa935079c43e5c3c87fa24c4e852d45f9"><td class="memItemLeft" align="right" valign="top">SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#aa935079c43e5c3c87fa24c4e852d45f9">_propExternalSurfaceWidth</a></td></tr>
 <tr class="separator:aa935079c43e5c3c87fa24c4e852d45f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b534cae3a86aeed344972e6ca601db4"><td class="memItemLeft" align="right" valign="top"><a id="a9b534cae3a86aeed344972e6ca601db4" name="a9b534cae3a86aeed344972e6ca601db4"></a>
-SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><b>_propExternalSurfaceHeight</b></td></tr>
+<tr class="memitem:a9b534cae3a86aeed344972e6ca601db4"><td class="memItemLeft" align="right" valign="top">SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#a9b534cae3a86aeed344972e6ca601db4">_propExternalSurfaceHeight</a></td></tr>
 <tr class="separator:a9b534cae3a86aeed344972e6ca601db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a173cc4e029f1a6830f940b881a4c113f"><td class="memItemLeft" align="right" valign="top"><a id="a173cc4e029f1a6830f940b881a4c113f" name="a173cc4e029f1a6830f940b881a4c113f"></a>
-SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><b>_propIsProtectedContent</b></td></tr>
+<tr class="memitem:a173cc4e029f1a6830f940b881a4c113f"><td class="memItemLeft" align="right" valign="top">SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#a173cc4e029f1a6830f940b881a4c113f">_propIsProtectedContent</a></td></tr>
 <tr class="separator:a173cc4e029f1a6830f940b881a4c113f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6039c4ecd39d826914a9f45a7835c7e"><td class="memItemLeft" align="right" valign="top"><a id="ae6039c4ecd39d826914a9f45a7835c7e" name="ae6039c4ecd39d826914a9f45a7835c7e"></a>
-SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><b>_propIsDynamic</b></td></tr>
+<tr class="memitem:ae6039c4ecd39d826914a9f45a7835c7e"><td class="memItemLeft" align="right" valign="top">SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#ae6039c4ecd39d826914a9f45a7835c7e">_propIsDynamic</a></td></tr>
 <tr class="separator:ae6039c4ecd39d826914a9f45a7835c7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe9c9a154ce7231345bd4801f9dd29c9"><td class="memItemLeft" align="right" valign="top"><a id="abe9c9a154ce7231345bd4801f9dd29c9" name="abe9c9a154ce7231345bd4801f9dd29c9"></a>
-SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><b>_propOverrideTextureRectMatrix</b></td></tr>
+<tr class="memitem:abe9c9a154ce7231345bd4801f9dd29c9"><td class="memItemLeft" align="right" valign="top">SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#abe9c9a154ce7231345bd4801f9dd29c9">_propOverrideTextureRectMatrix</a></td></tr>
 <tr class="separator:abe9c9a154ce7231345bd4801f9dd29c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a481c3f80ae4fad8c2b5796816248a084"><td class="memItemLeft" align="right" valign="top"><a id="a481c3f80ae4fad8c2b5796816248a084" name="a481c3f80ae4fad8c2b5796816248a084"></a>
-SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><b>_propInvertTextureRects</b></td></tr>
+<tr class="memitem:a481c3f80ae4fad8c2b5796816248a084"><td class="memItemLeft" align="right" valign="top">SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#a481c3f80ae4fad8c2b5796816248a084">_propInvertTextureRects</a></td></tr>
 <tr class="separator:a481c3f80ae4fad8c2b5796816248a084"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0171b1fadd5af79ab2739dc11859c3e7"><td class="memItemLeft" align="right" valign="top"><a id="a0171b1fadd5af79ab2739dc11859c3e7" name="a0171b1fadd5af79ab2739dc11859c3e7"></a>
-SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><b>_propOverridePerLayerColorScaleAndOffset</b></td></tr>
+<tr class="memitem:a0171b1fadd5af79ab2739dc11859c3e7"><td class="memItemLeft" align="right" valign="top">SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#a0171b1fadd5af79ab2739dc11859c3e7">_propOverridePerLayerColorScaleAndOffset</a></td></tr>
 <tr class="separator:a0171b1fadd5af79ab2739dc11859c3e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d9a5d1de1ef70dc3287f4b4af0894dc"><td class="memItemLeft" align="right" valign="top"><a id="a4d9a5d1de1ef70dc3287f4b4af0894dc" name="a4d9a5d1de1ef70dc3287f4b4af0894dc"></a>
-SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><b>_propColorScale</b></td></tr>
+<tr class="memitem:a4d9a5d1de1ef70dc3287f4b4af0894dc"><td class="memItemLeft" align="right" valign="top">SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#a4d9a5d1de1ef70dc3287f4b4af0894dc">_propColorScale</a></td></tr>
 <tr class="separator:a4d9a5d1de1ef70dc3287f4b4af0894dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f5e5fa49c4743a7338c99712436d438"><td class="memItemLeft" align="right" valign="top"><a id="a1f5e5fa49c4743a7338c99712436d438" name="a1f5e5fa49c4743a7338c99712436d438"></a>
-SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><b>_propColorOffset</b></td></tr>
+<tr class="memitem:a1f5e5fa49c4743a7338c99712436d438"><td class="memItemLeft" align="right" valign="top">SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#a1f5e5fa49c4743a7338c99712436d438">_propColorOffset</a></td></tr>
 <tr class="separator:a1f5e5fa49c4743a7338c99712436d438"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8430a01b4b851aa23ba628cae023c30"><td class="memItemLeft" align="right" valign="top"><a id="ab8430a01b4b851aa23ba628cae023c30" name="ab8430a01b4b851aa23ba628cae023c30"></a>
-SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><b>_propPreviewInEditor</b></td></tr>
+<tr class="memitem:ab8430a01b4b851aa23ba628cae023c30"><td class="memItemLeft" align="right" valign="top">SerializedProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_editor.html#ab8430a01b4b851aa23ba628cae023c30">_propPreviewInEditor</a></td></tr>
 <tr class="separator:ab8430a01b4b851aa23ba628cae023c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a21b0b36e2a34681e7e9e620534b0b3b5" name="a21b0b36e2a34681e7e9e620534b0b3b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21b0b36e2a34681e7e9e620534b0b3b5">&#9670;&#160;</a></span>DisplayType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_o_v_r_overlay_editor.html#a21b0b36e2a34681e7e9e620534b0b3b5">OVROverlayEditor.DisplayType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a21b0b36e2a34681e7e9e620534b0b3b5a90589c47f06eb971d548591f23c285af" name="a21b0b36e2a34681e7e9e620534b0b3b5a90589c47f06eb971d548591f23c285af"></a>Custom&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a21b0b36e2a34681e7e9e620534b0b3b5abbd47109890259c0127154db1af26c75" name="a21b0b36e2a34681e7e9e620534b0b3b5abbd47109890259c0127154db1af26c75"></a>Full&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a21b0b36e2a34681e7e9e620534b0b3b5ac48615a1bc4197056d522af276aa5a85" name="a21b0b36e2a34681e7e9e620534b0b3b5ac48615a1bc4197056d522af276aa5a85"></a>Half&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a4d0ee6ec62af8838b1c5bdb8807319f5" name="a4d0ee6ec62af8838b1c5bdb8807319f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d0ee6ec62af8838b1c5bdb8807319f5">&#9670;&#160;</a></span>Side</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_o_v_r_overlay_editor.html#a4d0ee6ec62af8838b1c5bdb8807319f5">OVROverlayEditor.Side</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4d0ee6ec62af8838b1c5bdb8807319f5a945d5e233cf7d6240f6b783b36a374ff" name="a4d0ee6ec62af8838b1c5bdb8807319f5a945d5e233cf7d6240f6b783b36a374ff"></a>Left&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d0ee6ec62af8838b1c5bdb8807319f5a92b09c7c48c520c3c55e497875da437c" name="a4d0ee6ec62af8838b1c5bdb8807319f5a92b09c7c48c520c3c55e497875da437c"></a>Right&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d0ee6ec62af8838b1c5bdb8807319f5aa4ffdcf0dc1f31b9acaf295d75b51d00" name="a4d0ee6ec62af8838b1c5bdb8807319f5aa4ffdcf0dc1f31b9acaf295d75b51d00"></a>Top&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d0ee6ec62af8838b1c5bdb8807319f5a2ad9d63b69c4a10a5cc9cad923133bc4" name="a4d0ee6ec62af8838b1c5bdb8807319f5a2ad9d63b69c4a10a5cc9cad923133bc4"></a>Bottom&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="abc4715e06ef64d7b51521bcca35383f0" name="abc4715e06ef64d7b51521bcca35383f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc4715e06ef64d7b51521bcca35383f0">&#9670;&#160;</a></span>StereoType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_o_v_r_overlay_editor.html#abc4715e06ef64d7b51521bcca35383f0">OVROverlayEditor.StereoType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Common Video Types, to ease source and dest rect creation. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abc4715e06ef64d7b51521bcca35383f0a90589c47f06eb971d548591f23c285af" name="abc4715e06ef64d7b51521bcca35383f0a90589c47f06eb971d548591f23c285af"></a>Custom&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc4715e06ef64d7b51521bcca35383f0a5d9b47bd3b65072e0d5daf55f01da086" name="abc4715e06ef64d7b51521bcca35383f0a5d9b47bd3b65072e0d5daf55f01da086"></a>Mono&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc4715e06ef64d7b51521bcca35383f0abbc45d9b35436f5f0ed9e33499efcea9" name="abc4715e06ef64d7b51521bcca35383f0abbc45d9b35436f5f0ed9e33499efcea9"></a>Stereo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc4715e06ef64d7b51521bcca35383f0a6b1f1c117adaf21e5968481f9f646bf1" name="abc4715e06ef64d7b51521bcca35383f0a6b1f1c117adaf21e5968481f9f646bf1"></a>StereoLeftRight&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc4715e06ef64d7b51521bcca35383f0ab8cdcccd10e885ca1ed8ece2155cadb3" name="abc4715e06ef64d7b51521bcca35383f0ab8cdcccd10e885ca1ed8ece2155cadb3"></a>StereoTopBottom&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a7099e709887480f381c410514e058b22" name="a7099e709887480f381c410514e058b22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7099e709887480f381c410514e058b22">&#9670;&#160;</a></span>TextureRect</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_o_v_r_overlay_editor.html#a7099e709887480f381c410514e058b22">OVROverlayEditor.TextureRect</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7099e709887480f381c410514e058b22a6adf97f83acf6453d4a6a4b1070f3754" name="a7099e709887480f381c410514e058b22a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7099e709887480f381c410514e058b22a06c2b42ee83cf287148a949585984895" name="a7099e709887480f381c410514e058b22a06c2b42ee83cf287148a949585984895"></a>SrcLeft&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7099e709887480f381c410514e058b22a6d09966753d1933fa5882daad5032884" name="a7099e709887480f381c410514e058b22a6d09966753d1933fa5882daad5032884"></a>SrcRight&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7099e709887480f381c410514e058b22a3bff9897b79dbd5a2702dcedbb7d5c4a" name="a7099e709887480f381c410514e058b22a3bff9897b79dbd5a2702dcedbb7d5c4a"></a>DestLeft&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7099e709887480f381c410514e058b22a250339ec7038f587c517a8cf7f353286" name="a7099e709887480f381c410514e058b22a250339ec7038f587c517a8cf7f353286"></a>DestRight&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a62c8a2ce3f3b2b67bfcc9312e38657c3" name="a62c8a2ce3f3b2b67bfcc9312e38657c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62c8a2ce3f3b2b67bfcc9312e38657c3">&#9670;&#160;</a></span>Awake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVROverlayEditor.Awake </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6951da18a55c479c96c9e8c3c55a6a7" name="ab6951da18a55c479c96c9e8c3c55a6a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6951da18a55c479c96c9e8c3c55a6a7">&#9670;&#160;</a></span>Clamp01()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rect OVROverlayEditor.Clamp01 </td>
+          <td>(</td>
+          <td class="paramtype">Rect&#160;</td>
+          <td class="paramname"><em>rect</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa75dd13deeca4b4bdd09c0ca4bb103e9" name="aa75dd13deeca4b4bdd09c0ca4bb103e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa75dd13deeca4b4bdd09c0ca4bb103e9">&#9670;&#160;</a></span>CreateCursorRects()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVROverlayEditor.CreateCursorRects </td>
+          <td>(</td>
+          <td class="paramtype">Rect&#160;</td>
+          <td class="paramname"><em>drawRect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rect&#160;</td>
+          <td class="paramname"><em>selectRect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>invertY</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4948fbe1c209824e31ea51d906bce6d7" name="a4948fbe1c209824e31ea51d906bce6d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4948fbe1c209824e31ea51d906bce6d7">&#9670;&#160;</a></span>GetCursorPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVROverlayEditor.GetCursorPoints </td>
+          <td>(</td>
+          <td class="paramtype">Rect&#160;</td>
+          <td class="paramname"><em>drawRect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rect&#160;</td>
+          <td class="paramname"><em>selectRect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>invertY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out Vector2&#160;</td>
+          <td class="paramname"><em>leftPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out Vector2&#160;</td>
+          <td class="paramname"><em>rightPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out Vector2&#160;</td>
+          <td class="paramname"><em>topPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out Vector2&#160;</td>
+          <td class="paramname"><em>bottomPos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="affc6adfc6fbb493979a0fc02de12b43b" name="affc6adfc6fbb493979a0fc02de12b43b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affc6adfc6fbb493979a0fc02de12b43b">&#9670;&#160;</a></span>GetStereoType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_overlay_editor.html#abc4715e06ef64d7b51521bcca35383f0">StereoType</a> OVROverlayEditor.GetStereoType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_o_v_r_overlay.html">OVROverlay</a>&#160;</td>
+          <td class="paramname"><em>overlay</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad1f4e38d0bf2a378eeb08be4171a9bfb" name="ad1f4e38d0bf2a378eeb08be4171a9bfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1f4e38d0bf2a378eeb08be4171a9bfb">&#9670;&#160;</a></span>IsOverRectControls()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVROverlayEditor.IsOverRectControls </td>
+          <td>(</td>
+          <td class="paramtype">Rect&#160;</td>
+          <td class="paramname"><em>drawRect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>mousePos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rect&#160;</td>
+          <td class="paramname"><em>selectRect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>invertY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref <a class="el" href="class_o_v_r_overlay_editor.html#a4d0ee6ec62af8838b1c5bdb8807319f5">Side</a>&#160;</td>
+          <td class="paramname"><em>side</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afea2f0b8d15280ae60701c1b7043e2c7" name="afea2f0b8d15280ae60701c1b7043e2c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afea2f0b8d15280ae60701c1b7043e2c7">&#9670;&#160;</a></span>IsRect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVROverlayEditor.IsRect </td>
+          <td>(</td>
+          <td class="paramtype">Rect&#160;</td>
+          <td class="paramname"><em>rect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>w</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>h</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a62a0f18a60d7623df2d4134fa05554d5" name="a62a0f18a60d7623df2d4134fa05554d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62a0f18a60d7623df2d4134fa05554d5">&#9670;&#160;</a></span>IsUnitRect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVROverlayEditor.IsUnitRect </td>
+          <td>(</td>
+          <td class="paramtype">Rect&#160;</td>
+          <td class="paramname"><em>rect</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adee2eaa592be3669c3a79e3e8d8c195c" name="adee2eaa592be3669c3a79e3e8d8c195c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adee2eaa592be3669c3a79e3e8d8c195c">&#9670;&#160;</a></span>OnEnable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVROverlayEditor.OnEnable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d54d3d7ebe7fe36f48d10fd94265651" name="a0d54d3d7ebe7fe36f48d10fd94265651"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d54d3d7ebe7fe36f48d10fd94265651">&#9670;&#160;</a></span>OnInspectorGUI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void OVROverlayEditor.OnInspectorGUI </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aceed09dec3223cfebc4602268cd65890" name="aceed09dec3223cfebc4602268cd65890"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aceed09dec3223cfebc4602268cd65890">&#9670;&#160;</a></span>SetRectsByVideoType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVROverlayEditor.SetRectsByVideoType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_o_v_r_overlay.html">OVROverlay</a>&#160;</td>
+          <td class="paramname"><em>overlay</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_o_v_r_overlay_editor.html#abc4715e06ef64d7b51521bcca35383f0">StereoType</a>&#160;</td>
+          <td class="paramname"><em>stereoType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_o_v_r_overlay_editor.html#a21b0b36e2a34681e7e9e620534b0b3b5">DisplayType</a>&#160;</td>
+          <td class="paramname"><em>displayType</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af49ee943dcb3d8e9ce98d2d579f57028" name="af49ee943dcb3d8e9ce98d2d579f57028"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af49ee943dcb3d8e9ce98d2d579f57028">&#9670;&#160;</a></span>SetRectSideValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVROverlayEditor.SetRectSideValue </td>
+          <td>(</td>
+          <td class="paramtype">Rect&#160;</td>
+          <td class="paramname"><em>drawingRect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>mousePos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_o_v_r_overlay_editor.html#a4d0ee6ec62af8838b1c5bdb8807319f5">Side</a>&#160;</td>
+          <td class="paramname"><em>side</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>invertY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref Rect&#160;</td>
+          <td class="paramname"><em>rect</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa5ce057b4c984dc434bcc1a18b5bb489" name="aa5ce057b4c984dc434bcc1a18b5bb489"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5ce057b4c984dc434bcc1a18b5bb489">&#9670;&#160;</a></span>UpdateRectDragging()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVROverlayEditor.UpdateRectDragging </td>
+          <td>(</td>
+          <td class="paramtype">Rect&#160;</td>
+          <td class="paramname"><em>drawingRectLeft</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rect&#160;</td>
+          <td class="paramname"><em>drawingRectRight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_o_v_r_overlay_editor.html#a7099e709887480f381c410514e058b22">TextureRect</a>&#160;</td>
+          <td class="paramname"><em>rectLeftType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_o_v_r_overlay_editor.html#a7099e709887480f381c410514e058b22">TextureRect</a>&#160;</td>
+          <td class="paramname"><em>rectRightType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>invertY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref Rect&#160;</td>
+          <td class="paramname"><em>rectLeft</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref Rect&#160;</td>
+          <td class="paramname"><em>rectRight</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a166ba1bbfdb4e080bff1a2474964973a" name="a166ba1bbfdb4e080bff1a2474964973a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a166ba1bbfdb4e080bff1a2474964973a">&#9670;&#160;</a></span>_DestRectMaterial</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Material OVROverlayEditor._DestRectMaterial</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6ed416379c00497bfc23937082aebcef" name="a6ed416379c00497bfc23937082aebcef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ed416379c00497bfc23937082aebcef">&#9670;&#160;</a></span>_DraggingRect</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_overlay_editor.html#a7099e709887480f381c410514e058b22">TextureRect</a> OVROverlayEditor._DraggingRect</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af8d2f9b5d3e6b31f2528ac725a3aba06" name="af8d2f9b5d3e6b31f2528ac725a3aba06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8d2f9b5d3e6b31f2528ac725a3aba06">&#9670;&#160;</a></span>_DraggingSide</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_overlay_editor.html#a4d0ee6ec62af8838b1c5bdb8807319f5">Side</a> OVROverlayEditor._DraggingSide</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1f5e5fa49c4743a7338c99712436d438" name="a1f5e5fa49c4743a7338c99712436d438"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f5e5fa49c4743a7338c99712436d438">&#9670;&#160;</a></span>_propColorOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SerializedProperty OVROverlayEditor._propColorOffset</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4d9a5d1de1ef70dc3287f4b4af0894dc" name="a4d9a5d1de1ef70dc3287f4b4af0894dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d9a5d1de1ef70dc3287f4b4af0894dc">&#9670;&#160;</a></span>_propColorScale</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SerializedProperty OVROverlayEditor._propColorScale</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb2e7073f0e94191eacc3844bf34444a" name="adb2e7073f0e94191eacc3844bf34444a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb2e7073f0e94191eacc3844bf34444a">&#9670;&#160;</a></span>_propCompositionDepth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SerializedProperty OVROverlayEditor._propCompositionDepth</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab53303119daa1462e109c6a7613ff653" name="ab53303119daa1462e109c6a7613ff653"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab53303119daa1462e109c6a7613ff653">&#9670;&#160;</a></span>_propCurrentOverlayShape</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SerializedProperty OVROverlayEditor._propCurrentOverlayShape</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a265d143d0bbda3c992dde6ebd1b97edb" name="a265d143d0bbda3c992dde6ebd1b97edb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a265d143d0bbda3c992dde6ebd1b97edb">&#9670;&#160;</a></span>_propCurrentOverlayType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SerializedProperty OVROverlayEditor._propCurrentOverlayType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9b534cae3a86aeed344972e6ca601db4" name="a9b534cae3a86aeed344972e6ca601db4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b534cae3a86aeed344972e6ca601db4">&#9670;&#160;</a></span>_propExternalSurfaceHeight</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SerializedProperty OVROverlayEditor._propExternalSurfaceHeight</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa935079c43e5c3c87fa24c4e852d45f9" name="aa935079c43e5c3c87fa24c4e852d45f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa935079c43e5c3c87fa24c4e852d45f9">&#9670;&#160;</a></span>_propExternalSurfaceWidth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SerializedProperty OVROverlayEditor._propExternalSurfaceWidth</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a481c3f80ae4fad8c2b5796816248a084" name="a481c3f80ae4fad8c2b5796816248a084"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a481c3f80ae4fad8c2b5796816248a084">&#9670;&#160;</a></span>_propInvertTextureRects</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SerializedProperty OVROverlayEditor._propInvertTextureRects</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae6039c4ecd39d826914a9f45a7835c7e" name="ae6039c4ecd39d826914a9f45a7835c7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6039c4ecd39d826914a9f45a7835c7e">&#9670;&#160;</a></span>_propIsDynamic</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SerializedProperty OVROverlayEditor._propIsDynamic</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6db73b1b654a6dd9e1a5302fc70de74a" name="a6db73b1b654a6dd9e1a5302fc70de74a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6db73b1b654a6dd9e1a5302fc70de74a">&#9670;&#160;</a></span>_propIsExternalSurface</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SerializedProperty OVROverlayEditor._propIsExternalSurface</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a173cc4e029f1a6830f940b881a4c113f" name="a173cc4e029f1a6830f940b881a4c113f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a173cc4e029f1a6830f940b881a4c113f">&#9670;&#160;</a></span>_propIsProtectedContent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SerializedProperty OVROverlayEditor._propIsProtectedContent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac14dd06e6081816b1855adcf9844bd81" name="ac14dd06e6081816b1855adcf9844bd81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac14dd06e6081816b1855adcf9844bd81">&#9670;&#160;</a></span>_propNoDepthBufferTesting</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SerializedProperty OVROverlayEditor._propNoDepthBufferTesting</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0171b1fadd5af79ab2739dc11859c3e7" name="a0171b1fadd5af79ab2739dc11859c3e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0171b1fadd5af79ab2739dc11859c3e7">&#9670;&#160;</a></span>_propOverridePerLayerColorScaleAndOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SerializedProperty OVROverlayEditor._propOverridePerLayerColorScaleAndOffset</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abe9c9a154ce7231345bd4801f9dd29c9" name="abe9c9a154ce7231345bd4801f9dd29c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe9c9a154ce7231345bd4801f9dd29c9">&#9670;&#160;</a></span>_propOverrideTextureRectMatrix</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SerializedProperty OVROverlayEditor._propOverrideTextureRectMatrix</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab8430a01b4b851aa23ba628cae023c30" name="ab8430a01b4b851aa23ba628cae023c30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8430a01b4b851aa23ba628cae023c30">&#9670;&#160;</a></span>_propPreviewInEditor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SerializedProperty OVROverlayEditor._propPreviewInEditor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af26a57d975a5d5482bdae09851eec965" name="af26a57d975a5d5482bdae09851eec965"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af26a57d975a5d5482bdae09851eec965">&#9670;&#160;</a></span>_propUseBicubicFiltering</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SerializedProperty OVROverlayEditor._propUseBicubicFiltering</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab9aad81ab66591ea0dc5e200096ac116" name="ab9aad81ab66591ea0dc5e200096ac116"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9aad81ab66591ea0dc5e200096ac116">&#9670;&#160;</a></span>_propUseEfficientSharpen</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SerializedProperty OVROverlayEditor._propUseEfficientSharpen</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a708c50c818d1bd2f11abd52ec3f501d9" name="a708c50c818d1bd2f11abd52ec3f501d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a708c50c818d1bd2f11abd52ec3f501d9">&#9670;&#160;</a></span>_propUseEfficientSupersample</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SerializedProperty OVROverlayEditor._propUseEfficientSupersample</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaaa47238b8b61a11bbfdbead533d6b08" name="aaaa47238b8b61a11bbfdbead533d6b08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaa47238b8b61a11bbfdbead533d6b08">&#9670;&#160;</a></span>_propUseLegacyCubemapRotation</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SerializedProperty OVROverlayEditor._propUseLegacyCubemapRotation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8635ea3f27ac88ff6b6ac7d921d67281" name="a8635ea3f27ac88ff6b6ac7d921d67281"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8635ea3f27ac88ff6b6ac7d921d67281">&#9670;&#160;</a></span>_SrcRectMaterial</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Material OVROverlayEditor._SrcRectMaterial</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a92327236078c25ea6389043e6e28f27e" name="a92327236078c25ea6389043e6e28f27e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92327236078c25ea6389043e6e28f27e">&#9670;&#160;</a></span>destRectsVisible</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVROverlayEditor.destRectsVisible = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a75ab114dde5ed5bb403a49d4db00e1a6" name="a75ab114dde5ed5bb403a49d4db00e1a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75ab114dde5ed5bb403a49d4db00e1a6">&#9670;&#160;</a></span>selectableShapeNames</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GUIContent [] OVROverlayEditor.selectableShapeNames</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a367bf895f940fb5d5a710ebaa812a5af" name="a367bf895f940fb5d5a710ebaa812a5af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a367bf895f940fb5d5a710ebaa812a5af">&#9670;&#160;</a></span>selectableShapeValues</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_overlay.html#a66270f911c2b6bdadf21de93ff3ab939">OVROverlay.OverlayShape</a> [] OVROverlayEditor.selectableShapeValues</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31a6413b3eff3a99909d51fb29aea83b" name="a31a6413b3eff3a99909d51fb29aea83b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31a6413b3eff3a99909d51fb29aea83b">&#9670;&#160;</a></span>sourceRectsVisible</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVROverlayEditor.sourceRectsVisible = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a3199a4cac786589e32cb1561f6348931" name="a3199a4cac786589e32cb1561f6348931"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3199a4cac786589e32cb1561f6348931">&#9670;&#160;</a></span>DestRectMaterial</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Material OVROverlayEditor.DestRectMaterial</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7f3fab05bb7f28ff6fbf79e7afbf76b5" name="a7f3fab05bb7f28ff6fbf79e7afbf76b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f3fab05bb7f28ff6fbf79e7afbf76b5">&#9670;&#160;</a></span>SrcRectMaterial</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Material OVROverlayEditor.SrcRectMaterial</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Oculus/VR/Scripts/Editor/OVROverlayEditor.cs</li>
+<li><a class="el" href="_o_v_r_overlay_editor_8cs.html">OVROverlayEditor.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

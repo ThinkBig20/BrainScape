@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: OVRBoundary Class Reference</title>
+<title>BrainScape: OVRBoundary Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">BrainScape
    </div>
   </td>
  </tr>
@@ -105,51 +105,40 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab0399ba3bacca2d6f8453be35291398e"><td class="memItemLeft" align="right" valign="top"><a id="ab0399ba3bacca2d6f8453be35291398e" name="ab0399ba3bacca2d6f8453be35291398e"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>GetConfigured</b> ()</td></tr>
-<tr class="memdesc:ab0399ba3bacca2d6f8453be35291398e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the boundary system is currently configured with valid boundary data. <br /></td></tr>
+<tr class="memitem:ab0399ba3bacca2d6f8453be35291398e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_boundary.html#ab0399ba3bacca2d6f8453be35291398e">GetConfigured</a> ()</td></tr>
+<tr class="memdesc:ab0399ba3bacca2d6f8453be35291398e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the boundary system is currently configured with valid boundary data.  <br /></td></tr>
 <tr class="separator:ab0399ba3bacca2d6f8453be35291398e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1860c81f4b06730f5de3bdb3abb8de57"><td class="memItemLeft" align="right" valign="top"><a id="a1860c81f4b06730f5de3bdb3abb8de57" name="a1860c81f4b06730f5de3bdb3abb8de57"></a>
-<a class="el" href="struct_o_v_r_boundary_1_1_boundary_test_result.html">OVRBoundary.BoundaryTestResult</a>&#160;</td><td class="memItemRight" valign="bottom"><b>TestNode</b> (<a class="el" href="class_o_v_r_boundary.html#aa16c75c1f7177f9232b7f694c95ac07d">OVRBoundary.Node</a> node, <a class="el" href="class_o_v_r_boundary.html#a5c4cb02dc5a7b8032bae6fdfc69282f0">OVRBoundary.BoundaryType</a> boundaryType)</td></tr>
-<tr class="memdesc:a1860c81f4b06730f5de3bdb3abb8de57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the results of testing a tracked node against the specified boundary type. All points are returned in local tracking space shared by tracked nodes and accessible through <a class="el" href="class_o_v_r_camera_rig.html" title="A head-tracked stereoscopic virtual reality camera rig.">OVRCameraRig</a>'s trackingSpace anchor. <br /></td></tr>
+<tr class="memitem:a1860c81f4b06730f5de3bdb3abb8de57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_o_v_r_boundary_1_1_boundary_test_result.html">OVRBoundary.BoundaryTestResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_boundary.html#a1860c81f4b06730f5de3bdb3abb8de57">TestNode</a> (<a class="el" href="class_o_v_r_boundary.html#aa16c75c1f7177f9232b7f694c95ac07d">OVRBoundary.Node</a> node, <a class="el" href="class_o_v_r_boundary.html#a5c4cb02dc5a7b8032bae6fdfc69282f0">OVRBoundary.BoundaryType</a> boundaryType)</td></tr>
+<tr class="memdesc:a1860c81f4b06730f5de3bdb3abb8de57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the results of testing a tracked node against the specified boundary type. All points are returned in local tracking space shared by tracked nodes and accessible through <a class="el" href="class_o_v_r_camera_rig.html" title="A head-tracked stereoscopic virtual reality camera rig.">OVRCameraRig</a>'s trackingSpace anchor.  <br /></td></tr>
 <tr class="separator:a1860c81f4b06730f5de3bdb3abb8de57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d63c08d23676241398f2d8560fdc386"><td class="memItemLeft" align="right" valign="top"><a id="a1d63c08d23676241398f2d8560fdc386" name="a1d63c08d23676241398f2d8560fdc386"></a>
-<a class="el" href="struct_o_v_r_boundary_1_1_boundary_test_result.html">OVRBoundary.BoundaryTestResult</a>&#160;</td><td class="memItemRight" valign="bottom"><b>TestPoint</b> (Vector3 point, <a class="el" href="class_o_v_r_boundary.html#a5c4cb02dc5a7b8032bae6fdfc69282f0">OVRBoundary.BoundaryType</a> boundaryType)</td></tr>
-<tr class="memdesc:a1d63c08d23676241398f2d8560fdc386"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the results of testing a 3d point against the specified boundary type. The test point is expected in local tracking space. All points are returned in local tracking space shared by tracked nodes and accessible through <a class="el" href="class_o_v_r_camera_rig.html" title="A head-tracked stereoscopic virtual reality camera rig.">OVRCameraRig</a>'s trackingSpace anchor. <br /></td></tr>
+<tr class="memitem:a1d63c08d23676241398f2d8560fdc386"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_o_v_r_boundary_1_1_boundary_test_result.html">OVRBoundary.BoundaryTestResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_boundary.html#a1d63c08d23676241398f2d8560fdc386">TestPoint</a> (<a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a> point, <a class="el" href="class_o_v_r_boundary.html#a5c4cb02dc5a7b8032bae6fdfc69282f0">OVRBoundary.BoundaryType</a> boundaryType)</td></tr>
+<tr class="memdesc:a1d63c08d23676241398f2d8560fdc386"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the results of testing a 3d point against the specified boundary type. The test point is expected in local tracking space. All points are returned in local tracking space shared by tracked nodes and accessible through <a class="el" href="class_o_v_r_camera_rig.html" title="A head-tracked stereoscopic virtual reality camera rig.">OVRCameraRig</a>'s trackingSpace anchor.  <br /></td></tr>
 <tr class="separator:a1d63c08d23676241398f2d8560fdc386"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a5187d3a243e9c0b16fd1b5e4822953"><td class="memItemLeft" align="right" valign="top"><a id="a6a5187d3a243e9c0b16fd1b5e4822953" name="a6a5187d3a243e9c0b16fd1b5e4822953"></a>
-Vector3[]&#160;</td><td class="memItemRight" valign="bottom"><b>GetGeometry</b> (<a class="el" href="class_o_v_r_boundary.html#a5c4cb02dc5a7b8032bae6fdfc69282f0">OVRBoundary.BoundaryType</a> boundaryType)</td></tr>
-<tr class="memdesc:a6a5187d3a243e9c0b16fd1b5e4822953"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an array of 3d points (in clockwise order) that define the specified boundary type. All points are returned in local tracking space shared by tracked nodes and accessible through <a class="el" href="class_o_v_r_camera_rig.html" title="A head-tracked stereoscopic virtual reality camera rig.">OVRCameraRig</a>'s trackingSpace anchor. <br /></td></tr>
+<tr class="memitem:a6a5187d3a243e9c0b16fd1b5e4822953"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_boundary.html#a6a5187d3a243e9c0b16fd1b5e4822953">GetGeometry</a> (<a class="el" href="class_o_v_r_boundary.html#a5c4cb02dc5a7b8032bae6fdfc69282f0">OVRBoundary.BoundaryType</a> boundaryType)</td></tr>
+<tr class="memdesc:a6a5187d3a243e9c0b16fd1b5e4822953"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an array of 3d points (in clockwise order) that define the specified boundary type. All points are returned in local tracking space shared by tracked nodes and accessible through <a class="el" href="class_o_v_r_camera_rig.html" title="A head-tracked stereoscopic virtual reality camera rig.">OVRCameraRig</a>'s trackingSpace anchor.  <br /></td></tr>
 <tr class="separator:a6a5187d3a243e9c0b16fd1b5e4822953"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab07072afe985fe3f6afa5ced140fabdd"><td class="memItemLeft" align="right" valign="top"><a id="ab07072afe985fe3f6afa5ced140fabdd" name="ab07072afe985fe3f6afa5ced140fabdd"></a>
-Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>GetDimensions</b> (<a class="el" href="class_o_v_r_boundary.html#a5c4cb02dc5a7b8032bae6fdfc69282f0">OVRBoundary.BoundaryType</a> boundaryType)</td></tr>
-<tr class="memdesc:ab07072afe985fe3f6afa5ced140fabdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a vector that indicates the spatial dimensions of the specified boundary type. (x = width, y = height, z = depth) <br /></td></tr>
+<tr class="memitem:ab07072afe985fe3f6afa5ced140fabdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_boundary.html#ab07072afe985fe3f6afa5ced140fabdd">GetDimensions</a> (<a class="el" href="class_o_v_r_boundary.html#a5c4cb02dc5a7b8032bae6fdfc69282f0">OVRBoundary.BoundaryType</a> boundaryType)</td></tr>
+<tr class="memdesc:ab07072afe985fe3f6afa5ced140fabdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a vector that indicates the spatial dimensions of the specified boundary type. (x = width, y = height, z = depth)  <br /></td></tr>
 <tr class="separator:ab07072afe985fe3f6afa5ced140fabdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22c956b5d91a90880a1cc964c1c0f3dc"><td class="memItemLeft" align="right" valign="top"><a id="a22c956b5d91a90880a1cc964c1c0f3dc" name="a22c956b5d91a90880a1cc964c1c0f3dc"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>GetVisible</b> ()</td></tr>
-<tr class="memdesc:a22c956b5d91a90880a1cc964c1c0f3dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the boundary system is currently visible. <br /></td></tr>
+<tr class="memitem:a22c956b5d91a90880a1cc964c1c0f3dc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_boundary.html#a22c956b5d91a90880a1cc964c1c0f3dc">GetVisible</a> ()</td></tr>
+<tr class="memdesc:a22c956b5d91a90880a1cc964c1c0f3dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the boundary system is currently visible.  <br /></td></tr>
 <tr class="separator:a22c956b5d91a90880a1cc964c1c0f3dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34b08649c8ee021d3e9dfb5f334767e2"><td class="memItemLeft" align="right" valign="top"><a id="a34b08649c8ee021d3e9dfb5f334767e2" name="a34b08649c8ee021d3e9dfb5f334767e2"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetVisible</b> (bool value)</td></tr>
-<tr class="memdesc:a34b08649c8ee021d3e9dfb5f334767e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests that the boundary system visibility be set to the specified value. The actual visibility can be overridden by the system (i.e., proximity trigger) or by the user (boundary system disabled) <br /></td></tr>
+<tr class="memitem:a34b08649c8ee021d3e9dfb5f334767e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_boundary.html#a34b08649c8ee021d3e9dfb5f334767e2">SetVisible</a> (bool value)</td></tr>
+<tr class="memdesc:a34b08649c8ee021d3e9dfb5f334767e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests that the boundary system visibility be set to the specified value. The actual visibility can be overridden by the system (i.e., proximity trigger) or by the user (boundary system disabled)  <br /></td></tr>
 <tr class="separator:a34b08649c8ee021d3e9dfb5f334767e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a8dfc6ffd4858c7c8e70bc306444182a3"><td class="memItemLeft" align="right" valign="top"><a id="a8dfc6ffd4858c7c8e70bc306444182a3" name="a8dfc6ffd4858c7c8e70bc306444182a3"></a>
-List&lt; Vector3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>cachedGeometryList</b> = new List&lt;Vector3&gt;()</td></tr>
+<tr class="memitem:a8dfc6ffd4858c7c8e70bc306444182a3"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_boundary.html#a8dfc6ffd4858c7c8e70bc306444182a3">cachedGeometryList</a> = new List&lt;<a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a>&gt;()</td></tr>
 <tr class="separator:a8dfc6ffd4858c7c8e70bc306444182a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:a7a6c7e4cd846b80656bf236728e13735"><td class="memItemLeft" align="right" valign="top"><a id="a7a6c7e4cd846b80656bf236728e13735" name="a7a6c7e4cd846b80656bf236728e13735"></a>
-static int&#160;</td><td class="memItemRight" valign="bottom"><b>cachedVector3fSize</b> = Marshal.SizeOf(typeof(<a class="el" href="struct_o_v_r_plugin_1_1_vector3f.html">OVRPlugin.Vector3f</a>))</td></tr>
+<tr class="memitem:a7a6c7e4cd846b80656bf236728e13735"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_boundary.html#a7a6c7e4cd846b80656bf236728e13735">cachedVector3fSize</a> = Marshal.SizeOf(typeof(<a class="el" href="struct_o_v_r_plugin_1_1_vector3f.html">OVRPlugin.Vector3f</a>))</td></tr>
 <tr class="separator:a7a6c7e4cd846b80656bf236728e13735"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc9a9332c2aa7e7838d6ab2bb256b3ba"><td class="memItemLeft" align="right" valign="top"><a id="acc9a9332c2aa7e7838d6ab2bb256b3ba" name="acc9a9332c2aa7e7838d6ab2bb256b3ba"></a>
-static <a class="el" href="class_o_v_r_native_buffer.html">OVRNativeBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>cachedGeometryNativeBuffer</b> = new <a class="el" href="class_o_v_r_native_buffer.html">OVRNativeBuffer</a>(0)</td></tr>
+<tr class="memitem:acc9a9332c2aa7e7838d6ab2bb256b3ba"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_o_v_r_native_buffer.html">OVRNativeBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_boundary.html#acc9a9332c2aa7e7838d6ab2bb256b3ba">cachedGeometryNativeBuffer</a> = new <a class="el" href="class_o_v_r_native_buffer.html">OVRNativeBuffer</a>(0)</td></tr>
 <tr class="separator:acc9a9332c2aa7e7838d6ab2bb256b3ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56a3f8ec6d2f8da9b8edaafc51a45022"><td class="memItemLeft" align="right" valign="top"><a id="a56a3f8ec6d2f8da9b8edaafc51a45022" name="a56a3f8ec6d2f8da9b8edaafc51a45022"></a>
-static float[]&#160;</td><td class="memItemRight" valign="bottom"><b>cachedGeometryManagedBuffer</b> = new float[0]</td></tr>
+<tr class="memitem:a56a3f8ec6d2f8da9b8edaafc51a45022"><td class="memItemLeft" align="right" valign="top">static float[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_boundary.html#a56a3f8ec6d2f8da9b8edaafc51a45022">cachedGeometryManagedBuffer</a> = new float[0]</td></tr>
 <tr class="separator:a56a3f8ec6d2f8da9b8edaafc51a45022"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -201,8 +190,256 @@ static float[]&#160;</td><td class="memItemRight" valign="bottom"><b>cachedGeome
 
 </div>
 </div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab0399ba3bacca2d6f8453be35291398e" name="ab0399ba3bacca2d6f8453be35291398e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0399ba3bacca2d6f8453be35291398e">&#9670;&#160;</a></span>GetConfigured()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVRBoundary.GetConfigured </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if the boundary system is currently configured with valid boundary data. </p>
+
+</div>
+</div>
+<a id="ab07072afe985fe3f6afa5ced140fabdd" name="ab07072afe985fe3f6afa5ced140fabdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab07072afe985fe3f6afa5ced140fabdd">&#9670;&#160;</a></span>GetDimensions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a> OVRBoundary.GetDimensions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_o_v_r_boundary.html#a5c4cb02dc5a7b8032bae6fdfc69282f0">OVRBoundary::BoundaryType</a>&#160;</td>
+          <td class="paramname"><em>boundaryType</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a vector that indicates the spatial dimensions of the specified boundary type. (x = width, y = height, z = depth) </p>
+
+</div>
+</div>
+<a id="a6a5187d3a243e9c0b16fd1b5e4822953" name="a6a5187d3a243e9c0b16fd1b5e4822953"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a5187d3a243e9c0b16fd1b5e4822953">&#9670;&#160;</a></span>GetGeometry()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a>[] OVRBoundary.GetGeometry </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_o_v_r_boundary.html#a5c4cb02dc5a7b8032bae6fdfc69282f0">OVRBoundary::BoundaryType</a>&#160;</td>
+          <td class="paramname"><em>boundaryType</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns an array of 3d points (in clockwise order) that define the specified boundary type. All points are returned in local tracking space shared by tracked nodes and accessible through <a class="el" href="class_o_v_r_camera_rig.html" title="A head-tracked stereoscopic virtual reality camera rig.">OVRCameraRig</a>'s trackingSpace anchor. </p>
+
+</div>
+</div>
+<a id="a22c956b5d91a90880a1cc964c1c0f3dc" name="a22c956b5d91a90880a1cc964c1c0f3dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22c956b5d91a90880a1cc964c1c0f3dc">&#9670;&#160;</a></span>GetVisible()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVRBoundary.GetVisible </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if the boundary system is currently visible. </p>
+
+</div>
+</div>
+<a id="a34b08649c8ee021d3e9dfb5f334767e2" name="a34b08649c8ee021d3e9dfb5f334767e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34b08649c8ee021d3e9dfb5f334767e2">&#9670;&#160;</a></span>SetVisible()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVRBoundary.SetVisible </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Requests that the boundary system visibility be set to the specified value. The actual visibility can be overridden by the system (i.e., proximity trigger) or by the user (boundary system disabled) </p>
+
+</div>
+</div>
+<a id="a1860c81f4b06730f5de3bdb3abb8de57" name="a1860c81f4b06730f5de3bdb3abb8de57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1860c81f4b06730f5de3bdb3abb8de57">&#9670;&#160;</a></span>TestNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_o_v_r_boundary_1_1_boundary_test_result.html">OVRBoundary.BoundaryTestResult</a> OVRBoundary.TestNode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_o_v_r_boundary.html#aa16c75c1f7177f9232b7f694c95ac07d">OVRBoundary::Node</a>&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_o_v_r_boundary.html#a5c4cb02dc5a7b8032bae6fdfc69282f0">OVRBoundary::BoundaryType</a>&#160;</td>
+          <td class="paramname"><em>boundaryType</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the results of testing a tracked node against the specified boundary type. All points are returned in local tracking space shared by tracked nodes and accessible through <a class="el" href="class_o_v_r_camera_rig.html" title="A head-tracked stereoscopic virtual reality camera rig.">OVRCameraRig</a>'s trackingSpace anchor. </p>
+
+</div>
+</div>
+<a id="a1d63c08d23676241398f2d8560fdc386" name="a1d63c08d23676241398f2d8560fdc386"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d63c08d23676241398f2d8560fdc386">&#9670;&#160;</a></span>TestPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_o_v_r_boundary_1_1_boundary_test_result.html">OVRBoundary.BoundaryTestResult</a> OVRBoundary.TestPoint </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a>&#160;</td>
+          <td class="paramname"><em>point</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_o_v_r_boundary.html#a5c4cb02dc5a7b8032bae6fdfc69282f0">OVRBoundary::BoundaryType</a>&#160;</td>
+          <td class="paramname"><em>boundaryType</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the results of testing a 3d point against the specified boundary type. The test point is expected in local tracking space. All points are returned in local tracking space shared by tracked nodes and accessible through <a class="el" href="class_o_v_r_camera_rig.html" title="A head-tracked stereoscopic virtual reality camera rig.">OVRCameraRig</a>'s trackingSpace anchor. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a8dfc6ffd4858c7c8e70bc306444182a3" name="a8dfc6ffd4858c7c8e70bc306444182a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dfc6ffd4858c7c8e70bc306444182a3">&#9670;&#160;</a></span>cachedGeometryList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a>&gt; OVRBoundary.cachedGeometryList = new List&lt;<a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a56a3f8ec6d2f8da9b8edaafc51a45022" name="a56a3f8ec6d2f8da9b8edaafc51a45022"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56a3f8ec6d2f8da9b8edaafc51a45022">&#9670;&#160;</a></span>cachedGeometryManagedBuffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float [] OVRBoundary.cachedGeometryManagedBuffer = new float[0]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acc9a9332c2aa7e7838d6ab2bb256b3ba" name="acc9a9332c2aa7e7838d6ab2bb256b3ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc9a9332c2aa7e7838d6ab2bb256b3ba">&#9670;&#160;</a></span>cachedGeometryNativeBuffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_native_buffer.html">OVRNativeBuffer</a> OVRBoundary.cachedGeometryNativeBuffer = new <a class="el" href="class_o_v_r_native_buffer.html">OVRNativeBuffer</a>(0)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a6c7e4cd846b80656bf236728e13735" name="a7a6c7e4cd846b80656bf236728e13735"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a6c7e4cd846b80656bf236728e13735">&#9670;&#160;</a></span>cachedVector3fSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVRBoundary.cachedVector3fSize = Marshal.SizeOf(typeof(<a class="el" href="struct_o_v_r_plugin_1_1_vector3f.html">OVRPlugin.Vector3f</a>))</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Oculus/VR/Scripts/OVRBoundary.cs</li>
+<li><a class="el" href="_o_v_r_boundary_8cs.html">OVRBoundary.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

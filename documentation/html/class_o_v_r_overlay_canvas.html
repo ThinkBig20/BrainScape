@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: OVROverlayCanvas Class Reference</title>
+<title>BrainScape: OVROverlayCanvas Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">BrainScape
    </div>
   </td>
  </tr>
@@ -90,114 +90,659 @@ Inheritance diagram for OVROverlayCanvas:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a229fdd456fbb697ccaeac9f1d31ae99a"><td class="memItemLeft" align="right" valign="top"><a id="a229fdd456fbb697ccaeac9f1d31ae99a" name="a229fdd456fbb697ccaeac9f1d31ae99a"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>DrawMode</b> { <b>Opaque</b>
-, <b>OpaqueWithClip</b>
-, <b>TransparentDefaultAlpha</b>
-, <b>TransparentCorrectAlpha</b>
+<tr class="memitem:a229fdd456fbb697ccaeac9f1d31ae99a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#a229fdd456fbb697ccaeac9f1d31ae99a">DrawMode</a> { <a class="el" href="class_o_v_r_overlay_canvas.html#a229fdd456fbb697ccaeac9f1d31ae99aafaa90538de35640e4b1e31ccf35b6eb5">Opaque</a>
+, <a class="el" href="class_o_v_r_overlay_canvas.html#a229fdd456fbb697ccaeac9f1d31ae99aa3b8a39a8fbdc6e5e20ba0c985df716a1">OpaqueWithClip</a>
+, <a class="el" href="class_o_v_r_overlay_canvas.html#a229fdd456fbb697ccaeac9f1d31ae99aa3c8d4640d04667867305402d8af58b74">TransparentDefaultAlpha</a>
+, <a class="el" href="class_o_v_r_overlay_canvas.html#a229fdd456fbb697ccaeac9f1d31ae99aaeefca58e8600cac211246a7bb493495e">TransparentCorrectAlpha</a>
  }</td></tr>
 <tr class="separator:a229fdd456fbb697ccaeac9f1d31ae99a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a11da748a0adf00bf80dec26d22e603c1"><td class="memItemLeft" align="right" valign="top"><a id="a11da748a0adf00bf80dec26d22e603c1" name="a11da748a0adf00bf80dec26d22e603c1"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>MaxTextureSize</b> = 1600</td></tr>
+<tr class="memitem:a11da748a0adf00bf80dec26d22e603c1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#a11da748a0adf00bf80dec26d22e603c1">MaxTextureSize</a> = 1600</td></tr>
 <tr class="separator:a11da748a0adf00bf80dec26d22e603c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c234396581add34776d482ef312d16a"><td class="memItemLeft" align="right" valign="top"><a id="a8c234396581add34776d482ef312d16a" name="a8c234396581add34776d482ef312d16a"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>MinTextureSize</b> = 200</td></tr>
+<tr class="memitem:a8c234396581add34776d482ef312d16a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#a8c234396581add34776d482ef312d16a">MinTextureSize</a> = 200</td></tr>
 <tr class="separator:a8c234396581add34776d482ef312d16a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab5521cc29ff64c10133c2bb02a44b72"><td class="memItemLeft" align="right" valign="top"><a id="aab5521cc29ff64c10133c2bb02a44b72" name="aab5521cc29ff64c10133c2bb02a44b72"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>PixelsPerUnit</b> = 1f</td></tr>
+<tr class="memitem:aab5521cc29ff64c10133c2bb02a44b72"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#aab5521cc29ff64c10133c2bb02a44b72">PixelsPerUnit</a> = 1f</td></tr>
 <tr class="separator:aab5521cc29ff64c10133c2bb02a44b72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a367be9f32c618f06e8326f5ca1372d3f"><td class="memItemLeft" align="right" valign="top"><a id="a367be9f32c618f06e8326f5ca1372d3f" name="a367be9f32c618f06e8326f5ca1372d3f"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>DrawRate</b> = 1</td></tr>
+<tr class="memitem:a367be9f32c618f06e8326f5ca1372d3f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#a367be9f32c618f06e8326f5ca1372d3f">DrawRate</a> = 1</td></tr>
 <tr class="separator:a367be9f32c618f06e8326f5ca1372d3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a479cfef766e60e39d469baa6b076d8ce"><td class="memItemLeft" align="right" valign="top"><a id="a479cfef766e60e39d469baa6b076d8ce" name="a479cfef766e60e39d469baa6b076d8ce"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>DrawFrameOffset</b> = 0</td></tr>
+<tr class="memitem:a479cfef766e60e39d469baa6b076d8ce"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#a479cfef766e60e39d469baa6b076d8ce">DrawFrameOffset</a> = 0</td></tr>
 <tr class="separator:a479cfef766e60e39d469baa6b076d8ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f30543a997ac047996fe95e00836338"><td class="memItemLeft" align="right" valign="top"><a id="a1f30543a997ac047996fe95e00836338" name="a1f30543a997ac047996fe95e00836338"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>Expensive</b> = false</td></tr>
+<tr class="memitem:a1f30543a997ac047996fe95e00836338"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#a1f30543a997ac047996fe95e00836338">Expensive</a> = false</td></tr>
 <tr class="separator:a1f30543a997ac047996fe95e00836338"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a575249d83dd1b514afa4220ef5ad7a4f"><td class="memItemLeft" align="right" valign="top"><a id="a575249d83dd1b514afa4220ef5ad7a4f" name="a575249d83dd1b514afa4220ef5ad7a4f"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>Layer</b> = 0</td></tr>
+<tr class="memitem:a575249d83dd1b514afa4220ef5ad7a4f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#a575249d83dd1b514afa4220ef5ad7a4f">Layer</a> = 0</td></tr>
 <tr class="separator:a575249d83dd1b514afa4220ef5ad7a4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1781939229107e07a81070d470703fda"><td class="memItemLeft" align="right" valign="top"><a id="a1781939229107e07a81070d470703fda" name="a1781939229107e07a81070d470703fda"></a>
-DrawMode&#160;</td><td class="memItemRight" valign="bottom"><b>Opacity</b> = DrawMode.OpaqueWithClip</td></tr>
+<tr class="memitem:a1781939229107e07a81070d470703fda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_overlay_canvas.html#a229fdd456fbb697ccaeac9f1d31ae99a">DrawMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#a1781939229107e07a81070d470703fda">Opacity</a> = <a class="el" href="class_o_v_r_overlay_canvas.html#a229fdd456fbb697ccaeac9f1d31ae99aa3b8a39a8fbdc6e5e20ba0c985df716a1">DrawMode.OpaqueWithClip</a></td></tr>
 <tr class="separator:a1781939229107e07a81070d470703fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ac87e52a50ec5b5b60f93d655d7d58e1b"><td class="memItemLeft" align="right" valign="top"><a id="ac87e52a50ec5b5b60f93d655d7d58e1b" name="ac87e52a50ec5b5b60f93d655d7d58e1b"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>ShouldRender</b> ()</td></tr>
+<tr class="memitem:ac87e52a50ec5b5b60f93d655d7d58e1b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#ac87e52a50ec5b5b60f93d655d7d58e1b">ShouldRender</a> ()</td></tr>
 <tr class="separator:ac87e52a50ec5b5b60f93d655d7d58e1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:af0cf17143d714cf2117a50d4f58608a0"><td class="memItemLeft" align="right" valign="top"><a id="af0cf17143d714cf2117a50d4f58608a0" name="af0cf17143d714cf2117a50d4f58608a0"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>overlayEnabled</b><code> [get, set]</code></td></tr>
+<tr class="memitem:af0cf17143d714cf2117a50d4f58608a0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#af0cf17143d714cf2117a50d4f58608a0">overlayEnabled</a><code> [get, set]</code></td></tr>
 <tr class="separator:af0cf17143d714cf2117a50d4f58608a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a84e82ec4e17a8bd3b79e15c81e39dd7c"><td class="memItemLeft" align="right" valign="top"><a id="a84e82ec4e17a8bd3b79e15c81e39dd7c" name="a84e82ec4e17a8bd3b79e15c81e39dd7c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
+<tr class="memitem:a84e82ec4e17a8bd3b79e15c81e39dd7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#a84e82ec4e17a8bd3b79e15c81e39dd7c">Start</a> ()</td></tr>
 <tr class="separator:a84e82ec4e17a8bd3b79e15c81e39dd7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5254cd9fa12aa17c4bf67a73b75ce8fb"><td class="memItemLeft" align="right" valign="top"><a id="a5254cd9fa12aa17c4bf67a73b75ce8fb" name="a5254cd9fa12aa17c4bf67a73b75ce8fb"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDestroy</b> ()</td></tr>
+<tr class="memitem:a5254cd9fa12aa17c4bf67a73b75ce8fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#a5254cd9fa12aa17c4bf67a73b75ce8fb">OnDestroy</a> ()</td></tr>
 <tr class="separator:a5254cd9fa12aa17c4bf67a73b75ce8fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4beada9b55764d4abb476ea8a6f9c24e"><td class="memItemLeft" align="right" valign="top"><a id="a4beada9b55764d4abb476ea8a6f9c24e" name="a4beada9b55764d4abb476ea8a6f9c24e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>OnEnable</b> ()</td></tr>
+<tr class="memitem:a4beada9b55764d4abb476ea8a6f9c24e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#a4beada9b55764d4abb476ea8a6f9c24e">OnEnable</a> ()</td></tr>
 <tr class="separator:a4beada9b55764d4abb476ea8a6f9c24e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53806f2407057938785a85125e22530e"><td class="memItemLeft" align="right" valign="top"><a id="a53806f2407057938785a85125e22530e" name="a53806f2407057938785a85125e22530e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDisable</b> ()</td></tr>
+<tr class="memitem:a53806f2407057938785a85125e22530e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#a53806f2407057938785a85125e22530e">OnDisable</a> ()</td></tr>
 <tr class="separator:a53806f2407057938785a85125e22530e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b28cf9d3d4adac16e9dc96938b87bfb"><td class="memItemLeft" align="right" valign="top"><a id="a9b28cf9d3d4adac16e9dc96938b87bfb" name="a9b28cf9d3d4adac16e9dc96938b87bfb"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
+<tr class="memitem:a9b28cf9d3d4adac16e9dc96938b87bfb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#a9b28cf9d3d4adac16e9dc96938b87bfb">Update</a> ()</td></tr>
 <tr class="separator:a9b28cf9d3d4adac16e9dc96938b87bfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a32a07d7d6b7934e142a018413c4619e7"><td class="memItemLeft" align="right" valign="top"><a id="a32a07d7d6b7934e142a018413c4619e7" name="a32a07d7d6b7934e142a018413c4619e7"></a>
-Shader&#160;</td><td class="memItemRight" valign="bottom"><b>_transparentShader</b> = null</td></tr>
+<tr class="memitem:a32a07d7d6b7934e142a018413c4619e7"><td class="memItemLeft" align="right" valign="top">Shader&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#a32a07d7d6b7934e142a018413c4619e7">_transparentShader</a> = null</td></tr>
 <tr class="separator:a32a07d7d6b7934e142a018413c4619e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82e80617b1cf6eed5bd955f28c0267ef"><td class="memItemLeft" align="right" valign="top"><a id="a82e80617b1cf6eed5bd955f28c0267ef" name="a82e80617b1cf6eed5bd955f28c0267ef"></a>
-Shader&#160;</td><td class="memItemRight" valign="bottom"><b>_opaqueShader</b> = null</td></tr>
+<tr class="memitem:a82e80617b1cf6eed5bd955f28c0267ef"><td class="memItemLeft" align="right" valign="top">Shader&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#a82e80617b1cf6eed5bd955f28c0267ef">_opaqueShader</a> = null</td></tr>
 <tr class="separator:a82e80617b1cf6eed5bd955f28c0267ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18fe5c47649b2e5784161af902e30c71"><td class="memItemLeft" align="right" valign="top"><a id="a18fe5c47649b2e5784161af902e30c71" name="a18fe5c47649b2e5784161af902e30c71"></a>
-RectTransform&#160;</td><td class="memItemRight" valign="bottom"><b>_rectTransform</b></td></tr>
+<tr class="memitem:a18fe5c47649b2e5784161af902e30c71"><td class="memItemLeft" align="right" valign="top">RectTransform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#a18fe5c47649b2e5784161af902e30c71">_rectTransform</a></td></tr>
 <tr class="separator:a18fe5c47649b2e5784161af902e30c71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10dffa88272e70508176d22c2d9833d0"><td class="memItemLeft" align="right" valign="top"><a id="a10dffa88272e70508176d22c2d9833d0" name="a10dffa88272e70508176d22c2d9833d0"></a>
-Canvas&#160;</td><td class="memItemRight" valign="bottom"><b>_canvas</b></td></tr>
+<tr class="memitem:a10dffa88272e70508176d22c2d9833d0"><td class="memItemLeft" align="right" valign="top">Canvas&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#a10dffa88272e70508176d22c2d9833d0">_canvas</a></td></tr>
 <tr class="separator:a10dffa88272e70508176d22c2d9833d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac582cfab8c0ab018d0685293b0685902"><td class="memItemLeft" align="right" valign="top"><a id="ac582cfab8c0ab018d0685293b0685902" name="ac582cfab8c0ab018d0685293b0685902"></a>
-Camera&#160;</td><td class="memItemRight" valign="bottom"><b>_camera</b></td></tr>
+<tr class="memitem:ac582cfab8c0ab018d0685293b0685902"><td class="memItemLeft" align="right" valign="top">Camera&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#ac582cfab8c0ab018d0685293b0685902">_camera</a></td></tr>
 <tr class="separator:ac582cfab8c0ab018d0685293b0685902"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acec2e33dadcee59b7f772e9eeab562ad"><td class="memItemLeft" align="right" valign="top"><a id="acec2e33dadcee59b7f772e9eeab562ad" name="acec2e33dadcee59b7f772e9eeab562ad"></a>
-<a class="el" href="class_o_v_r_overlay.html">OVROverlay</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_overlay</b></td></tr>
+<tr class="memitem:acec2e33dadcee59b7f772e9eeab562ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_r_overlay.html">OVROverlay</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#acec2e33dadcee59b7f772e9eeab562ad">_overlay</a></td></tr>
 <tr class="separator:acec2e33dadcee59b7f772e9eeab562ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa0ec591dfa7b01f2c2d025104fea820"><td class="memItemLeft" align="right" valign="top"><a id="afa0ec591dfa7b01f2c2d025104fea820" name="afa0ec591dfa7b01f2c2d025104fea820"></a>
-RenderTexture&#160;</td><td class="memItemRight" valign="bottom"><b>_renderTexture</b></td></tr>
+<tr class="memitem:afa0ec591dfa7b01f2c2d025104fea820"><td class="memItemLeft" align="right" valign="top">RenderTexture&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#afa0ec591dfa7b01f2c2d025104fea820">_renderTexture</a></td></tr>
 <tr class="separator:afa0ec591dfa7b01f2c2d025104fea820"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f2aab22bd64766f455270c4ed05b6a4"><td class="memItemLeft" align="right" valign="top"><a id="a0f2aab22bd64766f455270c4ed05b6a4" name="a0f2aab22bd64766f455270c4ed05b6a4"></a>
-MeshRenderer&#160;</td><td class="memItemRight" valign="bottom"><b>_meshRenderer</b></td></tr>
+<tr class="memitem:a0f2aab22bd64766f455270c4ed05b6a4"><td class="memItemLeft" align="right" valign="top">MeshRenderer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#a0f2aab22bd64766f455270c4ed05b6a4">_meshRenderer</a></td></tr>
 <tr class="separator:a0f2aab22bd64766f455270c4ed05b6a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a61d564264ccca439fb602e72c06462"><td class="memItemLeft" align="right" valign="top"><a id="a9a61d564264ccca439fb602e72c06462" name="a9a61d564264ccca439fb602e72c06462"></a>
-Mesh&#160;</td><td class="memItemRight" valign="bottom"><b>_quad</b></td></tr>
+<tr class="memitem:a9a61d564264ccca439fb602e72c06462"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#a90ebeffb103e2f718410c3a7eb2c948d">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#a9a61d564264ccca439fb602e72c06462">_quad</a></td></tr>
 <tr class="separator:a9a61d564264ccca439fb602e72c06462"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd32248bb817003176843f9fdf49090d"><td class="memItemLeft" align="right" valign="top"><a id="abd32248bb817003176843f9fdf49090d" name="abd32248bb817003176843f9fdf49090d"></a>
-Material&#160;</td><td class="memItemRight" valign="bottom"><b>_defaultMat</b></td></tr>
+<tr class="memitem:abd32248bb817003176843f9fdf49090d"><td class="memItemLeft" align="right" valign="top">Material&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#abd32248bb817003176843f9fdf49090d">_defaultMat</a></td></tr>
 <tr class="separator:abd32248bb817003176843f9fdf49090d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ade92a3097f401ff2b1211484453c4e"><td class="memItemLeft" align="right" valign="top"><a id="a1ade92a3097f401ff2b1211484453c4e" name="a1ade92a3097f401ff2b1211484453c4e"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>ScaleViewport</b> = Application.isMobilePlatform</td></tr>
+<tr class="memitem:a1ade92a3097f401ff2b1211484453c4e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#a1ade92a3097f401ff2b1211484453c4e">ScaleViewport</a> = Application.isMobilePlatform</td></tr>
 <tr class="separator:a1ade92a3097f401ff2b1211484453c4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:a6203ee1a30ba9c42fbbf46a48430c98a"><td class="memItemLeft" align="right" valign="top"><a id="a6203ee1a30ba9c42fbbf46a48430c98a" name="a6203ee1a30ba9c42fbbf46a48430c98a"></a>
-static readonly Plane[]&#160;</td><td class="memItemRight" valign="bottom"><b>_FrustumPlanes</b> = new Plane[6]</td></tr>
+<tr class="memitem:a6203ee1a30ba9c42fbbf46a48430c98a"><td class="memItemLeft" align="right" valign="top">static readonly Plane[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_r_overlay_canvas.html#a6203ee1a30ba9c42fbbf46a48430c98a">_FrustumPlanes</a> = new Plane[6]</td></tr>
 <tr class="separator:a6203ee1a30ba9c42fbbf46a48430c98a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a229fdd456fbb697ccaeac9f1d31ae99a" name="a229fdd456fbb697ccaeac9f1d31ae99a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a229fdd456fbb697ccaeac9f1d31ae99a">&#9670;&#160;</a></span>DrawMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_o_v_r_overlay_canvas.html#a229fdd456fbb697ccaeac9f1d31ae99a">OVROverlayCanvas.DrawMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a229fdd456fbb697ccaeac9f1d31ae99aafaa90538de35640e4b1e31ccf35b6eb5" name="a229fdd456fbb697ccaeac9f1d31ae99aafaa90538de35640e4b1e31ccf35b6eb5"></a>Opaque&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a229fdd456fbb697ccaeac9f1d31ae99aa3b8a39a8fbdc6e5e20ba0c985df716a1" name="a229fdd456fbb697ccaeac9f1d31ae99aa3b8a39a8fbdc6e5e20ba0c985df716a1"></a>OpaqueWithClip&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a229fdd456fbb697ccaeac9f1d31ae99aa3c8d4640d04667867305402d8af58b74" name="a229fdd456fbb697ccaeac9f1d31ae99aa3c8d4640d04667867305402d8af58b74"></a>TransparentDefaultAlpha&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a229fdd456fbb697ccaeac9f1d31ae99aaeefca58e8600cac211246a7bb493495e" name="a229fdd456fbb697ccaeac9f1d31ae99aaeefca58e8600cac211246a7bb493495e"></a>TransparentCorrectAlpha&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a5254cd9fa12aa17c4bf67a73b75ce8fb" name="a5254cd9fa12aa17c4bf67a73b75ce8fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5254cd9fa12aa17c4bf67a73b75ce8fb">&#9670;&#160;</a></span>OnDestroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVROverlayCanvas.OnDestroy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a53806f2407057938785a85125e22530e" name="a53806f2407057938785a85125e22530e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53806f2407057938785a85125e22530e">&#9670;&#160;</a></span>OnDisable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVROverlayCanvas.OnDisable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4beada9b55764d4abb476ea8a6f9c24e" name="a4beada9b55764d4abb476ea8a6f9c24e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4beada9b55764d4abb476ea8a6f9c24e">&#9670;&#160;</a></span>OnEnable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVROverlayCanvas.OnEnable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac87e52a50ec5b5b60f93d655d7d58e1b" name="ac87e52a50ec5b5b60f93d655d7d58e1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac87e52a50ec5b5b60f93d655d7d58e1b">&#9670;&#160;</a></span>ShouldRender()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool OVROverlayCanvas.ShouldRender </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a84e82ec4e17a8bd3b79e15c81e39dd7c" name="a84e82ec4e17a8bd3b79e15c81e39dd7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84e82ec4e17a8bd3b79e15c81e39dd7c">&#9670;&#160;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVROverlayCanvas.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9b28cf9d3d4adac16e9dc96938b87bfb" name="a9b28cf9d3d4adac16e9dc96938b87bfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b28cf9d3d4adac16e9dc96938b87bfb">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVROverlayCanvas.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ac582cfab8c0ab018d0685293b0685902" name="ac582cfab8c0ab018d0685293b0685902"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac582cfab8c0ab018d0685293b0685902">&#9670;&#160;</a></span>_camera</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Camera OVROverlayCanvas._camera</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a10dffa88272e70508176d22c2d9833d0" name="a10dffa88272e70508176d22c2d9833d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10dffa88272e70508176d22c2d9833d0">&#9670;&#160;</a></span>_canvas</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Canvas OVROverlayCanvas._canvas</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abd32248bb817003176843f9fdf49090d" name="abd32248bb817003176843f9fdf49090d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd32248bb817003176843f9fdf49090d">&#9670;&#160;</a></span>_defaultMat</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Material OVROverlayCanvas._defaultMat</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6203ee1a30ba9c42fbbf46a48430c98a" name="a6203ee1a30ba9c42fbbf46a48430c98a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6203ee1a30ba9c42fbbf46a48430c98a">&#9670;&#160;</a></span>_FrustumPlanes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly Plane [] OVROverlayCanvas._FrustumPlanes = new Plane[6]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0f2aab22bd64766f455270c4ed05b6a4" name="a0f2aab22bd64766f455270c4ed05b6a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f2aab22bd64766f455270c4ed05b6a4">&#9670;&#160;</a></span>_meshRenderer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MeshRenderer OVROverlayCanvas._meshRenderer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a82e80617b1cf6eed5bd955f28c0267ef" name="a82e80617b1cf6eed5bd955f28c0267ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82e80617b1cf6eed5bd955f28c0267ef">&#9670;&#160;</a></span>_opaqueShader</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Shader OVROverlayCanvas._opaqueShader = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acec2e33dadcee59b7f772e9eeab562ad" name="acec2e33dadcee59b7f772e9eeab562ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acec2e33dadcee59b7f772e9eeab562ad">&#9670;&#160;</a></span>_overlay</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_overlay.html">OVROverlay</a> OVROverlayCanvas._overlay</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9a61d564264ccca439fb602e72c06462" name="a9a61d564264ccca439fb602e72c06462"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a61d564264ccca439fb602e72c06462">&#9670;&#160;</a></span>_quad</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#a90ebeffb103e2f718410c3a7eb2c948d">Mesh</a> OVROverlayCanvas._quad</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a18fe5c47649b2e5784161af902e30c71" name="a18fe5c47649b2e5784161af902e30c71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18fe5c47649b2e5784161af902e30c71">&#9670;&#160;</a></span>_rectTransform</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RectTransform OVROverlayCanvas._rectTransform</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afa0ec591dfa7b01f2c2d025104fea820" name="afa0ec591dfa7b01f2c2d025104fea820"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa0ec591dfa7b01f2c2d025104fea820">&#9670;&#160;</a></span>_renderTexture</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RenderTexture OVROverlayCanvas._renderTexture</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a32a07d7d6b7934e142a018413c4619e7" name="a32a07d7d6b7934e142a018413c4619e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32a07d7d6b7934e142a018413c4619e7">&#9670;&#160;</a></span>_transparentShader</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Shader OVROverlayCanvas._transparentShader = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a479cfef766e60e39d469baa6b076d8ce" name="a479cfef766e60e39d469baa6b076d8ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a479cfef766e60e39d469baa6b076d8ce">&#9670;&#160;</a></span>DrawFrameOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVROverlayCanvas.DrawFrameOffset = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a367be9f32c618f06e8326f5ca1372d3f" name="a367be9f32c618f06e8326f5ca1372d3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a367be9f32c618f06e8326f5ca1372d3f">&#9670;&#160;</a></span>DrawRate</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVROverlayCanvas.DrawRate = 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1f30543a997ac047996fe95e00836338" name="a1f30543a997ac047996fe95e00836338"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f30543a997ac047996fe95e00836338">&#9670;&#160;</a></span>Expensive</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVROverlayCanvas.Expensive = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a575249d83dd1b514afa4220ef5ad7a4f" name="a575249d83dd1b514afa4220ef5ad7a4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a575249d83dd1b514afa4220ef5ad7a4f">&#9670;&#160;</a></span>Layer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVROverlayCanvas.Layer = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a11da748a0adf00bf80dec26d22e603c1" name="a11da748a0adf00bf80dec26d22e603c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11da748a0adf00bf80dec26d22e603c1">&#9670;&#160;</a></span>MaxTextureSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVROverlayCanvas.MaxTextureSize = 1600</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c234396581add34776d482ef312d16a" name="a8c234396581add34776d482ef312d16a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c234396581add34776d482ef312d16a">&#9670;&#160;</a></span>MinTextureSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVROverlayCanvas.MinTextureSize = 200</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1781939229107e07a81070d470703fda" name="a1781939229107e07a81070d470703fda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1781939229107e07a81070d470703fda">&#9670;&#160;</a></span>Opacity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_r_overlay_canvas.html#a229fdd456fbb697ccaeac9f1d31ae99a">DrawMode</a> OVROverlayCanvas.Opacity = <a class="el" href="class_o_v_r_overlay_canvas.html#a229fdd456fbb697ccaeac9f1d31ae99aa3b8a39a8fbdc6e5e20ba0c985df716a1">DrawMode.OpaqueWithClip</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aab5521cc29ff64c10133c2bb02a44b72" name="aab5521cc29ff64c10133c2bb02a44b72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab5521cc29ff64c10133c2bb02a44b72">&#9670;&#160;</a></span>PixelsPerUnit</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float OVROverlayCanvas.PixelsPerUnit = 1f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1ade92a3097f401ff2b1211484453c4e" name="a1ade92a3097f401ff2b1211484453c4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ade92a3097f401ff2b1211484453c4e">&#9670;&#160;</a></span>ScaleViewport</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVROverlayCanvas.ScaleViewport = Application.isMobilePlatform</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="af0cf17143d714cf2117a50d4f58608a0" name="af0cf17143d714cf2117a50d4f58608a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0cf17143d714cf2117a50d4f58608a0">&#9670;&#160;</a></span>overlayEnabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVROverlayCanvas.overlayEnabled</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Oculus/SampleFramework/Usage/OVROverlayCanvas/Scripts/OVROverlayCanvas.cs</li>
+<li><a class="el" href="_o_v_r_overlay_canvas_8cs.html">OVROverlayCanvas.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -1,4 +1,24 @@
 var searchData=
 [
-  ['handaligntype_0',['HandAlignType',['../namespace_oculus_1_1_interaction_1_1_hand_grab.html#a91a17472aa1e76afbdbde108f165c5cf',1,'Oculus::Interaction::HandGrab']]]
+  ['faceexpression_0',['FaceExpression',['../class_o_v_r_face_expressions.html#a464fa1523796d3d9ef583c3947815569',1,'OVRFaceExpressions']]],
+  ['faceregionconfidence_1',['FaceRegionConfidence',['../class_o_v_r_face_expressions.html#a05d1349f5dbea07a93aa00b68ee6bf9f',1,'OVRFaceExpressions']]],
+  ['facetype_2',['FaceType',['../namespace_oculus_1_1_spatializer_1_1_propagation.html#aa261ee4e2154378b0a7f96985d6476af',1,'Oculus::Spatializer::Propagation']]],
+  ['fade_3',['Fade',['../class_o_v_r_1_1_audio_manager.html#aeb0b3dae475fd2c49c301a0480354a80',1,'OVR.AudioManager.Fade()'],['../namespace_o_v_r.html#acea86352e3f04b3b87316fe700c4fef7',1,'OVR.Fade()']]],
+  ['fadestate_4',['FadeState',['../class_o_v_r_1_1_sound_emitter.html#a7addbb214ce195c9b68e77a24677a825',1,'OVR::SoundEmitter']]],
+  ['fallofftype_5',['FalloffType',['../class_o_v_r_vignette.html#ab934110d4b75502b3f5dbdb6b011ceda',1,'OVRVignette']]],
+  ['farsinumbers_6',['FarsiNumbers',['../namespace_r_t_l_t_m_pro.html#a10f533283dc9f7954e5a0638ea8ca379',1,'RTLTMPro']]],
+  ['featurestateactivemode_7',['FeatureStateActiveMode',['../namespace_oculus_1_1_interaction_1_1_pose_detection.html#a0a73ad0b9460f8e93e08284f107edc0e',1,'Oculus::Interaction::PoseDetection']]],
+  ['featuresupport_8',['FeatureSupport',['../class_o_v_r_project_config.html#a4b50848bd0aa84f9467f41c83ef1dc91',1,'OVRProjectConfig']]],
+  ['feduplicatedirection_9',['FEDuplicateDirection',['../class_f_i_m_space_1_1_basics_1_1_f_basic___duplicate_objects.html#a30f590bca72c59ab8fed4861c2259afd',1,'FIMSpace::Basics::FBasic_DuplicateObjects']]],
+  ['feduplicateorigin_10',['FEDuplicateOrigin',['../class_f_i_m_space_1_1_basics_1_1_f_basic___duplicate_objects.html#a7d035e576f411eee52445d69b6a1e63f',1,'FIMSpace::Basics::FBasic_DuplicateObjects']]],
+  ['findresult_11',['FindResult',['../class_oculus_1_1_interaction_1_1_hand_grab_1_1_grab_pose_finder.html#a5a5c5cac6918063671cccf01cb396f7b',1,'Oculus::Interaction::HandGrab::GrabPoseFinder']]],
+  ['fingerfeature_12',['FingerFeature',['../namespace_oculus_1_1_interaction_1_1_pose_detection.html#a1d5454ea1740b34e56a2656d547792c3',1,'Oculus::Interaction::PoseDetection']]],
+  ['fingerfeatureflags_13',['FingerFeatureFlags',['../class_oculus_1_1_interaction_1_1_pose_detection_1_1_editor_1_1_finger_feature_list_property_drawer.html#af44540772e3b3822c6f80f74a727231f',1,'Oculus::Interaction::PoseDetection::Editor::FingerFeatureListPropertyDrawer']]],
+  ['fingerrequirement_14',['FingerRequirement',['../namespace_oculus_1_1_interaction_1_1_grab_a_p_i.html#aaceb825d8fd750125e8a6cfceed240dd',1,'Oculus::Interaction::GrabAPI']]],
+  ['fingerunselectmode_15',['FingerUnselectMode',['../namespace_oculus_1_1_interaction_1_1_grab_a_p_i.html#abb706cc7ccde69ffd3129180566a9007',1,'Oculus::Interaction::GrabAPI']]],
+  ['fixedfoveatedrenderinglevel_16',['FixedFoveatedRenderingLevel',['../class_o_v_r_manager.html#a9b4498417a81a43d67cfcd6f7d5d7793',1,'OVRManager']]],
+  ['flag_17',['Flag',['../class_oculus_1_1_interaction_1_1_optional_attribute.html#a5f3a00718e5da9d38c99e05d38dacb54',1,'Oculus::Interaction::OptionalAttribute']]],
+  ['foveatedrenderinglevel_18',['FoveatedRenderingLevel',['../class_o_v_r_manager.html#acbd6d504192d2a2a7461382a4eae0715',1,'OVRManager']]],
+  ['fpscounteranchorpositions_19',['FpsCounterAnchorPositions',['../class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter.html#af5d815df33bfd48fcbca765dbdc1a6e5',1,'TMPro.Examples.TMP_FrameRateCounter.FpsCounterAnchorPositions()'],['../class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter.html#acd8edef652a3eca75ad3e389002d2ece',1,'TMPro.Examples.TMP_UiFrameRateCounter.FpsCounterAnchorPositions()'],['../class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay.html#a857c25d1c96e819dc39011d143ce3415',1,'TMPro.Examples.TMPro_InstructionOverlay.FpsCounterAnchorPositions()']]],
+  ['freqhint_20',['FreqHint',['../namespace_o_v_r.html#af893c57545109b121eea6d690d45db55',1,'OVR']]]
 ];

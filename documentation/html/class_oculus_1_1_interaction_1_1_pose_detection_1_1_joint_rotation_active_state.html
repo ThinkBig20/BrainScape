@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: Oculus.Interaction.PoseDetection.JointRotationActiveState Class Reference</title>
+<title>BrainScape: Oculus.Interaction.PoseDetection.JointRotationActiveState Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">BrainScape
    </div>
   </td>
  </tr>
@@ -107,159 +107,634 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ab13b880f1d4ac1867049e1c240ecf683"><td class="memItemLeft" align="right" valign="top"><a id="ab13b880f1d4ac1867049e1c240ecf683" name="ab13b880f1d4ac1867049e1c240ecf683"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>RelativeTo</b> { <b>Hand</b> = 0
-, <b>World</b> = 1
+<tr class="memitem:ab13b880f1d4ac1867049e1c240ecf683"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#ab13b880f1d4ac1867049e1c240ecf683">RelativeTo</a> { <a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#ab13b880f1d4ac1867049e1c240ecf683aa78b1ac16c0cd02168097fc9a9bd7604">Hand</a> = 0
+, <a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#ab13b880f1d4ac1867049e1c240ecf683af5a7924e621e84c9280a9a27e1bcb7f6">World</a> = 1
  }</td></tr>
 <tr class="separator:ab13b880f1d4ac1867049e1c240ecf683"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1524cfeb31925de9a640061b4a6129e"><td class="memItemLeft" align="right" valign="top"><a id="af1524cfeb31925de9a640061b4a6129e" name="af1524cfeb31925de9a640061b4a6129e"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>WorldAxis</b> { <br />
-&#160;&#160;<b>PositiveX</b> = 0
-, <b>NegativeX</b> = 1
-, <b>PositiveY</b> = 2
-, <b>NegativeY</b> = 3
+<tr class="memitem:af1524cfeb31925de9a640061b4a6129e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#af1524cfeb31925de9a640061b4a6129e">WorldAxis</a> { <br />
+&#160;&#160;<a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#af1524cfeb31925de9a640061b4a6129ea9f082d04c481aab268b9f614d2ffd129">PositiveX</a> = 0
+, <a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#af1524cfeb31925de9a640061b4a6129ea963a8a64a09d54efc81b136ca6be21b2">NegativeX</a> = 1
+, <a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#af1524cfeb31925de9a640061b4a6129eac53c385ced96bd629c0f45a902aceba3">PositiveY</a> = 2
+, <a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#af1524cfeb31925de9a640061b4a6129eae4d5f02ceecd15caf66e9f0b2393c86b">NegativeY</a> = 3
 , <br />
-&#160;&#160;<b>PositiveZ</b> = 4
-, <b>NegativeZ</b> = 5
+&#160;&#160;<a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#af1524cfeb31925de9a640061b4a6129ea1921c16ffdafaf04e378ca1b6774c0ce">PositiveZ</a> = 4
+, <a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#af1524cfeb31925de9a640061b4a6129eada76df034cd139bd515761c8bb8e3090">NegativeZ</a> = 5
 <br />
  }</td></tr>
 <tr class="separator:af1524cfeb31925de9a640061b4a6129e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fa3eabe907137dfcce0559458815d03"><td class="memItemLeft" align="right" valign="top"><a id="a8fa3eabe907137dfcce0559458815d03" name="a8fa3eabe907137dfcce0559458815d03"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>HandAxis</b> { <br />
-&#160;&#160;<b>Pronation</b> = 0
-, <b>Supination</b> = 1
-, <b>RadialDeviation</b> = 2
-, <b>UlnarDeviation</b> = 3
+<tr class="memitem:a8fa3eabe907137dfcce0559458815d03"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a8fa3eabe907137dfcce0559458815d03">HandAxis</a> { <br />
+&#160;&#160;<a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a8fa3eabe907137dfcce0559458815d03a5251d8ab985ce1316e789af6b376f777">Pronation</a> = 0
+, <a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a8fa3eabe907137dfcce0559458815d03add7dab2cda336d11aee01acbc17d3c3d">Supination</a> = 1
+, <a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a8fa3eabe907137dfcce0559458815d03a35b3f2637306163111eb7aed785fe176">RadialDeviation</a> = 2
+, <a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a8fa3eabe907137dfcce0559458815d03a5eb0f0be57ed327050cae64c33deb382">UlnarDeviation</a> = 3
 , <br />
-&#160;&#160;<b>Extension</b> = 4
-, <b>Flexion</b> = 5
+&#160;&#160;<a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a8fa3eabe907137dfcce0559458815d03a63e4e92bb7d207ca577b11c07f827279">Extension</a> = 4
+, <a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a8fa3eabe907137dfcce0559458815d03a67279ee73e036b7179b38ee8d1d012f6">Flexion</a> = 5
 <br />
  }</td></tr>
 <tr class="separator:a8fa3eabe907137dfcce0559458815d03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7b15ddfbe28059a7491ccc1053229e5c"><td class="memItemLeft" align="right" valign="top"><a id="a7b15ddfbe28059a7491ccc1053229e5c" name="a7b15ddfbe28059a7491ccc1053229e5c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>InjectAllJointRotationActiveState</b> (<a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state_1_1_joint_rotation_feature_config_list.html">JointRotationFeatureConfigList</a> featureConfigs, <a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_hand.html">IHand</a> hand, <a class="el" href="interface_oculus_1_1_interaction_1_1_pose_detection_1_1_i_joint_delta_provider.html">IJointDeltaProvider</a> jointDeltaProvider)</td></tr>
+<tr class="memitem:a7b15ddfbe28059a7491ccc1053229e5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a7b15ddfbe28059a7491ccc1053229e5c">InjectAllJointRotationActiveState</a> (<a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state_1_1_joint_rotation_feature_config_list.html">JointRotationFeatureConfigList</a> featureConfigs, <a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_hand.html">IHand</a> hand, <a class="el" href="interface_oculus_1_1_interaction_1_1_pose_detection_1_1_i_joint_delta_provider.html">IJointDeltaProvider</a> jointDeltaProvider)</td></tr>
 <tr class="separator:a7b15ddfbe28059a7491ccc1053229e5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affd436c0fa2b3a46ee882144cec69cd0"><td class="memItemLeft" align="right" valign="top"><a id="affd436c0fa2b3a46ee882144cec69cd0" name="affd436c0fa2b3a46ee882144cec69cd0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>InjectFeatureConfigList</b> (<a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state_1_1_joint_rotation_feature_config_list.html">JointRotationFeatureConfigList</a> featureConfigs)</td></tr>
+<tr class="memitem:affd436c0fa2b3a46ee882144cec69cd0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#affd436c0fa2b3a46ee882144cec69cd0">InjectFeatureConfigList</a> (<a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state_1_1_joint_rotation_feature_config_list.html">JointRotationFeatureConfigList</a> featureConfigs)</td></tr>
 <tr class="separator:affd436c0fa2b3a46ee882144cec69cd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94493fc1b17fbf5ff111b8ae9f5dc329"><td class="memItemLeft" align="right" valign="top"><a id="a94493fc1b17fbf5ff111b8ae9f5dc329" name="a94493fc1b17fbf5ff111b8ae9f5dc329"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>InjectHand</b> (<a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_hand.html">IHand</a> hand)</td></tr>
+<tr class="memitem:a94493fc1b17fbf5ff111b8ae9f5dc329"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a94493fc1b17fbf5ff111b8ae9f5dc329">InjectHand</a> (<a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_hand.html">IHand</a> hand)</td></tr>
 <tr class="separator:a94493fc1b17fbf5ff111b8ae9f5dc329"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afeb4adb5a01891b6acbf4b099b46201b"><td class="memItemLeft" align="right" valign="top"><a id="afeb4adb5a01891b6acbf4b099b46201b" name="afeb4adb5a01891b6acbf4b099b46201b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>InjectJointDeltaProvider</b> (<a class="el" href="interface_oculus_1_1_interaction_1_1_pose_detection_1_1_i_joint_delta_provider.html">IJointDeltaProvider</a> jointDeltaProvider)</td></tr>
+<tr class="memitem:afeb4adb5a01891b6acbf4b099b46201b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#afeb4adb5a01891b6acbf4b099b46201b">InjectJointDeltaProvider</a> (<a class="el" href="interface_oculus_1_1_interaction_1_1_pose_detection_1_1_i_joint_delta_provider.html">IJointDeltaProvider</a> jointDeltaProvider)</td></tr>
 <tr class="separator:afeb4adb5a01891b6acbf4b099b46201b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbc0ac3955a75599db92f340e0c004b9"><td class="memItemLeft" align="right" valign="top"><a id="adbc0ac3955a75599db92f340e0c004b9" name="adbc0ac3955a75599db92f340e0c004b9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>InjectOptionalTimeProvider</b> (Func&lt; float &gt; timeProvider)</td></tr>
+<tr class="memitem:adbc0ac3955a75599db92f340e0c004b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#adbc0ac3955a75599db92f340e0c004b9">InjectOptionalTimeProvider</a> (Func&lt; float &gt; timeProvider)</td></tr>
 <tr class="separator:adbc0ac3955a75599db92f340e0c004b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:af1b2d089ed823380ced121d7da831470"><td class="memItemLeft" align="right" valign="top"><a id="af1b2d089ed823380ced121d7da831470" name="af1b2d089ed823380ced121d7da831470"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
+<tr class="memitem:af1b2d089ed823380ced121d7da831470"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#af1b2d089ed823380ced121d7da831470">Awake</a> ()</td></tr>
 <tr class="separator:af1b2d089ed823380ced121d7da831470"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5cfc9b272cd55b89f37f66405386246a"><td class="memItemLeft" align="right" valign="top"><a id="a5cfc9b272cd55b89f37f66405386246a" name="a5cfc9b272cd55b89f37f66405386246a"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
+<tr class="memitem:a5cfc9b272cd55b89f37f66405386246a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a5cfc9b272cd55b89f37f66405386246a">Start</a> ()</td></tr>
 <tr class="separator:a5cfc9b272cd55b89f37f66405386246a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecac2ff2e671b19f49057446549ea116"><td class="memItemLeft" align="right" valign="top"><a id="aecac2ff2e671b19f49057446549ea116" name="aecac2ff2e671b19f49057446549ea116"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
+<tr class="memitem:aecac2ff2e671b19f49057446549ea116"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#aecac2ff2e671b19f49057446549ea116">Update</a> ()</td></tr>
 <tr class="separator:aecac2ff2e671b19f49057446549ea116"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9fd4ef791c60047eedd6e2f0a47a157"><td class="memItemLeft" align="right" valign="top"><a id="ac9fd4ef791c60047eedd6e2f0a47a157" name="ac9fd4ef791c60047eedd6e2f0a47a157"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnEnable</b> ()</td></tr>
+<tr class="memitem:ac9fd4ef791c60047eedd6e2f0a47a157"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#ac9fd4ef791c60047eedd6e2f0a47a157">OnEnable</a> ()</td></tr>
 <tr class="separator:ac9fd4ef791c60047eedd6e2f0a47a157"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6bd4691da62afd93556bc0730820bf4"><td class="memItemLeft" align="right" valign="top"><a id="ab6bd4691da62afd93556bc0730820bf4" name="ab6bd4691da62afd93556bc0730820bf4"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDisable</b> ()</td></tr>
+<tr class="memitem:ab6bd4691da62afd93556bc0730820bf4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#ab6bd4691da62afd93556bc0730820bf4">OnDisable</a> ()</td></tr>
 <tr class="separator:ab6bd4691da62afd93556bc0730820bf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a21d426f7ef8c6b65d858b33216dad288"><td class="memItemLeft" align="right" valign="top"><a id="a21d426f7ef8c6b65d858b33216dad288" name="a21d426f7ef8c6b65d858b33216dad288"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_started</b> = false</td></tr>
+<tr class="memitem:a21d426f7ef8c6b65d858b33216dad288"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a21d426f7ef8c6b65d858b33216dad288">_started</a> = false</td></tr>
 <tr class="separator:a21d426f7ef8c6b65d858b33216dad288"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:aedeabf327b5939445e9acac8f39ef304"><td class="memItemLeft" align="right" valign="top"><a id="aedeabf327b5939445e9acac8f39ef304" name="aedeabf327b5939445e9acac8f39ef304"></a>
-<a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_hand.html">IHand</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Hand</b><code> [get, private set]</code></td></tr>
+<tr class="memitem:aedeabf327b5939445e9acac8f39ef304"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_hand.html">IHand</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#aedeabf327b5939445e9acac8f39ef304">Hand</a><code> [get, private set]</code></td></tr>
 <tr class="separator:aedeabf327b5939445e9acac8f39ef304"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37b69433bb904c15c698b82eb596352c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a37b69433bb904c15c698b82eb596352c">Active</a><code> [get]</code></td></tr>
 <tr class="separator:a37b69433bb904c15c698b82eb596352c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbc632acf192f03a171b40edc438ef0f"><td class="memItemLeft" align="right" valign="top"><a id="abbc632acf192f03a171b40edc438ef0f" name="abbc632acf192f03a171b40edc438ef0f"></a>
-IReadOnlyList&lt; <a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state_1_1_joint_rotation_feature_config.html">JointRotationFeatureConfig</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>FeatureConfigs</b><code> [get]</code></td></tr>
+<tr class="memitem:abbc632acf192f03a171b40edc438ef0f"><td class="memItemLeft" align="right" valign="top">IReadOnlyList&lt; <a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state_1_1_joint_rotation_feature_config.html">JointRotationFeatureConfig</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#abbc632acf192f03a171b40edc438ef0f">FeatureConfigs</a><code> [get]</code></td></tr>
 <tr class="separator:abbc632acf192f03a171b40edc438ef0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a605bad9a3b2e43dc6acf4be736442008"><td class="memItemLeft" align="right" valign="top"><a id="a605bad9a3b2e43dc6acf4be736442008" name="a605bad9a3b2e43dc6acf4be736442008"></a>
-IReadOnlyDictionary&lt; <a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state_1_1_joint_rotation_feature_config.html">JointRotationFeatureConfig</a>, <a class="el" href="struct_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state_1_1_joint_rotation_feature_state.html">JointRotationFeatureState</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>FeatureStates</b><code> [get]</code></td></tr>
+<tr class="memitem:a605bad9a3b2e43dc6acf4be736442008"><td class="memItemLeft" align="right" valign="top">IReadOnlyDictionary&lt; <a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state_1_1_joint_rotation_feature_config.html">JointRotationFeatureConfig</a>, <a class="el" href="struct_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state_1_1_joint_rotation_feature_state.html">JointRotationFeatureState</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a605bad9a3b2e43dc6acf4be736442008">FeatureStates</a><code> [get]</code></td></tr>
 <tr class="separator:a605bad9a3b2e43dc6acf4be736442008"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_interface_oculus_1_1_interaction_1_1_i_active_state"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_oculus_1_1_interaction_1_1_i_active_state')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_oculus_1_1_interaction_1_1_i_active_state.html">Oculus.Interaction.IActiveState</a></td></tr>
-<tr class="memitem:a584a9478cdefd55cbc319ce5ada5cc83 inherit properties_interface_oculus_1_1_interaction_1_1_i_active_state"><td class="memItemLeft" align="right" valign="top"><a id="a584a9478cdefd55cbc319ce5ada5cc83" name="a584a9478cdefd55cbc319ce5ada5cc83"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>Active</b><code> [get]</code></td></tr>
+<tr class="memitem:a584a9478cdefd55cbc319ce5ada5cc83 inherit properties_interface_oculus_1_1_interaction_1_1_i_active_state"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_oculus_1_1_interaction_1_1_i_active_state.html#a584a9478cdefd55cbc319ce5ada5cc83">Active</a><code> [get]</code></td></tr>
 <tr class="separator:a584a9478cdefd55cbc319ce5ada5cc83 inherit properties_interface_oculus_1_1_interaction_1_1_i_active_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a42d2e769633fd826abb8f5f7f3e49afd"><td class="memItemLeft" align="right" valign="top"><a id="a42d2e769633fd826abb8f5f7f3e49afd" name="a42d2e769633fd826abb8f5f7f3e49afd"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>CheckAllJointRotations</b> ()</td></tr>
+<tr class="memitem:a42d2e769633fd826abb8f5f7f3e49afd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a42d2e769633fd826abb8f5f7f3e49afd">CheckAllJointRotations</a> ()</td></tr>
 <tr class="separator:a42d2e769633fd826abb8f5f7f3e49afd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb40ead5f67246362cf5d2d844f99d50"><td class="memItemLeft" align="right" valign="top"><a id="aeb40ead5f67246362cf5d2d844f99d50" name="aeb40ead5f67246362cf5d2d844f99d50"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateActiveState</b> ()</td></tr>
+<tr class="memitem:aeb40ead5f67246362cf5d2d844f99d50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#aeb40ead5f67246362cf5d2d844f99d50">UpdateActiveState</a> ()</td></tr>
 <tr class="separator:aeb40ead5f67246362cf5d2d844f99d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79207bc7fdad58f84fd70c6ea10e6173"><td class="memItemLeft" align="right" valign="top"><a id="a79207bc7fdad58f84fd70c6ea10e6173" name="a79207bc7fdad58f84fd70c6ea10e6173"></a>
-Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>GetWorldTargetRotation</b> (Pose rootPose, <a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state_1_1_joint_rotation_feature_config.html">JointRotationFeatureConfig</a> config)</td></tr>
+<tr class="memitem:a79207bc7fdad58f84fd70c6ea10e6173"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a79207bc7fdad58f84fd70c6ea10e6173">GetWorldTargetRotation</a> (Pose rootPose, <a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state_1_1_joint_rotation_feature_config.html">JointRotationFeatureConfig</a> config)</td></tr>
 <tr class="separator:a79207bc7fdad58f84fd70c6ea10e6173"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a054f99ece2f08c235e4a639bbbdce9c0"><td class="memItemLeft" align="right" valign="top"><a id="a054f99ece2f08c235e4a639bbbdce9c0" name="a054f99ece2f08c235e4a639bbbdce9c0"></a>
-Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>GetWorldAxisVector</b> (WorldAxis axis)</td></tr>
+<tr class="memitem:a054f99ece2f08c235e4a639bbbdce9c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a054f99ece2f08c235e4a639bbbdce9c0">GetWorldAxisVector</a> (<a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#af1524cfeb31925de9a640061b4a6129e">WorldAxis</a> axis)</td></tr>
 <tr class="separator:a054f99ece2f08c235e4a639bbbdce9c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1394950bb8a24e624f85fe889989317b"><td class="memItemLeft" align="right" valign="top"><a id="a1394950bb8a24e624f85fe889989317b" name="a1394950bb8a24e624f85fe889989317b"></a>
-Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>GetHandAxisVector</b> (HandAxis axis, Pose rootPose)</td></tr>
+<tr class="memitem:a1394950bb8a24e624f85fe889989317b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a1394950bb8a24e624f85fe889989317b">GetHandAxisVector</a> (<a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a8fa3eabe907137dfcce0559458815d03">HandAxis</a> axis, Pose rootPose)</td></tr>
 <tr class="separator:a1394950bb8a24e624f85fe889989317b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a4ce9bafde365f403bd9af2bd9a1ca9df"><td class="memItemLeft" align="right" valign="top"><a id="a4ce9bafde365f403bd9af2bd9a1ca9df" name="a4ce9bafde365f403bd9af2bd9a1ca9df"></a>
-MonoBehaviour&#160;</td><td class="memItemRight" valign="bottom"><b>_hand</b></td></tr>
+<tr class="memitem:a4ce9bafde365f403bd9af2bd9a1ca9df"><td class="memItemLeft" align="right" valign="top">MonoBehaviour&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a4ce9bafde365f403bd9af2bd9a1ca9df">_hand</a></td></tr>
 <tr class="separator:a4ce9bafde365f403bd9af2bd9a1ca9df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeaa5c0cc87cd49c4c24dae3d97a13472"><td class="memItemLeft" align="right" valign="top"><a id="aeaa5c0cc87cd49c4c24dae3d97a13472" name="aeaa5c0cc87cd49c4c24dae3d97a13472"></a>
-MonoBehaviour&#160;</td><td class="memItemRight" valign="bottom"><b>_jointDeltaProvider</b></td></tr>
+<tr class="memitem:aeaa5c0cc87cd49c4c24dae3d97a13472"><td class="memItemLeft" align="right" valign="top">MonoBehaviour&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#aeaa5c0cc87cd49c4c24dae3d97a13472">_jointDeltaProvider</a></td></tr>
 <tr class="separator:aeaa5c0cc87cd49c4c24dae3d97a13472"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ca9977ac9f7ae4244a862ef373e8a77"><td class="memItemLeft" align="right" valign="top"><a id="a2ca9977ac9f7ae4244a862ef373e8a77" name="a2ca9977ac9f7ae4244a862ef373e8a77"></a>
-<a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state_1_1_joint_rotation_feature_config_list.html">JointRotationFeatureConfigList</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_featureConfigs</b></td></tr>
+<tr class="memitem:a2ca9977ac9f7ae4244a862ef373e8a77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state_1_1_joint_rotation_feature_config_list.html">JointRotationFeatureConfigList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a2ca9977ac9f7ae4244a862ef373e8a77">_featureConfigs</a></td></tr>
 <tr class="separator:a2ca9977ac9f7ae4244a862ef373e8a77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a243f0d3cbbc90d30f08ab463f53fab8d"><td class="memItemLeft" align="right" valign="top"><a id="a243f0d3cbbc90d30f08ab463f53fab8d" name="a243f0d3cbbc90d30f08ab463f53fab8d"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>_degreesPerSecond</b> = 120f</td></tr>
+<tr class="memitem:a243f0d3cbbc90d30f08ab463f53fab8d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a243f0d3cbbc90d30f08ab463f53fab8d">_degreesPerSecond</a> = 120f</td></tr>
 <tr class="separator:a243f0d3cbbc90d30f08ab463f53fab8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f4faf232566d7e782ed4f0e025518b6"><td class="memItemLeft" align="right" valign="top"><a id="a5f4faf232566d7e782ed4f0e025518b6" name="a5f4faf232566d7e782ed4f0e025518b6"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>_thresholdWidth</b> = 30f</td></tr>
+<tr class="memitem:a5f4faf232566d7e782ed4f0e025518b6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a5f4faf232566d7e782ed4f0e025518b6">_thresholdWidth</a> = 30f</td></tr>
 <tr class="separator:a5f4faf232566d7e782ed4f0e025518b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ea1f5b07de61abade147a17c06f18fd"><td class="memItemLeft" align="right" valign="top"><a id="a3ea1f5b07de61abade147a17c06f18fd" name="a3ea1f5b07de61abade147a17c06f18fd"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>_minTimeInState</b> = 0.05f</td></tr>
+<tr class="memitem:a3ea1f5b07de61abade147a17c06f18fd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a3ea1f5b07de61abade147a17c06f18fd">_minTimeInState</a> = 0.05f</td></tr>
 <tr class="separator:a3ea1f5b07de61abade147a17c06f18fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fb9bab4f0e0e9688b8c4aba33131117"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; <a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state_1_1_joint_rotation_feature_config.html">JointRotationFeatureConfig</a>, <a class="el" href="struct_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state_1_1_joint_rotation_feature_state.html">JointRotationFeatureState</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a6fb9bab4f0e0e9688b8c4aba33131117">_featureStates</a></td></tr>
 <tr class="separator:a6fb9bab4f0e0e9688b8c4aba33131117"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f709a443a81ea905b20e564b576e892"><td class="memItemLeft" align="right" valign="top"><a id="a5f709a443a81ea905b20e564b576e892" name="a5f709a443a81ea905b20e564b576e892"></a>
-<a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_delta_config.html">JointDeltaConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_jointDeltaConfig</b></td></tr>
+<tr class="memitem:a5f709a443a81ea905b20e564b576e892"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_delta_config.html">JointDeltaConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a5f709a443a81ea905b20e564b576e892">_jointDeltaConfig</a></td></tr>
 <tr class="separator:a5f709a443a81ea905b20e564b576e892"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6af029d72a21fbfccb5140851225951a"><td class="memItemLeft" align="right" valign="top"><a id="a6af029d72a21fbfccb5140851225951a" name="a6af029d72a21fbfccb5140851225951a"></a>
-<a class="el" href="interface_oculus_1_1_interaction_1_1_pose_detection_1_1_i_joint_delta_provider.html">IJointDeltaProvider</a>&#160;</td><td class="memItemRight" valign="bottom"><b>JointDeltaProvider</b></td></tr>
+<tr class="memitem:a6af029d72a21fbfccb5140851225951a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_oculus_1_1_interaction_1_1_pose_detection_1_1_i_joint_delta_provider.html">IJointDeltaProvider</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a6af029d72a21fbfccb5140851225951a">JointDeltaProvider</a></td></tr>
 <tr class="separator:a6af029d72a21fbfccb5140851225951a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e971436cf21dcd56ada67252e91eeca"><td class="memItemLeft" align="right" valign="top"><a id="a4e971436cf21dcd56ada67252e91eeca" name="a4e971436cf21dcd56ada67252e91eeca"></a>
-Func&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_timeProvider</b></td></tr>
+<tr class="memitem:a4e971436cf21dcd56ada67252e91eeca"><td class="memItemLeft" align="right" valign="top">Func&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a4e971436cf21dcd56ada67252e91eeca">_timeProvider</a></td></tr>
 <tr class="separator:a4e971436cf21dcd56ada67252e91eeca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3a1cb971c4bde4462d95e43986e1566"><td class="memItemLeft" align="right" valign="top"><a id="ab3a1cb971c4bde4462d95e43986e1566" name="ab3a1cb971c4bde4462d95e43986e1566"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>_lastStateUpdateFrame</b></td></tr>
+<tr class="memitem:ab3a1cb971c4bde4462d95e43986e1566"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#ab3a1cb971c4bde4462d95e43986e1566">_lastStateUpdateFrame</a></td></tr>
 <tr class="separator:ab3a1cb971c4bde4462d95e43986e1566"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e7fa12ef41162de2f9bc29622ff3e09"><td class="memItemLeft" align="right" valign="top"><a id="a1e7fa12ef41162de2f9bc29622ff3e09" name="a1e7fa12ef41162de2f9bc29622ff3e09"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>_lastStateChangeTime</b></td></tr>
+<tr class="memitem:a1e7fa12ef41162de2f9bc29622ff3e09"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a1e7fa12ef41162de2f9bc29622ff3e09">_lastStateChangeTime</a></td></tr>
 <tr class="separator:a1e7fa12ef41162de2f9bc29622ff3e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a2eca82c2228114e221c5158c5ebb7f"><td class="memItemLeft" align="right" valign="top"><a id="a6a2eca82c2228114e221c5158c5ebb7f" name="a6a2eca82c2228114e221c5158c5ebb7f"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>_lastUpdateTime</b></td></tr>
+<tr class="memitem:a6a2eca82c2228114e221c5158c5ebb7f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a6a2eca82c2228114e221c5158c5ebb7f">_lastUpdateTime</a></td></tr>
 <tr class="separator:a6a2eca82c2228114e221c5158c5ebb7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82158d377140239882ea18f00a1c8fca"><td class="memItemLeft" align="right" valign="top"><a id="a82158d377140239882ea18f00a1c8fca" name="a82158d377140239882ea18f00a1c8fca"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_internalState</b></td></tr>
+<tr class="memitem:a82158d377140239882ea18f00a1c8fca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a82158d377140239882ea18f00a1c8fca">_internalState</a></td></tr>
 <tr class="separator:a82158d377140239882ea18f00a1c8fca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ba3e80a589c898a840e2672a9e678ec"><td class="memItemLeft" align="right" valign="top"><a id="a1ba3e80a589c898a840e2672a9e678ec" name="a1ba3e80a589c898a840e2672a9e678ec"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_activeState</b></td></tr>
+<tr class="memitem:a1ba3e80a589c898a840e2672a9e678ec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a1ba3e80a589c898a840e2672a9e678ec">_activeState</a></td></tr>
 <tr class="separator:a1ba3e80a589c898a840e2672a9e678ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a8fa3eabe907137dfcce0559458815d03" name="a8fa3eabe907137dfcce0559458815d03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fa3eabe907137dfcce0559458815d03">&#9670;&#160;</a></span>HandAxis</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a8fa3eabe907137dfcce0559458815d03">Oculus.Interaction.PoseDetection.JointRotationActiveState.HandAxis</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8fa3eabe907137dfcce0559458815d03a5251d8ab985ce1316e789af6b376f777" name="a8fa3eabe907137dfcce0559458815d03a5251d8ab985ce1316e789af6b376f777"></a>Pronation&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8fa3eabe907137dfcce0559458815d03add7dab2cda336d11aee01acbc17d3c3d" name="a8fa3eabe907137dfcce0559458815d03add7dab2cda336d11aee01acbc17d3c3d"></a>Supination&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8fa3eabe907137dfcce0559458815d03a35b3f2637306163111eb7aed785fe176" name="a8fa3eabe907137dfcce0559458815d03a35b3f2637306163111eb7aed785fe176"></a>RadialDeviation&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8fa3eabe907137dfcce0559458815d03a5eb0f0be57ed327050cae64c33deb382" name="a8fa3eabe907137dfcce0559458815d03a5eb0f0be57ed327050cae64c33deb382"></a>UlnarDeviation&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8fa3eabe907137dfcce0559458815d03a63e4e92bb7d207ca577b11c07f827279" name="a8fa3eabe907137dfcce0559458815d03a63e4e92bb7d207ca577b11c07f827279"></a>Extension&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8fa3eabe907137dfcce0559458815d03a67279ee73e036b7179b38ee8d1d012f6" name="a8fa3eabe907137dfcce0559458815d03a67279ee73e036b7179b38ee8d1d012f6"></a>Flexion&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ab13b880f1d4ac1867049e1c240ecf683" name="ab13b880f1d4ac1867049e1c240ecf683"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab13b880f1d4ac1867049e1c240ecf683">&#9670;&#160;</a></span>RelativeTo</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#ab13b880f1d4ac1867049e1c240ecf683">Oculus.Interaction.PoseDetection.JointRotationActiveState.RelativeTo</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab13b880f1d4ac1867049e1c240ecf683aa78b1ac16c0cd02168097fc9a9bd7604" name="ab13b880f1d4ac1867049e1c240ecf683aa78b1ac16c0cd02168097fc9a9bd7604"></a>Hand&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab13b880f1d4ac1867049e1c240ecf683af5a7924e621e84c9280a9a27e1bcb7f6" name="ab13b880f1d4ac1867049e1c240ecf683af5a7924e621e84c9280a9a27e1bcb7f6"></a>World&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="af1524cfeb31925de9a640061b4a6129e" name="af1524cfeb31925de9a640061b4a6129e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1524cfeb31925de9a640061b4a6129e">&#9670;&#160;</a></span>WorldAxis</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#af1524cfeb31925de9a640061b4a6129e">Oculus.Interaction.PoseDetection.JointRotationActiveState.WorldAxis</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af1524cfeb31925de9a640061b4a6129ea9f082d04c481aab268b9f614d2ffd129" name="af1524cfeb31925de9a640061b4a6129ea9f082d04c481aab268b9f614d2ffd129"></a>PositiveX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af1524cfeb31925de9a640061b4a6129ea963a8a64a09d54efc81b136ca6be21b2" name="af1524cfeb31925de9a640061b4a6129ea963a8a64a09d54efc81b136ca6be21b2"></a>NegativeX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af1524cfeb31925de9a640061b4a6129eac53c385ced96bd629c0f45a902aceba3" name="af1524cfeb31925de9a640061b4a6129eac53c385ced96bd629c0f45a902aceba3"></a>PositiveY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af1524cfeb31925de9a640061b4a6129eae4d5f02ceecd15caf66e9f0b2393c86b" name="af1524cfeb31925de9a640061b4a6129eae4d5f02ceecd15caf66e9f0b2393c86b"></a>NegativeY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af1524cfeb31925de9a640061b4a6129ea1921c16ffdafaf04e378ca1b6774c0ce" name="af1524cfeb31925de9a640061b4a6129ea1921c16ffdafaf04e378ca1b6774c0ce"></a>PositiveZ&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af1524cfeb31925de9a640061b4a6129eada76df034cd139bd515761c8bb8e3090" name="af1524cfeb31925de9a640061b4a6129eada76df034cd139bd515761c8bb8e3090"></a>NegativeZ&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="af1b2d089ed823380ced121d7da831470" name="af1b2d089ed823380ced121d7da831470"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1b2d089ed823380ced121d7da831470">&#9670;&#160;</a></span>Awake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Oculus.Interaction.PoseDetection.JointRotationActiveState.Awake </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a42d2e769633fd826abb8f5f7f3e49afd" name="a42d2e769633fd826abb8f5f7f3e49afd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42d2e769633fd826abb8f5f7f3e49afd">&#9670;&#160;</a></span>CheckAllJointRotations()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Oculus.Interaction.PoseDetection.JointRotationActiveState.CheckAllJointRotations </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1394950bb8a24e624f85fe889989317b" name="a1394950bb8a24e624f85fe889989317b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1394950bb8a24e624f85fe889989317b">&#9670;&#160;</a></span>GetHandAxisVector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a> Oculus.Interaction.PoseDetection.JointRotationActiveState.GetHandAxisVector </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#a8fa3eabe907137dfcce0559458815d03">HandAxis</a>&#160;</td>
+          <td class="paramname"><em>axis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Pose&#160;</td>
+          <td class="paramname"><em>rootPose</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a054f99ece2f08c235e4a639bbbdce9c0" name="a054f99ece2f08c235e4a639bbbdce9c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a054f99ece2f08c235e4a639bbbdce9c0">&#9670;&#160;</a></span>GetWorldAxisVector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a> Oculus.Interaction.PoseDetection.JointRotationActiveState.GetWorldAxisVector </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state.html#af1524cfeb31925de9a640061b4a6129e">WorldAxis</a>&#160;</td>
+          <td class="paramname"><em>axis</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a79207bc7fdad58f84fd70c6ea10e6173" name="a79207bc7fdad58f84fd70c6ea10e6173"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79207bc7fdad58f84fd70c6ea10e6173">&#9670;&#160;</a></span>GetWorldTargetRotation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_o_v_r_tracked_keyboard_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a> Oculus.Interaction.PoseDetection.JointRotationActiveState.GetWorldTargetRotation </td>
+          <td>(</td>
+          <td class="paramtype">Pose&#160;</td>
+          <td class="paramname"><em>rootPose</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state_1_1_joint_rotation_feature_config.html">JointRotationFeatureConfig</a>&#160;</td>
+          <td class="paramname"><em>config</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7b15ddfbe28059a7491ccc1053229e5c" name="a7b15ddfbe28059a7491ccc1053229e5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b15ddfbe28059a7491ccc1053229e5c">&#9670;&#160;</a></span>InjectAllJointRotationActiveState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Interaction.PoseDetection.JointRotationActiveState.InjectAllJointRotationActiveState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state_1_1_joint_rotation_feature_config_list.html">JointRotationFeatureConfigList</a>&#160;</td>
+          <td class="paramname"><em>featureConfigs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_hand.html">IHand</a>&#160;</td>
+          <td class="paramname"><em>hand</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interface_oculus_1_1_interaction_1_1_pose_detection_1_1_i_joint_delta_provider.html">IJointDeltaProvider</a>&#160;</td>
+          <td class="paramname"><em>jointDeltaProvider</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="affd436c0fa2b3a46ee882144cec69cd0" name="affd436c0fa2b3a46ee882144cec69cd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affd436c0fa2b3a46ee882144cec69cd0">&#9670;&#160;</a></span>InjectFeatureConfigList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Interaction.PoseDetection.JointRotationActiveState.InjectFeatureConfigList </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state_1_1_joint_rotation_feature_config_list.html">JointRotationFeatureConfigList</a>&#160;</td>
+          <td class="paramname"><em>featureConfigs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a94493fc1b17fbf5ff111b8ae9f5dc329" name="a94493fc1b17fbf5ff111b8ae9f5dc329"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94493fc1b17fbf5ff111b8ae9f5dc329">&#9670;&#160;</a></span>InjectHand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Interaction.PoseDetection.JointRotationActiveState.InjectHand </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_hand.html">IHand</a>&#160;</td>
+          <td class="paramname"><em>hand</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afeb4adb5a01891b6acbf4b099b46201b" name="afeb4adb5a01891b6acbf4b099b46201b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afeb4adb5a01891b6acbf4b099b46201b">&#9670;&#160;</a></span>InjectJointDeltaProvider()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Interaction.PoseDetection.JointRotationActiveState.InjectJointDeltaProvider </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_oculus_1_1_interaction_1_1_pose_detection_1_1_i_joint_delta_provider.html">IJointDeltaProvider</a>&#160;</td>
+          <td class="paramname"><em>jointDeltaProvider</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adbc0ac3955a75599db92f340e0c004b9" name="adbc0ac3955a75599db92f340e0c004b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbc0ac3955a75599db92f340e0c004b9">&#9670;&#160;</a></span>InjectOptionalTimeProvider()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Interaction.PoseDetection.JointRotationActiveState.InjectOptionalTimeProvider </td>
+          <td>(</td>
+          <td class="paramtype">Func&lt; float &gt;&#160;</td>
+          <td class="paramname"><em>timeProvider</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6bd4691da62afd93556bc0730820bf4" name="ab6bd4691da62afd93556bc0730820bf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6bd4691da62afd93556bc0730820bf4">&#9670;&#160;</a></span>OnDisable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Oculus.Interaction.PoseDetection.JointRotationActiveState.OnDisable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac9fd4ef791c60047eedd6e2f0a47a157" name="ac9fd4ef791c60047eedd6e2f0a47a157"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9fd4ef791c60047eedd6e2f0a47a157">&#9670;&#160;</a></span>OnEnable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Oculus.Interaction.PoseDetection.JointRotationActiveState.OnEnable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5cfc9b272cd55b89f37f66405386246a" name="a5cfc9b272cd55b89f37f66405386246a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cfc9b272cd55b89f37f66405386246a">&#9670;&#160;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Oculus.Interaction.PoseDetection.JointRotationActiveState.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aecac2ff2e671b19f49057446549ea116" name="aecac2ff2e671b19f49057446549ea116"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecac2ff2e671b19f49057446549ea116">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Oculus.Interaction.PoseDetection.JointRotationActiveState.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeb40ead5f67246362cf5d2d844f99d50" name="aeb40ead5f67246362cf5d2d844f99d50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb40ead5f67246362cf5d2d844f99d50">&#9670;&#160;</a></span>UpdateActiveState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Oculus.Interaction.PoseDetection.JointRotationActiveState.UpdateActiveState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1ba3e80a589c898a840e2672a9e678ec" name="a1ba3e80a589c898a840e2672a9e678ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ba3e80a589c898a840e2672a9e678ec">&#9670;&#160;</a></span>_activeState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Oculus.Interaction.PoseDetection.JointRotationActiveState._activeState</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a243f0d3cbbc90d30f08ab463f53fab8d" name="a243f0d3cbbc90d30f08ab463f53fab8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a243f0d3cbbc90d30f08ab463f53fab8d">&#9670;&#160;</a></span>_degreesPerSecond</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Oculus.Interaction.PoseDetection.JointRotationActiveState._degreesPerSecond = 120f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2ca9977ac9f7ae4244a862ef373e8a77" name="a2ca9977ac9f7ae4244a862ef373e8a77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ca9977ac9f7ae4244a862ef373e8a77">&#9670;&#160;</a></span>_featureConfigs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state_1_1_joint_rotation_feature_config_list.html">JointRotationFeatureConfigList</a> Oculus.Interaction.PoseDetection.JointRotationActiveState._featureConfigs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6fb9bab4f0e0e9688b8c4aba33131117" name="a6fb9bab4f0e0e9688b8c4aba33131117"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6fb9bab4f0e0e9688b8c4aba33131117">&#9670;&#160;</a></span>_featureStates</h2>
 
@@ -284,6 +759,270 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_activeState</b></td>
 </div><!-- fragment -->
 </div>
 </div>
+<a id="a4ce9bafde365f403bd9af2bd9a1ca9df" name="a4ce9bafde365f403bd9af2bd9a1ca9df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ce9bafde365f403bd9af2bd9a1ca9df">&#9670;&#160;</a></span>_hand</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MonoBehaviour Oculus.Interaction.PoseDetection.JointRotationActiveState._hand</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a82158d377140239882ea18f00a1c8fca" name="a82158d377140239882ea18f00a1c8fca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82158d377140239882ea18f00a1c8fca">&#9670;&#160;</a></span>_internalState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Oculus.Interaction.PoseDetection.JointRotationActiveState._internalState</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5f709a443a81ea905b20e564b576e892" name="a5f709a443a81ea905b20e564b576e892"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f709a443a81ea905b20e564b576e892">&#9670;&#160;</a></span>_jointDeltaConfig</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_delta_config.html">JointDeltaConfig</a> Oculus.Interaction.PoseDetection.JointRotationActiveState._jointDeltaConfig</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeaa5c0cc87cd49c4c24dae3d97a13472" name="aeaa5c0cc87cd49c4c24dae3d97a13472"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaa5c0cc87cd49c4c24dae3d97a13472">&#9670;&#160;</a></span>_jointDeltaProvider</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MonoBehaviour Oculus.Interaction.PoseDetection.JointRotationActiveState._jointDeltaProvider</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1e7fa12ef41162de2f9bc29622ff3e09" name="a1e7fa12ef41162de2f9bc29622ff3e09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e7fa12ef41162de2f9bc29622ff3e09">&#9670;&#160;</a></span>_lastStateChangeTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Oculus.Interaction.PoseDetection.JointRotationActiveState._lastStateChangeTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab3a1cb971c4bde4462d95e43986e1566" name="ab3a1cb971c4bde4462d95e43986e1566"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3a1cb971c4bde4462d95e43986e1566">&#9670;&#160;</a></span>_lastStateUpdateFrame</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Oculus.Interaction.PoseDetection.JointRotationActiveState._lastStateUpdateFrame</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6a2eca82c2228114e221c5158c5ebb7f" name="a6a2eca82c2228114e221c5158c5ebb7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a2eca82c2228114e221c5158c5ebb7f">&#9670;&#160;</a></span>_lastUpdateTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Oculus.Interaction.PoseDetection.JointRotationActiveState._lastUpdateTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3ea1f5b07de61abade147a17c06f18fd" name="a3ea1f5b07de61abade147a17c06f18fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ea1f5b07de61abade147a17c06f18fd">&#9670;&#160;</a></span>_minTimeInState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Oculus.Interaction.PoseDetection.JointRotationActiveState._minTimeInState = 0.05f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a21d426f7ef8c6b65d858b33216dad288" name="a21d426f7ef8c6b65d858b33216dad288"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21d426f7ef8c6b65d858b33216dad288">&#9670;&#160;</a></span>_started</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Oculus.Interaction.PoseDetection.JointRotationActiveState._started = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5f4faf232566d7e782ed4f0e025518b6" name="a5f4faf232566d7e782ed4f0e025518b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f4faf232566d7e782ed4f0e025518b6">&#9670;&#160;</a></span>_thresholdWidth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Oculus.Interaction.PoseDetection.JointRotationActiveState._thresholdWidth = 30f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e971436cf21dcd56ada67252e91eeca" name="a4e971436cf21dcd56ada67252e91eeca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e971436cf21dcd56ada67252e91eeca">&#9670;&#160;</a></span>_timeProvider</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Func&lt;float&gt; Oculus.Interaction.PoseDetection.JointRotationActiveState._timeProvider</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6af029d72a21fbfccb5140851225951a" name="a6af029d72a21fbfccb5140851225951a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6af029d72a21fbfccb5140851225951a">&#9670;&#160;</a></span>JointDeltaProvider</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interface_oculus_1_1_interaction_1_1_pose_detection_1_1_i_joint_delta_provider.html">IJointDeltaProvider</a> Oculus.Interaction.PoseDetection.JointRotationActiveState.JointDeltaProvider</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Property Documentation</h2>
 <a id="a37b69433bb904c15c698b82eb596352c" name="a37b69433bb904c15c698b82eb596352c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a37b69433bb904c15c698b82eb596352c">&#9670;&#160;</a></span>Active</h2>
@@ -305,12 +1044,78 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_activeState</b></td>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interface_oculus_1_1_interaction_1_1_i_active_state.html">Oculus.Interaction.IActiveState</a>.</p>
+<p>Implements <a class="el" href="interface_oculus_1_1_interaction_1_1_i_active_state.html#a584a9478cdefd55cbc319ce5ada5cc83">Oculus.Interaction.IActiveState</a>.</p>
+
+</div>
+</div>
+<a id="abbc632acf192f03a171b40edc438ef0f" name="abbc632acf192f03a171b40edc438ef0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbc632acf192f03a171b40edc438ef0f">&#9670;&#160;</a></span>FeatureConfigs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IReadOnlyList&lt;<a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state_1_1_joint_rotation_feature_config.html">JointRotationFeatureConfig</a>&gt; Oculus.Interaction.PoseDetection.JointRotationActiveState.FeatureConfigs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a605bad9a3b2e43dc6acf4be736442008" name="a605bad9a3b2e43dc6acf4be736442008"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a605bad9a3b2e43dc6acf4be736442008">&#9670;&#160;</a></span>FeatureStates</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IReadOnlyDictionary&lt;<a class="el" href="class_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state_1_1_joint_rotation_feature_config.html">JointRotationFeatureConfig</a>, <a class="el" href="struct_oculus_1_1_interaction_1_1_pose_detection_1_1_joint_rotation_active_state_1_1_joint_rotation_feature_state.html">JointRotationFeatureState</a>&gt; Oculus.Interaction.PoseDetection.JointRotationActiveState.FeatureStates</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aedeabf327b5939445e9acac8f39ef304" name="aedeabf327b5939445e9acac8f39ef304"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedeabf327b5939445e9acac8f39ef304">&#9670;&#160;</a></span>Hand</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interface_oculus_1_1_interaction_1_1_input_1_1_i_hand.html">IHand</a> Oculus.Interaction.PoseDetection.JointRotationActiveState.Hand</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Oculus/Interaction/Runtime/Scripts/PoseDetection/JointRotationActiveState.cs</li>
+<li><a class="el" href="_joint_rotation_active_state_8cs.html">JointRotationActiveState.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

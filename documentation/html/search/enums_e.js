@@ -1,7 +1,21 @@
 var searchData=
 [
-  ['teleportintentions_0',['TeleportIntentions',['../class_locomotion_teleport.html#afce88a59e00f7b3bc87db7242e09cbb1',1,'LocomotionTeleport']]],
-  ['toolinputstate_1',['ToolInputState',['../namespace_oculus_sample_framework.html#a52dfe8aac316a49b9e1df7bbc3984c4c',1,'OculusSampleFramework']]],
-  ['trackedkeyboardstate_2',['TrackedKeyboardState',['../class_o_v_r_tracked_keyboard.html#a7f5be97e7afba2221412dbe51f074ad7',1,'OVRTrackedKeyboard']]],
-  ['ttsdiskcachelocation_3',['TTSDiskCacheLocation',['../namespace_meta_1_1_wit_ai_1_1_t_t_s_1_1_data.html#ad907f625981a0e0f13e41d5869d87caf',1,'Meta::WitAi::TTS::Data']]]
+  ['objecttype_0',['objectType',['../class_t_m_pro_1_1_examples_1_1_t_m_p___example_script__01.html#a7581fa07718f773bf9347019769d2c80',1,'TMPro::Examples::TMP_ExampleScript_01']]],
+  ['operationresult_1',['OperationResult',['../class_o_v_r_spatial_anchor.html#aa6b684524cb6bf6bc3f3633ea2d08cee',1,'OVRSpatialAnchor']]],
+  ['opmode_2',['OpMode',['../class_o_v_r_headset_emulator.html#ac06034d3c0baf0f6bca010be429f1d8a',1,'OVRHeadsetEmulator']]],
+  ['orientationmodes_3',['OrientationModes',['../class_teleport_orientation_handler.html#a8dc8e49aff8bc11d688f0d87c6ed6de4',1,'TeleportOrientationHandler']]],
+  ['outlinestyle_4',['OutlineStyle',['../class_slim_u_i_1_1_modern_menu_1_1_themed_u_i_element.html#a654e2c1695e6d6e476d8ac9c98aa72af',1,'SlimUI::ModernMenu::ThemedUIElement']]],
+  ['overlayshape_5',['OverlayShape',['../class_o_v_r_overlay.html#a66270f911c2b6bdadf21de93ff3ab939',1,'OVROverlay']]],
+  ['overlaytype_6',['OverlayType',['../class_o_v_r_overlay.html#a9527e0c687a00b432e0172caebff3617',1,'OVROverlay']]],
+  ['ovrambisonicsnativestatus_7',['ovrAmbisonicsNativeStatus',['../class_o_n_s_p_ambisonics_native.html#ade4991259cc62e995a14a5699e11e095',1,'ONSPAmbisonicsNative']]],
+  ['ovraudioscalartype_8',['ovrAudioScalarType',['../class_o_n_s_p_propagation.html#ae5c2643b75990673683dc39f6d537405',1,'ONSPPropagation']]],
+  ['ovrchunktype_9',['OVRChunkType',['../_o_v_r_g_l_t_f_loader_8cs.html#a25aa2b3d49d01ea6bf646e175cd382d0',1,'OVRGLTFLoader.cs']]],
+  ['ovrgltfcomponenttype_10',['OVRGLTFComponentType',['../_o_v_r_g_l_t_f_accessor_8cs.html#ab888dd0e4f2d803b234016804a194ec9',1,'OVRGLTFAccessor.cs']]],
+  ['ovrgltfinputnode_11',['OVRGLTFInputNode',['../_o_v_r_g_l_t_f_animatinon_node_8cs.html#a8fbb30ad12a44044974159feac290666',1,'OVRGLTFAnimatinonNode.cs']]],
+  ['ovrgltftransformtype_12',['OVRGLTFTransformType',['../class_o_v_r_g_l_t_f_animatinon_node.html#a292e2a37d846c9ac6fb0e9fd2f1884b6',1,'OVRGLTFAnimatinonNode']]],
+  ['ovrgltftype_13',['OVRGLTFType',['../_o_v_r_g_l_t_f_accessor_8cs.html#a3b65715c1763a10aa06c57aa46b6b34b',1,'OVRGLTFAccessor.cs']]],
+  ['ovrinterpolationtype_14',['OVRInterpolationType',['../class_o_v_r_g_l_t_f_animatinon_node.html#a3aeb1f13f8d967b985a46cd9cfbad2b8',1,'OVRGLTFAnimatinonNode']]],
+  ['ovrrenderingmode_15',['OVRRenderingMode',['../namespace_oculus_1_1_interaction_1_1_unity_canvas.html#abd8893b9386ce51aa52a5855218fe917',1,'Oculus::Interaction::UnityCanvas']]],
+  ['ovrtextureformat_16',['OVRTextureFormat',['../_o_v_r_g_l_t_f_loader_8cs.html#a4ed4731b4915d18f4d404f4b314b7789',1,'OVRGLTFLoader.cs']]],
+  ['ovrtexturequalityfiltering_17',['OVRTextureQualityFiltering',['../_o_v_r_g_l_t_f_loader_8cs.html#a400113fb359e07c6ee842975ca5d3688',1,'OVRGLTFLoader.cs']]]
 ];

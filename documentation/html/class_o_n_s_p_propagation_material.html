@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: ONSPPropagationMaterial Class Reference</title>
+<title>BrainScape: ONSPPropagationMaterial Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">BrainScape
    </div>
   </td>
  </tr>
@@ -98,193 +98,1179 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a44273d800028c63b4f8b7965f9e1aadd"><td class="memItemLeft" align="right" valign="top"><a id="a44273d800028c63b4f8b7965f9e1aadd" name="a44273d800028c63b4f8b7965f9e1aadd"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>Preset</b> { <br />
-&#160;&#160;<b>Custom</b>
-, <b>AcousticTile</b>
-, <b>Brick</b>
-, <b>BrickPainted</b>
+<tr class="memitem:a44273d800028c63b4f8b7965f9e1aadd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadd">Preset</a> { <br />
+&#160;&#160;<a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadda90589c47f06eb971d548591f23c285af">Custom</a>
+, <a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aaddacd5ed97ef88bfa99c0191e6c30f82e81">AcousticTile</a>
+, <a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadda1ff97d8cde3a648c648fd044b54916b9">Brick</a>
+, <a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadda2f2c67192a1e7588bb49ee47792454e0">BrickPainted</a>
 , <br />
-&#160;&#160;<b>Carpet</b>
-, <b>CarpetHeavy</b>
-, <b>CarpetHeavyPadded</b>
-, <b>CeramicTile</b>
+&#160;&#160;<a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadda604d2c0bfa8f96ca4a40d9d637ff668b">Carpet</a>
+, <a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aaddae775ecddc6a12196588efb0a9960a33d">CarpetHeavy</a>
+, <a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aaddab61246c480bb059f7532b5862c60b9e5">CarpetHeavyPadded</a>
+, <a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadda586d479fad6306f87c95a949544e05ae">CeramicTile</a>
 , <br />
-&#160;&#160;<b>Concrete</b>
-, <b>ConcreteRough</b>
-, <b>ConcreteBlock</b>
-, <b>ConcreteBlockPainted</b>
+&#160;&#160;<a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aaddac02221ae67f642f240ee3e57161e433a">Concrete</a>
+, <a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadda12625aef8dfc830d00fe9751e0d2bdbd">ConcreteRough</a>
+, <a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadda8f75a980d765e7276b22f102944a5df5">ConcreteBlock</a>
+, <a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aaddaa6128f48e7d80790085c6c4cabf1305e">ConcreteBlockPainted</a>
 , <br />
-&#160;&#160;<b>Curtain</b>
-, <b>Foliage</b>
-, <b>Glass</b>
-, <b>GlassHeavy</b>
+&#160;&#160;<a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadda6439bc5f8000f6038dbd95d6c677c25a">Curtain</a>
+, <a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aaddacdda6a42847f060bf457e9ed3f06f373">Foliage</a>
+, <a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aaddaaae44179fda7ddcbf8916aff53846128">Glass</a>
+, <a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aaddacce7f45c5db9f7541111c8735c478f19">GlassHeavy</a>
 , <br />
-&#160;&#160;<b>Grass</b>
-, <b>Gravel</b>
-, <b>GypsumBoard</b>
-, <b>PlasterOnBrick</b>
+&#160;&#160;<a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aaddaaac9a63596f76a62bb9f61a5dd7c0d25">Grass</a>
+, <a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadda3fac7288dbc045b234fde61225fae806">Gravel</a>
+, <a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aaddadbf8cf8543af6e1958c5e873880bb593">GypsumBoard</a>
+, <a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aaddaf35220bf34b1d2c8af97995c73272281">PlasterOnBrick</a>
 , <br />
-&#160;&#160;<b>PlasterOnConcreteBlock</b>
-, <b>Soil</b>
-, <b>SoundProof</b>
-, <b>Snow</b>
+&#160;&#160;<a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadda1582b134ff394c6e2e4ca5630c1492a4">PlasterOnConcreteBlock</a>
+, <a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aaddae4b9dca2448724ca25e388a0317a09c8">Soil</a>
+, <a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aaddaec9e7bbc152dacb4b63fbbe1103200d3">SoundProof</a>
+, <a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aaddab46d3c8ee8032551c011745d587705cc">Snow</a>
 , <br />
-&#160;&#160;<b>Steel</b>
-, <b>Water</b>
-, <b>WoodThin</b>
-, <b>WoodThick</b>
+&#160;&#160;<a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadda4668112d7c5f80a73a826dd8150989df">Steel</a>
+, <a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadda27634ff8002b12e75d98e07ccd005d18">Water</a>
+, <a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadda95939def5b4d594cd8ac8e6bb3dc75e7">WoodThin</a>
+, <a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadda8b8cbac5c74eb80acc94dc5940ba7490">WoodThick</a>
 , <br />
-&#160;&#160;<b>WoodFloor</b>
-, <b>WoodOnConcrete</b>
+&#160;&#160;<a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadda6426d3d0672e37a0cefb92763e62e0f7">WoodFloor</a>
+, <a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadda5b7a1466d0710e1371ebde36ead32026">WoodOnConcrete</a>
 <br />
  }</td></tr>
 <tr class="separator:a44273d800028c63b4f8b7965f9e1aadd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae9500e10b8615dee76a4a479740ba24f"><td class="memItemLeft" align="right" valign="top"><a id="ae9500e10b8615dee76a4a479740ba24f" name="ae9500e10b8615dee76a4a479740ba24f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>StartInternal</b> ()</td></tr>
+<tr class="memitem:ae9500e10b8615dee76a4a479740ba24f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#ae9500e10b8615dee76a4a479740ba24f">StartInternal</a> ()</td></tr>
 <tr class="separator:ae9500e10b8615dee76a4a479740ba24f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a304cd57f62f025860b6e9d6e2db4fcbb"><td class="memItemLeft" align="right" valign="top"><a id="a304cd57f62f025860b6e9d6e2db4fcbb" name="a304cd57f62f025860b6e9d6e2db4fcbb"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>DestroyInternal</b> ()</td></tr>
+<tr class="memitem:a304cd57f62f025860b6e9d6e2db4fcbb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#a304cd57f62f025860b6e9d6e2db4fcbb">DestroyInternal</a> ()</td></tr>
 <tr class="separator:a304cd57f62f025860b6e9d6e2db4fcbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79eba8edf10644ad5d984a9e8c8b1db7"><td class="memItemLeft" align="right" valign="top"><a id="a79eba8edf10644ad5d984a9e8c8b1db7" name="a79eba8edf10644ad5d984a9e8c8b1db7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UploadMaterial</b> ()</td></tr>
+<tr class="memitem:a79eba8edf10644ad5d984a9e8c8b1db7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#a79eba8edf10644ad5d984a9e8c8b1db7">UploadMaterial</a> ()</td></tr>
 <tr class="separator:a79eba8edf10644ad5d984a9e8c8b1db7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9940d61c4f25608941ff528174d3989d"><td class="memItemLeft" align="right" valign="top"><a id="a9940d61c4f25608941ff528174d3989d" name="a9940d61c4f25608941ff528174d3989d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPreset</b> (Preset preset)</td></tr>
+<tr class="memitem:a9940d61c4f25608941ff528174d3989d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#a9940d61c4f25608941ff528174d3989d">SetPreset</a> (<a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadd">Preset</a> <a class="el" href="class_o_n_s_p_propagation_material.html#a3060308f96cd647616b4bde7f689c11f">preset</a>)</td></tr>
 <tr class="separator:a9940d61c4f25608941ff528174d3989d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a7f583b7739a635dfb3c9465c47f8acdf"><td class="memItemLeft" align="right" valign="top"><a id="a7f583b7739a635dfb3c9465c47f8acdf" name="a7f583b7739a635dfb3c9465c47f8acdf"></a>
-IntPtr&#160;</td><td class="memItemRight" valign="bottom"><b>materialHandle</b> = IntPtr.Zero</td></tr>
+<tr class="memitem:a7f583b7739a635dfb3c9465c47f8acdf"><td class="memItemLeft" align="right" valign="top">IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#a7f583b7739a635dfb3c9465c47f8acdf">materialHandle</a> = IntPtr.Zero</td></tr>
 <tr class="separator:a7f583b7739a635dfb3c9465c47f8acdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cb141975112026f985f5d88ac959a17"><td class="memItemLeft" align="right" valign="top"><a id="a1cb141975112026f985f5d88ac959a17" name="a1cb141975112026f985f5d88ac959a17"></a>
-<a class="el" href="class_o_n_s_p_propagation_material_1_1_spectrum.html">Spectrum</a>&#160;</td><td class="memItemRight" valign="bottom"><b>absorption</b> = new <a class="el" href="class_o_n_s_p_propagation_material_1_1_spectrum.html">Spectrum</a>()</td></tr>
+<tr class="memitem:a1cb141975112026f985f5d88ac959a17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_n_s_p_propagation_material_1_1_spectrum.html">Spectrum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#a1cb141975112026f985f5d88ac959a17">absorption</a> = new <a class="el" href="class_o_n_s_p_propagation_material_1_1_spectrum.html">Spectrum</a>()</td></tr>
 <tr class="separator:a1cb141975112026f985f5d88ac959a17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a200eae041526cf1943687a0dba546fc1"><td class="memItemLeft" align="right" valign="top"><a id="a200eae041526cf1943687a0dba546fc1" name="a200eae041526cf1943687a0dba546fc1"></a>
-<a class="el" href="class_o_n_s_p_propagation_material_1_1_spectrum.html">Spectrum</a>&#160;</td><td class="memItemRight" valign="bottom"><b>transmission</b> = new <a class="el" href="class_o_n_s_p_propagation_material_1_1_spectrum.html">Spectrum</a>()</td></tr>
+<tr class="memitem:a200eae041526cf1943687a0dba546fc1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_n_s_p_propagation_material_1_1_spectrum.html">Spectrum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#a200eae041526cf1943687a0dba546fc1">transmission</a> = new <a class="el" href="class_o_n_s_p_propagation_material_1_1_spectrum.html">Spectrum</a>()</td></tr>
 <tr class="separator:a200eae041526cf1943687a0dba546fc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2baca48056304d832f1f29be636a39e"><td class="memItemLeft" align="right" valign="top"><a id="ad2baca48056304d832f1f29be636a39e" name="ad2baca48056304d832f1f29be636a39e"></a>
-<a class="el" href="class_o_n_s_p_propagation_material_1_1_spectrum.html">Spectrum</a>&#160;</td><td class="memItemRight" valign="bottom"><b>scattering</b> = new <a class="el" href="class_o_n_s_p_propagation_material_1_1_spectrum.html">Spectrum</a>()</td></tr>
+<tr class="memitem:ad2baca48056304d832f1f29be636a39e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_n_s_p_propagation_material_1_1_spectrum.html">Spectrum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#ad2baca48056304d832f1f29be636a39e">scattering</a> = new <a class="el" href="class_o_n_s_p_propagation_material_1_1_spectrum.html">Spectrum</a>()</td></tr>
 <tr class="separator:ad2baca48056304d832f1f29be636a39e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a3060308f96cd647616b4bde7f689c11f"><td class="memItemLeft" align="right" valign="top"><a id="a3060308f96cd647616b4bde7f689c11f" name="a3060308f96cd647616b4bde7f689c11f"></a>
-Preset&#160;</td><td class="memItemRight" valign="bottom"><b>preset</b><code> [get, set]</code></td></tr>
+<tr class="memitem:a3060308f96cd647616b4bde7f689c11f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadd">Preset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#a3060308f96cd647616b4bde7f689c11f">preset</a><code> [get, set]</code></td></tr>
 <tr class="separator:a3060308f96cd647616b4bde7f689c11f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:aba05cb405b0adc8bfe99fe877f7fa410"><td class="memItemLeft" align="right" valign="top"><a id="aba05cb405b0adc8bfe99fe877f7fa410" name="aba05cb405b0adc8bfe99fe877f7fa410"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
-<tr class="memdesc:aba05cb405b0adc8bfe99fe877f7fa410"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the audio material. This is called after Awake() and before the first Update(). <br /></td></tr>
+<tr class="memitem:aba05cb405b0adc8bfe99fe877f7fa410"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#aba05cb405b0adc8bfe99fe877f7fa410">Start</a> ()</td></tr>
+<tr class="memdesc:aba05cb405b0adc8bfe99fe877f7fa410"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the audio material. This is called after Awake() and before the first Update().  <br /></td></tr>
 <tr class="separator:aba05cb405b0adc8bfe99fe877f7fa410"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0804c2e696a2356f05657bdf35a3e487"><td class="memItemLeft" align="right" valign="top"><a id="a0804c2e696a2356f05657bdf35a3e487" name="a0804c2e696a2356f05657bdf35a3e487"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDestroy</b> ()</td></tr>
-<tr class="memdesc:a0804c2e696a2356f05657bdf35a3e487"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the audio scene. This is called when the scene is deleted. <br /></td></tr>
+<tr class="memitem:a0804c2e696a2356f05657bdf35a3e487"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#a0804c2e696a2356f05657bdf35a3e487">OnDestroy</a> ()</td></tr>
+<tr class="memdesc:a0804c2e696a2356f05657bdf35a3e487"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the audio scene. This is called when the scene is deleted.  <br /></td></tr>
 <tr class="separator:a0804c2e696a2356f05657bdf35a3e487"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
-<tr class="memitem:aff07554ac9265b8df3678d2b137171f8"><td class="memItemLeft" align="right" valign="top"><a id="aff07554ac9265b8df3678d2b137171f8" name="aff07554ac9265b8df3678d2b137171f8"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>AcousticTile</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:aff07554ac9265b8df3678d2b137171f8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#aff07554ac9265b8df3678d2b137171f8">AcousticTile</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:aff07554ac9265b8df3678d2b137171f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa661722bb8d678f1f56565f50488871e"><td class="memItemLeft" align="right" valign="top"><a id="aa661722bb8d678f1f56565f50488871e" name="aa661722bb8d678f1f56565f50488871e"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>Brick</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:aa661722bb8d678f1f56565f50488871e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#aa661722bb8d678f1f56565f50488871e">Brick</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:aa661722bb8d678f1f56565f50488871e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad28f0fb36ff14a1d9978ab79b55fc75c"><td class="memItemLeft" align="right" valign="top"><a id="ad28f0fb36ff14a1d9978ab79b55fc75c" name="ad28f0fb36ff14a1d9978ab79b55fc75c"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>BrickPainted</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:ad28f0fb36ff14a1d9978ab79b55fc75c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#ad28f0fb36ff14a1d9978ab79b55fc75c">BrickPainted</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:ad28f0fb36ff14a1d9978ab79b55fc75c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d0384a1b0e6170abb8e0744aea2ecd9"><td class="memItemLeft" align="right" valign="top"><a id="a5d0384a1b0e6170abb8e0744aea2ecd9" name="a5d0384a1b0e6170abb8e0744aea2ecd9"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>Carpet</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:a5d0384a1b0e6170abb8e0744aea2ecd9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#a5d0384a1b0e6170abb8e0744aea2ecd9">Carpet</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:a5d0384a1b0e6170abb8e0744aea2ecd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad256c8c23880e5e0e246796651f3b47f"><td class="memItemLeft" align="right" valign="top"><a id="ad256c8c23880e5e0e246796651f3b47f" name="ad256c8c23880e5e0e246796651f3b47f"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>CarpetHeavy</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:ad256c8c23880e5e0e246796651f3b47f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#ad256c8c23880e5e0e246796651f3b47f">CarpetHeavy</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:ad256c8c23880e5e0e246796651f3b47f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5fca77d50535dbfda738571d62c8d83d"><td class="memItemLeft" align="right" valign="top"><a id="a5fca77d50535dbfda738571d62c8d83d" name="a5fca77d50535dbfda738571d62c8d83d"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>CarpetHeavyPadded</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:a5fca77d50535dbfda738571d62c8d83d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#a5fca77d50535dbfda738571d62c8d83d">CarpetHeavyPadded</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:a5fca77d50535dbfda738571d62c8d83d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d52f0ef5e7092ab65eb69e7aa646583"><td class="memItemLeft" align="right" valign="top"><a id="a3d52f0ef5e7092ab65eb69e7aa646583" name="a3d52f0ef5e7092ab65eb69e7aa646583"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>CeramicTile</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:a3d52f0ef5e7092ab65eb69e7aa646583"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#a3d52f0ef5e7092ab65eb69e7aa646583">CeramicTile</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:a3d52f0ef5e7092ab65eb69e7aa646583"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2807f6dff5c53ebe820bd46042c91511"><td class="memItemLeft" align="right" valign="top"><a id="a2807f6dff5c53ebe820bd46042c91511" name="a2807f6dff5c53ebe820bd46042c91511"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>Concrete</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:a2807f6dff5c53ebe820bd46042c91511"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#a2807f6dff5c53ebe820bd46042c91511">Concrete</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:a2807f6dff5c53ebe820bd46042c91511"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68f16dc050ee70a37b6c3cfb90187b38"><td class="memItemLeft" align="right" valign="top"><a id="a68f16dc050ee70a37b6c3cfb90187b38" name="a68f16dc050ee70a37b6c3cfb90187b38"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>ConcreteRough</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:a68f16dc050ee70a37b6c3cfb90187b38"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#a68f16dc050ee70a37b6c3cfb90187b38">ConcreteRough</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:a68f16dc050ee70a37b6c3cfb90187b38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a137f5b8becdb4c77c89094c41ef74b85"><td class="memItemLeft" align="right" valign="top"><a id="a137f5b8becdb4c77c89094c41ef74b85" name="a137f5b8becdb4c77c89094c41ef74b85"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>ConcreteBlock</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:a137f5b8becdb4c77c89094c41ef74b85"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#a137f5b8becdb4c77c89094c41ef74b85">ConcreteBlock</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:a137f5b8becdb4c77c89094c41ef74b85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1dc9e79729833906d3ff80caa74323e4"><td class="memItemLeft" align="right" valign="top"><a id="a1dc9e79729833906d3ff80caa74323e4" name="a1dc9e79729833906d3ff80caa74323e4"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>ConcreteBlockPainted</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:a1dc9e79729833906d3ff80caa74323e4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#a1dc9e79729833906d3ff80caa74323e4">ConcreteBlockPainted</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:a1dc9e79729833906d3ff80caa74323e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2f783f9342592878e6117ec2999984c"><td class="memItemLeft" align="right" valign="top"><a id="ac2f783f9342592878e6117ec2999984c" name="ac2f783f9342592878e6117ec2999984c"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>Curtain</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:ac2f783f9342592878e6117ec2999984c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#ac2f783f9342592878e6117ec2999984c">Curtain</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:ac2f783f9342592878e6117ec2999984c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe5de5aea6c20acbc2a8a0c5f540fc77"><td class="memItemLeft" align="right" valign="top"><a id="afe5de5aea6c20acbc2a8a0c5f540fc77" name="afe5de5aea6c20acbc2a8a0c5f540fc77"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>Foliage</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:afe5de5aea6c20acbc2a8a0c5f540fc77"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#afe5de5aea6c20acbc2a8a0c5f540fc77">Foliage</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:afe5de5aea6c20acbc2a8a0c5f540fc77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b364b41327939252dad478cce9023fb"><td class="memItemLeft" align="right" valign="top"><a id="a1b364b41327939252dad478cce9023fb" name="a1b364b41327939252dad478cce9023fb"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>Glass</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:a1b364b41327939252dad478cce9023fb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#a1b364b41327939252dad478cce9023fb">Glass</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:a1b364b41327939252dad478cce9023fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1e9043b11cdbde770efcd7f70e36c87"><td class="memItemLeft" align="right" valign="top"><a id="ad1e9043b11cdbde770efcd7f70e36c87" name="ad1e9043b11cdbde770efcd7f70e36c87"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>GlassHeavy</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:ad1e9043b11cdbde770efcd7f70e36c87"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#ad1e9043b11cdbde770efcd7f70e36c87">GlassHeavy</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:ad1e9043b11cdbde770efcd7f70e36c87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba7f80b511a37658d3d19e3aab46b416"><td class="memItemLeft" align="right" valign="top"><a id="aba7f80b511a37658d3d19e3aab46b416" name="aba7f80b511a37658d3d19e3aab46b416"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>Grass</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:aba7f80b511a37658d3d19e3aab46b416"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#aba7f80b511a37658d3d19e3aab46b416">Grass</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:aba7f80b511a37658d3d19e3aab46b416"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a057b44c266b4fd7f131e02901bb89d6a"><td class="memItemLeft" align="right" valign="top"><a id="a057b44c266b4fd7f131e02901bb89d6a" name="a057b44c266b4fd7f131e02901bb89d6a"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>Gravel</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:a057b44c266b4fd7f131e02901bb89d6a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#a057b44c266b4fd7f131e02901bb89d6a">Gravel</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:a057b44c266b4fd7f131e02901bb89d6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46993ff18724f66d2f375027686e2619"><td class="memItemLeft" align="right" valign="top"><a id="a46993ff18724f66d2f375027686e2619" name="a46993ff18724f66d2f375027686e2619"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>GypsumBoard</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:a46993ff18724f66d2f375027686e2619"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#a46993ff18724f66d2f375027686e2619">GypsumBoard</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:a46993ff18724f66d2f375027686e2619"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e1ea7f9c0d18b773e31b6e6730b0b02"><td class="memItemLeft" align="right" valign="top"><a id="a1e1ea7f9c0d18b773e31b6e6730b0b02" name="a1e1ea7f9c0d18b773e31b6e6730b0b02"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>PlasterOnBrick</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:a1e1ea7f9c0d18b773e31b6e6730b0b02"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#a1e1ea7f9c0d18b773e31b6e6730b0b02">PlasterOnBrick</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:a1e1ea7f9c0d18b773e31b6e6730b0b02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab78f18f120336c92f0d136a5e993e28c"><td class="memItemLeft" align="right" valign="top"><a id="ab78f18f120336c92f0d136a5e993e28c" name="ab78f18f120336c92f0d136a5e993e28c"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>PlasterOnConcreteBlock</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:ab78f18f120336c92f0d136a5e993e28c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#ab78f18f120336c92f0d136a5e993e28c">PlasterOnConcreteBlock</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:ab78f18f120336c92f0d136a5e993e28c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ed0c2d8e024aed8c7e61c11edd34272"><td class="memItemLeft" align="right" valign="top"><a id="a5ed0c2d8e024aed8c7e61c11edd34272" name="a5ed0c2d8e024aed8c7e61c11edd34272"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>Soil</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:a5ed0c2d8e024aed8c7e61c11edd34272"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#a5ed0c2d8e024aed8c7e61c11edd34272">Soil</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:a5ed0c2d8e024aed8c7e61c11edd34272"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3957622b9ae72008c928fcb1a9d1229"><td class="memItemLeft" align="right" valign="top"><a id="ac3957622b9ae72008c928fcb1a9d1229" name="ac3957622b9ae72008c928fcb1a9d1229"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>SoundProof</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:ac3957622b9ae72008c928fcb1a9d1229"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#ac3957622b9ae72008c928fcb1a9d1229">SoundProof</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:ac3957622b9ae72008c928fcb1a9d1229"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e3359930a64dd12980c58bc9d47215a"><td class="memItemLeft" align="right" valign="top"><a id="a9e3359930a64dd12980c58bc9d47215a" name="a9e3359930a64dd12980c58bc9d47215a"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>Snow</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:a9e3359930a64dd12980c58bc9d47215a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#a9e3359930a64dd12980c58bc9d47215a">Snow</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:a9e3359930a64dd12980c58bc9d47215a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ab1e47db4a2f5f068702731c5c62dd2"><td class="memItemLeft" align="right" valign="top"><a id="a6ab1e47db4a2f5f068702731c5c62dd2" name="a6ab1e47db4a2f5f068702731c5c62dd2"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>Steel</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:a6ab1e47db4a2f5f068702731c5c62dd2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#a6ab1e47db4a2f5f068702731c5c62dd2">Steel</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:a6ab1e47db4a2f5f068702731c5c62dd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa9e61b79011663797086317dc24992f"><td class="memItemLeft" align="right" valign="top"><a id="afa9e61b79011663797086317dc24992f" name="afa9e61b79011663797086317dc24992f"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>Water</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:afa9e61b79011663797086317dc24992f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#afa9e61b79011663797086317dc24992f">Water</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:afa9e61b79011663797086317dc24992f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b9f9b00dcf6057e3cf0af13d70b64aa"><td class="memItemLeft" align="right" valign="top"><a id="a4b9f9b00dcf6057e3cf0af13d70b64aa" name="a4b9f9b00dcf6057e3cf0af13d70b64aa"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>WoodThin</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:a4b9f9b00dcf6057e3cf0af13d70b64aa"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#a4b9f9b00dcf6057e3cf0af13d70b64aa">WoodThin</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:a4b9f9b00dcf6057e3cf0af13d70b64aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6aa5b6211263785c621b408467fe4e3"><td class="memItemLeft" align="right" valign="top"><a id="ae6aa5b6211263785c621b408467fe4e3" name="ae6aa5b6211263785c621b408467fe4e3"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>WoodThick</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:ae6aa5b6211263785c621b408467fe4e3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#ae6aa5b6211263785c621b408467fe4e3">WoodThick</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:ae6aa5b6211263785c621b408467fe4e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2df9d4dc97ddb26472ff8081748978f0"><td class="memItemLeft" align="right" valign="top"><a id="a2df9d4dc97ddb26472ff8081748978f0" name="a2df9d4dc97ddb26472ff8081748978f0"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>WoodFloor</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:a2df9d4dc97ddb26472ff8081748978f0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#a2df9d4dc97ddb26472ff8081748978f0">WoodFloor</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:a2df9d4dc97ddb26472ff8081748978f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a925b3c30da2b1b5731d7a127a53b887a"><td class="memItemLeft" align="right" valign="top"><a id="a925b3c30da2b1b5731d7a127a53b887a" name="a925b3c30da2b1b5731d7a127a53b887a"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>WoodOnConcrete</b> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
+<tr class="memitem:a925b3c30da2b1b5731d7a127a53b887a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#a925b3c30da2b1b5731d7a127a53b887a">WoodOnConcrete</a> (ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a> material)</td></tr>
 <tr class="separator:a925b3c30da2b1b5731d7a127a53b887a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a2894ce6be87a607e41ae612e871bb60e"><td class="memItemLeft" align="right" valign="top"><a id="a2894ce6be87a607e41ae612e871bb60e" name="a2894ce6be87a607e41ae612e871bb60e"></a>
-Preset&#160;</td><td class="memItemRight" valign="bottom"><b>preset_</b> = Preset.Custom</td></tr>
+<tr class="memitem:a2894ce6be87a607e41ae612e871bb60e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadd">Preset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n_s_p_propagation_material.html#a2894ce6be87a607e41ae612e871bb60e">preset_</a> = <a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadda90589c47f06eb971d548591f23c285af">Preset.Custom</a></td></tr>
 <tr class="separator:a2894ce6be87a607e41ae612e871bb60e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a44273d800028c63b4f8b7965f9e1aadd" name="a44273d800028c63b4f8b7965f9e1aadd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44273d800028c63b4f8b7965f9e1aadd">&#9670;&#160;</a></span>Preset</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadd">ONSPPropagationMaterial.Preset</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aadda90589c47f06eb971d548591f23c285af" name="a44273d800028c63b4f8b7965f9e1aadda90589c47f06eb971d548591f23c285af"></a>Custom&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aaddacd5ed97ef88bfa99c0191e6c30f82e81" name="a44273d800028c63b4f8b7965f9e1aaddacd5ed97ef88bfa99c0191e6c30f82e81"></a>AcousticTile&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aadda1ff97d8cde3a648c648fd044b54916b9" name="a44273d800028c63b4f8b7965f9e1aadda1ff97d8cde3a648c648fd044b54916b9"></a>Brick&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aadda2f2c67192a1e7588bb49ee47792454e0" name="a44273d800028c63b4f8b7965f9e1aadda2f2c67192a1e7588bb49ee47792454e0"></a>BrickPainted&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aadda604d2c0bfa8f96ca4a40d9d637ff668b" name="a44273d800028c63b4f8b7965f9e1aadda604d2c0bfa8f96ca4a40d9d637ff668b"></a>Carpet&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aaddae775ecddc6a12196588efb0a9960a33d" name="a44273d800028c63b4f8b7965f9e1aaddae775ecddc6a12196588efb0a9960a33d"></a>CarpetHeavy&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aaddab61246c480bb059f7532b5862c60b9e5" name="a44273d800028c63b4f8b7965f9e1aaddab61246c480bb059f7532b5862c60b9e5"></a>CarpetHeavyPadded&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aadda586d479fad6306f87c95a949544e05ae" name="a44273d800028c63b4f8b7965f9e1aadda586d479fad6306f87c95a949544e05ae"></a>CeramicTile&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aaddac02221ae67f642f240ee3e57161e433a" name="a44273d800028c63b4f8b7965f9e1aaddac02221ae67f642f240ee3e57161e433a"></a>Concrete&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aadda12625aef8dfc830d00fe9751e0d2bdbd" name="a44273d800028c63b4f8b7965f9e1aadda12625aef8dfc830d00fe9751e0d2bdbd"></a>ConcreteRough&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aadda8f75a980d765e7276b22f102944a5df5" name="a44273d800028c63b4f8b7965f9e1aadda8f75a980d765e7276b22f102944a5df5"></a>ConcreteBlock&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aaddaa6128f48e7d80790085c6c4cabf1305e" name="a44273d800028c63b4f8b7965f9e1aaddaa6128f48e7d80790085c6c4cabf1305e"></a>ConcreteBlockPainted&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aadda6439bc5f8000f6038dbd95d6c677c25a" name="a44273d800028c63b4f8b7965f9e1aadda6439bc5f8000f6038dbd95d6c677c25a"></a>Curtain&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aaddacdda6a42847f060bf457e9ed3f06f373" name="a44273d800028c63b4f8b7965f9e1aaddacdda6a42847f060bf457e9ed3f06f373"></a>Foliage&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aaddaaae44179fda7ddcbf8916aff53846128" name="a44273d800028c63b4f8b7965f9e1aaddaaae44179fda7ddcbf8916aff53846128"></a>Glass&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aaddacce7f45c5db9f7541111c8735c478f19" name="a44273d800028c63b4f8b7965f9e1aaddacce7f45c5db9f7541111c8735c478f19"></a>GlassHeavy&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aaddaaac9a63596f76a62bb9f61a5dd7c0d25" name="a44273d800028c63b4f8b7965f9e1aaddaaac9a63596f76a62bb9f61a5dd7c0d25"></a>Grass&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aadda3fac7288dbc045b234fde61225fae806" name="a44273d800028c63b4f8b7965f9e1aadda3fac7288dbc045b234fde61225fae806"></a>Gravel&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aaddadbf8cf8543af6e1958c5e873880bb593" name="a44273d800028c63b4f8b7965f9e1aaddadbf8cf8543af6e1958c5e873880bb593"></a>GypsumBoard&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aaddaf35220bf34b1d2c8af97995c73272281" name="a44273d800028c63b4f8b7965f9e1aaddaf35220bf34b1d2c8af97995c73272281"></a>PlasterOnBrick&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aadda1582b134ff394c6e2e4ca5630c1492a4" name="a44273d800028c63b4f8b7965f9e1aadda1582b134ff394c6e2e4ca5630c1492a4"></a>PlasterOnConcreteBlock&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aaddae4b9dca2448724ca25e388a0317a09c8" name="a44273d800028c63b4f8b7965f9e1aaddae4b9dca2448724ca25e388a0317a09c8"></a>Soil&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aaddaec9e7bbc152dacb4b63fbbe1103200d3" name="a44273d800028c63b4f8b7965f9e1aaddaec9e7bbc152dacb4b63fbbe1103200d3"></a>SoundProof&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aaddab46d3c8ee8032551c011745d587705cc" name="a44273d800028c63b4f8b7965f9e1aaddab46d3c8ee8032551c011745d587705cc"></a>Snow&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aadda4668112d7c5f80a73a826dd8150989df" name="a44273d800028c63b4f8b7965f9e1aadda4668112d7c5f80a73a826dd8150989df"></a>Steel&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aadda27634ff8002b12e75d98e07ccd005d18" name="a44273d800028c63b4f8b7965f9e1aadda27634ff8002b12e75d98e07ccd005d18"></a>Water&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aadda95939def5b4d594cd8ac8e6bb3dc75e7" name="a44273d800028c63b4f8b7965f9e1aadda95939def5b4d594cd8ac8e6bb3dc75e7"></a>WoodThin&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aadda8b8cbac5c74eb80acc94dc5940ba7490" name="a44273d800028c63b4f8b7965f9e1aadda8b8cbac5c74eb80acc94dc5940ba7490"></a>WoodThick&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aadda6426d3d0672e37a0cefb92763e62e0f7" name="a44273d800028c63b4f8b7965f9e1aadda6426d3d0672e37a0cefb92763e62e0f7"></a>WoodFloor&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a44273d800028c63b4f8b7965f9e1aadda5b7a1466d0710e1371ebde36ead32026" name="a44273d800028c63b4f8b7965f9e1aadda5b7a1466d0710e1371ebde36ead32026"></a>WoodOnConcrete&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="aff07554ac9265b8df3678d2b137171f8" name="aff07554ac9265b8df3678d2b137171f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff07554ac9265b8df3678d2b137171f8">&#9670;&#160;</a></span>AcousticTile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.AcousticTile </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa661722bb8d678f1f56565f50488871e" name="aa661722bb8d678f1f56565f50488871e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa661722bb8d678f1f56565f50488871e">&#9670;&#160;</a></span>Brick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.Brick </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad28f0fb36ff14a1d9978ab79b55fc75c" name="ad28f0fb36ff14a1d9978ab79b55fc75c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad28f0fb36ff14a1d9978ab79b55fc75c">&#9670;&#160;</a></span>BrickPainted()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.BrickPainted </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5d0384a1b0e6170abb8e0744aea2ecd9" name="a5d0384a1b0e6170abb8e0744aea2ecd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d0384a1b0e6170abb8e0744aea2ecd9">&#9670;&#160;</a></span>Carpet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.Carpet </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad256c8c23880e5e0e246796651f3b47f" name="ad256c8c23880e5e0e246796651f3b47f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad256c8c23880e5e0e246796651f3b47f">&#9670;&#160;</a></span>CarpetHeavy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.CarpetHeavy </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5fca77d50535dbfda738571d62c8d83d" name="a5fca77d50535dbfda738571d62c8d83d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fca77d50535dbfda738571d62c8d83d">&#9670;&#160;</a></span>CarpetHeavyPadded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.CarpetHeavyPadded </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3d52f0ef5e7092ab65eb69e7aa646583" name="a3d52f0ef5e7092ab65eb69e7aa646583"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d52f0ef5e7092ab65eb69e7aa646583">&#9670;&#160;</a></span>CeramicTile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.CeramicTile </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2807f6dff5c53ebe820bd46042c91511" name="a2807f6dff5c53ebe820bd46042c91511"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2807f6dff5c53ebe820bd46042c91511">&#9670;&#160;</a></span>Concrete()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.Concrete </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a137f5b8becdb4c77c89094c41ef74b85" name="a137f5b8becdb4c77c89094c41ef74b85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a137f5b8becdb4c77c89094c41ef74b85">&#9670;&#160;</a></span>ConcreteBlock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.ConcreteBlock </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1dc9e79729833906d3ff80caa74323e4" name="a1dc9e79729833906d3ff80caa74323e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dc9e79729833906d3ff80caa74323e4">&#9670;&#160;</a></span>ConcreteBlockPainted()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.ConcreteBlockPainted </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a68f16dc050ee70a37b6c3cfb90187b38" name="a68f16dc050ee70a37b6c3cfb90187b38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68f16dc050ee70a37b6c3cfb90187b38">&#9670;&#160;</a></span>ConcreteRough()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.ConcreteRough </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac2f783f9342592878e6117ec2999984c" name="ac2f783f9342592878e6117ec2999984c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2f783f9342592878e6117ec2999984c">&#9670;&#160;</a></span>Curtain()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.Curtain </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a304cd57f62f025860b6e9d6e2db4fcbb" name="a304cd57f62f025860b6e9d6e2db4fcbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a304cd57f62f025860b6e9d6e2db4fcbb">&#9670;&#160;</a></span>DestroyInternal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ONSPPropagationMaterial.DestroyInternal </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afe5de5aea6c20acbc2a8a0c5f540fc77" name="afe5de5aea6c20acbc2a8a0c5f540fc77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe5de5aea6c20acbc2a8a0c5f540fc77">&#9670;&#160;</a></span>Foliage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.Foliage </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1b364b41327939252dad478cce9023fb" name="a1b364b41327939252dad478cce9023fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b364b41327939252dad478cce9023fb">&#9670;&#160;</a></span>Glass()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.Glass </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad1e9043b11cdbde770efcd7f70e36c87" name="ad1e9043b11cdbde770efcd7f70e36c87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1e9043b11cdbde770efcd7f70e36c87">&#9670;&#160;</a></span>GlassHeavy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.GlassHeavy </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba7f80b511a37658d3d19e3aab46b416" name="aba7f80b511a37658d3d19e3aab46b416"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba7f80b511a37658d3d19e3aab46b416">&#9670;&#160;</a></span>Grass()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.Grass </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a057b44c266b4fd7f131e02901bb89d6a" name="a057b44c266b4fd7f131e02901bb89d6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a057b44c266b4fd7f131e02901bb89d6a">&#9670;&#160;</a></span>Gravel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.Gravel </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a46993ff18724f66d2f375027686e2619" name="a46993ff18724f66d2f375027686e2619"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46993ff18724f66d2f375027686e2619">&#9670;&#160;</a></span>GypsumBoard()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.GypsumBoard </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0804c2e696a2356f05657bdf35a3e487" name="a0804c2e696a2356f05657bdf35a3e487"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0804c2e696a2356f05657bdf35a3e487">&#9670;&#160;</a></span>OnDestroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ONSPPropagationMaterial.OnDestroy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Destroy the audio scene. This is called when the scene is deleted. </p>
+
+</div>
+</div>
+<a id="a1e1ea7f9c0d18b773e31b6e6730b0b02" name="a1e1ea7f9c0d18b773e31b6e6730b0b02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e1ea7f9c0d18b773e31b6e6730b0b02">&#9670;&#160;</a></span>PlasterOnBrick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.PlasterOnBrick </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab78f18f120336c92f0d136a5e993e28c" name="ab78f18f120336c92f0d136a5e993e28c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab78f18f120336c92f0d136a5e993e28c">&#9670;&#160;</a></span>PlasterOnConcreteBlock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.PlasterOnConcreteBlock </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9940d61c4f25608941ff528174d3989d" name="a9940d61c4f25608941ff528174d3989d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9940d61c4f25608941ff528174d3989d">&#9670;&#160;</a></span>SetPreset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ONSPPropagationMaterial.SetPreset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadd">Preset</a>&#160;</td>
+          <td class="paramname"><em>preset</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e3359930a64dd12980c58bc9d47215a" name="a9e3359930a64dd12980c58bc9d47215a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e3359930a64dd12980c58bc9d47215a">&#9670;&#160;</a></span>Snow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.Snow </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ed0c2d8e024aed8c7e61c11edd34272" name="a5ed0c2d8e024aed8c7e61c11edd34272"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ed0c2d8e024aed8c7e61c11edd34272">&#9670;&#160;</a></span>Soil()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.Soil </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac3957622b9ae72008c928fcb1a9d1229" name="ac3957622b9ae72008c928fcb1a9d1229"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3957622b9ae72008c928fcb1a9d1229">&#9670;&#160;</a></span>SoundProof()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.SoundProof </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba05cb405b0adc8bfe99fe877f7fa410" name="aba05cb405b0adc8bfe99fe877f7fa410"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba05cb405b0adc8bfe99fe877f7fa410">&#9670;&#160;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ONSPPropagationMaterial.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialize the audio material. This is called after Awake() and before the first Update(). </p>
+
+</div>
+</div>
+<a id="ae9500e10b8615dee76a4a479740ba24f" name="ae9500e10b8615dee76a4a479740ba24f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9500e10b8615dee76a4a479740ba24f">&#9670;&#160;</a></span>StartInternal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ONSPPropagationMaterial.StartInternal </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6ab1e47db4a2f5f068702731c5c62dd2" name="a6ab1e47db4a2f5f068702731c5c62dd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ab1e47db4a2f5f068702731c5c62dd2">&#9670;&#160;</a></span>Steel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.Steel </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a79eba8edf10644ad5d984a9e8c8b1db7" name="a79eba8edf10644ad5d984a9e8c8b1db7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79eba8edf10644ad5d984a9e8c8b1db7">&#9670;&#160;</a></span>UploadMaterial()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ONSPPropagationMaterial.UploadMaterial </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afa9e61b79011663797086317dc24992f" name="afa9e61b79011663797086317dc24992f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa9e61b79011663797086317dc24992f">&#9670;&#160;</a></span>Water()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.Water </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2df9d4dc97ddb26472ff8081748978f0" name="a2df9d4dc97ddb26472ff8081748978f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2df9d4dc97ddb26472ff8081748978f0">&#9670;&#160;</a></span>WoodFloor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.WoodFloor </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a925b3c30da2b1b5731d7a127a53b887a" name="a925b3c30da2b1b5731d7a127a53b887a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a925b3c30da2b1b5731d7a127a53b887a">&#9670;&#160;</a></span>WoodOnConcrete()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.WoodOnConcrete </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae6aa5b6211263785c621b408467fe4e3" name="ae6aa5b6211263785c621b408467fe4e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6aa5b6211263785c621b408467fe4e3">&#9670;&#160;</a></span>WoodThick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.WoodThick </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4b9f9b00dcf6057e3cf0af13d70b64aa" name="a4b9f9b00dcf6057e3cf0af13d70b64aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b9f9b00dcf6057e3cf0af13d70b64aa">&#9670;&#160;</a></span>WoodThin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ONSPPropagationMaterial.WoodThin </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_o_n_s_p_propagation_material.html">ONSPPropagationMaterial</a>&#160;</td>
+          <td class="paramname"><em>material</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1cb141975112026f985f5d88ac959a17" name="a1cb141975112026f985f5d88ac959a17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cb141975112026f985f5d88ac959a17">&#9670;&#160;</a></span>absorption</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_n_s_p_propagation_material_1_1_spectrum.html">Spectrum</a> ONSPPropagationMaterial.absorption = new <a class="el" href="class_o_n_s_p_propagation_material_1_1_spectrum.html">Spectrum</a>()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7f583b7739a635dfb3c9465c47f8acdf" name="a7f583b7739a635dfb3c9465c47f8acdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f583b7739a635dfb3c9465c47f8acdf">&#9670;&#160;</a></span>materialHandle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">IntPtr ONSPPropagationMaterial.materialHandle = IntPtr.Zero</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2894ce6be87a607e41ae612e871bb60e" name="a2894ce6be87a607e41ae612e871bb60e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2894ce6be87a607e41ae612e871bb60e">&#9670;&#160;</a></span>preset_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadd">Preset</a> ONSPPropagationMaterial.preset_ = <a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadda90589c47f06eb971d548591f23c285af">Preset.Custom</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad2baca48056304d832f1f29be636a39e" name="ad2baca48056304d832f1f29be636a39e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2baca48056304d832f1f29be636a39e">&#9670;&#160;</a></span>scattering</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_n_s_p_propagation_material_1_1_spectrum.html">Spectrum</a> ONSPPropagationMaterial.scattering = new <a class="el" href="class_o_n_s_p_propagation_material_1_1_spectrum.html">Spectrum</a>()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a200eae041526cf1943687a0dba546fc1" name="a200eae041526cf1943687a0dba546fc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a200eae041526cf1943687a0dba546fc1">&#9670;&#160;</a></span>transmission</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_n_s_p_propagation_material_1_1_spectrum.html">Spectrum</a> ONSPPropagationMaterial.transmission = new <a class="el" href="class_o_n_s_p_propagation_material_1_1_spectrum.html">Spectrum</a>()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a3060308f96cd647616b4bde7f689c11f" name="a3060308f96cd647616b4bde7f689c11f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3060308f96cd647616b4bde7f689c11f">&#9670;&#160;</a></span>preset</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_n_s_p_propagation_material.html#a44273d800028c63b4f8b7965f9e1aadd">Preset</a> ONSPPropagationMaterial.preset</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Assets/Oculus/Spatializer/scripts/ONSPPropagationMaterial.cs</li>
+<li><a class="el" href="_o_n_s_p_propagation_material_8cs.html">ONSPPropagationMaterial.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
