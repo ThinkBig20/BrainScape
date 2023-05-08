@@ -35,7 +35,6 @@ namespace Oculus.Interaction
         public float catchRadius = 0.1f;
         /// variable pour verifier si l objet est pris ou pas
         private bool touched;
-      
 
         [SerializeField]
         [Tooltip("If enabled, the object's mass will scale appropriately as the scale of the object changes.")]

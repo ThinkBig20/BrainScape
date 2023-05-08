@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
     int scoreThreshold = 100;
     /// l'increment avec lequelle le score totale va augumenter
     int scoreIncrement = 20;
-
+    
     ///  la fonction genere par unity , permet ici d initialiser le firePoint objet et mettre la basket invisible 
     void Start()
     {
