@@ -6,6 +6,7 @@
 */
 
 using System;
+using System.Collections;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
@@ -32,7 +33,7 @@ public class GameManager : MonoBehaviour
     int scoreThreshold = 100;
     /// l'increment avec lequelle le score totale va augumenter
     int scoreIncrement = 20;
-
+    private bool hasScored=false;
     public AudioClip[] audioclips;
 
     ///  la fonction genere par unity , permet ici d initialiser le firePoint objet et mettre la basket invisible 
@@ -69,22 +70,31 @@ public class GameManager : MonoBehaviour
         missedThrowsScore++;
         HideBasket();
     }
+
+    IEnumerator ResetHasScored()
+    {
+        yield return new WaitForSeconds(2f); // wait for 2 seconds
+        hasScored = false; // reset hasScored to false
+    }
+
     ///  cette fonction responsable sur l'essai réussie, c'est-à-dire l'utilisateur à bien lancer la ball vers la basket cible, elle incrémente le score totale avec la valeur qu'on a spécifie dans la variable scoreIncrement , et affiche ce score dans le scoretext canvas, la basket va aussi être caché, et un relancement du ball si le score n'est pas encore arrivé au scoreThreshold si non la fin du jeu
     public void OnSuccessfulThrow()
     {
-        // soundManager.PlayCheeringShound();
-        totalScore+=scoreIncrement;
-        scoreText.text = totalScore.ToString();
-        Invoke("HideBasket",2f);
-        if(totalScore<scoreThreshold)
+        if (!hasScored)
         {
-            audioSource.clip = audioclips[1];
-            audioSource.Play();
-            firePoint.GivePermissionToLaunch();
-        }
-        else
-        {
-            WonLevel();
+            totalScore += scoreIncrement;
+            scoreText.text = totalScore.ToString();
+            Invoke("HideBasket", 2f);
+            if (totalScore < scoreThreshold)
+            {
+                firePoint.GivePermissionToLaunch();
+            }
+            else
+            {
+                WonLevel();
+            }
+            hasScored = true;
+            StartCoroutine(ResetHasScored()); // reset hasScored after 2 seconds
         }
     }
      

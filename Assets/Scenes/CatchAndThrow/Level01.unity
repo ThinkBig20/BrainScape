@@ -2619,7 +2619,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectile: {fileID: 1828601335}
   timerUI: {fileID: 33006924}
-  launchVelocity: 146
+  launchVelocity: 144
   launchBall: 1
 --- !u!1 &2138267065 stripped
 GameObject:
@@ -3094,3 +3094,4 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
