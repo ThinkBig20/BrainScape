@@ -25,7 +25,7 @@ public class LaunchScript : MonoBehaviour
     /// la velocity avec laquelle la balle va etre lance 
     public float launchVelocity = 2610f;
     /// une variable qui determine est ce que la balle est lance ou non
-    bool launchBall = true;
+    public bool launchBall = true;
 
     SoundManager soundManager;
     

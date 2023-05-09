@@ -6,14 +6,17 @@
 */
 
 using System;
+using System.Collections;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 namespace Scripts{
 
 public class GameManager : MonoBehaviour
 {
     public SoundManager soundManager;
+    AudioSource audioSource;
     /// score du jeu
     public TextMeshProUGUI scoreText;
     /// le component basket cible où l'utilisateur va lancer la ball vers
@@ -30,10 +33,13 @@ public class GameManager : MonoBehaviour
     int scoreThreshold = 100;
     /// l'increment avec lequelle le score totale va augumenter
     int scoreIncrement = 20;
-    
+    private bool hasScored=false;
+    public AudioClip[] audioclips;
+
     ///  la fonction genere par unity , permet ici d initialiser le firePoint objet et mettre la basket invisible 
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         firePoint = FindObjectOfType<LaunchScript>();
         basket.SetActive(false);
     }
@@ -43,35 +49,52 @@ public class GameManager : MonoBehaviour
     {
         firePoint.GivePermissionToLaunch();
         missedCatchsScore++;
+        audioSource.clip = audioclips[0];
+        audioSource.Play();
     }
 
     /// Cette fonction gère l'essaie réussie à prendre la ball par l'utilisateur, à chacun essaie réussie elle affiche la basket cible
     public void OnSuccessfulCatch(){
         ShowBasket();
+        audioSource.clip = audioclips[2];
+        audioSource.Play();
         // soundManager.PlayCheeringShound();
     }
 
     /// Cette fonction gere l'essaie échoué de l'utilisateur à lancer la ball vers la basket cible, il a raté l'objet cible, elle permet de donner l'ordre au fiRepoint a relancé la ball, incrémenter le missedthrowsscore et a caché la basket
     public void OnMissedThrow()
-    {
+    {   
+        audioSource.clip = audioclips[0];
+        audioSource.Play();
         firePoint.GivePermissionToLaunch();
         missedThrowsScore++;
         HideBasket();
     }
+
+    IEnumerator ResetHasScored()
+    {
+        yield return new WaitForSeconds(2f); // wait for 2 seconds
+        hasScored = false; // reset hasScored to false
+    }
+
     ///  cette fonction responsable sur l'essai réussie, c'est-à-dire l'utilisateur à bien lancer la ball vers la basket cible, elle incrémente le score totale avec la valeur qu'on a spécifie dans la variable scoreIncrement , et affiche ce score dans le scoretext canvas, la basket va aussi être caché, et un relancement du ball si le score n'est pas encore arrivé au scoreThreshold si non la fin du jeu
     public void OnSuccessfulThrow()
     {
-        // soundManager.PlayCheeringShound();
-        totalScore+=scoreIncrement;
-        scoreText.text = totalScore.ToString();
-        Invoke("HideBasket",2f);
-        if(totalScore<scoreThreshold)
+        if (!hasScored)
         {
-            firePoint.GivePermissionToLaunch();
-        }
-        else
-        {
-            WonLevel();
+            totalScore += scoreIncrement;
+            scoreText.text = totalScore.ToString();
+            Invoke("HideBasket", 2f);
+            if (totalScore < scoreThreshold)
+            {
+                firePoint.GivePermissionToLaunch();
+            }
+            else
+            {
+                WonLevel();
+            }
+            hasScored = true;
+            StartCoroutine(ResetHasScored()); // reset hasScored after 2 seconds
         }
     }
      
@@ -86,7 +109,7 @@ public class GameManager : MonoBehaviour
 
     void WonLevel()
     {
-
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
 }
