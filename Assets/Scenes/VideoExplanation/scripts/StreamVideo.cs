@@ -9,41 +9,19 @@ namespace BrainScape
 {
     public class StreamVideo : MonoBehaviour
     {
-        public RawImage rawImage;
+        
         public VideoPlayer videoPlayer;
        
        
 
-        // Start is called before the first frame update
-        void Start()
-        {
-            
-           StartCoroutine(PlayVideo());
+        void Start(){
+            videoPlayer.loopPointReached += CheckOver;
         }
-         
-        IEnumerator PlayVideo()
+ 
+        void CheckOver(UnityEngine.Video.VideoPlayer vp)
         {
-           
-            videoPlayer.Prepare();
-            WaitForSeconds waitForSeconds = new WaitForSeconds(0.1f);
-            while (!videoPlayer.isPrepared)
-            {
-                yield return waitForSeconds;
-                break;
-            }
-            rawImage.texture = videoPlayer.texture;
-            videoPlayer.Play();
-           
-            while(videoPlayer.isPlaying){
-                yield return null;
-            }
-              
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex );
-            
-           
-            
+         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex );
         }
-
         // Update is called once per frame
         void Update()
         {
@@ -51,3 +29,5 @@ namespace BrainScape
         }
     }
 }
+
+
