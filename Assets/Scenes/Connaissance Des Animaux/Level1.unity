@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 0}
+  m_IndirectSpecularColor: {r: NaN, g: NaN, b: NaN, a: 0}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -574,7 +574,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &113867858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -644,7 +644,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 113867857}
   m_LocalRotation: {x: -0.019030938, y: 0.10777195, z: -0.032047544, w: 0.99347675}
-  m_LocalPosition: {x: 0, y: 0, z: 101.97}
+  m_LocalPosition: {x: 0, y: 0, z: 99.89}
   m_LocalScale: {x: 0.005, y: 0.007, z: 0.02}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -658,7 +658,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: -1.771, y: 12.443, z: -3.888}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 458.6, y: 24.79}
+  m_AnchoredPosition: {x: 459.45, y: 23.65}
   m_SizeDelta: {x: 100, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!65 &113867862
@@ -6579,7 +6579,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1797003400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6649,7 +6649,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1797003399}
   m_LocalRotation: {x: -0.015191686, y: 0.090874285, z: -0.024537902, w: 0.9954442}
-  m_LocalPosition: {x: 0, y: 0, z: 102.079575}
+  m_LocalPosition: {x: 0, y: 0, z: 100.08}
   m_LocalScale: {x: 0.005, y: 0.007, z: 0.02}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6663,7 +6663,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: -1.478, y: 10.47, z: -2.96}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 457.9273, y: 24.79}
+  m_AnchoredPosition: {x: 458.65, y: 23.71}
   m_SizeDelta: {x: 100, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!65 &1797003404

@@ -19,7 +19,7 @@ public class Clicking : MonoBehaviour
     /// fonction permettant de lancer l'activité PlayCatchAndThrow
     public void PlayCatchAndThrow()
     {
-         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
     }   
     
     /// fonction permettant de lancer l'activité PlayConnaissanceAnimaux

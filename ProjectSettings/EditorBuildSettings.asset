@@ -5,15 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/menu/Menu.unity
     guid: e7823f663ac0dab44b6c7656f249de0a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Connaissance Des Animaux/Level1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/CatchAndThrow/Level01.unity
     guid: 6adc36080862e5541b487204c023e252
+  - enabled: 1
+    path: Assets/Scenes/VideoExplanation/VideoExplanation.unity
+    guid: 30d906d522ba5414eacda5480c501ae1
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4b15b5060b15fca4abaf6c6600436022, type: 2}
     com.unity.addressableassets: {fileID: 11400000, guid: 3073528394dfa7d478fac278663c684d, type: 2}
