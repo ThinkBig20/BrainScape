@@ -32,7 +32,7 @@ namespace Oculus.Interaction
         [SerializeField]
         private GameObject rightHand;
         /// la distance entre l objet et l utilisateur pour que l objet soit pris
-        public float catchRadius = 0.7f;
+        public float catchRadius = 0.4f;
         // LineRenderer lineRenderer;
         /// variable pour verifier si l objet est pris ou pas
         private bool touched;

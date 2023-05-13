@@ -148,15 +148,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 653e0cdffed1e5149ba3ceb03b1d8f43, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 23.53
+      value: 21.26
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 653e0cdffed1e5149ba3ceb03b1d8f43, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 31.34
+      value: 42.07
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 653e0cdffed1e5149ba3ceb03b1d8f43, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.68
+      value: 6.57
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 653e0cdffed1e5149ba3ceb03b1d8f43, type: 3}
       propertyPath: m_LocalRotation.w
@@ -526,6 +526,10 @@ PrefabInstance:
     - target: {fileID: 8815247225746541302, guid: 019e67e3ca8661d4799ae8ee721f8283, type: 3}
       propertyPath: StuckObject
       value: Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8815247225746541302, guid: 019e67e3ca8661d4799ae8ee721f8283, type: 3}
+      propertyPath: catchRadius
+      value: 0.4
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8230318235792705135, guid: 019e67e3ca8661d4799ae8ee721f8283, type: 3}
@@ -1336,14 +1340,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.40293074, y: -0.19527468, z: 0.12748729, w: 0.88502073}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 49.729, y: -22.073, z: 6.065}
 --- !u!1001 &940221154
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2248,6 +2252,7 @@ MonoBehaviour:
   audioclips:
   - {fileID: 8300000, guid: 71a3947cb8bb2a34f84e5454a4a16e6a, type: 3}
   - {fileID: 8300000, guid: 8fcf4d5c53a2e5d43be98d1486be7ff5, type: 3}
+  - {fileID: 8300000, guid: 98250dda4018a514a9e147bf478a9c9f, type: 3}
 --- !u!82 &2032032362
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2507,7 +2512,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectile: {fileID: 1828601335}
   timerUI: {fileID: 33006924}
-  launchVelocity: 152.3
+  launchVelocity: 153
   launchBall: 1
 --- !u!1 &2138267065 stripped
 GameObject:
