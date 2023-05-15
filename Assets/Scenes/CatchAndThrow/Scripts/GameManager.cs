@@ -125,7 +125,7 @@ public class GameManager : MonoBehaviour
             yield return null;
         }
        
-         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex -2 );
         }
 
 }

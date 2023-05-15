@@ -20,7 +20,7 @@ namespace BrainScape
  
         void CheckOver(UnityEngine.Video.VideoPlayer vp)
         {
-         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2 );
+         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1 );
         }
         // Update is called once per frame
         void Update()
