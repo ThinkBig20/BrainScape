@@ -55,9 +55,9 @@ public class GameManager : MonoBehaviour
 
     /// Cette fonction gère l'essaie réussie à prendre la ball par l'utilisateur, à chacun essaie réussie elle affiche la basket cible
     public void OnSuccessfulCatch(){
-        ShowBasket();
         audioSource.clip = audioclips[2];
         audioSource.Play();
+        ShowBasket();
         // soundManager.PlayCheeringShound();
     }
 
@@ -87,6 +87,8 @@ public class GameManager : MonoBehaviour
             Invoke("HideBasket", 2f);
             if (totalScore < scoreThreshold)
             {
+                audioSource.clip = audioclips[3];
+                audioSource.Play();
                 firePoint.GivePermissionToLaunch();
             }
             else
@@ -109,8 +111,23 @@ public class GameManager : MonoBehaviour
 
     void WonLevel()
     {
-      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        audioSource.clip = audioclips[1];
+        audioSource.Play();
+        StartCoroutine(waitForSound());
+    //   SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
+       IEnumerator waitForSound()
+        {
+        //Wait Until Sound has finished playing
+        while (audioSource.isPlaying)
+        {
+            yield return null;
+        }
+       
+         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+
 }
 }
 
