@@ -469,7 +469,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5304530288428752957, guid: 019e67e3ca8661d4799ae8ee721f8283, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 24
+      value: 23.723
       objectReference: {fileID: 0}
     - target: {fileID: 5304530288428752957, guid: 019e67e3ca8661d4799ae8ee721f8283, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2988,3 +2988,4 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
